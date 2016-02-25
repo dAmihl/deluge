@@ -2357,4 +2357,1002 @@
 [2016.02.25-12.55.35:768][  5]LogNet: UNetConnection::Close: Name: IpConnection_63, Driver: GameNetDriver IpNetDriver_45, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:51573, Time: 2016.02.25-12.55.35
 [2016.02.25-12.55.35:768][  5]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_63
 [2016.02.25-12.55.35:769][  5]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
-[2016.02.25-12.55.35:769][  5]LogNet: UNetConnection::Close: Name: IpConnection_62, Driver: GameNetDriver IpNetDriver_45, PC: None, Owner: None, Channels: 2, RemoteAddr
+[2016.02.25-12.55.35:769][  5]LogNet: UNetConnection::Close: Name: IpConnection_62, Driver: GameNetDriver IpNetDriver_45, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:51572, Time: 2016.02.25-12.55.35
+[2016.02.25-12.55.35:769][  5]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_62
+[2016.02.25-12.55.35:769][  5]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.02.25-12.55.35:769][  5]LogNet: UNetConnection::Close: Name: IpConnection_61, Driver: GameNetDriver IpNetDriver_47, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:7777, Time: 2016.02.25-12.55.35
+[2016.02.25-12.55.35:769][  5]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_61
+[2016.02.25-12.55.35:769][  5]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.02.25-12.55.35:769][  5]LogNet: UNetConnection::Close: Name: IpConnection_60, Driver: GameNetDriver IpNetDriver_46, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:7777, Time: 2016.02.25-12.55.35
+[2016.02.25-12.55.35:769][  5]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_60
+[2016.02.25-12.55.35:776][  5]LogExit: GameNetDriver None shut down
+[2016.02.25-12.55.35:777][  5]LogExit: GameNetDriver None shut down
+[2016.02.25-12.55.35:779][  5]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000285B1CC220
+[2016.02.25-12.55.35:779][  5]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000287E8F54E0
+[2016.02.25-12.55.35:779][  5]LogExit: GameNetDriver None shut down
+[2016.02.25-12.55.35:852][  6]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000027DBAF58A0
+[2016.02.25-12.56.45:783][117]BlueprintLog: New page: Compile BaseCharacter
+[2016.02.25-12.56.46:303][117]BlueprintEditorCompileResults: Info [1345.95] Compile of BaseCharacter successful! [in 519 ms]
+[2016.02.25-12.56.46:559][125]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DelugeBP/Blueprints/BaseCharacter" FILE="../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/BaseCharacter.uasset" SILENT=true
+[2016.02.25-12.56.46:653][125]LogSavePackage: Save=51.392342ms
+[2016.02.25-12.56.46:653][125]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BaseCharacterFA848C864B5CCE36EEDC739A716083A4.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/BaseCharacter.uasset'
+[2016.02.25-12.56.46:658][125]LogSavePackage: Total save time: 97.976003ms
+[2016.02.25-12.56.46:658][125]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/BaseCharacter.uasset
+[2016.02.25-12.56.51:972][379]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.25-12.56.51:972][379]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_38) Not registered. Aborting.
+[2016.02.25-12.56.53:787][466]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/DelugeBP/Blueprints/BaseCharacter.BaseCharacter:Damage.K2Node_CallFunction_4152 or K2Node_CallFunction /Game/DelugeBP/Blueprints/Enemy/BaseEnemyCharacter.BaseEnemyCharacter:EventGraph.K2Node_CallFunction_4152
+[2016.02.25-12.56.53:788][466]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/DelugeBP/Blueprints/BaseCharacter.BaseCharacter:Damage.K2Node_CallFunction_4152.EdGraphPin_54153) from referencer (EdGraphPin /Game/DelugeBP/Blueprints/Enemy/BaseEnemyCharacter.BaseEnemyCharacter:EventGraph.K2Node_VariableGet_663.EdGraphPin_54149).  Import failed...
+[2016.02.25-12.56.53:788][466]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_4152.EdGraphPin_54153''
+[2016.02.25-12.56.53:788][466]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/DelugeBP/Blueprints/BaseCharacter.BaseCharacter:Damage.K2Node_CustomEvent_256.EdGraphPin_49987) from referencer (EdGraphPin /Game/DelugeBP/Blueprints/Enemy/BaseEnemyCharacter.BaseEnemyCharacter:EventGraph.K2Node_CallFunction_4152.EdGraphPin_54151).  Import failed...
+[2016.02.25-12.56.53:788][466]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CustomEvent_256.EdGraphPin_49987''
+[2016.02.25-12.56.56:956][614]BlueprintLog: New page: Compile BaseEnemyCharacter
+[2016.02.25-12.56.57:075][614]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_39) Not registered. Aborting.
+[2016.02.25-12.56.57:138][614]BlueprintEditorCompileResults: Info [1356.78] Compile of BaseEnemyCharacter successful! [in 181 ms]
+[2016.02.25-12.56.57:607][628]LogSavePackage: Save=51.057743ms
+[2016.02.25-12.56.57:607][628]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BaseEnemyCharacterE4B9372B401EB549B98AEB800D157952.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Enemy/BaseEnemyCharacter.uasset'
+[2016.02.25-12.56.57:611][628]LogSavePackage: Total save time: 83.392136ms
+[2016.02.25-12.56.57:611][628]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Enemy/BaseEnemyCharacter.uasset
+[2016.02.25-12.57.08:403][129]BlueprintLog: New page: Compile BaseEnemyCharacter
+[2016.02.25-12.57.08:529][129]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.25-12.57.08:593][129]BlueprintEditorCompileResults: Info [1368.24] Compile of BaseEnemyCharacter successful! [in 189 ms]
+[2016.02.25-12.57.09:049][143]LogSavePackage: Save=53.592388ms
+[2016.02.25-12.57.09:049][143]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BaseEnemyCharacter964554144D6F03ED9B5FDEB2D2661EC9.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Enemy/BaseEnemyCharacter.uasset'
+[2016.02.25-12.57.09:066][143]LogSavePackage: Total save time: 81.660822ms
+[2016.02.25-12.57.09:066][143]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Enemy/BaseEnemyCharacter.uasset
+[2016.02.25-12.57.10:317][197]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.02.25-12.57.10:317][197]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.25-12.57.10:317][197]PIE: New page: PIE session: FirstPersonExampleMap (Feb 25, 2016, 2:57:10 PM)
+[2016.02.25-12.57.10:317][197]LogPlayLevel: Creating play world package: /Game/DelugeBP/Maps/UEDPIE_1_FirstPersonExampleMap
+[2016.02.25-12.57.10:358][197]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040577s)
+[2016.02.25-12.57.10:359][197]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.02.25-12.57.10:359][197]LogPlayLevel: PIE: World Init took: (0.001730s)
+[2016.02.25-12.57.10:360][197]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/DelugeBP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap (0.042701s)
+[2016.02.25-12.57.10:360][197]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.25-12.57.10:421][197]LogWorld: Game class is 'TestingGameMode_C'
+[2016.02.25-12.57.10:433][197]LogWorld: Bringing World /Game/DelugeBP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.02.25-13.57.10
+[2016.02.25-12.57.10:433][197]LogActor:Warning: GameSession /Game/DelugeBP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-12.57.10:433][197]LogActor:Warning: GameNetworkManager /Game/DelugeBP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-12.57.10:436][197]LogWorld: Bringing up level for play took: 0.013413
+[2016.02.25-12.57.10:436][197]LogActor:Warning: RecastNavMesh /Game/DelugeBP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.RecastNavMesh_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-12.57.10:437][197]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.02.25-12.57.10:437][197]LogNet: GameNetDriver IpNetDriver_48 IpNetDriver listening on port 7777
+[2016.02.25-12.57.10:438][197]PIE: Info Play in editor start time for /Game/DelugeBP/Maps/UEDPIE_1_FirstPersonExampleMap -0.855
+[2016.02.25-12.57.10:443][197]PIE: New page: PIE session: FirstPersonExampleMap (Feb 25, 2016, 2:57:10 PM)
+[2016.02.25-12.57.10:463][197]LogInit: XAudio2 using 'Lautsprecher (Logitech G330 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.25-12.57.10:472][197]LogInit: FAudioDevice initialized.
+[2016.02.25-12.57.10:513][197]LogNet: Browse: 127.0.0.1//Game/FirstPersonBP/Maps/FirstPersonExampleMap
+[2016.02.25-12.57.10:513][197]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.02.25-12.57.10:514][197]LogNet: Game client on port 7777, rate 10000
+[2016.02.25-12.57.10:514][197]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: deluge, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 860841524
+[2016.02.25-12.57.10:514][197]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/FirstPersonExampleMap -0.778
+[2016.02.25-12.57.10:520][197]PIE: New page: PIE session: FirstPersonExampleMap (Feb 25, 2016, 2:57:10 PM)
+[2016.02.25-12.57.10:623][197]LogNet: Browse: 127.0.0.1//Game/FirstPersonBP/Maps/FirstPersonExampleMap
+[2016.02.25-12.57.10:623][197]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.02.25-12.57.10:624][197]LogNet: Game client on port 7777, rate 10000
+[2016.02.25-12.57.10:624][197]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: deluge, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 860841524
+[2016.02.25-12.57.10:669][197]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/FirstPersonExampleMap -0.623
+[2016.02.25-12.57.10:675][197]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.02.25-12.57.10:675][197]LogNet: NotifyAcceptingConnection: Server FirstPersonExampleMap accept
+[2016.02.25-12.57.10:675][197]LogNet: Open FirstPersonExampleMap 02/25/16 13:57:10 127.0.0.1
+[2016.02.25-12.57.10:675][197]LogNet: Added client connection.  Remote address = 127.0.0.1:52758
+[2016.02.25-12.57.10:675][197]LogNet: NotifyAcceptingChannel Control 0 server World /Game/DelugeBP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap: Accepted
+[2016.02.25-12.57.10:675][197]LogNet: Remote platform little endian=1
+[2016.02.25-12.57.10:675][197]LogNet: This platform little endian=1
+[2016.02.25-12.57.10:675][197]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: deluge, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 860841524
+[2016.02.25-12.57.10:675][197]LogNet: NotifyAcceptingConnection: Server FirstPersonExampleMap accept
+[2016.02.25-12.57.10:676][197]LogNet: Open FirstPersonExampleMap 02/25/16 13:57:10 127.0.0.1
+[2016.02.25-12.57.10:676][197]LogNet: Added client connection.  Remote address = 127.0.0.1:52759
+[2016.02.25-12.57.10:676][197]LogNet: NotifyAcceptingChannel Control 0 server World /Game/DelugeBP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap: Accepted
+[2016.02.25-12.57.10:676][197]LogNet: Remote platform little endian=1
+[2016.02.25-12.57.10:676][197]LogNet: This platform little endian=1
+[2016.02.25-12.57.10:676][197]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: deluge, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 860841524
+[2016.02.25-12.57.10:712][198]LogNet: Login request: /Game/FirstPersonBP/Maps/FirstPersonExampleMap userId: Invalid
+[2016.02.25-12.57.10:712][198]LogNet: Login request: /Game/FirstPersonBP/Maps/FirstPersonExampleMap userId: Invalid
+[2016.02.25-12.57.10:715][198]LogNet: Welcomed by server (Level: /Game/DelugeBP/Maps/UEDPIE_1_FirstPersonExampleMap, Game: /Game/DelugeBP/Blueprints/GameModes/TestingGameMode.TestingGameMode_C)
+[2016.02.25-12.57.10:715][198]LogLoad: LoadMap: 127.0.0.1//Game/DelugeBP/Maps/UEDPIE_1_FirstPersonExampleMap?game=/Game/DelugeBP/Blueprints/GameModes/TestingGameMode.TestingGameMode_C
+[2016.02.25-12.57.10:770][198]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000283D27EE80
+[2016.02.25-12.57.10:770][198]Cmd: MEM
+[2016.02.25-12.57.10:826][198]LogMemory: Platform Memory Stats for Windows
+[2016.02.25-12.57.10:826][198]LogMemory: Process Physical Memory: 2273.02 MB used, 2291.21 MB peak
+[2016.02.25-12.57.10:826][198]LogMemory: Process Virtual Memory: 3638.64 MB used, 3800.79 MB peak
+[2016.02.25-12.57.10:826][198]LogMemory: Physical Memory: 4809.26 MB used, 8190.11 MB total
+[2016.02.25-12.57.10:826][198]LogMemory: Virtual Memory: 4539.11 MB used, 134217728.00 MB total
+[2016.02.25-12.57.10:826][198]LogMemory: 
+[2016.02.25-12.57.10:826][198]Allocator Stats for TBB: (not implemented)
+[2016.02.25-12.57.10:871][198]LogWorld: PIE: Copying PIE streaming level from /Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/DelugeBP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap. OwningWorld: None
+[2016.02.25-12.57.10:873][198]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.02.25-12.57.10:886][198]LogWorld: Bringing World /Game/DelugeBP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.02.25-13.57.10
+[2016.02.25-12.57.10:886][198]LogWorld: Bringing up level for play took: 0.011229
+[2016.02.25-12.57.10:887][198]LogNet: Welcomed by server (Level: /Game/DelugeBP/Maps/UEDPIE_1_FirstPersonExampleMap, Game: /Game/DelugeBP/Blueprints/GameModes/TestingGameMode.TestingGameMode_C)
+[2016.02.25-12.57.10:913][198]LogLoad: LoadMap: 127.0.0.1//Game/DelugeBP/Maps/UEDPIE_1_FirstPersonExampleMap?game=/Game/DelugeBP/Blueprints/GameModes/TestingGameMode.TestingGameMode_C
+[2016.02.25-12.57.10:962][198]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000027DBC94900
+[2016.02.25-12.57.10:967][198]Cmd: MEM
+[2016.02.25-12.57.11:019][198]LogMemory: Platform Memory Stats for Windows
+[2016.02.25-12.57.11:019][198]LogMemory: Process Physical Memory: 2281.85 MB used, 2301.06 MB peak
+[2016.02.25-12.57.11:019][198]LogMemory: Process Virtual Memory: 3717.54 MB used, 3800.79 MB peak
+[2016.02.25-12.57.11:019][198]LogMemory: Physical Memory: 4820.95 MB used, 8190.11 MB total
+[2016.02.25-12.57.11:019][198]LogMemory: Virtual Memory: 4586.18 MB used, 134217728.00 MB total
+[2016.02.25-12.57.11:019][198]LogMemory: 
+[2016.02.25-12.57.11:019][198]Allocator Stats for TBB: (not implemented)
+[2016.02.25-12.57.11:062][198]LogWorld: PIE: Copying PIE streaming level from /Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/DelugeBP/Maps/UEDPIE_3_FirstPersonExampleMap.FirstPersonExampleMap. OwningWorld: None
+[2016.02.25-12.57.11:064][198]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.02.25-12.57.11:075][198]LogWorld: Bringing World /Game/DelugeBP/Maps/UEDPIE_3_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.02.25-13.57.11
+[2016.02.25-12.57.11:076][198]LogWorld: Bringing up level for play took: 0.009986
+[2016.02.25-12.57.11:102][199]LogNet: Client netspeed is 10000
+[2016.02.25-12.57.11:102][199]LogNet: Join request: /Game/FirstPersonBP/Maps/FirstPersonExampleMap?SplitscreenCount=1
+[2016.02.25-12.57.11:109][199]LogNet: Join succeeded: 288
+[2016.02.25-12.57.11:109][199]LogNet: Client netspeed is 10000
+[2016.02.25-12.57.11:109][199]LogNet: Join request: /Game/FirstPersonBP/Maps/FirstPersonExampleMap?SplitscreenCount=1
+[2016.02.25-12.57.11:114][199]LogNet: Join succeeded: 289
+[2016.02.25-12.57.12:894][265]LogBlueprintUserMessages: [TestingGameMode_C_7] Server: BasePlayerCharacter8 gives Damage  1.0 to BaseEnemyCharacter3
+[2016.02.25-12.57.13:094][273]LogBlueprintUserMessages: [TestingGameMode_C_7] Server: BasePlayerCharacter8 gives Damage  1.0 to BaseEnemyCharacter3
+[2016.02.25-12.57.13:094][273]LogBlueprintUserMessages: [TestingGameMode_C_7] Server: BaseEnemyCharacter3 died!!
+[2016.02.25-12.57.13:100][273]PIE:Warning: Warning Invalid Simulate Options: Body (BaseEnemyCharacter_C_6.CharacterMesh0 SK_Mannequin) is set to simulate physics but Collision Enabled is incompatible
+[2016.02.25-12.57.13:100][273]PIE:Warning: Warning Invalid Simulate Options: Body (BaseEnemyCharacter_C_6.CharacterMesh0 SK_Mannequin) is set to simulate physics but Collision Enabled is incompatible
+[2016.02.25-12.57.13:103][273]PIE:Warning: Warning Invalid Simulate Options: Body (BaseEnemyCharacter_C_6.CharacterMesh0 SK_Mannequin) is set to simulate physics but Collision Enabled is incompatible
+[2016.02.25-12.57.13:103][273]PIE:Warning: Warning Invalid Simulate Options: Body (BaseEnemyCharacter_C_6.CharacterMesh0 SK_Mannequin) is set to simulate physics but Collision Enabled is incompatible
+[2016.02.25-12.57.13:106][273]PIE:Warning: Warning Invalid Simulate Options: Body (BaseEnemyCharacter_C_6.CharacterMesh0 SK_Mannequin) is set to simulate physics but Collision Enabled is incompatible
+[2016.02.25-12.57.13:106][273]PIE:Warning: Warning Invalid Simulate Options: Body (BaseEnemyCharacter_C_6.CharacterMesh0 SK_Mannequin) is set to simulate physics but Collision Enabled is incompatible
+[2016.02.25-12.57.13:302][281]LogBlueprintUserMessages: [TestingGameMode_C_7] Server: BasePlayerCharacter8 gives Damage  1.0 to Wall4
+[2016.02.25-12.57.14:362][322]LogBlueprintUserMessages: [TestingGameMode_C_7] Server: BasePlayerCharacter8 gives Damage  1.0 to BaseEnemyCharacter2
+[2016.02.25-12.57.14:565][330]LogBlueprintUserMessages: [TestingGameMode_C_7] Server: BasePlayerCharacter8 gives Damage  1.0 to BaseEnemyCharacter2
+[2016.02.25-12.57.14:565][330]LogBlueprintUserMessages: [TestingGameMode_C_7] Server: BaseEnemyCharacter2 died!!
+[2016.02.25-12.57.14:566][330]PIE:Warning: Warning Invalid Simulate Options: Body (BaseEnemyCharacter_C_5.CharacterMesh0 SK_Mannequin) is set to simulate physics but Collision Enabled is incompatible
+[2016.02.25-12.57.14:566][330]PIE:Warning: Warning Invalid Simulate Options: Body (BaseEnemyCharacter_C_5.CharacterMesh0 SK_Mannequin) is set to simulate physics but Collision Enabled is incompatible
+[2016.02.25-12.57.14:570][330]PIE:Warning: Warning Invalid Simulate Options: Body (BaseEnemyCharacter_C_5.CharacterMesh0 SK_Mannequin) is set to simulate physics but Collision Enabled is incompatible
+[2016.02.25-12.57.14:570][330]PIE:Warning: Warning Invalid Simulate Options: Body (BaseEnemyCharacter_C_5.CharacterMesh0 SK_Mannequin) is set to simulate physics but Collision Enabled is incompatible
+[2016.02.25-12.57.14:572][330]PIE:Warning: Warning Invalid Simulate Options: Body (BaseEnemyCharacter_C_5.CharacterMesh0 SK_Mannequin) is set to simulate physics but Collision Enabled is incompatible
+[2016.02.25-12.57.14:573][330]PIE:Warning: Warning Invalid Simulate Options: Body (BaseEnemyCharacter_C_5.CharacterMesh0 SK_Mannequin) is set to simulate physics but Collision Enabled is incompatible
+[2016.02.25-12.57.15:518][367]LogBlueprintUserMessages: [TestingGameMode_C_7] Server: BasePlayerCharacter8 gives Damage  1.0 to BaseEnemyCharacter
+[2016.02.25-12.57.15:728][375]LogBlueprintUserMessages: [TestingGameMode_C_7] Server: BasePlayerCharacter8 gives Damage  1.0 to BaseEnemyCharacter
+[2016.02.25-12.57.15:728][375]LogBlueprintUserMessages: [TestingGameMode_C_7] Server: BaseEnemyCharacter died!!
+[2016.02.25-12.57.15:729][375]PIE:Warning: Warning Invalid Simulate Options: Body (BaseEnemyCharacter_C_1.CharacterMesh0 SK_Mannequin) is set to simulate physics but Collision Enabled is incompatible
+[2016.02.25-12.57.15:729][375]PIE:Warning: Warning Invalid Simulate Options: Body (BaseEnemyCharacter_C_1.CharacterMesh0 SK_Mannequin) is set to simulate physics but Collision Enabled is incompatible
+[2016.02.25-12.57.15:732][375]PIE:Warning: Warning Invalid Simulate Options: Body (BaseEnemyCharacter_C_1.CharacterMesh0 SK_Mannequin) is set to simulate physics but Collision Enabled is incompatible
+[2016.02.25-12.57.15:732][375]PIE:Warning: Warning Invalid Simulate Options: Body (BaseEnemyCharacter_C_1.CharacterMesh0 SK_Mannequin) is set to simulate physics but Collision Enabled is incompatible
+[2016.02.25-12.57.15:735][375]PIE:Warning: Warning Invalid Simulate Options: Body (BaseEnemyCharacter_C_1.CharacterMesh0 SK_Mannequin) is set to simulate physics but Collision Enabled is incompatible
+[2016.02.25-12.57.15:735][375]PIE:Warning: Warning Invalid Simulate Options: Body (BaseEnemyCharacter_C_1.CharacterMesh0 SK_Mannequin) is set to simulate physics but Collision Enabled is incompatible
+[2016.02.25-12.57.16:492][406]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.02.25-12.57.16:657][406]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.02.25-12.57.16:704][406]LogNet: UChannel::CleanUp: [GameNetDriver] [BasePlayerController_C_17] [BasePlayerController_C_17]. ChIndex == 0. Closing connection.
+[2016.02.25-12.57.16:704][406]LogNet: UNetConnection::Close: Name: IpConnection_67, Driver: GameNetDriver IpNetDriver_48, PC: BasePlayerController_C_17, Owner: BasePlayerController_C_17, Channels: 13, RemoteAddr: 127.0.0.1:52759, Time: 2016.02.25-12.57.16
+[2016.02.25-12.57.16:704][406]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_67
+[2016.02.25-12.57.16:704][406]LogNet: UChannel::CleanUp: [GameNetDriver] [BasePlayerController_C_16] [BasePlayerController_C_16]. ChIndex == 0. Closing connection.
+[2016.02.25-12.57.16:704][406]LogNet: UNetConnection::Close: Name: IpConnection_66, Driver: GameNetDriver IpNetDriver_48, PC: BasePlayerController_C_16, Owner: BasePlayerController_C_16, Channels: 14, RemoteAddr: 127.0.0.1:52758, Time: 2016.02.25-12.57.16
+[2016.02.25-12.57.16:704][406]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_66
+[2016.02.25-12.57.16:704][406]LogNet: UChannel::CleanUp: [GameNetDriver] [BasePlayerController_C_19] [BasePlayerController_C_19]. ChIndex == 0. Closing connection.
+[2016.02.25-12.57.16:704][406]LogNet: UNetConnection::Close: Name: IpConnection_65, Driver: GameNetDriver IpNetDriver_50, PC: BasePlayerController_C_19, Owner: BasePlayerController_C_19, Channels: 3, RemoteAddr: 127.0.0.1:7777, Time: 2016.02.25-12.57.16
+[2016.02.25-12.57.16:704][406]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_65
+[2016.02.25-12.57.16:705][406]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.02.25-12.57.16:705][406]LogNet: UNetConnection::Close: Name: IpConnection_64, Driver: GameNetDriver IpNetDriver_49, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:7777, Time: 2016.02.25-12.57.16
+[2016.02.25-12.57.16:705][406]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_64
+[2016.02.25-12.57.16:711][406]LogExit: GameNetDriver None shut down
+[2016.02.25-12.57.16:712][406]LogExit: GameNetDriver None shut down
+[2016.02.25-12.57.16:713][406]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002829E51120
+[2016.02.25-12.57.16:716][406]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002860DC9F80
+[2016.02.25-12.57.16:716][406]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000284AE6E160
+[2016.02.25-12.57.16:716][406]LogExit: GameNetDriver None shut down
+[2016.02.25-12.57.26:956][923]BlueprintLog: New page: Compile BaseEnemyCharacter
+[2016.02.25-12.57.27:083][923]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.25-12.57.27:145][923]BlueprintEditorCompileResults: Info [1386.79] Compile of BaseEnemyCharacter successful! [in 189 ms]
+[2016.02.25-12.57.27:616][938]LogSavePackage: Save=53.000095ms
+[2016.02.25-12.57.27:617][938]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BaseEnemyCharacter76B88A6743B4DE22292235AA50A4791B.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Enemy/BaseEnemyCharacter.uasset'
+[2016.02.25-12.57.27:621][938]LogSavePackage: Total save time: 68.126317ms
+[2016.02.25-12.57.27:621][938]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Enemy/BaseEnemyCharacter.uasset
+[2016.02.25-12.57.28:798][989]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.02.25-12.57.28:798][989]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.25-12.57.28:798][989]PIE: New page: PIE session: FirstPersonExampleMap (Feb 25, 2016, 2:57:28 PM)
+[2016.02.25-12.57.28:798][989]LogPlayLevel: Creating play world package: /Game/DelugeBP/Maps/UEDPIE_1_FirstPersonExampleMap
+[2016.02.25-12.57.28:833][989]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034655s)
+[2016.02.25-12.57.28:835][989]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.02.25-12.57.28:835][989]LogPlayLevel: PIE: World Init took: (0.002496s)
+[2016.02.25-12.57.28:836][989]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/DelugeBP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap (0.037633s)
+[2016.02.25-12.57.28:836][989]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.25-12.57.28:895][989]LogWorld: Game class is 'TestingGameMode_C'
+[2016.02.25-12.57.28:908][989]LogWorld: Bringing World /Game/DelugeBP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.02.25-13.57.28
+[2016.02.25-12.57.28:908][989]LogActor:Warning: GameSession /Game/DelugeBP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-12.57.28:908][989]LogActor:Warning: GameNetworkManager /Game/DelugeBP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-12.57.28:911][989]LogWorld: Bringing up level for play took: 0.013987
+[2016.02.25-12.57.28:911][989]LogActor:Warning: RecastNavMesh /Game/DelugeBP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.RecastNavMesh_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-12.57.28:912][989]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.02.25-12.57.28:912][989]LogNet: GameNetDriver IpNetDriver_51 IpNetDriver listening on port 7777
+[2016.02.25-12.57.28:913][989]PIE: Info Play in editor start time for /Game/DelugeBP/Maps/UEDPIE_1_FirstPersonExampleMap -0.38
+[2016.02.25-12.57.28:919][989]PIE: New page: PIE session: FirstPersonExampleMap (Feb 25, 2016, 2:57:28 PM)
+[2016.02.25-12.57.28:936][989]LogInit: XAudio2 using 'Lautsprecher (Logitech G330 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.25-12.57.28:943][989]LogInit: FAudioDevice initialized.
+[2016.02.25-12.57.28:983][989]LogNet: Browse: 127.0.0.1//Game/FirstPersonBP/Maps/FirstPersonExampleMap
+[2016.02.25-12.57.28:983][989]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.02.25-12.57.28:984][989]LogNet: Game client on port 7777, rate 10000
+[2016.02.25-12.57.28:984][989]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: deluge, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 860841524
+[2016.02.25-12.57.28:984][989]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/FirstPersonExampleMap -0.308
+[2016.02.25-12.57.28:989][989]PIE: New page: PIE session: FirstPersonExampleMap (Feb 25, 2016, 2:57:28 PM)
+[2016.02.25-12.57.29:089][989]LogNet: Browse: 127.0.0.1//Game/FirstPersonBP/Maps/FirstPersonExampleMap
+[2016.02.25-12.57.29:089][989]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.02.25-12.57.29:089][989]LogNet: Game client on port 7777, rate 10000
+[2016.02.25-12.57.29:090][989]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: deluge, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 860841524
+[2016.02.25-12.57.29:135][989]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/FirstPersonExampleMap -0.157
+[2016.02.25-12.57.29:140][989]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.02.25-12.57.29:140][989]LogNet: NotifyAcceptingConnection: Server FirstPersonExampleMap accept
+[2016.02.25-12.57.29:140][989]LogNet: Open FirstPersonExampleMap 02/25/16 13:57:29 127.0.0.1
+[2016.02.25-12.57.29:140][989]LogNet: Added client connection.  Remote address = 127.0.0.1:52760
+[2016.02.25-12.57.29:140][989]LogNet: NotifyAcceptingChannel Control 0 server World /Game/DelugeBP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap: Accepted
+[2016.02.25-12.57.29:140][989]LogNet: Remote platform little endian=1
+[2016.02.25-12.57.29:140][989]LogNet: This platform little endian=1
+[2016.02.25-12.57.29:140][989]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: deluge, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 860841524
+[2016.02.25-12.57.29:141][989]LogNet: NotifyAcceptingConnection: Server FirstPersonExampleMap accept
+[2016.02.25-12.57.29:141][989]LogNet: Open FirstPersonExampleMap 02/25/16 13:57:29 127.0.0.1
+[2016.02.25-12.57.29:141][989]LogNet: Added client connection.  Remote address = 127.0.0.1:52761
+[2016.02.25-12.57.29:141][989]LogNet: NotifyAcceptingChannel Control 0 server World /Game/DelugeBP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap: Accepted
+[2016.02.25-12.57.29:141][989]LogNet: Remote platform little endian=1
+[2016.02.25-12.57.29:141][989]LogNet: This platform little endian=1
+[2016.02.25-12.57.29:141][989]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: deluge, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 860841524
+[2016.02.25-12.57.29:177][990]LogNet: Login request: /Game/FirstPersonBP/Maps/FirstPersonExampleMap userId: Invalid
+[2016.02.25-12.57.29:177][990]LogNet: Login request: /Game/FirstPersonBP/Maps/FirstPersonExampleMap userId: Invalid
+[2016.02.25-12.57.29:179][990]LogNet: Welcomed by server (Level: /Game/DelugeBP/Maps/UEDPIE_1_FirstPersonExampleMap, Game: /Game/DelugeBP/Blueprints/GameModes/TestingGameMode.TestingGameMode_C)
+[2016.02.25-12.57.29:180][990]LogLoad: LoadMap: 127.0.0.1//Game/DelugeBP/Maps/UEDPIE_1_FirstPersonExampleMap?game=/Game/DelugeBP/Blueprints/GameModes/TestingGameMode.TestingGameMode_C
+[2016.02.25-12.57.29:237][990]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000027DBAF6C00
+[2016.02.25-12.57.29:237][990]Cmd: MEM
+[2016.02.25-12.57.29:291][990]LogMemory: Platform Memory Stats for Windows
+[2016.02.25-12.57.29:291][990]LogMemory: Process Physical Memory: 2292.77 MB used, 2309.46 MB peak
+[2016.02.25-12.57.29:291][990]LogMemory: Process Virtual Memory: 3669.98 MB used, 3800.79 MB peak
+[2016.02.25-12.57.29:291][990]LogMemory: Physical Memory: 4820.61 MB used, 8190.11 MB total
+[2016.02.25-12.57.29:291][990]LogMemory: Virtual Memory: 4637.24 MB used, 134217728.00 MB total
+[2016.02.25-12.57.29:291][990]LogMemory: 
+[2016.02.25-12.57.29:291][990]Allocator Stats for TBB: (not implemented)
+[2016.02.25-12.57.29:330][990]LogWorld: PIE: Copying PIE streaming level from /Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/DelugeBP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap. OwningWorld: None
+[2016.02.25-12.57.29:333][990]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.02.25-12.57.29:346][990]LogWorld: Bringing World /Game/DelugeBP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.02.25-13.57.29
+[2016.02.25-12.57.29:346][990]LogWorld: Bringing up level for play took: 0.010302
+[2016.02.25-12.57.29:347][990]LogNet: Welcomed by server (Level: /Game/DelugeBP/Maps/UEDPIE_1_FirstPersonExampleMap, Game: /Game/DelugeBP/Blueprints/GameModes/TestingGameMode.TestingGameMode_C)
+[2016.02.25-12.57.29:371][990]LogLoad: LoadMap: 127.0.0.1//Game/DelugeBP/Maps/UEDPIE_1_FirstPersonExampleMap?game=/Game/DelugeBP/Blueprints/GameModes/TestingGameMode.TestingGameMode_C
+[2016.02.25-12.57.29:421][990]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000287A19CB80
+[2016.02.25-12.57.29:428][990]Cmd: MEM
+[2016.02.25-12.57.29:480][990]LogMemory: Platform Memory Stats for Windows
+[2016.02.25-12.57.29:480][990]LogMemory: Process Physical Memory: 2294.16 MB used, 2313.48 MB peak
+[2016.02.25-12.57.29:480][990]LogMemory: Process Virtual Memory: 3745.25 MB used, 3800.79 MB peak
+[2016.02.25-12.57.29:480][990]LogMemory: Physical Memory: 4825.30 MB used, 8190.11 MB total
+[2016.02.25-12.57.29:480][990]LogMemory: Virtual Memory: 4669.25 MB used, 134217728.00 MB total
+[2016.02.25-12.57.29:481][990]LogMemory: 
+[2016.02.25-12.57.29:481][990]Allocator Stats for TBB: (not implemented)
+[2016.02.25-12.57.29:525][990]LogWorld: PIE: Copying PIE streaming level from /Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/DelugeBP/Maps/UEDPIE_3_FirstPersonExampleMap.FirstPersonExampleMap. OwningWorld: None
+[2016.02.25-12.57.29:527][990]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.02.25-12.57.29:538][990]LogWorld: Bringing World /Game/DelugeBP/Maps/UEDPIE_3_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.02.25-13.57.29
+[2016.02.25-12.57.29:539][990]LogWorld: Bringing up level for play took: 0.010312
+[2016.02.25-12.57.29:560][991]LogNet: Client netspeed is 10000
+[2016.02.25-12.57.29:560][991]LogNet: Join request: /Game/FirstPersonBP/Maps/FirstPersonExampleMap?SplitscreenCount=1
+[2016.02.25-12.57.29:566][991]LogNet: Join succeeded: 290
+[2016.02.25-12.57.29:566][991]LogNet: Client netspeed is 10000
+[2016.02.25-12.57.29:566][991]LogNet: Join request: /Game/FirstPersonBP/Maps/FirstPersonExampleMap?SplitscreenCount=1
+[2016.02.25-12.57.29:570][991]LogNet: Join succeeded: 291
+[2016.02.25-12.57.31:062][ 47]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to BaseEnemyCharacter3
+[2016.02.25-12.57.31:262][ 55]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to BaseEnemyCharacter3
+[2016.02.25-12.57.31:262][ 55]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BaseEnemyCharacter3 died!!
+[2016.02.25-12.57.32:067][ 85]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.57.32:277][ 93]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.57.32:843][114]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.57.36:034][233]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to BaseEnemyCharacter2
+[2016.02.25-12.57.36:227][240]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to BaseEnemyCharacter2
+[2016.02.25-12.57.36:227][240]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BaseEnemyCharacter2 died!!
+[2016.02.25-12.57.36:438][248]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to BaseEnemyCharacter
+[2016.02.25-12.57.37:023][269]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to BaseEnemyCharacter
+[2016.02.25-12.57.37:023][269]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BaseEnemyCharacter died!!
+[2016.02.25-12.57.37:213][276]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to BigWall
+[2016.02.25-12.57.47:295][648]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to BasePlayerCharacter14
+[2016.02.25-12.57.47:505][656]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.57.48:025][675]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.57.48:232][683]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.57.48:897][708]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.57.49:102][716]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.57.49:307][724]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.57.49:842][744]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.57.50:054][752]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.57.50:237][759]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.57.50:765][778]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.57.50:971][786]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.57.51:325][799]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.57.51:540][807]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.57.52:251][832]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.57.52:461][840]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.57.53:587][881]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.57.54:650][920]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.57.54:857][928]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.57.55:368][946]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.57.55:563][953]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.57.55:782][961]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to BasePlayerCharacter14
+[2016.02.25-12.57.55:782][961]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 died!!
+[2016.02.25-12.57.55:971][968]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to BasePlayerCharacter14
+[2016.02.25-12.57.55:971][968]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 died!!
+[2016.02.25-12.57.56:447][985]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to BasePlayerCharacter14
+[2016.02.25-12.57.56:447][985]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 died!!
+[2016.02.25-12.57.56:652][992]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.57.56:846][999]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to BasePlayerCharacter14
+[2016.02.25-12.57.56:846][999]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 died!!
+[2016.02.25-12.57.57:037][  6]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to BasePlayerCharacter14
+[2016.02.25-12.57.57:037][  6]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 died!!
+[2016.02.25-12.57.57:519][ 23]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.57.57:719][ 30]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.57.57:912][ 37]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to BasePlayerCharacter14
+[2016.02.25-12.57.57:912][ 37]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 died!!
+[2016.02.25-12.57.58:138][ 45]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.57.58:459][ 56]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.57.58:652][ 63]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to BasePlayerCharacter14
+[2016.02.25-12.57.58:652][ 63]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 died!!
+[2016.02.25-12.57.58:853][ 70]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.57.59:487][ 93]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.57.59:688][100]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to BasePlayerCharacter14
+[2016.02.25-12.57.59:688][100]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 died!!
+[2016.02.25-12.57.59:882][107]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to BasePlayerCharacter14
+[2016.02.25-12.57.59:882][107]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 died!!
+[2016.02.25-12.58.00:083][114]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to BasePlayerCharacter14
+[2016.02.25-12.58.00:083][114]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 died!!
+[2016.02.25-12.58.00:297][121]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to BasePlayerCharacter14
+[2016.02.25-12.58.00:297][121]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 died!!
+[2016.02.25-12.58.00:818][138]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.58.01:027][145]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.58.01:207][151]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to BasePlayerCharacter14
+[2016.02.25-12.58.01:207][151]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 died!!
+[2016.02.25-12.58.01:415][158]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.58.01:722][168]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.58.01:927][175]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to BasePlayerCharacter14
+[2016.02.25-12.58.01:927][175]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 died!!
+[2016.02.25-12.58.02:142][182]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.58.02:325][188]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.58.02:830][205]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.58.03:038][212]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.58.03:242][219]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.58.03:441][226]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to BasePlayerCharacter14
+[2016.02.25-12.58.03:441][226]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 died!!
+[2016.02.25-12.58.03:952][243]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.58.04:146][250]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.58.04:350][257]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.58.04:549][264]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to BasePlayerCharacter14
+[2016.02.25-12.58.04:549][264]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 died!!
+[2016.02.25-12.58.05:793][308]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.58.05:986][315]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.58.06:186][322]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.58.06:382][329]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.58.06:604][337]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.58.06:804][344]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.58.06:983][350]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.58.07:687][376]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.58.07:889][383]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.58.08:089][390]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.58.08:289][397]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.58.08:320][398]LogCharacterMovement: BasePlayerCharacter_C_16 is stuck and failed to move!
+[2016.02.25-12.58.08:486][404]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.58.08:679][411]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.58.08:872][418]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.58.09:100][426]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.58.09:287][433]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.58.09:479][440]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.58.09:702][448]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.58.09:892][455]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to BasePlayerCharacter14
+[2016.02.25-12.58.09:892][455]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 died!!
+[2016.02.25-12.58.10:087][462]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.58.10:274][469]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.58.10:483][477]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.58.10:697][485]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.58.10:882][492]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.58.11:093][500]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.58.11:279][507]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.58.11:491][515]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.58.11:675][522]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.58.11:887][530]LogBlueprintUserMessages: [TestingGameMode_C_8] Server: BasePlayerCharacter14 gives Damage  1.0 to Floor
+[2016.02.25-12.58.12:306][546]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.02.25-12.58.12:472][546]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.02.25-12.58.12:517][546]LogNet: UChannel::CleanUp: [GameNetDriver] [BasePlayerController_C_20] [BasePlayerController_C_20]. ChIndex == 0. Closing connection.
+[2016.02.25-12.58.12:517][546]LogNet: UNetConnection::Close: Name: IpConnection_70, Driver: GameNetDriver IpNetDriver_51, PC: BasePlayerController_C_20, Owner: BasePlayerController_C_20, Channels: 14, RemoteAddr: 127.0.0.1:52760, Time: 2016.02.25-12.58.12
+[2016.02.25-12.58.12:517][546]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_70
+[2016.02.25-12.58.12:518][546]LogNet: UChannel::CleanUp: [GameNetDriver] [BasePlayerController_C_23] [BasePlayerController_C_23]. ChIndex == 0. Closing connection.
+[2016.02.25-12.58.12:518][546]LogNet: UNetConnection::Close: Name: IpConnection_69, Driver: GameNetDriver IpNetDriver_53, PC: BasePlayerController_C_23, Owner: BasePlayerController_C_23, Channels: 3, RemoteAddr: 127.0.0.1:7777, Time: 2016.02.25-12.58.12
+[2016.02.25-12.58.12:518][546]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_69
+[2016.02.25-12.58.12:519][546]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.02.25-12.58.12:519][546]LogNet: UNetConnection::Close: Name: IpConnection_68, Driver: GameNetDriver IpNetDriver_52, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:7777, Time: 2016.02.25-12.58.12
+[2016.02.25-12.58.12:519][546]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_68
+[2016.02.25-12.58.12:520][546]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.02.25-12.58.12:520][546]LogNet: UNetConnection::Close: Name: IpConnection_71, Driver: GameNetDriver IpNetDriver_51, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:52761, Time: 2016.02.25-12.58.12
+[2016.02.25-12.58.12:520][546]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_71
+[2016.02.25-12.58.12:526][546]LogExit: GameNetDriver None shut down
+[2016.02.25-12.58.12:527][546]LogExit: GameNetDriver None shut down
+[2016.02.25-12.58.12:529][546]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002869EE9260
+[2016.02.25-12.58.12:529][546]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002860DCB920
+[2016.02.25-12.58.12:531][546]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000027DBC96660
+[2016.02.25-12.58.12:531][546]LogExit: GameNetDriver None shut down
+[2016.02.25-12.58.14:657][635]LogSavePackage: Save=41.755661ms
+[2016.02.25-12.58.14:657][635]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BaseEnemyCharacter45E2634944C445B4D2BF0FAA58B2390D.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Enemy/BaseEnemyCharacter.uasset'
+[2016.02.25-12.58.14:664][635]LogSavePackage: Total save time: 59.579819ms
+[2016.02.25-12.58.14:664][635]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Enemy/BaseEnemyCharacter.uasset
+[2016.02.25-12.58.37:711][546]BlueprintLog: New page: Compile BasePlayerController
+[2016.02.25-12.58.37:912][546]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.25-12.58.38:014][546]BlueprintEditorCompileResults: Info [1457.66] Compile of BasePlayerController successful! [in 303 ms]
+[2016.02.25-12.58.38:695][555]LogSavePackage: Save=272.253784ms
+[2016.02.25-12.58.38:695][555]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BasePlayerController3701ADBD4FB4817C042CBFA1AA877B73.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Player/BasePlayerController.uasset'
+[2016.02.25-12.58.38:699][555]LogSavePackage: Total save time: 338.013835ms
+[2016.02.25-12.58.38:699][555]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Player/BasePlayerController.uasset
+[2016.02.25-12.58.39:991][601]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.02.25-12.58.39:992][601]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.25-12.58.39:992][601]PIE: New page: PIE session: FirstPersonExampleMap (Feb 25, 2016, 2:58:39 PM)
+[2016.02.25-12.58.39:992][601]LogPlayLevel: Creating play world package: /Game/DelugeBP/Maps/UEDPIE_1_FirstPersonExampleMap
+[2016.02.25-12.58.40:032][601]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040493s)
+[2016.02.25-12.58.40:034][601]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.02.25-12.58.40:035][601]LogPlayLevel: PIE: World Init took: (0.002352s)
+[2016.02.25-12.58.40:035][601]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/DelugeBP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap (0.043334s)
+[2016.02.25-12.58.40:035][601]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.25-12.58.40:100][601]LogWorld: Game class is 'TestingGameMode_C'
+[2016.02.25-12.58.40:111][601]LogWorld: Bringing World /Game/DelugeBP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.02.25-13.58.40
+[2016.02.25-12.58.40:112][601]LogActor:Warning: GameSession /Game/DelugeBP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-12.58.40:112][601]LogActor:Warning: GameNetworkManager /Game/DelugeBP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_21 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-12.58.40:114][601]LogWorld: Bringing up level for play took: 0.012328
+[2016.02.25-12.58.40:114][601]LogActor:Warning: RecastNavMesh /Game/DelugeBP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.RecastNavMesh_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-12.58.40:115][601]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.02.25-12.58.40:115][601]LogNet: GameNetDriver IpNetDriver_54 IpNetDriver listening on port 7777
+[2016.02.25-12.58.40:116][601]PIE: Info Play in editor start time for /Game/DelugeBP/Maps/UEDPIE_1_FirstPersonExampleMap 0.823
+[2016.02.25-12.58.40:121][601]PIE: New page: PIE session: FirstPersonExampleMap (Feb 25, 2016, 2:58:40 PM)
+[2016.02.25-12.58.40:138][601]LogInit: XAudio2 using 'Lautsprecher (Logitech G330 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.25-12.58.40:147][601]LogInit: FAudioDevice initialized.
+[2016.02.25-12.58.40:189][601]LogNet: Browse: 127.0.0.1//Game/FirstPersonBP/Maps/FirstPersonExampleMap
+[2016.02.25-12.58.40:190][601]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.02.25-12.58.40:190][601]LogNet: Game client on port 7777, rate 10000
+[2016.02.25-12.58.40:190][601]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: deluge, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 860841524
+[2016.02.25-12.58.40:190][601]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/FirstPersonExampleMap 0.898
+[2016.02.25-12.58.40:196][601]PIE: New page: PIE session: FirstPersonExampleMap (Feb 25, 2016, 2:58:40 PM)
+[2016.02.25-12.58.40:305][601]LogNet: Browse: 127.0.0.1//Game/FirstPersonBP/Maps/FirstPersonExampleMap
+[2016.02.25-12.58.40:305][601]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.02.25-12.58.40:305][601]LogNet: Game client on port 7777, rate 10000
+[2016.02.25-12.58.40:305][601]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: deluge, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 860841524
+[2016.02.25-12.58.40:367][601]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/FirstPersonExampleMap 1.075
+[2016.02.25-12.58.40:372][601]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.02.25-12.58.40:372][601]LogNet: NotifyAcceptingConnection: Server FirstPersonExampleMap accept
+[2016.02.25-12.58.40:372][601]LogNet: Open FirstPersonExampleMap 02/25/16 13:58:40 127.0.0.1
+[2016.02.25-12.58.40:373][601]LogNet: Added client connection.  Remote address = 127.0.0.1:54961
+[2016.02.25-12.58.40:373][601]LogNet: NotifyAcceptingChannel Control 0 server World /Game/DelugeBP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap: Accepted
+[2016.02.25-12.58.40:373][601]LogNet: Remote platform little endian=1
+[2016.02.25-12.58.40:373][601]LogNet: This platform little endian=1
+[2016.02.25-12.58.40:373][601]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: deluge, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 860841524
+[2016.02.25-12.58.40:373][601]LogNet: NotifyAcceptingConnection: Server FirstPersonExampleMap accept
+[2016.02.25-12.58.40:373][601]LogNet: Open FirstPersonExampleMap 02/25/16 13:58:40 127.0.0.1
+[2016.02.25-12.58.40:373][601]LogNet: Added client connection.  Remote address = 127.0.0.1:54962
+[2016.02.25-12.58.40:373][601]LogNet: NotifyAcceptingChannel Control 0 server World /Game/DelugeBP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap: Accepted
+[2016.02.25-12.58.40:373][601]LogNet: Remote platform little endian=1
+[2016.02.25-12.58.40:373][601]LogNet: This platform little endian=1
+[2016.02.25-12.58.40:373][601]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: deluge, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 860841524
+[2016.02.25-12.58.40:411][602]LogNet: Login request: /Game/FirstPersonBP/Maps/FirstPersonExampleMap userId: Invalid
+[2016.02.25-12.58.40:411][602]LogNet: Login request: /Game/FirstPersonBP/Maps/FirstPersonExampleMap userId: Invalid
+[2016.02.25-12.58.40:414][602]LogNet: Welcomed by server (Level: /Game/DelugeBP/Maps/UEDPIE_1_FirstPersonExampleMap, Game: /Game/DelugeBP/Blueprints/GameModes/TestingGameMode.TestingGameMode_C)
+[2016.02.25-12.58.40:414][602]LogLoad: LoadMap: 127.0.0.1//Game/DelugeBP/Maps/UEDPIE_1_FirstPersonExampleMap?game=/Game/DelugeBP/Blueprints/GameModes/TestingGameMode.TestingGameMode_C
+[2016.02.25-12.58.40:473][602]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002868C74EA0
+[2016.02.25-12.58.40:473][602]Cmd: MEM
+[2016.02.25-12.58.40:527][602]LogMemory: Platform Memory Stats for Windows
+[2016.02.25-12.58.40:527][602]LogMemory: Process Physical Memory: 2365.27 MB used, 2370.76 MB peak
+[2016.02.25-12.58.40:527][602]LogMemory: Process Virtual Memory: 3796.23 MB used, 3800.79 MB peak
+[2016.02.25-12.58.40:527][602]LogMemory: Physical Memory: 4900.00 MB used, 8190.11 MB total
+[2016.02.25-12.58.40:527][602]LogMemory: Virtual Memory: 4748.34 MB used, 134217728.00 MB total
+[2016.02.25-12.58.40:527][602]LogMemory: 
+[2016.02.25-12.58.40:527][602]Allocator Stats for TBB: (not implemented)
+[2016.02.25-12.58.40:569][602]LogWorld: PIE: Copying PIE streaming level from /Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/DelugeBP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap. OwningWorld: None
+[2016.02.25-12.58.40:572][602]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.02.25-12.58.40:584][602]LogWorld: Bringing World /Game/DelugeBP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.02.25-13.58.40
+[2016.02.25-12.58.40:585][602]LogWorld: Bringing up level for play took: 0.010493
+[2016.02.25-12.58.40:586][602]LogNet: Welcomed by server (Level: /Game/DelugeBP/Maps/UEDPIE_1_FirstPersonExampleMap, Game: /Game/DelugeBP/Blueprints/GameModes/TestingGameMode.TestingGameMode_C)
+[2016.02.25-12.58.40:612][602]LogLoad: LoadMap: 127.0.0.1//Game/DelugeBP/Maps/UEDPIE_1_FirstPersonExampleMap?game=/Game/DelugeBP/Blueprints/GameModes/TestingGameMode.TestingGameMode_C
+[2016.02.25-12.58.40:671][602]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000027DC0793A0
+[2016.02.25-12.58.40:671][602]Cmd: MEM
+[2016.02.25-12.58.40:726][602]LogMemory: Platform Memory Stats for Windows
+[2016.02.25-12.58.40:726][602]LogMemory: Process Physical Memory: 2374.16 MB used, 2393.75 MB peak
+[2016.02.25-12.58.40:726][602]LogMemory: Process Virtual Memory: 3876.99 MB used, 3876.99 MB peak
+[2016.02.25-12.58.40:726][602]LogMemory: Physical Memory: 4912.66 MB used, 8190.11 MB total
+[2016.02.25-12.58.40:726][602]LogMemory: Virtual Memory: 4788.40 MB used, 134217728.00 MB total
+[2016.02.25-12.58.40:726][602]LogMemory: 
+[2016.02.25-12.58.40:726][602]Allocator Stats for TBB: (not implemented)
+[2016.02.25-12.58.40:772][602]LogWorld: PIE: Copying PIE streaming level from /Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/DelugeBP/Maps/UEDPIE_3_FirstPersonExampleMap.FirstPersonExampleMap. OwningWorld: None
+[2016.02.25-12.58.40:774][602]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.02.25-12.58.40:786][602]LogWorld: Bringing World /Game/DelugeBP/Maps/UEDPIE_3_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.02.25-13.58.40
+[2016.02.25-12.58.40:787][602]LogWorld: Bringing up level for play took: 0.011162
+[2016.02.25-12.58.40:816][603]LogNet: Client netspeed is 10000
+[2016.02.25-12.58.40:816][603]LogNet: Join request: /Game/FirstPersonBP/Maps/FirstPersonExampleMap?SplitscreenCount=1
+[2016.02.25-12.58.40:822][603]LogNet: Join succeeded: 292
+[2016.02.25-12.58.40:822][603]LogNet: Client netspeed is 10000
+[2016.02.25-12.58.40:822][603]LogNet: Join request: /Game/FirstPersonBP/Maps/FirstPersonExampleMap?SplitscreenCount=1
+[2016.02.25-12.58.40:827][603]LogNet: Join succeeded: 293
+[2016.02.25-12.58.42:002][640]LogBlueprintUserMessages: [TestingGameMode_C_9] Server: BasePlayerCharacter15 gives Damage  1.0 to BasePlayerCharacter14
+[2016.02.25-12.58.42:208][647]LogBlueprintUserMessages: [TestingGameMode_C_9] Server: BasePlayerCharacter15 gives Damage  1.0 to BasePlayerCharacter14
+[2016.02.25-12.58.42:209][647]LogBlueprintUserMessages: [TestingGameMode_C_9] Server: BasePlayerCharacter14 died!!
+[2016.02.25-12.58.43:192][679]LogBlueprintUserMessages: [TestingGameMode_C_9] Server: BasePlayerCharacter15 gives Damage  1.0 to Floor
+[2016.02.25-12.58.43:398][686]LogBlueprintUserMessages: [TestingGameMode_C_9] Server: BasePlayerCharacter15 gives Damage  1.0 to BaseEnemyCharacter2
+[2016.02.25-12.58.44:178][711]LogBlueprintUserMessages: [TestingGameMode_C_9] Server: BasePlayerCharacter15 gives Damage  1.0 to BaseEnemyCharacter3
+[2016.02.25-12.58.44:390][718]LogBlueprintUserMessages: [TestingGameMode_C_9] Server: BasePlayerCharacter15 gives Damage  1.0 to Floor
+[2016.02.25-12.58.44:571][724]LogBlueprintUserMessages: [TestingGameMode_C_9] Server: BasePlayerCharacter15 gives Damage  1.0 to BaseEnemyCharacter3
+[2016.02.25-12.58.44:571][724]LogBlueprintUserMessages: [TestingGameMode_C_9] Server: BaseEnemyCharacter3 died!!
+[2016.02.25-12.58.45:268][746]LogBlueprintUserMessages: [TestingGameMode_C_9] Server: BasePlayerCharacter15 gives Damage  1.0 to Floor
+[2016.02.25-12.58.45:483][753]LogBlueprintUserMessages: [TestingGameMode_C_9] Server: BasePlayerCharacter15 gives Damage  1.0 to BaseEnemyCharacter2
+[2016.02.25-12.58.45:483][753]LogBlueprintUserMessages: [TestingGameMode_C_9] Server: BaseEnemyCharacter2 died!!
+[2016.02.25-12.58.45:669][759]LogBlueprintUserMessages: [TestingGameMode_C_9] Server: BasePlayerCharacter15 gives Damage  1.0 to Floor
+[2016.02.25-12.58.46:656][789]LogBlueprintUserMessages: [TestingGameMode_C_9] Server: BasePlayerCharacter15 gives Damage  1.0 to BaseEnemyCharacter
+[2016.02.25-12.58.46:844][795]LogBlueprintUserMessages: [TestingGameMode_C_9] Server: BasePlayerCharacter15 gives Damage  1.0 to BaseEnemyCharacter
+[2016.02.25-12.58.46:844][795]LogBlueprintUserMessages: [TestingGameMode_C_9] Server: BaseEnemyCharacter died!!
+[2016.02.25-12.58.47:067][802]LogBlueprintUserMessages: [TestingGameMode_C_9] Server: BasePlayerCharacter15 gives Damage  1.0 to BigWall
+[2016.02.25-12.58.51:135][928]LogBlueprintUserMessages: [TestingGameMode_C_9] Server: BasePlayerCharacter15 gives Damage  1.0 to Floor
+[2016.02.25-12.58.52:190][961]LogBlueprintUserMessages: [TestingGameMode_C_9] Server: BasePlayerCharacter15 gives Damage  1.0 to Floor
+[2016.02.25-12.58.52:378][967]LogBlueprintUserMessages: [TestingGameMode_C_9] Server: BasePlayerCharacter15 gives Damage  1.0 to Floor
+[2016.02.25-12.58.55:283][ 60]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.02.25-12.58.55:447][ 60]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.02.25-12.58.55:493][ 60]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.02.25-12.58.55:493][ 60]LogNet: UNetConnection::Close: Name: IpConnection_75, Driver: GameNetDriver IpNetDriver_54, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:54962, Time: 2016.02.25-12.58.55
+[2016.02.25-12.58.55:493][ 60]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_75
+[2016.02.25-12.58.55:493][ 60]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.02.25-12.58.55:493][ 60]LogNet: UNetConnection::Close: Name: IpConnection_74, Driver: GameNetDriver IpNetDriver_54, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:54961, Time: 2016.02.25-12.58.55
+[2016.02.25-12.58.55:493][ 60]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_74
+[2016.02.25-12.58.55:493][ 60]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.02.25-12.58.55:493][ 60]LogNet: UNetConnection::Close: Name: IpConnection_73, Driver: GameNetDriver IpNetDriver_56, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:7777, Time: 2016.02.25-12.58.55
+[2016.02.25-12.58.55:493][ 60]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_73
+[2016.02.25-12.58.55:493][ 60]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.02.25-12.58.55:493][ 60]LogNet: UNetConnection::Close: Name: IpConnection_72, Driver: GameNetDriver IpNetDriver_55, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:7777, Time: 2016.02.25-12.58.55
+[2016.02.25-12.58.55:493][ 60]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_72
+[2016.02.25-12.58.55:502][ 60]LogExit: GameNetDriver None shut down
+[2016.02.25-12.58.55:502][ 60]LogExit: GameNetDriver None shut down
+[2016.02.25-12.58.55:504][ 60]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002860DC9E40
+[2016.02.25-12.58.55:504][ 60]LogExit: GameNetDriver None shut down
+[2016.02.25-12.58.55:505][ 60]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002862B91120
+[2016.02.25-12.58.55:507][ 60]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002868C74D60
+[2016.02.25-12.59.07:989][533]LogSavePackage: Save=283.875824ms
+[2016.02.25-12.59.07:989][533]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BasePlayerControllerBCD63FCF48164A3A8ED4DF9EDB29AEB2.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Player/BasePlayerController.uasset'
+[2016.02.25-12.59.07:992][533]LogSavePackage: Total save time: 298.358712ms
+[2016.02.25-12.59.07:992][533]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Player/BasePlayerController.uasset
+[2016.02.25-13.06.24:455][ 62]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.25-13.06.24:455][ 62]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.02.25-13.06.24:548][ 62]LogMetaData: Removing '/Game/DelugeBP/Blueprints/Characters/Player/BasePlayerCharacter.BasePlayerCharacter_C' ref from Metadata '/Game/DelugeBP/Blueprints/Player/BasePlayerCharacter.PackageMetaData'
+[2016.02.25-13.06.24:548][ 62]LogMetaData: Removing '/Game/DelugeBP/Blueprints/Characters/Player/BasePlayerCharacter.BasePlayerCharacter:GetWeaponPosition.K2Node_FunctionEntry_566' ref from Metadata '/Game/DelugeBP/Blueprints/Player/BasePlayerCharacter.PackageMetaData'
+[2016.02.25-13.06.24:548][ 62]LogMetaData: Removing '/Game/DelugeBP/Blueprints/Characters/Player/BasePlayerCharacter.BasePlayerCharacter:GetWeaponPosition.K2Node_FunctionResult_1' ref from Metadata '/Game/DelugeBP/Blueprints/Player/BasePlayerCharacter.PackageMetaData'
+[2016.02.25-13.06.24:548][ 62]LogMetaData: Removing '/Game/DelugeBP/Blueprints/Characters/Player/BasePlayerCharacter.BasePlayerCharacter:PlayLocalFireWeaponAnimation.K2Node_FunctionEntry_1084' ref from Metadata '/Game/DelugeBP/Blueprints/Player/BasePlayerCharacter.PackageMetaData'
+[2016.02.25-13.06.24:549][ 62]LogMetaData: Removing '/Game/DelugeBP/Blueprints/Characters/Player/BasePlayerCharacter.BasePlayerCharacter:SetWeaponMesh.K2Node_FunctionEntry_360' ref from Metadata '/Game/DelugeBP/Blueprints/Player/BasePlayerCharacter.PackageMetaData'
+[2016.02.25-13.06.24:549][ 62]LogMetaData: Removing '/Game/DelugeBP/Blueprints/Characters/Player/BasePlayerCharacter.BasePlayerCharacter:OnRep_CurrentPlayerActionState.K2Node_FunctionEntry_494' ref from Metadata '/Game/DelugeBP/Blueprints/Player/BasePlayerCharacter.PackageMetaData'
+[2016.02.25-13.06.24:549][ 62]LogMetaData: Removing '/Game/DelugeBP/Blueprints/Characters/Player/BasePlayerCharacter.BasePlayerCharacter:StartReloadFX.K2Node_FunctionEntry_883' ref from Metadata '/Game/DelugeBP/Blueprints/Player/BasePlayerCharacter.PackageMetaData'
+[2016.02.25-13.06.24:549][ 62]LogMetaData: Removing '/Game/DelugeBP/Blueprints/Characters/Player/BasePlayerCharacter.BasePlayerCharacter:StartAttackFX.K2Node_FunctionEntry_876' ref from Metadata '/Game/DelugeBP/Blueprints/Player/BasePlayerCharacter.PackageMetaData'
+[2016.02.25-13.06.24:549][ 62]LogMetaData: Removing '/Game/DelugeBP/Blueprints/Characters/Player/BasePlayerCharacter.BasePlayerCharacter:isLocalCharacter.K2Node_Tunnel_275' ref from Metadata '/Game/DelugeBP/Blueprints/Player/BasePlayerCharacter.PackageMetaData'
+[2016.02.25-13.06.24:549][ 62]LogMetaData: Removing '/Game/DelugeBP/Blueprints/Characters/Player/BasePlayerCharacter.BasePlayerCharacter:isLocalCharacter.K2Node_Tunnel_274' ref from Metadata '/Game/DelugeBP/Blueprints/Player/BasePlayerCharacter.PackageMetaData'
+[2016.02.25-13.06.24:549][ 62]LogMetaData: Removing '/Game/DelugeBP/Blueprints/Characters/Player/BasePlayerCharacter.BasePlayerCharacter:StopAttackFX.K2Node_FunctionEntry_1492' ref from Metadata '/Game/DelugeBP/Blueprints/Player/BasePlayerCharacter.PackageMetaData'
+[2016.02.25-13.06.24:549][ 62]LogMetaData: Removing '/Game/DelugeBP/Blueprints/Characters/Player/BasePlayerCharacter.SKEL_BasePlayerCharacter_C' ref from Metadata '/Game/DelugeBP/Blueprints/Player/BasePlayerCharacter.PackageMetaData'
+[2016.02.25-13.06.24:567][ 62]LogMetaData: Removing '/Game/DelugeBP/Blueprints/Characters/Player/PlayerActionState.PlayerActionState' ref from Metadata '/Game/DelugeBP/Blueprints/Player/PlayerActionState.PackageMetaData'
+[2016.02.25-13.06.24:904][ 62]LogMetaData: Removing '/Game/DelugeBP/Blueprints/Characters/Player/BasePlayerController.BasePlayerController_C' ref from Metadata '/Game/DelugeBP/Blueprints/Player/BasePlayerController.PackageMetaData'
+[2016.02.25-13.06.24:904][ 62]LogMetaData: Removing '/Game/DelugeBP/Blueprints/Characters/Player/BasePlayerController.BasePlayerController:EventGraph.K2Node_Event_162' ref from Metadata '/Game/DelugeBP/Blueprints/Player/BasePlayerController.PackageMetaData'
+[2016.02.25-13.06.24:904][ 62]LogMetaData: Removing '/Game/DelugeBP/Blueprints/Characters/Player/BasePlayerController.BasePlayerController:GetWeaponDamagePerHit.K2Node_FunctionEntry_377' ref from Metadata '/Game/DelugeBP/Blueprints/Player/BasePlayerController.PackageMetaData'
+[2016.02.25-13.06.24:904][ 62]LogMetaData: Removing '/Game/DelugeBP/Blueprints/Characters/Player/BasePlayerController.BasePlayerController:GetWeaponDamagePerHit.K2Node_FunctionResult_2' ref from Metadata '/Game/DelugeBP/Blueprints/Player/BasePlayerController.PackageMetaData'
+[2016.02.25-13.06.24:904][ 62]LogMetaData: Removing '/Game/DelugeBP/Blueprints/Characters/Player/BasePlayerController.BasePlayerController:GetWeaponData.K2Node_FunctionEntry_501' ref from Metadata '/Game/DelugeBP/Blueprints/Player/BasePlayerController.PackageMetaData'
+[2016.02.25-13.06.24:904][ 62]LogMetaData: Removing '/Game/DelugeBP/Blueprints/Characters/Player/BasePlayerController.BasePlayerController:GetWeaponData.K2Node_FunctionResult_4' ref from Metadata '/Game/DelugeBP/Blueprints/Player/BasePlayerController.PackageMetaData'
+[2016.02.25-13.06.24:904][ 62]LogMetaData: Removing '/Game/DelugeBP/Blueprints/Characters/Player/BasePlayerController.BasePlayerController:GetWeaponFireRate.K2Node_FunctionEntry_444' ref from Metadata '/Game/DelugeBP/Blueprints/Player/BasePlayerController.PackageMetaData'
+[2016.02.25-13.06.24:904][ 62]LogMetaData: Removing '/Game/DelugeBP/Blueprints/Characters/Player/BasePlayerController.BasePlayerController:GetWeaponFireRate.K2Node_FunctionResult_3' ref from Metadata '/Game/DelugeBP/Blueprints/Player/BasePlayerController.PackageMetaData'
+[2016.02.25-13.06.24:904][ 62]LogMetaData: Removing '/Game/DelugeBP/Blueprints/Characters/Player/BasePlayerController.BasePlayerController:GetWeaponRange.K2Node_FunctionEntry_274' ref from Metadata '/Game/DelugeBP/Blueprints/Player/BasePlayerController.PackageMetaData'
+[2016.02.25-13.06.24:904][ 62]LogMetaData: Removing '/Game/DelugeBP/Blueprints/Characters/Player/BasePlayerController.BasePlayerController:GetWeaponRange.K2Node_FunctionResult_1' ref from Metadata '/Game/DelugeBP/Blueprints/Player/BasePlayerController.PackageMetaData'
+[2016.02.25-13.06.24:904][ 62]LogMetaData: Removing '/Game/DelugeBP/Blueprints/Characters/Player/BasePlayerController.BasePlayerController:SetControlledCharacter.K2Node_Tunnel_8' ref from Metadata '/Game/DelugeBP/Blueprints/Player/BasePlayerController.PackageMetaData'
+[2016.02.25-13.06.24:904][ 62]LogMetaData: Removing '/Game/DelugeBP/Blueprints/Characters/Player/BasePlayerController.BasePlayerController:SetControlledCharacter.K2Node_Tunnel_9' ref from Metadata '/Game/DelugeBP/Blueprints/Player/BasePlayerController.PackageMetaData'
+[2016.02.25-13.06.24:904][ 62]LogMetaData: Removing '/Game/DelugeBP/Blueprints/Characters/Player/BasePlayerController.BasePlayerController:SingleFlip.K2Node_Tunnel_224' ref from Metadata '/Game/DelugeBP/Blueprints/Player/BasePlayerController.PackageMetaData'
+[2016.02.25-13.06.24:904][ 62]LogMetaData: Removing '/Game/DelugeBP/Blueprints/Characters/Player/BasePlayerController.BasePlayerController:SingleFlip.K2Node_Tunnel_225' ref from Metadata '/Game/DelugeBP/Blueprints/Player/BasePlayerController.PackageMetaData'
+[2016.02.25-13.06.24:904][ 62]LogMetaData: Removing '/Game/DelugeBP/Blueprints/Characters/Player/BasePlayerController.BasePlayerController:UserConstructionScript.K2Node_FunctionEntry_98' ref from Metadata '/Game/DelugeBP/Blueprints/Player/BasePlayerController.PackageMetaData'
+[2016.02.25-13.06.24:904][ 62]LogMetaData: Removing '/Game/DelugeBP/Blueprints/Characters/Player/BasePlayerController.SKEL_BasePlayerController_C' ref from Metadata '/Game/DelugeBP/Blueprints/Player/BasePlayerController.PackageMetaData'
+[2016.02.25-13.06.25:055][ 62]LogMetaData: Removing '/Game/DelugeBP/Blueprints/Characters/Player/HUD/FirstPersonHUD.FirstPersonHUD_C' ref from Metadata '/Game/DelugeBP/Blueprints/Player/HUD/FirstPersonHUD.PackageMetaData'
+[2016.02.25-13.06.25:055][ 62]LogMetaData: Removing '/Game/DelugeBP/Blueprints/Characters/Player/HUD/FirstPersonHUD.SKEL_FirstPersonHUD_C' ref from Metadata '/Game/DelugeBP/Blueprints/Player/HUD/FirstPersonHUD.PackageMetaData'
+[2016.02.25-13.06.25:308][ 62]LogSavePackage: Save=172.846420ms
+[2016.02.25-13.06.25:308][ 62]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BasePlayerCharacter7F14C0464A93375B1BA0E696CF6FCE6F.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerCharacter.uasset'
+[2016.02.25-13.06.25:313][ 62]LogSavePackage: Total save time: 177.462295ms
+[2016.02.25-13.06.25:313][ 62]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerCharacter.uasset
+[2016.02.25-13.06.25:339][ 62]LogSavePackage: Save=1.703978ms
+[2016.02.25-13.06.25:339][ 62]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/PlayerActionState130ECA5140B5E55CF8419B96333E506D.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/PlayerActionState.uasset'
+[2016.02.25-13.06.25:342][ 62]LogSavePackage: Total save time: 5.570460ms
+[2016.02.25-13.06.25:342][ 62]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/PlayerActionState.uasset
+[2016.02.25-13.06.25:659][ 62]LogSavePackage: Save=301.452850ms
+[2016.02.25-13.06.25:660][ 62]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BasePlayerController55207AFC4F93F29AC4612A928B6C2F96.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerController.uasset'
+[2016.02.25-13.06.25:665][ 62]LogSavePackage: Total save time: 306.877512ms
+[2016.02.25-13.06.25:665][ 62]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerController.uasset
+[2016.02.25-13.06.25:717][ 62]LogSavePackage: Save=34.321217ms
+[2016.02.25-13.06.25:717][ 62]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/FirstPersonHUD4ED9A53F4DED09D484676BAD76243ACE.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/HUD/FirstPersonHUD.uasset'
+[2016.02.25-13.06.25:722][ 62]LogSavePackage: Total save time: 39.104015ms
+[2016.02.25-13.06.25:722][ 62]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/HUD/FirstPersonHUD.uasset
+[2016.02.25-13.06.25:793][ 62]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.25-13.06.26:814][ 62]LogSavePackage: Save=233.134811ms
+[2016.02.25-13.06.26:814][ 62]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/UE4ASP_HeroTPP_AnimBlueprintC84B11DA4A0E30EACC4F33B6AB42C114.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.uasset'
+[2016.02.25-13.06.26:817][ 62]LogSavePackage: Total save time: 254.049089ms
+[2016.02.25-13.06.26:817][ 62]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.uasset
+[2016.02.25-13.06.27:014][ 62]LogSavePackage: Save=143.575546ms
+[2016.02.25-13.06.27:014][ 62]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/FirstPerson_AnimBP4AF6DF1A400A64B5946AA7BA6A235AB3.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeAssets/Animations/FirstPerson_AnimBP.uasset'
+[2016.02.25-13.06.27:018][ 62]LogSavePackage: Total save time: 162.108269ms
+[2016.02.25-13.06.27:018][ 62]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeAssets/Animations/FirstPerson_AnimBP.uasset
+[2016.02.25-13.06.27:045][ 62]LogSavePackage: Save=2.112933ms
+[2016.02.25-13.06.27:045][ 62]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/FirstPersonCharacterE287768342E29B9D668B03A8631C0FA3.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/FirstPersonCharacter.uasset'
+[2016.02.25-13.06.27:047][ 62]LogSavePackage: Total save time: 16.059671ms
+[2016.02.25-13.06.27:047][ 62]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/FirstPersonCharacter.uasset
+[2016.02.25-13.06.27:091][ 62]LogSavePackage: Save=18.131056ms
+[2016.02.25-13.06.27:091][ 62]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/FirstPersonCharacter_C9868631042EBB07B92CBA4BFEB50E5DC.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/FirstPersonCharacter_C.uasset'
+[2016.02.25-13.06.27:094][ 62]LogSavePackage: Total save time: 32.927781ms
+[2016.02.25-13.06.27:094][ 62]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/FirstPersonCharacter_C.uasset
+[2016.02.25-13.06.27:163][ 62]LogSavePackage: Save=43.818295ms
+[2016.02.25-13.06.27:164][ 62]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BaseGameModeEBC953644C54E6A58704D0A0A288F865.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/GameModes/BaseGameMode.uasset'
+[2016.02.25-13.06.27:166][ 62]LogSavePackage: Total save time: 58.876358ms
+[2016.02.25-13.06.27:166][ 62]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/GameModes/BaseGameMode.uasset
+[2016.02.25-13.06.27:404][ 62]LogSavePackage: Save=216.030151ms
+[2016.02.25-13.06.27:404][ 62]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/UE4ASP_HeroTPP_AnimBlueprintF69E6E384A38D37499D0FB970A3B7BDD.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.uasset'
+[2016.02.25-13.06.27:408][ 62]LogSavePackage: Total save time: 230.101544ms
+[2016.02.25-13.06.27:408][ 62]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/AnimStarterPack/UE4ASP_HeroTPP_AnimBlueprint.uasset
+[2016.02.25-13.06.27:565][ 62]LogSavePackage: Save=132.822083ms
+[2016.02.25-13.06.27:565][ 62]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/FirstPerson_AnimBP8AF37E0648CD8D9282C35AA51F62BFEB.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeAssets/Animations/FirstPerson_AnimBP.uasset'
+[2016.02.25-13.06.27:569][ 62]LogSavePackage: Total save time: 147.669472ms
+[2016.02.25-13.06.27:569][ 62]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeAssets/Animations/FirstPerson_AnimBP.uasset
+[2016.02.25-13.06.27:636][ 62]LogSavePackage: Save=43.575184ms
+[2016.02.25-13.06.27:636][ 62]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BaseGameModeED0AC8184FE6249B558041863CE669FA.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/GameModes/BaseGameMode.uasset'
+[2016.02.25-13.06.27:638][ 62]LogSavePackage: Total save time: 56.626379ms
+[2016.02.25-13.06.27:638][ 62]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/GameModes/BaseGameMode.uasset
+[2016.02.25-13.06.27:708][ 62]LogSavePackage: Save=42.757275ms
+[2016.02.25-13.06.27:708][ 62]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BaseGameMode6B99CBF9492E1F3408E6788F4B881331.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/GameModes/BaseGameMode.uasset'
+[2016.02.25-13.06.27:710][ 62]LogSavePackage: Total save time: 55.936769ms
+[2016.02.25-13.06.27:710][ 62]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/GameModes/BaseGameMode.uasset
+[2016.02.25-13.06.40:746][581]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.25-13.06.40:746][581]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.02.25-13.06.49:133][791]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.02.25-13.06.49:198][791]LogMetaData: Removing '/Game/DelugeBP/Blueprints/Characters/Enemy/BaseEnemyCharacter.BaseEnemyCharacter_C' ref from Metadata '/Game/DelugeBP/Blueprints/Enemy/BaseEnemyCharacter.PackageMetaData'
+[2016.02.25-13.06.49:198][791]LogMetaData: Removing '/Game/DelugeBP/Blueprints/Characters/Enemy/BaseEnemyCharacter.SKEL_BaseEnemyCharacter_C' ref from Metadata '/Game/DelugeBP/Blueprints/Enemy/BaseEnemyCharacter.PackageMetaData'
+[2016.02.25-13.06.49:198][791]LogMetaData: Removing '/Game/DelugeBP/Blueprints/Characters/Enemy/BaseEnemyCharacter.BaseEnemyCharacter:EventGraph.K2Node_Event_3006' ref from Metadata '/Game/DelugeBP/Blueprints/Enemy/BaseEnemyCharacter.PackageMetaData'
+[2016.02.25-13.06.49:198][791]LogMetaData: Removing '/Game/DelugeBP/Blueprints/Characters/Enemy/BaseEnemyCharacter.BaseEnemyCharacter:EventGraph.K2Node_Event_3007' ref from Metadata '/Game/DelugeBP/Blueprints/Enemy/BaseEnemyCharacter.PackageMetaData'
+[2016.02.25-13.06.49:198][791]LogMetaData: Removing '/Game/DelugeBP/Blueprints/Characters/Enemy/BaseEnemyCharacter.BaseEnemyCharacter:EventGraph.K2Node_Event_3008' ref from Metadata '/Game/DelugeBP/Blueprints/Enemy/BaseEnemyCharacter.PackageMetaData'
+[2016.02.25-13.06.49:198][791]LogMetaData: Removing '/Game/DelugeBP/Blueprints/Characters/Enemy/BaseEnemyCharacter.BaseEnemyCharacter:UserConstructionScript.K2Node_FunctionEntry_3137' ref from Metadata '/Game/DelugeBP/Blueprints/Enemy/BaseEnemyCharacter.PackageMetaData'
+[2016.02.25-13.06.49:323][791]LogSavePackage: Save=55.578476ms
+[2016.02.25-13.06.49:323][791]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BaseEnemyCharacterC18DA66A4434617A5334BC99C184A9F1.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Enemy/BaseEnemyCharacter.uasset'
+[2016.02.25-13.06.49:328][791]LogSavePackage: Total save time: 61.155863ms
+[2016.02.25-13.06.49:329][791]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Enemy/BaseEnemyCharacter.uasset
+[2016.02.25-13.06.49:370][791]LogSavePackage: Save=14.530285ms
+[2016.02.25-13.06.49:370][791]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BaseEnemyCharacter208FAD4E4DE9DF3B5B43E4983C36C884.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Enemy/BaseEnemyCharacter.uasset'
+[2016.02.25-13.06.49:375][791]LogSavePackage: Total save time: 31.833593ms
+[2016.02.25-13.06.49:375][791]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Enemy/BaseEnemyCharacter.uasset
+[2016.02.25-13.06.52:274][901]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.02.25-13.06.52:274][901]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.25-13.06.52:275][901]PIE: New page: PIE session: FirstPersonExampleMap (Feb 25, 2016, 3:06:52 PM)
+[2016.02.25-13.06.52:275][901]LogPlayLevel: Creating play world package: /Game/DelugeBP/Maps/UEDPIE_1_FirstPersonExampleMap
+[2016.02.25-13.06.52:323][901]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048635s)
+[2016.02.25-13.06.52:325][901]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.02.25-13.06.52:326][901]LogPlayLevel: PIE: World Init took: (0.002341s)
+[2016.02.25-13.06.52:326][901]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/DelugeBP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap (0.051409s)
+[2016.02.25-13.06.52:326][901]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.25-13.06.52:326][901]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.02.25-13.06.52:389][901]LogWorld: Game class is 'TestingGameMode_C'
+[2016.02.25-13.06.52:398][901]LogWorld: Bringing World /Game/DelugeBP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.02.25-14.06.52
+[2016.02.25-13.06.52:399][901]LogActor:Warning: GameSession /Game/DelugeBP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-13.06.52:399][901]LogActor:Warning: GameNetworkManager /Game/DelugeBP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_22 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-13.06.52:401][901]LogWorld: Bringing up level for play took: 0.010362
+[2016.02.25-13.06.52:401][901]LogActor:Warning: RecastNavMesh /Game/DelugeBP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.RecastNavMesh_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-13.06.52:402][901]LogInit: WinSock: Socket queue 131072 / 131072
+[2016.02.25-13.06.52:402][901]LogNet: GameNetDriver IpNetDriver_57 IpNetDriver listening on port 7777
+[2016.02.25-13.06.52:402][901]PIE: Info Play in editor start time for /Game/DelugeBP/Maps/UEDPIE_1_FirstPersonExampleMap 1.11
+[2016.02.25-13.06.52:409][901]PIE: New page: PIE session: FirstPersonExampleMap (Feb 25, 2016, 3:06:52 PM)
+[2016.02.25-13.06.52:426][901]LogInit: XAudio2 using 'Lautsprecher (Logitech G330 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.25-13.06.52:450][901]LogInit: FAudioDevice initialized.
+[2016.02.25-13.06.52:493][901]LogNet: Browse: 127.0.0.1//Game/FirstPersonBP/Maps/FirstPersonExampleMap
+[2016.02.25-13.06.52:494][901]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.02.25-13.06.52:494][901]LogNet: Game client on port 7777, rate 10000
+[2016.02.25-13.06.52:494][901]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: deluge, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 860841524
+[2016.02.25-13.06.52:494][901]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/FirstPersonExampleMap 1.202
+[2016.02.25-13.06.52:501][901]PIE: New page: PIE session: FirstPersonExampleMap (Feb 25, 2016, 3:06:52 PM)
+[2016.02.25-13.06.52:619][901]LogNet: Browse: 127.0.0.1//Game/FirstPersonBP/Maps/FirstPersonExampleMap
+[2016.02.25-13.06.52:619][901]LogInit: WinSock: Socket queue 32768 / 32768
+[2016.02.25-13.06.52:620][901]LogNet: Game client on port 7777, rate 10000
+[2016.02.25-13.06.52:620][901]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: deluge, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 860841524
+[2016.02.25-13.06.52:675][901]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/FirstPersonExampleMap 1.382
+[2016.02.25-13.06.52:681][901]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.02.25-13.06.52:682][901]LogNet: NotifyAcceptingConnection: Server FirstPersonExampleMap accept
+[2016.02.25-13.06.52:682][901]LogNet: Open FirstPersonExampleMap 02/25/16 14:06:52 127.0.0.1
+[2016.02.25-13.06.52:682][901]LogNet: Added client connection.  Remote address = 127.0.0.1:62250
+[2016.02.25-13.06.52:682][901]LogNet: NotifyAcceptingChannel Control 0 server World /Game/DelugeBP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap: Accepted
+[2016.02.25-13.06.52:682][901]LogNet: Remote platform little endian=1
+[2016.02.25-13.06.52:682][901]LogNet: This platform little endian=1
+[2016.02.25-13.06.52:682][901]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: deluge, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 860841524
+[2016.02.25-13.06.52:682][901]LogNet: NotifyAcceptingConnection: Server FirstPersonExampleMap accept
+[2016.02.25-13.06.52:682][901]LogNet: Open FirstPersonExampleMap 02/25/16 14:06:52 127.0.0.1
+[2016.02.25-13.06.52:682][901]LogNet: Added client connection.  Remote address = 127.0.0.1:62251
+[2016.02.25-13.06.52:682][901]LogNet: NotifyAcceptingChannel Control 0 server World /Game/DelugeBP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap: Accepted
+[2016.02.25-13.06.52:682][901]LogNet: Remote platform little endian=1
+[2016.02.25-13.06.52:682][901]LogNet: This platform little endian=1
+[2016.02.25-13.06.52:682][901]LogNet: GetLocalNetworkVersion: GEngineNetVersion: 2872498, ProjectName: deluge, ProjectVersion: 1.0.0.0, InternalProtocolVersion: 9, LocalNetworkVersion: 860841524
+[2016.02.25-13.06.52:716][902]LogNet: Login request: /Game/FirstPersonBP/Maps/FirstPersonExampleMap userId: Invalid
+[2016.02.25-13.06.52:716][902]LogNet: Login request: /Game/FirstPersonBP/Maps/FirstPersonExampleMap userId: Invalid
+[2016.02.25-13.06.52:718][902]LogNet: Welcomed by server (Level: /Game/DelugeBP/Maps/UEDPIE_1_FirstPersonExampleMap, Game: /Game/DelugeBP/Blueprints/GameModes/TestingGameMode.TestingGameMode_C)
+[2016.02.25-13.06.52:719][902]LogLoad: LoadMap: 127.0.0.1//Game/DelugeBP/Maps/UEDPIE_1_FirstPersonExampleMap?game=/Game/DelugeBP/Blueprints/GameModes/TestingGameMode.TestingGameMode_C
+[2016.02.25-13.06.52:779][902]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000282B776F20
+[2016.02.25-13.06.52:780][902]Cmd: MEM
+[2016.02.25-13.06.52:838][902]LogMemory: Platform Memory Stats for Windows
+[2016.02.25-13.06.52:838][902]LogMemory: Process Physical Memory: 2446.85 MB used, 2459.01 MB peak
+[2016.02.25-13.06.52:838][902]LogMemory: Process Virtual Memory: 4130.81 MB used, 4130.81 MB peak
+[2016.02.25-13.06.52:838][902]LogMemory: Physical Memory: 4983.37 MB used, 8190.11 MB total
+[2016.02.25-13.06.52:838][902]LogMemory: Virtual Memory: 5009.21 MB used, 134217728.00 MB total
+[2016.02.25-13.06.52:838][902]LogMemory: 
+[2016.02.25-13.06.52:838][902]Allocator Stats for TBB: (not implemented)
+[2016.02.25-13.06.52:887][902]LogWorld: PIE: Copying PIE streaming level from /Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/DelugeBP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap. OwningWorld: None
+[2016.02.25-13.06.52:889][902]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.02.25-13.06.52:900][902]LogWorld: Bringing World /Game/DelugeBP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.02.25-14.06.52
+[2016.02.25-13.06.52:900][902]LogWorld: Bringing up level for play took: 0.009613
+[2016.02.25-13.06.52:901][902]LogNet: Welcomed by server (Level: /Game/DelugeBP/Maps/UEDPIE_1_FirstPersonExampleMap, Game: /Game/DelugeBP/Blueprints/GameModes/TestingGameMode.TestingGameMode_C)
+[2016.02.25-13.06.52:928][902]LogLoad: LoadMap: 127.0.0.1//Game/DelugeBP/Maps/UEDPIE_1_FirstPersonExampleMap?game=/Game/DelugeBP/Blueprints/GameModes/TestingGameMode.TestingGameMode_C
+[2016.02.25-13.06.52:980][902]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000282B774D60
+[2016.02.25-13.06.52:987][902]Cmd: MEM
+[2016.02.25-13.06.53:041][902]LogMemory: Platform Memory Stats for Windows
+[2016.02.25-13.06.53:042][902]LogMemory: Process Physical Memory: 2463.49 MB used, 2474.97 MB peak
+[2016.02.25-13.06.53:042][902]LogMemory: Process Virtual Memory: 4218.69 MB used, 4218.69 MB peak
+[2016.02.25-13.06.53:042][902]LogMemory: Physical Memory: 5004.36 MB used, 8190.11 MB total
+[2016.02.25-13.06.53:042][902]LogMemory: Virtual Memory: 5073.33 MB used, 134217728.00 MB total
+[2016.02.25-13.06.53:042][902]LogMemory: 
+[2016.02.25-13.06.53:042][902]Allocator Stats for TBB: (not implemented)
+[2016.02.25-13.06.53:087][902]LogWorld: PIE: Copying PIE streaming level from /Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/DelugeBP/Maps/UEDPIE_3_FirstPersonExampleMap.FirstPersonExampleMap. OwningWorld: None
+[2016.02.25-13.06.53:089][902]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.02.25-13.06.53:099][902]LogWorld: Bringing World /Game/DelugeBP/Maps/UEDPIE_3_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.02.25-14.06.53
+[2016.02.25-13.06.53:100][902]LogWorld: Bringing up level for play took: 0.008703
+[2016.02.25-13.06.53:131][903]LogNet: Client netspeed is 10000
+[2016.02.25-13.06.53:131][903]LogNet: Join request: /Game/FirstPersonBP/Maps/FirstPersonExampleMap?SplitscreenCount=1
+[2016.02.25-13.06.53:137][903]LogNet: Join succeeded: 294
+[2016.02.25-13.06.53:137][903]LogNet: Client netspeed is 10000
+[2016.02.25-13.06.53:137][903]LogNet: Join request: /Game/FirstPersonBP/Maps/FirstPersonExampleMap?SplitscreenCount=1
+[2016.02.25-13.06.53:142][903]LogNet: Join succeeded: 295
+[2016.02.25-13.06.54:651][952]LogBlueprintUserMessages: [TestingGameMode_C_10] Server: BasePlayerCharacter18 gives Damage  1.0 to Wall4
+[2016.02.25-13.06.54:855][959]LogBlueprintUserMessages: [TestingGameMode_C_10] Server: BasePlayerCharacter18 gives Damage  1.0 to BaseEnemyCharacter3
+[2016.02.25-13.06.55:054][966]LogBlueprintUserMessages: [TestingGameMode_C_10] Server: BasePlayerCharacter18 gives Damage  1.0 to BaseEnemyCharacter3
+[2016.02.25-13.06.55:054][966]LogBlueprintUserMessages: [TestingGameMode_C_10] Server: BaseEnemyCharacter3 died!!
+[2016.02.25-13.06.55:263][973]LogBlueprintUserMessages: [TestingGameMode_C_10] Server: BasePlayerCharacter18 gives Damage  1.0 to Wall4
+[2016.02.25-13.06.55:441][979]LogBlueprintUserMessages: [TestingGameMode_C_10] Server: BasePlayerCharacter18 gives Damage  1.0 to Wall4
+[2016.02.25-13.06.56:007][997]LogBlueprintUserMessages: [TestingGameMode_C_10] Server: BasePlayerCharacter18 gives Damage  1.0 to Wall4
+[2016.02.25-13.06.56:221][  4]LogBlueprintUserMessages: [TestingGameMode_C_10] Server: BasePlayerCharacter18 gives Damage  1.0 to BaseEnemyCharacter2
+[2016.02.25-13.06.56:403][ 10]LogBlueprintUserMessages: [TestingGameMode_C_10] Server: BasePlayerCharacter18 gives Damage  1.0 to BaseEnemyCharacter2
+[2016.02.25-13.06.56:403][ 10]LogBlueprintUserMessages: [TestingGameMode_C_10] Server: BaseEnemyCharacter2 died!!
+[2016.02.25-13.06.56:915][ 26]LogBlueprintUserMessages: [TestingGameMode_C_10] Server: BasePlayerCharacter18 gives Damage  1.0 to BaseEnemyCharacter
+[2016.02.25-13.06.57:129][ 33]LogBlueprintUserMessages: [TestingGameMode_C_10] Server: BasePlayerCharacter18 gives Damage  1.0 to BaseEnemyCharacter
+[2016.02.25-13.06.57:130][ 33]LogBlueprintUserMessages: [TestingGameMode_C_10] Server: BaseEnemyCharacter died!!
+[2016.02.25-13.06.57:319][ 39]LogBlueprintUserMessages: [TestingGameMode_C_10] Server: BasePlayerCharacter18 gives Damage  1.0 to Wall4
+[2016.02.25-13.06.58:223][ 68]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.02.25-13.06.58:380][ 68]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.02.25-13.06.58:424][ 68]LogNet: UChannel::CleanUp: [GameNetDriver] [BasePlayerController_C_4] [BasePlayerController_C_4]. ChIndex == 0. Closing connection.
+[2016.02.25-13.06.58:424][ 68]LogNet: UNetConnection::Close: Name: IpConnection_77, Driver: GameNetDriver IpNetDriver_59, PC: BasePlayerController_C_4, Owner: BasePlayerController_C_4, Channels: 14, RemoteAddr: 127.0.0.1:7777, Time: 2016.02.25-13.06.58
+[2016.02.25-13.06.58:424][ 68]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_77
+[2016.02.25-13.06.58:427][ 68]LogNet: UChannel::CleanUp: [GameNetDriver] [BasePlayerController_C_3] [BasePlayerController_C_3]. ChIndex == 0. Closing connection.
+[2016.02.25-13.06.58:427][ 68]LogNet: UNetConnection::Close: Name: IpConnection_76, Driver: GameNetDriver IpNetDriver_58, PC: BasePlayerController_C_3, Owner: BasePlayerController_C_3, Channels: 14, RemoteAddr: 127.0.0.1:7777, Time: 2016.02.25-13.06.58
+[2016.02.25-13.06.58:427][ 68]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_76
+[2016.02.25-13.06.58:429][ 68]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.02.25-13.06.58:429][ 68]LogNet: UNetConnection::Close: Name: IpConnection_79, Driver: GameNetDriver IpNetDriver_57, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:62251, Time: 2016.02.25-13.06.58
+[2016.02.25-13.06.58:429][ 68]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_79
+[2016.02.25-13.06.58:429][ 68]LogNet: UChannel::CleanUp: [GameNetDriver] [None] [None]. ChIndex == 0. Closing connection.
+[2016.02.25-13.06.58:429][ 68]LogNet: UNetConnection::Close: Name: None, Driver: GameNetDriver IpNetDriver_57, PC: None, Owner: None, Channels: 2, RemoteAddr: 127.0.0.1:62250, Time: 2016.02.25-13.06.58
+[2016.02.25-13.06.58:429][ 68]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: ControlChannel_78
+[2016.02.25-13.06.58:436][ 68]LogExit: GameNetDriver None shut down
+[2016.02.25-13.06.58:437][ 68]LogExit: GameNetDriver None shut down
+[2016.02.25-13.06.58:439][ 68]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000028965685E0
+[2016.02.25-13.06.58:441][ 68]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000027D27FEAC0
+[2016.02.25-13.06.58:441][ 68]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000027DBFE7600
+[2016.02.25-13.06.58:441][ 68]LogExit: GameNetDriver None shut down
+[2016.02.25-13.07.18:908][891]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.02.25-13.07.21:339][891]LogSavePackage: Save=1595.400879ms
+[2016.02.25-13.07.21:339][891]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/FirstPersonExampleMapB396E28D47997559305210A8D9A8FB1F.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Maps/FirstPersonExampleMap.umap'
+[2016.02.25-13.07.21:349][891]LogSavePackage: Total save time: 2383.852486ms
+[2016.02.25-13.07.21:349][891]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Maps/FirstPersonExampleMap.umap
+[2016.02.25-13.07.22:508][929]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.02.25-13.07.22:646][929]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.02.25-13.07.22:765][929]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.02.25-13.07.22:878][929]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.02.25-13.07.22:966][929]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.02.25-13.07.23:054][929]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.02.25-13.07.23:593][958]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000027DD221300
+[2016.02.25-13.07.23:600][958]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002826B723E0
+[2016.02.25-13.07.23:605][958]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000027852A5F80
+[2016.02.25-13.07.23:611][958]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000027DD9B5DA0
+[2016.02.25-13.07.23:612][958]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000283D27D6C0
+[2016.02.25-13.07.23:614][958]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002863BF5080
+[2016.02.25-13.07.23:615][958]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000283CF9D8A0
+[2016.02.25-13.07.23:834][958]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.02.25-13.07.24:256][959]Cmd: QUIT_EDITOR
+[2016.02.25-13.07.24:929][959]LogExit: Preparing to exit.
+[2016.02.25-13.07.25:817][959]LogExit: Editor shut down
+[2016.02.25-13.07.25:818][959]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000027DD9B6020
+[2016.02.25-13.07.25:818][959]LogExit: Transaction tracking system shut down
+[2016.02.25-13.07.25:820][959]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000027A88D4180
+[2016.02.25-13.07.25:820][959]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000027E5CE6C00
+[2016.02.25-13.07.25:820][959]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000027E5DBFEC0
+[2016.02.25-13.07.25:823][959]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002862AEAFC0
+[2016.02.25-13.07.25:833][959]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000027DDD72160
+[2016.02.25-13.07.25:841][959]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000002785142E80
+[2016.02.25-13.07.27:269][959]LogExit: Object subsystem successfully closed.
+[2016.02.25-13.07.27:336][959]LogD3D11RHI: Shutdown
+[2016.02.25-13.07.27:336][959]LogD3D11RHI: CleanupD3DDevice
+[2016.02.25-13.07.27:587][959]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.02.25-13.07.27:982][959]LogModuleManager: Shutting down and abandoning module CookingStats (200)
+[2016.02.25-13.07.27:982][959]LogModuleManager: Shutting down and abandoning module BlueprintGraph (199)
+[2016.02.25-13.07.27:982][959]LogModuleManager: Shutting down and abandoning module StatsViewer (198)
+[2016.02.25-13.07.28:000][959]LogModuleManager: Shutting down and abandoning module CrashTracker (197)
+[2016.02.25-13.07.28:000][959]LogModuleManager: Shutting down and abandoning module SceneOutliner (196)
+[2016.02.25-13.07.28:000][959]LogModuleManager: Shutting down and abandoning module SuperSearch (195)
+[2016.02.25-13.07.28:000][959]LogModuleManager: Shutting down and abandoning module WidgetCarousel (194)
+[2016.02.25-13.07.28:000][959]LogModuleManager: Shutting down and abandoning module AddContentDialog (193)
+[2016.02.25-13.07.28:022][959]LogModuleManager: Shutting down and abandoning module EditorWidgets (192)
+[2016.02.25-13.07.28:022][959]LogModuleManager: Shutting down and abandoning module CollectionManager (191)
+[2016.02.25-13.07.28:030][959]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2016.02.25-13.07.28:038][959]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2016.02.25-13.07.28:064][959]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2016.02.25-13.07.28:064][959]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2016.02.25-13.07.28:064][959]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2016.02.25-13.07.28:064][959]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2016.02.25-13.07.28:064][959]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2016.02.25-13.07.28:064][959]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2016.02.25-13.07.28:064][959]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2016.02.25-13.07.28:064][959]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2016.02.25-13.07.28:064][959]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2016.02.25-13.07.28:064][959]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2016.02.25-13.07.28:083][959]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2016.02.25-13.07.28:092][959]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2016.02.25-13.07.28:113][959]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2016.02.25-13.07.28:113][959]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2016.02.25-13.07.28:119][959]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2016.02.25-13.07.28:119][959]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2016.02.25-13.07.28:937][959]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2016.02.25-13.07.28:937][959]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2016.02.25-13.07.28:937][959]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2016.02.25-13.07.28:937][959]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2016.02.25-13.07.28:949][959]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2016.02.25-13.07.28:949][959]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2016.02.25-13.07.28:949][959]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2016.02.25-13.07.28:949][959]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2016.02.25-13.07.28:949][959]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2016.02.25-13.07.28:953][959]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2016.02.25-13.07.28:953][959]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2016.02.25-13.07.28:963][959]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2016.02.25-13.07.28:963][959]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2016.02.25-13.07.28:969][959]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2016.02.25-13.07.28:969][959]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2016.02.25-13.07.28:969][959]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2016.02.25-13.07.28:969][959]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2016.02.25-13.07.28:970][959]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2016.02.25-13.07.28:970][959]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2016.02.25-13.07.28:981][959]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2016.02.25-13.07.28:981][959]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2016.02.25-13.07.28:985][959]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2016.02.25-13.07.28:990][959]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2016.02.25-13.07.29:000][959]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2016.02.25-13.07.29:000][959]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2016.02.25-13.07.29:000][959]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2016.02.25-13.07.29:006][959]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2016.02.25-13.07.29:012][959]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2016.02.25-13.07.29:020][959]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2016.02.25-13.07.29:034][959]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2016.02.25-13.07.29:034][959]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2016.02.25-13.07.29:034][959]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2016.02.25-13.07.29:034][959]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2016.02.25-13.07.29:041][959]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2016.02.25-13.07.29:052][959]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2016.02.25-13.07.29:052][959]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2016.02.25-13.07.29:054][959]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2016.02.25-13.07.29:054][959]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2016.02.25-13.07.29:054][959]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2016.02.25-13.07.29:059][959]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2016.02.25-13.07.29:059][959]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2016.02.25-13.07.29:059][959]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2016.02.25-13.07.29:060][959]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2016.02.25-13.07.29:060][959]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2016.02.25-13.07.29:060][959]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2016.02.25-13.07.29:060][959]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2016.02.25-13.07.29:060][959]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2016.02.25-13.07.29:061][959]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2016.02.25-13.07.29:061][959]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2016.02.25-13.07.29:061][959]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2016.02.25-13.07.29:204][959]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2016.02.25-13.07.29:219][959]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.02.25-13.07.29:219][959]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.02.25-13.07.29:219][959]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.02.25-13.07.29:219][959]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.02.25-13.07.29:219][959]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2016.02.25-13.07.29:219][959]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2016.02.25-13.07.29:219][959]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.02.25-13.07.29:247][959]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.02.25-13.07.29:247][959]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.02.25-13.07.29:247][959]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.02.25-13.07.29:247][959]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.02.25-13.07.29:268][959]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.02.25-13.07.29:278][959]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.02.25-13.07.29:278][959]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.02.25-13.07.29:278][959]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.02.25-13.07.29:293][959]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.02.25-13.07.29:294][959]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.02.25-13.07.29:294][959]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.02.25-13.07.29:294][959]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.02.25-13.07.29:294][959]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.02.25-13.07.29:294][959]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.02.25-13.07.29:303][959]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.02.25-13.07.29:320][959]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.02.25-13.07.29:327][959]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.02.25-13.07.29:327][959]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.02.25-13.07.29:327][959]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.02.25-13.07.29:327][959]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.02.25-13.07.29:327][959]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.02.25-13.07.29:336][959]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.02.25-13.07.29:336][959]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.02.25-13.07.29:336][959]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.02.25-13.07.29:344][959]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.02.25-13.07.29:351][959]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.02.25-13.07.29:543][959]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.02.25-13.07.29:545][959]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.02.25-13.07.29:562][959]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.02.25-13.07.29:664][959]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.02.25-13.07.29:664][959]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.02.25-13.07.29:720][959]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.02.25-13.07.29:728][959]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.02.25-13.07.29:728][959]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.02.25-13.07.29:728][959]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.02.25-13.07.29:728][959]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.02.25-13.07.29:728][959]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.02.25-13.07.29:728][959]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.02.25-13.07.29:776][959]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.02.25-13.07.29:776][959]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.02.25-13.07.29:781][959]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.02.25-13.07.29:781][959]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.02.25-13.07.29:781][959]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.02.25-13.07.29:860][959]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.02.25-13.07.29:908][959]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.02.25-13.07.29:929][959]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.02.25-13.07.29:944][959]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.02.25-13.07.29:944][959]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.02.25-13.07.29:948][959]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.02.25-13.07.29:948][959]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.02.25-13.07.29:948][959]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.02.25-13.07.29:948][959]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.02.25-13.07.29:948][959]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.02.25-13.07.29:948][959]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.02.25-13.07.29:948][959]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.02.25-13.07.29:948][959]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.02.25-13.07.29:948][959]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.02.25-13.07.29:965][959]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.02.25-13.07.30:009][959]LogDerivedDataCache: Shutdown
+[2016.02.25-13.07.30:009][959]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.02.25-13.07.30:009][959]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.02.25-13.07.30:009][959]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.02.25-13.07.30:009][959]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.02.25-13.07.30:009][959]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.02.25-13.07.30:009][959]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.02.25-13.07.30:009][959]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.02.25-13.07.30:009][959]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.02.25-13.07.30:010][959]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.02.25-13.07.30:010][959]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.02.25-13.07.30:010][959]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.02.25-13.07.30:046][959]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.02.25-13.07.30:046][959]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.02.25-13.07.30:047][959]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.02.25-13.07.30:047][959]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.02.25-13.07.30:047][959]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.02.25-13.07.30:047][959]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.02.25-13.07.30:047][959]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.02.25-13.07.30:047][959]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.02.25-13.07.30:047][959]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.02.25-13.07.30:047][959]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.02.25-13.07.30:047][959]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.02.25-13.07.30:047][959]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.02.25-13.07.30:047][959]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.02.25-13.07.30:047][959]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.02.25-13.07.30:047][959]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.02.25-13.07.30:047][959]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.02.25-13.07.30:047][959]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.02.25-13.07.30:047][959]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.02.25-13.07.30:047][959]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.02.25-13.07.30:047][959]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.02.25-13.07.30:047][959]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.02.25-13.07.30:047][959]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.02.25-13.07.30:047][959]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.02.25-13.07.30:047][959]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.02.25-13.07.30:047][959]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.02.25-13.07.30:047][959]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.02.25-13.07.31:049][959]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.02.25-13.07.31:073][959]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.02.25-13.07.31:076][959]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.02.25-13.07.31:076][959]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.02.25-13.07.31:076][959]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.02.25-13.07.31:076][959]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.02.25-13.07.31:076][959]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.02.25-13.07.31:096][959]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.02.25-13.07.31:101][959]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.02.25-13.07.31:101][959]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.02.25-13.07.31:101][959]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.02.25-13.07.31:101][959]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.02.25-13.07.31:101][959]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.02.25-13.07.31:101][959]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.02.25-13.07.31:101][959]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.02.25-13.07.31:101][959]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.02.25-13.07.31:101][959]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.02.25-13.07.31:139][959]LogExit: Exiting.
+[2016.02.25-13.07.31:152][959]Log file closed, 02/25/16 14:07:31
