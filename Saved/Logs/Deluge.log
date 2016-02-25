@@ -1,398 +1,784 @@
-﻿[2016.02.25-14.56.00:884][  0]Log file open, 02/25/16 15:56:00
-[2016.02.25-14.56.00:884][  0]LogInit:Display: Running engine for game: Deluge
-[2016.02.25-14.56.00:884][  0]LogPlatformFile: Not using cached read wrapper
-[2016.02.25-14.56.00:884][  0]LogInit:Display: RandInit(-455919589) SRandInit(-455919585).
-[2016.02.25-14.56.00:884][  0]LogTaskGraph: Started task graph with 4 named threads and 8 total threads.
-[2016.02.25-14.56.00:884][  0]LogStats: Stats thread started at 0.118446
-[2016.02.25-14.56.00:884][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
-[2016.02.25-14.56.00:884][  0]LogInit: API Version: 2758231
-[2016.02.25-14.56.00:884][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
-[2016.02.25-14.56.00:884][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
-[2016.02.25-14.56.00:884][  0]LogInit: Build Configuration: Development
-[2016.02.25-14.56.00:884][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
-[2016.02.25-14.56.00:884][  0]LogInit: Command line:  
-[2016.02.25-14.56.00:884][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.10/Engine/Binaries/Win64/
-[2016.02.25-14.56.00:884][  0]LogInit: Rocket: 1
-[2016.02.25-14.56.00:901][  0]LogInit: Using libcurl 7.41.0
-[2016.02.25-14.56.00:901][  0]LogInit:  - built for x86_64-pc-win32
-[2016.02.25-14.56.00:901][  0]LogInit:  - supports SSL with WinSSL
-[2016.02.25-14.56.00:901][  0]LogInit:  - other features:
-[2016.02.25-14.56.00:901][  0]LogInit:      CURL_VERSION_SSL
-[2016.02.25-14.56.00:901][  0]LogInit:      CURL_VERSION_IPV6
-[2016.02.25-14.56.00:901][  0]LogInit:      CURL_VERSION_ASYNCHDNS
-[2016.02.25-14.56.00:901][  0]LogInit:      CURL_VERSION_LARGEFILE
-[2016.02.25-14.56.00:901][  0]LogInit:      CURL_VERSION_IDN
-[2016.02.25-14.56.00:901][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
-[2016.02.25-14.56.00:901][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
-[2016.02.25-14.56.00:901][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
-[2016.02.25-14.56.00:901][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
-[2016.02.25-14.56.00:901][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-[2016.02.25-14.56.00:919][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2016.02.25-14.56.00:932][  0]LogInit: Object subsystem initialized
-[2016.02.25-14.56.00:934][  0]LogInit: Selected Device Profile: [Windows]
-[2016.02.25-14.56.00:934][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.02.25-14.56.00:952][  0]LogInit: Computer: DESKTOP-EQTRUAU
-[2016.02.25-14.56.00:952][  0]LogInit: User: mike
-[2016.02.25-14.56.00:952][  0]LogInit: CPU Page size=4096, Cores=6
-[2016.02.25-14.56.00:952][  0]LogInit: High frequency timer resolution =2.743580 MHz
-[2016.02.25-14.56.00:952][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
-[2016.02.25-14.56.00:952][  0]LogMemory: Platform Memory Stats for Windows
-[2016.02.25-14.56.00:952][  0]LogMemory: Process Physical Memory: 56.74 MB used, 56.74 MB peak
-[2016.02.25-14.56.00:952][  0]LogMemory: Process Virtual Memory: 56.81 MB used, 56.81 MB peak
-[2016.02.25-14.56.00:952][  0]LogMemory: Physical Memory: 4015.43 MB used, 8190.11 MB total
-[2016.02.25-14.56.00:952][  0]LogMemory: Virtual Memory: 379.41 MB used, 134217728.00 MB total
-[2016.02.25-14.56.01:017][  0]LogTextLocalizationManager: No translations for ('de-AT') exist, falling back to 'en' for localization and internationalization data.
-[2016.02.25-14.56.02:102][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 760 (Feature Level 11_0)
-[2016.02.25-14.56.02:102][  0]LogD3D11RHI: Adapter has 1989MB of dedicated video memory, 0MB of dedicated system memory, and 4095MB of shared system memory, 2 output[s]
-[2016.02.25-14.56.02:104][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
-[2016.02.25-14.56.02:104][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4095MB of shared system memory, 0 output[s]
-[2016.02.25-14.56.02:105][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2016.02.25-14.56.02:115][  0]LogD3D11RHI: !Direct3DDevice
-[2016.02.25-14.56.02:115][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2016.02.25-14.56.02:145][  0]LogD3D11RHI: Async texture creation enabled
-[2016.02.25-14.56.03:564][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Intermediate/Shaders/WorkingDirectory/7764/).
-[2016.02.25-14.56.03:564][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/mike/AppData/Local/Temp/UnrealShaderWorkingDir/E7C2E65A4E568913A0A72FAEF01C1B58/'.
-[2016.02.25-14.56.03:564][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2016.02.25-14.56.05:115][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2016.02.25-14.56.05:124][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2016.02.25-14.56.05:134][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2016.02.25-14.56.05:145][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2016.02.25-14.56.05:154][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2016.02.25-14.56.05:163][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2016.02.25-14.56.05:169][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2016.02.25-14.56.05:177][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2016.02.25-14.56.05:184][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2016.02.25-14.56.05:192][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2016.02.25-14.56.05:199][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2016.02.25-14.56.05:215][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2016.02.25-14.56.05:215][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2016.02.25-14.56.05:216][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2016.02.25-14.56.05:239][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2016.02.25-14.56.05:246][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2016.02.25-14.56.05:252][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2016.02.25-14.56.05:259][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2016.02.25-14.56.05:259][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.02.25-14.56.05:424][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.02.25-14.56.05:581][  0]LogDerivedDataCache: Loaded boot cache 0.16s 41MB C:/Users/mike/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
-[2016.02.25-14.56.05:581][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/mike/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
-[2016.02.25-14.56.05:582][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.02.25-14.56.05:582][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.02.25-14.56.05:582][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2016.02.25-14.56.05:582][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2016.02.25-14.56.05:701][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2016.02.25-14.56.05:714][  0]LogDerivedDataCache: Using Local data cache path C:/Users/mike/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2016.02.25-14.56.06:084][  0]LogInit: Selected Device Profile: [Windows]
-[2016.02.25-14.56.06:091][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2016.02.25-14.56.06:311][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2016.02.25-14.56.06:312][  0]LogMeshUtilities: No automatic mesh merging module available
-[2016.02.25-14.56.06:823][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2016.02.25-14.56.08:199][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2016.02.25-14.56.08:327][  0]LogAssetRegistry: FAssetRegistry took 0.0115 seconds to start up
-[2016.02.25-14.56.08:635][  0]SourceControl: Info Source control is disabled
-[2016.02.25-14.56.08:702][  0]SourceControl: Info Source control is disabled
-[2016.02.25-14.56.08:723][  0]SourceControl: Info Source control is disabled
-[2016.02.25-14.56.08:744][  0]SourceControl: Info Source control is disabled
-[2016.02.25-14.56.09:193][  0]LogObj: 28633 objects as part of root set at end of initial load.
-[2016.02.25-14.56.09:193][  0]LogUObjectAllocator: 6099744 out of 0 bytes used by permanent object pool.
-[2016.02.25-14.56.09:291][  0]LogEngine: Initializing Engine...
-[2016.02.25-14.56.09:295][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
-[2016.02.25-14.56.09:296][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2016.02.25-14.56.09:531][  0]LogAIModule: Creating AISystem for world NewWorld
-[2016.02.25-14.56.09:551][  0]LogInit: XAudio2 using 'Lautsprecher (Logitech G330 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2016.02.25-14.56.09:566][  0]LogInit: FAudioDevice initialized.
-[2016.02.25-14.56.09:641][  0]LogDerivedDataCache: Saved boot cache 0.07s 41MB C:/Users/mike/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
-[2016.02.25-14.56.09:665][  0]LogInit: Texture streaming: Enabled
-[2016.02.25-14.56.09:680][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2016.02.25-14.56.09:680][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
-[2016.02.25-14.56.09:680][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId e9c103cc4a7bfdb9667f4c93d4fe4a94|9965a4433f294ab4918ec7fd197501e9|b3429352-4a5d-4937-bcd4-644a47cc9371
-[2016.02.25-14.56.09:680][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
-[2016.02.25-14.56.09:696][  0]LogInit: Transaction tracking system initialized
-[2016.02.25-14.56.09:751][  0]BlueprintLog: New page: Editor Load
-[2016.02.25-14.56.09:916][  0]LocalizationService: Info Localization service is disabled
-[2016.02.25-14.56.10:063][  0]LogConsoleResponse:Display: 
-[2016.02.25-14.56.10:243][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2016.02.25-14.56.10:340][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mike/Documents/Unreal Projects/Deluge/Content/' took 0.03s
-[2016.02.25-14.56.10:350][  0]SourceControl: Info Source control is disabled
-[2016.02.25-14.56.10:350][  0]Cmd: MAP LOAD FILE="../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.02.25-14.56.10:351][  0]LogEditorServer:Warning: Can't find file '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
-[2016.02.25-14.56.10:351][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.02.25-14.56.10:415][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 64.321ms to complete.
-[2016.02.25-14.56.10:415][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.065
-[2016.02.25-14.56.10:584][  0]LogCollectionManager: Loaded 0 collections in 0.005339 seconds
-[2016.02.25-14.56.10:638][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mike/Documents/Unreal Projects/Deluge/Saved/Collections/' took 0.01s
-[2016.02.25-14.56.10:638][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mike/Documents/Unreal Projects/Deluge/Content/Developers/mike/Collections/' took 0.01s
-[2016.02.25-14.56.10:638][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mike/Documents/Unreal Projects/Deluge/Content/Collections/' took 0.01s
-[2016.02.25-14.56.10:638][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000005 seconds
-[2016.02.25-14.56.10:654][  0]LogContentBrowser: Native class hierarchy populated in 0.0153 seconds. Added 1893 classes and 338 folders.
-[2016.02.25-14.56.10:667][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2016.02.25-14.56.10:743][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2016.02.25-14.56.10:752][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2016.02.25-14.56.10:836][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2016.02.25-14.56.10:845][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2016.02.25-14.56.10:874][  0]LogLoad: Full Startup: 10.83 seconds (BP compile: 0.01 seconds)
-[2016.02.25-14.56.10:884][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2016.02.25-14.56.10:889][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
-[2016.02.25-14.56.10:944][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2016.02.25-14.56.11:201][  0]LogRenderer: Reallocating scene render targets to support 1112x580 (Frame:2).
-[2016.02.25-14.56.11:508][  5]LogAssetRegistry: Asset discovery search completed in 3.1924 seconds
-[2016.02.25-14.56.11:508][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2016.02.25-14.56.11:508][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000029 seconds (updated 0 objects)
-[2016.02.25-14.56.40:569][993]LogLinker:Warning: Can't find file '/Game/FirstPerson/FPWeapon/Mesh/SK_FPGun'
-[2016.02.25-14.56.40:570][993]LoadErrors: Info Failed to load /Game/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character_C Referenced by SWeapon_Base
-[2016.02.25-14.56.40:570][993]LogLinker: Can't find file '/Game/FirstPerson/FPWeapon/Mesh/SK_FPGun'
-[2016.02.25-14.56.40:616][993]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/DelugeBP/Blueprints/Weapon/BaseRifleWeapon.BaseRifleWeapon_C:UserConstructionScript; removing parent information, but keeping function
-[2016.02.25-14.56.41:081][993]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch 
-[2016.02.25-14.56.41:086][993]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0041.04] Compile of Ue4ASP_Character successful, but with 1 Warning(s) [in 12 ms]
-[2016.02.25-14.56.41:086][993]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0041.04] Compile of Ue4ASP_Character successful, but with 2 Warning(s) [in 0 ms]
-[2016.02.25-14.56.41:086][993]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0041.04] Compile of Ue4ASP_Character successful, but with 3 Warning(s) [in 0 ms]
-[2016.02.25-14.56.41:224][993]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch 
-[2016.02.25-14.56.41:230][993]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0041.18] Compile of Ue4ASP_Character successful, but with 1 Warning(s) [in 13 ms]
-[2016.02.25-14.56.41:230][993]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0041.19] Compile of Ue4ASP_Character successful, but with 2 Warning(s) [in 0 ms]
-[2016.02.25-14.56.41:232][993]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0041.19] Compile of Ue4ASP_Character successful, but with 3 Warning(s) [in 1 ms]
-[2016.02.25-14.57.04:325][463]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2016.02.25-14.57.04:449][463]Cmd: MAP LOAD FILE="../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.02.25-14.57.04:449][463]LightingResults: New page: Lighting Build
-[2016.02.25-14.57.04:455][463]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0008 seconds. Added 5 classes and 0 folders.
-[2016.02.25-14.57.04:490][463]LoadErrors: New page: Loading map: FirstPersonExampleMap.umap
-[2016.02.25-14.57.04:493][463]MapCheck: New page: Map Check
-[2016.02.25-14.57.04:493][463]LightingResults: New page: Lighting Build
-[2016.02.25-14.57.04:523][463]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000080A158EAC0
-[2016.02.25-14.57.04:659][463]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.02.25-14.57.04:728][463]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.02.25-14.57.04:869][463]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 139.743ms to complete.
-[2016.02.25-14.57.04:871][463]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.425
-[2016.02.25-14.57.05:636][495]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2016.02.25-14.57.05:636][495]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2016.02.25-14.57.05:637][495]PIE: New page: PIE session: FirstPersonExampleMap (Feb 25, 2016, 4:57:05 PM)
-[2016.02.25-14.57.05:637][495]LogPlayLevel: Creating play world package: /Game/DelugeBP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2016.02.25-14.57.05:722][495]LogPlayLevel: PIE: StaticDuplicateObject took: (0.084301s)
-[2016.02.25-14.57.05:725][495]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2016.02.25-14.57.05:725][495]LogPlayLevel: PIE: World Init took: (0.003291s)
-[2016.02.25-14.57.05:725][495]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/DelugeBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.088237s)
-[2016.02.25-14.57.05:781][495]LogInit: XAudio2 using 'Lautsprecher (Logitech G330 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2016.02.25-14.57.05:795][495]LogInit: FAudioDevice initialized.
-[2016.02.25-14.57.05:860][495]LogWorld: Game class is 'TestingGameMode_C'
-[2016.02.25-14.57.05:873][495]LogWorld: Bringing World /Game/DelugeBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.02.25-15.57.05
-[2016.02.25-14.57.05:873][495]LogActor:Warning: GameSession /Game/DelugeBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.02.25-14.57.05:873][495]LogActor:Warning: GameNetworkManager /Game/DelugeBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.02.25-14.57.05:877][495]LogWorld: Bringing up level for play took: 0.014133
-[2016.02.25-14.57.05:877][495]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_2's PathFollowingComponent
-[2016.02.25-14.57.05:877][495]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_1's PathFollowingComponent
-[2016.02.25-14.57.05:877][495]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_0's PathFollowingComponent
-[2016.02.25-14.57.05:884][495]PIE: Info Play in editor start time for /Game/DelugeBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.592
-[2016.02.25-14.57.05:884][495]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2016.02.25-14.57.15:086][ 66]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2016.02.25-14.57.15:134][ 66]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2016.02.25-14.57.15:170][ 66]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000080A584C5E0
-[2016.02.25-15.01.34:551][998]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2016.02.25-15.01.34:916][999]Cmd: QUIT_EDITOR
-[2016.02.25-15.01.35:923][999]LogExit: Preparing to exit.
-[2016.02.25-15.01.36:522][999]LogExit: Editor shut down
-[2016.02.25-15.01.36:523][999]LogExit: Transaction tracking system shut down
-[2016.02.25-15.01.36:524][999]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008094EBB740
-[2016.02.25-15.01.36:528][999]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000080C8FFA160
-[2016.02.25-15.01.36:831][999]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000080C8FF8CC0
-[2016.02.25-15.01.36:831][999]LogExit: Object subsystem successfully closed.
-[2016.02.25-15.01.36:845][999]LogD3D11RHI: Shutdown
-[2016.02.25-15.01.36:845][999]LogD3D11RHI: CleanupD3DDevice
-[2016.02.25-15.01.36:953][999]LogD3D11RHI: ~FD3D11DynamicRHI
-[2016.02.25-15.01.36:975][999]LogModuleManager: Shutting down and abandoning module StatsViewer (199)
-[2016.02.25-15.01.36:975][999]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (198)
-[2016.02.25-15.01.36:975][999]LogModuleManager: Shutting down and abandoning module CrashTracker (197)
-[2016.02.25-15.01.36:975][999]LogModuleManager: Shutting down and abandoning module SceneOutliner (196)
-[2016.02.25-15.01.36:975][999]LogModuleManager: Shutting down and abandoning module SuperSearch (195)
-[2016.02.25-15.01.36:975][999]LogModuleManager: Shutting down and abandoning module WidgetCarousel (194)
-[2016.02.25-15.01.36:975][999]LogModuleManager: Shutting down and abandoning module AddContentDialog (193)
-[2016.02.25-15.01.36:989][999]LogModuleManager: Shutting down and abandoning module EditorWidgets (192)
-[2016.02.25-15.01.36:989][999]LogModuleManager: Shutting down and abandoning module CollectionManager (191)
-[2016.02.25-15.01.36:989][999]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
-[2016.02.25-15.01.36:990][999]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
-[2016.02.25-15.01.36:990][999]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
-[2016.02.25-15.01.36:990][999]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
-[2016.02.25-15.01.36:990][999]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
-[2016.02.25-15.01.36:990][999]LogModuleManager: Shutting down and abandoning module BspMode (185)
-[2016.02.25-15.01.36:990][999]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
-[2016.02.25-15.01.36:990][999]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
-[2016.02.25-15.01.36:990][999]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
-[2016.02.25-15.01.36:990][999]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
-[2016.02.25-15.01.36:990][999]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
-[2016.02.25-15.01.36:990][999]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
-[2016.02.25-15.01.36:990][999]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
-[2016.02.25-15.01.36:990][999]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
-[2016.02.25-15.01.36:990][999]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
-[2016.02.25-15.01.36:990][999]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
-[2016.02.25-15.01.36:990][999]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
-[2016.02.25-15.01.36:990][999]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
-[2016.02.25-15.01.37:322][999]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
-[2016.02.25-15.01.37:322][999]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
-[2016.02.25-15.01.37:322][999]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
-[2016.02.25-15.01.37:322][999]LogModuleManager: Shutting down and abandoning module MergeActors (169)
-[2016.02.25-15.01.37:322][999]LogModuleManager: Shutting down and abandoning module SizeMap (168)
-[2016.02.25-15.01.37:323][999]LogModuleManager: Shutting down and abandoning module TreeMap (167)
-[2016.02.25-15.01.37:323][999]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
-[2016.02.25-15.01.37:323][999]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
-[2016.02.25-15.01.37:323][999]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
-[2016.02.25-15.01.37:323][999]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
-[2016.02.25-15.01.37:323][999]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
-[2016.02.25-15.01.37:323][999]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
-[2016.02.25-15.01.37:323][999]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
-[2016.02.25-15.01.37:323][999]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
-[2016.02.25-15.01.37:323][999]LogModuleManager: Shutting down and abandoning module XmlParser (158)
-[2016.02.25-15.01.37:323][999]LogModuleManager: Shutting down and abandoning module Blutility (157)
-[2016.02.25-15.01.37:323][999]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
-[2016.02.25-15.01.37:323][999]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
-[2016.02.25-15.01.37:323][999]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
-[2016.02.25-15.01.37:323][999]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
-[2016.02.25-15.01.37:323][999]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
-[2016.02.25-15.01.37:323][999]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
-[2016.02.25-15.01.37:323][999]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
-[2016.02.25-15.01.37:323][999]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
-[2016.02.25-15.01.37:323][999]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
-[2016.02.25-15.01.37:323][999]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
-[2016.02.25-15.01.37:324][999]LogModuleManager: Shutting down and abandoning module AutomationController (146)
-[2016.02.25-15.01.37:324][999]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
-[2016.02.25-15.01.37:324][999]LogModuleManager: Shutting down and abandoning module Layers (144)
-[2016.02.25-15.01.37:324][999]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
-[2016.02.25-15.01.37:324][999]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
-[2016.02.25-15.01.37:324][999]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
-[2016.02.25-15.01.37:324][999]LogModuleManager: Shutting down and abandoning module Persona (140)
-[2016.02.25-15.01.37:324][999]LogModuleManager: Shutting down and abandoning module Kismet (139)
-[2016.02.25-15.01.37:324][999]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
-[2016.02.25-15.01.37:324][999]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
-[2016.02.25-15.01.37:324][999]LogModuleManager: Shutting down and abandoning module Toolbox (136)
-[2016.02.25-15.01.37:324][999]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
-[2016.02.25-15.01.37:324][999]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
-[2016.02.25-15.01.37:324][999]LogModuleManager: Shutting down and abandoning module OutputLog (133)
-[2016.02.25-15.01.37:324][999]LogModuleManager: Shutting down and abandoning module GammaUI (132)
-[2016.02.25-15.01.37:324][999]LogModuleManager: Shutting down and abandoning module Documentation (131)
-[2016.02.25-15.01.37:324][999]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
-[2016.02.25-15.01.37:324][999]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
-[2016.02.25-15.01.37:324][999]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
-[2016.02.25-15.01.37:324][999]LogModuleManager: Shutting down and abandoning module Analytics (127)
-[2016.02.25-15.01.37:324][999]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
-[2016.02.25-15.01.37:324][999]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
-[2016.02.25-15.01.37:324][999]LogModuleManager: Shutting down and abandoning module AIModule (124)
-[2016.02.25-15.01.37:324][999]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
-[2016.02.25-15.01.37:551][999]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
-[2016.02.25-15.01.37:551][999]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
-[2016.02.25-15.01.37:551][999]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
-[2016.02.25-15.01.37:551][999]LogModuleManager: Shutting down and abandoning module SteamVR (119)
-[2016.02.25-15.01.37:551][999]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
-[2016.02.25-15.01.37:551][999]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
-[2016.02.25-15.01.37:551][999]LogModuleManager: Shutting down and abandoning module OculusInput (116)
-[2016.02.25-15.01.37:551][999]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
-[2016.02.25-15.01.37:582][999]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
-[2016.02.25-15.01.37:582][999]LogModuleManager: Shutting down and abandoning module CableComponent (113)
-[2016.02.25-15.01.37:582][999]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
-[2016.02.25-15.01.37:582][999]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
-[2016.02.25-15.01.37:582][999]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
-[2016.02.25-15.01.37:582][999]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
-[2016.02.25-15.01.37:582][999]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
-[2016.02.25-15.01.37:582][999]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
-[2016.02.25-15.01.37:582][999]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
-[2016.02.25-15.01.37:582][999]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
-[2016.02.25-15.01.37:582][999]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
-[2016.02.25-15.01.37:582][999]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
-[2016.02.25-15.01.37:582][999]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
-[2016.02.25-15.01.37:582][999]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
-[2016.02.25-15.01.37:582][999]LogModuleManager: Shutting down and abandoning module SourceControl (100)
-[2016.02.25-15.01.37:583][999]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
-[2016.02.25-15.01.37:583][999]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
-[2016.02.25-15.01.37:583][999]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
-[2016.02.25-15.01.37:583][999]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
-[2016.02.25-15.01.37:583][999]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
-[2016.02.25-15.01.37:583][999]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
-[2016.02.25-15.01.37:583][999]LogModuleManager: Shutting down and abandoning module HotReload (93)
-[2016.02.25-15.01.37:583][999]LogModuleManager: Shutting down and abandoning module MainFrame (92)
-[2016.02.25-15.01.37:583][999]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
-[2016.02.25-15.01.37:585][999]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
-[2016.02.25-15.01.37:586][999]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
-[2016.02.25-15.01.37:754][999]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
-[2016.02.25-15.01.37:756][999]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
-[2016.02.25-15.01.37:756][999]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
-[2016.02.25-15.01.37:861][999]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
-[2016.02.25-15.01.37:861][999]LogModuleManager: Shutting down and abandoning module Paper2D (84)
-[2016.02.25-15.01.37:861][999]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
-[2016.02.25-15.01.37:869][999]LogModuleManager: Shutting down and abandoning module Media (82)
-[2016.02.25-15.01.37:869][999]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
-[2016.02.25-15.01.37:869][999]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
-[2016.02.25-15.01.37:869][999]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
-[2016.02.25-15.01.37:869][999]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
-[2016.02.25-15.01.37:869][999]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
-[2016.02.25-15.01.37:869][999]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
-[2016.02.25-15.01.37:869][999]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
-[2016.02.25-15.01.37:869][999]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
-[2016.02.25-15.01.37:869][999]LogModuleManager: Shutting down and abandoning module MessageLog (73)
-[2016.02.25-15.01.37:869][999]LogModuleManager: Shutting down and abandoning module Sequencer (72)
-[2016.02.25-15.01.37:869][999]LogModuleManager: Shutting down and abandoning module AssetTools (71)
-[2016.02.25-15.01.37:869][999]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
-[2016.02.25-15.01.37:870][999]LogModuleManager: Shutting down and abandoning module UMG (69)
-[2016.02.25-15.01.37:870][999]LogModuleManager: Shutting down and abandoning module Slate (68)
-[2016.02.25-15.01.37:870][999]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
-[2016.02.25-15.01.37:873][999]LogModuleManager: Shutting down and abandoning module SessionServices (66)
-[2016.02.25-15.01.37:873][999]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
-[2016.02.25-15.01.37:873][999]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
-[2016.02.25-15.01.37:873][999]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
-[2016.02.25-15.01.37:873][999]LogModuleManager: Shutting down and abandoning module Networking (61)
-[2016.02.25-15.01.37:873][999]LogModuleManager: Shutting down and abandoning module Core (60)
-[2016.02.25-15.01.37:873][999]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
-[2016.02.25-15.01.37:873][999]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
-[2016.02.25-15.01.37:873][999]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
-[2016.02.25-15.01.37:873][999]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
-[2016.02.25-15.01.37:963][999]LogDerivedDataCache: Shutdown
-[2016.02.25-15.01.37:963][999]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
-[2016.02.25-15.01.37:964][999]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
-[2016.02.25-15.01.37:964][999]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
-[2016.02.25-15.01.37:964][999]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
-[2016.02.25-15.01.37:964][999]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
-[2016.02.25-15.01.37:964][999]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
-[2016.02.25-15.01.37:964][999]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
-[2016.02.25-15.01.37:964][999]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
-[2016.02.25-15.01.37:964][999]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
-[2016.02.25-15.01.37:964][999]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
-[2016.02.25-15.01.37:964][999]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
-[2016.02.25-15.01.37:964][999]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
-[2016.02.25-15.01.37:964][999]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
-[2016.02.25-15.01.37:964][999]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
-[2016.02.25-15.01.37:964][999]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
-[2016.02.25-15.01.37:964][999]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
-[2016.02.25-15.01.37:964][999]LogModuleManager: Shutting down and abandoning module Messaging (39)
-[2016.02.25-15.01.37:964][999]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
-[2016.02.25-15.01.37:964][999]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
-[2016.02.25-15.01.37:964][999]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
-[2016.02.25-15.01.37:964][999]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
-[2016.02.25-15.01.37:964][999]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
-[2016.02.25-15.01.37:964][999]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
-[2016.02.25-15.01.37:964][999]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
-[2016.02.25-15.01.37:964][999]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
-[2016.02.25-15.01.37:966][999]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
-[2016.02.25-15.01.37:966][999]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
-[2016.02.25-15.01.37:966][999]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
-[2016.02.25-15.01.37:966][999]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
-[2016.02.25-15.01.37:966][999]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
-[2016.02.25-15.01.37:966][999]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
-[2016.02.25-15.01.37:966][999]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
-[2016.02.25-15.01.37:966][999]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
-[2016.02.25-15.01.37:966][999]LogModuleManager: Shutting down and abandoning module InputCore (22)
-[2016.02.25-15.01.37:966][999]LogModuleManager: Shutting down and abandoning module Settings (21)
-[2016.02.25-15.01.37:966][999]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
-[2016.02.25-15.01.37:966][999]LogModuleManager: Shutting down and abandoning module HTTP (18)
-[2016.02.25-15.01.39:974][999]LogModuleManager: Shutting down and abandoning module XMPP (17)
-[2016.02.25-15.01.39:974][999]LogModuleManager: Shutting down and abandoning module OculusRift (16)
-[2016.02.25-15.01.39:974][999]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
-[2016.02.25-15.01.39:974][999]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2016.02.25-15.01.39:974][999]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2016.02.25-15.01.39:974][999]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2016.02.25-15.01.39:974][999]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2016.02.25-15.01.39:977][999]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2016.02.25-15.01.39:977][999]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2016.02.25-15.01.39:977][999]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2016.02.25-15.01.39:977][999]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2016.02.25-15.01.39:977][999]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2016.02.25-15.01.39:977][999]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2016.02.25-15.01.39:977][999]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2016.02.25-15.01.39:977][999]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2016.02.25-15.01.39:977][999]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2016.02.25-15.01.39:977][999]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2016.02.25-15.01.39:979][999]LogExit: Exiting.
-[2016.02.25-15.01.40:020][999]Log file closed, 02/25/16 16:01:40
+﻿[2016.02.25-15.03.05:485][  0]Log file open, 02/25/16 16:03:05
+[2016.02.25-15.03.05:485][  0]LogInit:Display: Running engine for game: Deluge
+[2016.02.25-15.03.05:485][  0]LogPlatformFile: Not using cached read wrapper
+[2016.02.25-15.03.05:485][  0]LogInit:Display: RandInit(709027972) SRandInit(709027978).
+[2016.02.25-15.03.05:485][  0]LogTaskGraph: Started task graph with 4 named threads and 8 total threads.
+[2016.02.25-15.03.05:485][  0]LogStats: Stats thread started at 0.148073
+[2016.02.25-15.03.05:485][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.02.25-15.03.05:485][  0]LogInit: API Version: 2758231
+[2016.02.25-15.03.05:485][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.02.25-15.03.05:485][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.02.25-15.03.05:485][  0]LogInit: Build Configuration: Development
+[2016.02.25-15.03.05:485][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.02.25-15.03.05:485][  0]LogInit: Command line:  
+[2016.02.25-15.03.05:485][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.02.25-15.03.05:485][  0]LogInit: Rocket: 1
+[2016.02.25-15.03.05:499][  0]LogInit: Using libcurl 7.41.0
+[2016.02.25-15.03.05:499][  0]LogInit:  - built for x86_64-pc-win32
+[2016.02.25-15.03.05:499][  0]LogInit:  - supports SSL with WinSSL
+[2016.02.25-15.03.05:499][  0]LogInit:  - other features:
+[2016.02.25-15.03.05:499][  0]LogInit:      CURL_VERSION_SSL
+[2016.02.25-15.03.05:499][  0]LogInit:      CURL_VERSION_IPV6
+[2016.02.25-15.03.05:499][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.02.25-15.03.05:499][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.02.25-15.03.05:499][  0]LogInit:      CURL_VERSION_IDN
+[2016.02.25-15.03.05:499][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.02.25-15.03.05:499][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.02.25-15.03.05:499][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.02.25-15.03.05:499][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.02.25-15.03.05:499][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.02.25-15.03.05:510][  0]LogOnline:Display: STEAM: Loading Steam SDK 1.32
+[2016.02.25-15.03.05:510][  0]LogOnline:Warning: STEAM: Steam API disabled!
+[2016.02.25-15.03.05:510][  0]LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2016.02.25-15.03.05:531][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.02.25-15.03.05:541][  0]LogVoice:Warning: Failed to initialize voice interface
+[2016.02.25-15.03.05:550][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.02.25-15.03.05:566][  0]LogInit: Object subsystem initialized
+[2016.02.25-15.03.05:569][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.25-15.03.05:569][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.02.25-15.03.05:585][  0]LogInit: Computer: DESKTOP-EQTRUAU
+[2016.02.25-15.03.05:585][  0]LogInit: User: mike
+[2016.02.25-15.03.05:585][  0]LogInit: CPU Page size=4096, Cores=6
+[2016.02.25-15.03.05:586][  0]LogInit: High frequency timer resolution =2.743580 MHz
+[2016.02.25-15.03.05:586][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2016.02.25-15.03.05:586][  0]LogMemory: Platform Memory Stats for Windows
+[2016.02.25-15.03.05:586][  0]LogMemory: Process Physical Memory: 58.63 MB used, 58.63 MB peak
+[2016.02.25-15.03.05:586][  0]LogMemory: Process Virtual Memory: 58.05 MB used, 58.05 MB peak
+[2016.02.25-15.03.05:586][  0]LogMemory: Physical Memory: 3684.78 MB used, 8190.11 MB total
+[2016.02.25-15.03.05:586][  0]LogMemory: Virtual Memory: 383.76 MB used, 134217728.00 MB total
+[2016.02.25-15.03.05:643][  0]LogTextLocalizationManager: No translations for ('de-AT') exist, falling back to 'en' for localization and internationalization data.
+[2016.02.25-15.03.06:777][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 760 (Feature Level 11_0)
+[2016.02.25-15.03.06:777][  0]LogD3D11RHI: Adapter has 1989MB of dedicated video memory, 0MB of dedicated system memory, and 4095MB of shared system memory, 2 output[s]
+[2016.02.25-15.03.06:781][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.02.25-15.03.06:781][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4095MB of shared system memory, 0 output[s]
+[2016.02.25-15.03.06:781][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.02.25-15.03.06:791][  0]LogD3D11RHI: !Direct3DDevice
+[2016.02.25-15.03.06:791][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.02.25-15.03.06:820][  0]LogD3D11RHI: Async texture creation enabled
+[2016.02.25-15.03.08:149][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Intermediate/Shaders/WorkingDirectory/3488/).
+[2016.02.25-15.03.08:149][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/mike/AppData/Local/Temp/UnrealShaderWorkingDir/9F635D23471ACE9787BA27BDD524D8CE/'.
+[2016.02.25-15.03.08:149][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.02.25-15.03.09:741][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.02.25-15.03.09:752][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.02.25-15.03.09:765][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.02.25-15.03.09:778][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.02.25-15.03.09:787][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.02.25-15.03.09:795][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.02.25-15.03.09:802][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.02.25-15.03.09:811][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.02.25-15.03.09:819][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.02.25-15.03.09:829][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.02.25-15.03.09:837][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.02.25-15.03.09:851][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.02.25-15.03.09:851][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.02.25-15.03.09:853][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.02.25-15.03.09:878][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.02.25-15.03.09:885][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.02.25-15.03.09:894][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.02.25-15.03.09:901][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.02.25-15.03.09:901][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.02.25-15.03.10:075][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.02.25-15.03.10:237][  0]LogDerivedDataCache: Loaded boot cache 0.16s 41MB C:/Users/mike/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.25-15.03.10:237][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/mike/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.02.25-15.03.10:238][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.02.25-15.03.10:238][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.02.25-15.03.10:238][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.02.25-15.03.10:238][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.02.25-15.03.10:359][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.02.25-15.03.10:374][  0]LogDerivedDataCache: Using Local data cache path C:/Users/mike/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.02.25-15.03.10:749][  0]LogInit: Selected Device Profile: [Windows]
+[2016.02.25-15.03.10:754][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.02.25-15.03.10:965][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.02.25-15.03.10:965][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.02.25-15.03.11:398][  0]Warning: Unknown property in NetDriverDefinition: DriveClassName="OnlineSubsystemSteam.SteamNetDriver",DriverClassNameFallback="OnlineSubsystemUtils.IpNetDriver") 
+[2016.02.25-15.03.12:948][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.02.25-15.03.13:081][  0]LogAssetRegistry: FAssetRegistry took 0.0113 seconds to start up
+[2016.02.25-15.03.13:488][  0]SourceControl: Info Source control is disabled
+[2016.02.25-15.03.13:554][  0]SourceControl: Info Source control is disabled
+[2016.02.25-15.03.13:577][  0]SourceControl: Info Source control is disabled
+[2016.02.25-15.03.13:598][  0]SourceControl: Info Source control is disabled
+[2016.02.25-15.03.14:084][  0]LogObj: 28640 objects as part of root set at end of initial load.
+[2016.02.25-15.03.14:084][  0]LogUObjectAllocator: 6315720 out of 0 bytes used by permanent object pool.
+[2016.02.25-15.03.14:200][  0]LogEngine: Initializing Engine...
+[2016.02.25-15.03.14:203][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.02.25-15.03.14:204][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.02.25-15.03.14:444][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.02.25-15.03.14:466][  0]LogInit: XAudio2 using 'Lautsprecher (Logitech G330 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.25-15.03.14:483][  0]LogInit: FAudioDevice initialized.
+[2016.02.25-15.03.14:556][  0]LogDerivedDataCache: Saved boot cache 0.07s 41MB C:/Users/mike/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.02.25-15.03.14:580][  0]LogInit: Texture streaming: Enabled
+[2016.02.25-15.03.14:596][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.02.25-15.03.14:596][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.02.25-15.03.14:596][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId e9c103cc4a7bfdb9667f4c93d4fe4a94|9965a4433f294ab4918ec7fd197501e9|b3429352-4a5d-4937-bcd4-644a47cc9371
+[2016.02.25-15.03.14:596][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.02.25-15.03.14:611][  0]LogInit: Transaction tracking system initialized
+[2016.02.25-15.03.14:669][  0]BlueprintLog: New page: Editor Load
+[2016.02.25-15.03.14:842][  0]LocalizationService: Info Localization service is disabled
+[2016.02.25-15.03.14:983][  0]LogConsoleResponse:Display: 
+[2016.02.25-15.03.15:152][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.02.25-15.03.15:262][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mike/Documents/Unreal Projects/Deluge/Content/' took 0.03s
+[2016.02.25-15.03.15:262][  0]SourceControl: Info Source control is disabled
+[2016.02.25-15.03.15:262][  0]Cmd: MAP LOAD FILE="../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.25-15.03.15:263][  0]LightingResults: New page: Lighting Build
+[2016.02.25-15.03.15:269][  0]MapCheck: New page: Map Check
+[2016.02.25-15.03.15:269][  0]LightingResults: New page: Lighting Build
+[2016.02.25-15.03.15:296][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000062BB41EAC0
+[2016.02.25-15.03.15:668][  0]LogLinker:Warning: Can't find file '/Game/FirstPerson/FPWeapon/Mesh/SK_FPGun'
+[2016.02.25-15.03.15:668][  0]LoadErrors: Info Failed to load /Game/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character_C Referenced by SWeapon_Base
+[2016.02.25-15.03.15:668][  0]LogLinker: Can't find file '/Game/FirstPerson/FPWeapon/Mesh/SK_FPGun'
+[2016.02.25-15.03.15:715][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/DelugeBP/Blueprints/Weapon/BaseRifleWeapon.BaseRifleWeapon_C:UserConstructionScript; removing parent information, but keeping function
+[2016.02.25-15.03.16:146][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch 
+[2016.02.25-15.03.16:151][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0011.52] Compile of Ue4ASP_Character successful, but with 1 Warning(s) [in 12 ms]
+[2016.02.25-15.03.16:152][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0011.53] Compile of Ue4ASP_Character successful, but with 2 Warning(s) [in 0 ms]
+[2016.02.25-15.03.16:152][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0011.53] Compile of Ue4ASP_Character successful, but with 3 Warning(s) [in 0 ms]
+[2016.02.25-15.03.16:288][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch 
+[2016.02.25-15.03.16:295][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0011.67] Compile of Ue4ASP_Character successful, but with 1 Warning(s) [in 12 ms]
+[2016.02.25-15.03.16:295][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0011.67] Compile of Ue4ASP_Character successful, but with 2 Warning(s) [in 0 ms]
+[2016.02.25-15.03.16:296][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0011.67] Compile of Ue4ASP_Character successful, but with 3 Warning(s) [in 0 ms]
+[2016.02.25-15.03.17:437][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.02.25-15.03.17:455][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.25-15.03.17:455][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.25-15.03.17:578][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 122.421ms to complete.
+[2016.02.25-15.03.17:578][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 2.316
+[2016.02.25-15.03.17:736][  0]LogCollectionManager: Loaded 0 collections in 0.004077 seconds
+[2016.02.25-15.03.17:789][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mike/Documents/Unreal Projects/Deluge/Saved/Collections/' took 0.01s
+[2016.02.25-15.03.17:789][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mike/Documents/Unreal Projects/Deluge/Content/Developers/mike/Collections/' took 0.01s
+[2016.02.25-15.03.17:789][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mike/Documents/Unreal Projects/Deluge/Content/Collections/' took 0.01s
+[2016.02.25-15.03.17:789][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000007 seconds
+[2016.02.25-15.03.17:807][  0]LogContentBrowser: Native class hierarchy populated in 0.0176 seconds. Added 1895 classes and 340 folders.
+[2016.02.25-15.03.17:820][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.02.25-15.03.17:919][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2016.02.25-15.03.17:929][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2016.02.25-15.03.18:048][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.02.25-15.03.18:055][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.02.25-15.03.18:081][  0]LogLoad: Full Startup: 13.46 seconds (BP compile: 0.59 seconds)
+[2016.02.25-15.03.18:091][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.02.25-15.03.18:095][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.02.25-15.03.18:152][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.02.25-15.03.18:428][  0]LogRenderer: Reallocating scene render targets to support 1112x580 (Frame:2).
+[2016.02.25-15.03.19:262][ 11]LogAssetRegistry: Asset discovery search completed in 6.1915 seconds
+[2016.02.25-15.03.19:262][ 11]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2016.02.25-15.03.19:262][ 11]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000038 seconds (updated 0 objects)
+[2016.02.25-15.03.52:497][488]LogLinker: Can't find file '/Game/FirstPerson/FPWeapon/Mesh/SK_FPGun'
+[2016.02.25-15.03.54:179][571]LogSavePackage: Save=5.121411ms
+[2016.02.25-15.03.54:179][571]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/SWeapon_BaseC4AC07184BB1F323A015A4B1BAAB7A95.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Weapon/SWeapon_Base.uasset'
+[2016.02.25-15.03.54:185][571]LogSavePackage: Total save time: 32.612499ms
+[2016.02.25-15.03.54:185][571]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Weapon/SWeapon_Base.uasset
+[2016.02.25-15.04.04:719][ 30]LogSavePackage: Save=3287.608154ms
+[2016.02.25-15.04.04:719][ 30]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/FirstPersonExampleMapF6368CE4429774BCF117988E45239620.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Maps/FirstPersonExampleMap.umap'
+[2016.02.25-15.04.04:732][ 30]LogSavePackage: Total save time: 3384.237748ms
+[2016.02.25-15.04.04:732][ 30]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Maps/FirstPersonExampleMap.umap
+[2016.02.25-15.04.05:406][ 63]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.02.25-15.04.05:406][ 63]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.02.25-15.04.05:406][ 63]LogPlayLevel: [PlayLevel] Compiling BasePlayerCharacter before play...
+[2016.02.25-15.04.05:533][ 63]LogPlayLevel: PlayLevel: Blueprint regeneration took 127 ms (5 blueprints)
+[2016.02.25-15.04.05:533][ 63]LogPlayLevel: [PlayLevel] Compiling BasePlayerController before play...
+[2016.02.25-15.04.05:744][ 63]LogPlayLevel: PlayLevel: Blueprint regeneration took 338 ms (5 blueprints)
+[2016.02.25-15.04.05:744][ 63]LogPlayLevel: [PlayLevel] Compiling BaseWeapon before play...
+[2016.02.25-15.04.05:947][ 63]LogPlayLevel: PlayLevel: Blueprint regeneration took 542 ms (6 blueprints)
+[2016.02.25-15.04.05:947][ 63]LogPlayLevel: [PlayLevel] Compiling UE4ASP_HeroTPP_AnimBlueprint before play...
+[2016.02.25-15.04.06:152][ 63]LogPlayLevel: PlayLevel: Blueprint regeneration took 747 ms (6 blueprints)
+[2016.02.25-15.04.06:153][ 63]LogPlayLevel: [PlayLevel] Compiling FirstPerson_AnimBP before play...
+[2016.02.25-15.04.06:303][ 63]LogPlayLevel: PlayLevel: Blueprint regeneration took 897 ms (6 blueprints)
+[2016.02.25-15.04.06:303][ 63]LogPlayLevel: [PlayLevel] Compiling BaseRifleWeapon before play...
+[2016.02.25-15.04.06:381][ 63]LogPlayLevel: PlayLevel: Blueprint regeneration took 975 ms (6 blueprints)
+[2016.02.25-15.04.06:431][ 63]PIE: New page: PIE session: FirstPersonExampleMap (Feb 25, 2016, 5:04:06 PM)
+[2016.02.25-15.04.06:431][ 63]LogPlayLevel: Creating play world package: /Game/DelugeBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.02.25-15.04.06:506][ 63]LogPlayLevel: PIE: StaticDuplicateObject took: (0.074580s)
+[2016.02.25-15.04.06:511][ 63]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.02.25-15.04.06:512][ 63]LogPlayLevel: PIE: World Init took: (0.005720s)
+[2016.02.25-15.04.06:512][ 63]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/DelugeBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.080900s)
+[2016.02.25-15.04.06:570][ 63]LogInit: XAudio2 using 'Lautsprecher (Logitech G330 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.25-15.04.06:584][ 63]LogInit: FAudioDevice initialized.
+[2016.02.25-15.04.06:697][ 63]LogWorld: Game class is 'TestingGameMode_C'
+[2016.02.25-15.04.06:708][ 63]LogWorld: Bringing World /Game/DelugeBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.02.25-16.04.06
+[2016.02.25-15.04.06:709][ 63]LogActor:Warning: GameSession /Game/DelugeBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-15.04.06:709][ 63]LogActor:Warning: GameNetworkManager /Game/DelugeBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-15.04.06:712][ 63]LogWorld: Bringing up level for play took: 0.013136
+[2016.02.25-15.04.06:713][ 63]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_2's PathFollowingComponent
+[2016.02.25-15.04.06:713][ 63]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_1's PathFollowingComponent
+[2016.02.25-15.04.06:713][ 63]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_0's PathFollowingComponent
+[2016.02.25-15.04.06:725][ 63]LogVoice:Warning: Failed to initialize voice interface
+[2016.02.25-15.04.06:728][ 63]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2016.02.25-15.04.06:733][ 63]PIE: Info Play in editor start time for /Game/DelugeBP/Maps/UEDPIE_0_FirstPersonExampleMap 1.44
+[2016.02.25-15.04.06:733][ 63]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.02.25-15.04.08:172][150]LogBlueprintUserMessages: [TestingGameMode_C_0] BasePlayerCharacter gives Damage  1.0 to Environment_SimpleCube
+[2016.02.25-15.04.08:382][162]LogBlueprintUserMessages: [TestingGameMode_C_0] BasePlayerCharacter gives Damage  1.0 to Environment_SimpleCube
+[2016.02.25-15.04.08:383][162]LogBlueprintUserMessages: [TestingGameMode_C_0] Environment_SimpleCube died!!
+[2016.02.25-15.04.09:409][226]LogBlueprintUserMessages: [TestingGameMode_C_0] BasePlayerCharacter gives Damage  1.0 to Enemy1
+[2016.02.25-15.04.09:618][239]LogBlueprintUserMessages: [TestingGameMode_C_0] BasePlayerCharacter gives Damage  1.0 to Enemy1
+[2016.02.25-15.04.09:618][239]LogBlueprintUserMessages: [TestingGameMode_C_0] Enemy1 died!!
+[2016.02.25-15.04.10:153][271]LogBlueprintUserMessages: [TestingGameMode_C_0] BasePlayerCharacter gives Damage  1.0 to Enemy2
+[2016.02.25-15.04.10:356][283]LogBlueprintUserMessages: [TestingGameMode_C_0] BasePlayerCharacter gives Damage  1.0 to Enemy2
+[2016.02.25-15.04.10:356][283]LogBlueprintUserMessages: [TestingGameMode_C_0] Enemy2 died!!
+[2016.02.25-15.04.10:883][314]LogBlueprintUserMessages: [TestingGameMode_C_0] BasePlayerCharacter gives Damage  1.0 to Enemy3
+[2016.02.25-15.04.11:085][326]LogBlueprintUserMessages: [TestingGameMode_C_0] BasePlayerCharacter gives Damage  1.0 to Enemy3
+[2016.02.25-15.04.11:085][326]LogBlueprintUserMessages: [TestingGameMode_C_0] Enemy3 died!!
+[2016.02.25-15.04.12:477][407]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.02.25-15.04.12:531][407]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.02.25-15.04.12:533][407]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2016.02.25-15.04.12:533][407]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.02.25-15.04.12:640][408]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000062F0933920
+[2016.02.25-15.04.12:659][408]LogPlayLevel:Display: Destroying online subsystem :Context_4
+[2016.02.25-15.04.12:659][408]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.02.25-15.14.08:551][297]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/DelugeBP/Maps/FirstPersonExampleMap' took 0.076
+[2016.02.25-15.14.08:580][297]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/DelugeBP/Blueprints/Characters/Player/BasePlayerCharacter] ([1] browsable assets)...
+[2016.02.25-15.14.08:682][297]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/DelugeBP/Blueprints/Characters/Player/BasePlayerCharacter.BasePlayerCharacter]
+[2016.02.25-15.14.08:682][297]OBJ SavePackage: Finished generating thumbnails for package [/Game/DelugeBP/Blueprints/Characters/Player/BasePlayerCharacter]
+[2016.02.25-15.14.09:083][297]LogSavePackage: Save=347.559021ms
+[2016.02.25-15.14.09:083][297]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BasePlayerCharacter_Auto13DA987114EBDC6BB9228DA8B3E40A856.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/Blueprints/Characters/Player/BasePlayerCharacter_Auto1.uasset'
+[2016.02.25-15.14.09:087][297]LogSavePackage: Total save time: 395.175282ms
+[2016.02.25-15.14.09:087][297]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/Blueprints/Characters/Player/BasePlayerCharacter_Auto1.uasset
+[2016.02.25-15.14.09:093][297]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/DelugeBP/Blueprints/Characters/Player/BasePlayerController] ([1] browsable assets)...
+[2016.02.25-15.14.09:095][297]OBJ SavePackage: Finished generating thumbnails for package [/Game/DelugeBP/Blueprints/Characters/Player/BasePlayerController]
+[2016.02.25-15.14.09:548][297]LogSavePackage: Save=419.358643ms
+[2016.02.25-15.14.09:548][297]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BasePlayerController_Auto14E98CB0643C9F0EBB2143F8DDEB3761B.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/Blueprints/Characters/Player/BasePlayerController_Auto1.uasset'
+[2016.02.25-15.14.09:551][297]LogSavePackage: Total save time: 454.472989ms
+[2016.02.25-15.14.09:551][297]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/Blueprints/Characters/Player/BasePlayerController_Auto1.uasset
+[2016.02.25-15.14.09:559][297]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/DelugeBP/Blueprints/Weapon/BaseWeapon] ([1] browsable assets)...
+[2016.02.25-15.14.09:559][297]OBJ SavePackage: Finished generating thumbnails for package [/Game/DelugeBP/Blueprints/Weapon/BaseWeapon]
+[2016.02.25-15.14.09:591][297]LogSavePackage: Save=13.633647ms
+[2016.02.25-15.14.09:591][297]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BaseWeapon_Auto12388E9B24CE9893745347883980E4891.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/Blueprints/Weapon/BaseWeapon_Auto1.uasset'
+[2016.02.25-15.14.09:595][297]LogSavePackage: Total save time: 34.082111ms
+[2016.02.25-15.14.09:595][297]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/Blueprints/Weapon/BaseWeapon_Auto1.uasset
+[2016.02.25-15.14.09:595][297]LogFileHelpers: Auto-saving content packages took 1.035
+[2016.02.25-15.39.24:996][545]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.25-15.39.29:262][545]LogSavePackage: Save=216.872116ms
+[2016.02.25-15.39.29:262][545]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BasePlayerCharacter4070291D4A8C6F274F878AB9330C7258.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerCharacter.uasset'
+[2016.02.25-15.39.29:271][545]LogSavePackage: Total save time: 258.273497ms
+[2016.02.25-15.39.29:271][545]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerCharacter.uasset
+[2016.02.25-15.39.29:693][545]LogSavePackage: Save=387.157288ms
+[2016.02.25-15.39.29:694][545]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BasePlayerController4A40FAE744C9992B849C20ADB118560E.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerController.uasset'
+[2016.02.25-15.39.29:701][545]LogSavePackage: Total save time: 414.705604ms
+[2016.02.25-15.39.29:701][545]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerController.uasset
+[2016.02.25-15.39.29:736][545]LogSavePackage: Save=11.256825ms
+[2016.02.25-15.39.29:736][545]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BaseWeapon9EC3DB664E3F0B6756EA349749DDABF6.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Weapon/BaseWeapon.uasset'
+[2016.02.25-15.39.29:743][545]LogSavePackage: Total save time: 31.307634ms
+[2016.02.25-15.39.29:743][545]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Weapon/BaseWeapon.uasset
+[2016.02.25-15.39.29:875][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DelugeBP/Maps/Hub" FILE="../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Maps/Hub.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.25-15.39.29:923][545]LogSavePackage: Save=12.604699ms
+[2016.02.25-15.39.29:923][545]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Hub3FE93F074F02E36EA2822E997D5983F6.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Maps/Hub.umap'
+[2016.02.25-15.39.29:928][545]LogSavePackage: Total save time: 17.916009ms
+[2016.02.25-15.39.29:928][545]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Maps/Hub.umap
+[2016.02.25-15.39.29:928][545]LogFileHelpers: Saving map 'Hub' took 0.186
+[2016.02.25-15.39.29:936][545]Cmd: MAP LOAD FILE="../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Maps/Hub.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.25-15.39.29:937][545]LightingResults: New page: Lighting Build
+[2016.02.25-15.39.29:974][545]LoadErrors: New page: Loading map: Hub.umap
+[2016.02.25-15.39.29:977][545]MapCheck: New page: Map Check
+[2016.02.25-15.39.29:977][545]LightingResults: New page: Lighting Build
+[2016.02.25-15.39.30:015][545]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000062C5ACEC00
+[2016.02.25-15.39.31:138][545]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.25-15.39.31:139][545]LogAIModule: Creating AISystem for world Hub
+[2016.02.25-15.39.31:237][545]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.25-15.39.31:368][545]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 131.066ms to complete.
+[2016.02.25-15.39.31:370][545]LogFileHelpers: Loading map 'Hub' took 1.439
+[2016.02.25-15.39.39:154][ 92]LogActorFactory: Actor Factory created Cube
+[2016.02.25-15.39.40:277][153]LogActorFactory: Actor Factory created Cube
+[2016.02.25-15.40.08:757][740]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2016.02.25-15.40.09:224][763]LogEditorViewport: Clicking Background
+[2016.02.25-15.41.00:662][923]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Sky Sphere mesh)
+[2016.02.25-15.41.33:308][765]LogActorFactory: Actor Factory created Wall_400x200
+[2016.02.25-15.41.35:928][895]LogActorFactory: Actor Factory created Wall_400x200
+[2016.02.25-15.42.05:116][461]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x200)
+[2016.02.25-15.42.19:047][455]EditorErrors: New page: Actor attachment
+[2016.02.25-15.42.29:861][ 85]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x200)
+[2016.02.25-15.42.30:383][113]Cmd: EDIT COPY
+[2016.02.25-15.42.30:608][122]Cmd: EDIT PASTE
+[2016.02.25-15.42.44:609][911]Cmd: EDIT COPY
+[2016.02.25-15.42.44:832][917]Cmd: EDIT PASTE
+[2016.02.25-15.42.54:556][436]Cmd: EDIT COPY
+[2016.02.25-15.42.54:774][447]Cmd: EDIT PASTE
+[2016.02.25-15.43.06:368][ 75]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2016.02.25-15.43.07:983][147]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x203)
+[2016.02.25-15.43.09:554][224]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2016.02.25-15.43.19:890][768]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DelugeBP/Maps/Hub" FILE="../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Maps/Hub.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.25-15.43.19:997][768]LogSavePackage: Save=37.409515ms
+[2016.02.25-15.43.19:997][768]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Hub1DC5064F4C1601EEB2676593CA2F60BF.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Maps/Hub.umap'
+[2016.02.25-15.43.20:009][768]LogSavePackage: Total save time: 67.702420ms
+[2016.02.25-15.43.20:009][768]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Maps/Hub.umap
+[2016.02.25-15.43.32:483][361]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.02.25-15.43.33:344][361]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0017 seconds. Added 107 classes and 0 folders.
+[2016.02.25-15.43.41:366][596]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.02.25-15.43.55:512][248]LogActor:Warning: GameNetworkManager /Engine/Transient.World_6:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-15.43.55:595][248]LogRenderer: Reallocating scene render targets to support 1112x696 (Frame:30172).
+[2016.02.25-15.43.56:730][284]BlueprintLog: New page: Compile HubGameMode
+[2016.02.25-15.43.56:838][284]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.25-15.43.56:838][284]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.02.25-15.43.56:838][284]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2016.02.25-15.43.56:905][284]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000628DEC49A0
+[2016.02.25-15.43.56:925][284]BlueprintEditorCompileResults: Info [2452.30] Compile of HubGameMode successful! [in 194 ms]
+[2016.02.25-15.43.57:273][293]LogSavePackage: Save=22.146976ms
+[2016.02.25-15.43.57:273][293]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/HubGameMode67FA879241DA3EEE08307091F84D49C7.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/GameModes/HubGameMode.uasset'
+[2016.02.25-15.43.57:278][293]LogSavePackage: Total save time: 27.258180ms
+[2016.02.25-15.43.57:278][293]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/GameModes/HubGameMode.uasset
+[2016.02.25-15.44.03:499][582]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.02.25-15.44.08:326][823]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DelugeBP/Maps/Hub" FILE="../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Maps/Hub.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.25-15.44.08:329][823]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.25-15.44.08:329][823]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2016.02.25-15.44.08:329][823]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2016.02.25-15.44.08:384][823]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000062C478CCC0
+[2016.02.25-15.44.08:542][823]LogSavePackage: Save=139.843567ms
+[2016.02.25-15.44.08:542][823]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/HubCA22EB824E0081789B5E689CD7CEA868.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Maps/Hub.umap'
+[2016.02.25-15.44.08:548][823]LogSavePackage: Total save time: 157.736972ms
+[2016.02.25-15.44.08:548][823]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Maps/Hub.umap
+[2016.02.25-15.44.12:403][ 33]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.02.25-15.44.12:522][ 33]Cmd: MAP LOAD FILE="../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.25-15.44.12:522][ 33]LightingResults: New page: Lighting Build
+[2016.02.25-15.44.12:556][ 33]LoadErrors: New page: Loading map: FirstPersonExampleMap.umap
+[2016.02.25-15.44.12:558][ 33]MapCheck: New page: Map Check
+[2016.02.25-15.44.12:558][ 33]LightingResults: New page: Lighting Build
+[2016.02.25-15.44.12:615][ 33]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000062D78AA020
+[2016.02.25-15.44.12:838][ 33]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.25-15.44.12:900][ 33]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.25-15.44.13:036][ 33]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 135.469ms to complete.
+[2016.02.25-15.44.13:036][ 33]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.526
+[2016.02.25-15.44.17:595][293]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.02.25-15.44.26:200][744]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.25-15.44.26:200][744]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2016.02.25-15.44.26:201][744]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2016.02.25-15.44.29:838][744]LogSavePackage: Save=3460.237793ms
+[2016.02.25-15.44.29:838][744]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/FirstPersonExampleMap0FCC11E5477D822103BB56B02988ACC7.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Maps/FirstPersonExampleMap.umap'
+[2016.02.25-15.44.29:850][744]LogSavePackage: Total save time: 3584.667478ms
+[2016.02.25-15.44.29:850][744]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Maps/FirstPersonExampleMap.umap
+[2016.02.25-15.44.30:544][777]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.02.25-15.44.30:544][777]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.25-15.44.30:544][777]PIE: New page: PIE session: FirstPersonExampleMap (Feb 25, 2016, 5:44:30 PM)
+[2016.02.25-15.44.30:544][777]LogPlayLevel: Creating play world package: /Game/DelugeBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.02.25-15.44.30:612][777]LogPlayLevel: PIE: StaticDuplicateObject took: (0.067249s)
+[2016.02.25-15.44.30:615][777]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.02.25-15.44.30:615][777]LogPlayLevel: PIE: World Init took: (0.003347s)
+[2016.02.25-15.44.30:616][777]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/DelugeBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.071177s)
+[2016.02.25-15.44.30:712][777]LogInit: XAudio2 using 'Lautsprecher (Logitech G330 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.25-15.44.30:729][777]LogInit: FAudioDevice initialized.
+[2016.02.25-15.44.30:778][777]LogWorld: Game class is 'TestingGameMode_C'
+[2016.02.25-15.44.30:793][777]LogWorld: Bringing World /Game/DelugeBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2016.02.25-16.44.30
+[2016.02.25-15.44.30:793][777]LogActor:Warning: GameSession /Game/DelugeBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-15.44.30:793][777]LogActor:Warning: GameNetworkManager /Game/DelugeBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-15.44.30:796][777]LogWorld: Bringing up level for play took: 0.015604
+[2016.02.25-15.44.30:796][777]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_5's PathFollowingComponent
+[2016.02.25-15.44.30:796][777]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_4's PathFollowingComponent
+[2016.02.25-15.44.30:796][777]LogPathFollowing:Warning: No NavigationData found while trying to cache it for AIController_3's PathFollowingComponent
+[2016.02.25-15.44.30:808][777]LogVoice:Warning: Failed to initialize voice interface
+[2016.02.25-15.44.30:825][777]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2016.02.25-15.44.30:829][777]PIE: Info Play in editor start time for /Game/DelugeBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.464
+[2016.02.25-15.44.30:829][777]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.02.25-15.44.32:316][867]LogBlueprintUserMessages: [TestingGameMode_C_1] BasePlayerCharacter1 gives Damage  1.0 to Enemy2
+[2016.02.25-15.44.32:526][880]LogBlueprintUserMessages: [TestingGameMode_C_1] BasePlayerCharacter1 gives Damage  1.0 to Enemy2
+[2016.02.25-15.44.32:526][880]LogBlueprintUserMessages: [TestingGameMode_C_1] Enemy2 died!!
+[2016.02.25-15.44.33:180][921]LogBlueprintUserMessages: [TestingGameMode_C_1] BasePlayerCharacter1 gives Damage  1.0 to Enemy3
+[2016.02.25-15.44.33:390][934]LogBlueprintUserMessages: [TestingGameMode_C_1] BasePlayerCharacter1 gives Damage  1.0 to Enemy3
+[2016.02.25-15.44.33:391][934]LogBlueprintUserMessages: [TestingGameMode_C_1] Enemy3 died!!
+[2016.02.25-15.44.34:229][984]LogBlueprintUserMessages: [TestingGameMode_C_1] BasePlayerCharacter1 gives Damage  1.0 to Enemy1
+[2016.02.25-15.44.34:427][996]LogBlueprintUserMessages: [TestingGameMode_C_1] BasePlayerCharacter1 gives Damage  1.0 to Enemy1
+[2016.02.25-15.44.34:427][996]LogBlueprintUserMessages: [TestingGameMode_C_1] Enemy1 died!!
+[2016.02.25-15.44.35:412][ 54]LogBlueprintUserMessages: [TestingGameMode_C_1] BasePlayerCharacter1 gives Damage  1.0 to Environment_SimpleCube
+[2016.02.25-15.44.35:627][ 67]LogBlueprintUserMessages: [TestingGameMode_C_1] BasePlayerCharacter1 gives Damage  1.0 to Environment_SimpleCube
+[2016.02.25-15.44.35:627][ 67]LogBlueprintUserMessages: [TestingGameMode_C_1] Environment_SimpleCube died!!
+[2016.02.25-15.44.36:085][ 94]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.02.25-15.44.36:134][ 94]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.02.25-15.44.36:135][ 94]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2016.02.25-15.44.36:136][ 94]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/DelugeBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.02.25-15.44.36:195][ 94]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000629C8C63E0
+[2016.02.25-15.44.36:272][ 95]LogPlayLevel:Display: Destroying online subsystem :Context_9
+[2016.02.25-15.44.36:273][ 95]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.02.25-15.44.38:345][240]LogAIModule: Creating AISystem for world Hub
+[2016.02.25-15.44.38:424][240]Cmd: MAP LOAD FILE="../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Maps/Hub.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.02.25-15.44.38:424][240]LightingResults: New page: Lighting Build
+[2016.02.25-15.44.38:454][240]LoadErrors: New page: Loading map: Hub.umap
+[2016.02.25-15.44.38:456][240]MapCheck: New page: Map Check
+[2016.02.25-15.44.38:457][240]LightingResults: New page: Lighting Build
+[2016.02.25-15.44.38:902][240]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000062C44E1080
+[2016.02.25-15.44.39:165][240]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.02.25-15.44.39:227][240]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.02.25-15.44.39:368][240]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 139.979ms to complete.
+[2016.02.25-15.44.39:382][240]LogFileHelpers: Loading map 'Hub' took 0.960
+[2016.02.25-15.44.40:371][305]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/DelugeBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.Hub'
+[2016.02.25-15.44.40:371][305]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.25-15.44.40:371][305]PIE: New page: PIE session: Hub (Feb 25, 2016, 5:44:40 PM)
+[2016.02.25-15.44.40:371][305]LogPlayLevel: Creating play world package: /Game/DelugeBP/Maps/UEDPIE_0_Hub
+[2016.02.25-15.44.40:375][305]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003708s)
+[2016.02.25-15.44.40:376][305]LogAIModule: Creating AISystem for world Hub
+[2016.02.25-15.44.40:376][305]LogPlayLevel: PIE: World Init took: (0.001489s)
+[2016.02.25-15.44.40:377][305]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DelugeBP/Maps/Hub.Hub to /Game/DelugeBP/Maps/UEDPIE_0_Hub.Hub (0.005531s)
+[2016.02.25-15.44.40:459][305]LogInit: XAudio2 using 'Lautsprecher (Logitech G330 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.25-15.44.40:471][305]LogInit: FAudioDevice initialized.
+[2016.02.25-15.44.40:519][305]LogWorld: Game class is 'HubGameMode_C'
+[2016.02.25-15.44.40:525][305]LogWorld: Bringing World /Game/DelugeBP/Maps/UEDPIE_0_Hub.Hub up for play (max tick rate 0) at 2016.02.25-16.44.40
+[2016.02.25-15.44.40:525][305]LogActor:Warning: GameSession /Game/DelugeBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-15.44.40:525][305]LogActor:Warning: GameNetworkManager /Game/DelugeBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-15.44.40:526][305]LogWorld: Bringing up level for play took: 0.003959
+[2016.02.25-15.44.40:538][305]LogVoice:Warning: Failed to initialize voice interface
+[2016.02.25-15.44.40:540][305]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2016.02.25-15.44.40:544][305]PIE: Info Play in editor start time for /Game/DelugeBP/Maps/UEDPIE_0_Hub -0.748
+[2016.02.25-15.44.40:544][305]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/DelugeBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.Hub'
+[2016.02.25-15.44.41:163][346]LogBlueprintUserMessages: [HubGameMode_C_3] BasePlayerCharacter2 gives Damage  1.0 to Wall_400x203
+[2016.02.25-15.44.42:665][443]LogBlueprintUserMessages: [HubGameMode_C_3] BasePlayerCharacter2 gives Damage  1.0 to Wall_400x202
+[2016.02.25-15.44.42:873][457]LogBlueprintUserMessages: [HubGameMode_C_3] BasePlayerCharacter2 gives Damage  1.0 to Wall_400x202
+[2016.02.25-15.44.43:577][503]LogBlueprintUserMessages: [HubGameMode_C_3] BasePlayerCharacter2 gives Damage  1.0 to Wall_400x201
+[2016.02.25-15.44.43:775][517]LogBlueprintUserMessages: [HubGameMode_C_3] BasePlayerCharacter2 gives Damage  1.0 to Wall_400x201
+[2016.02.25-15.44.45:835][648]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/DelugeBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.Hub'
+[2016.02.25-15.44.45:883][648]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.02.25-15.44.45:884][648]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2016.02.25-15.44.45:884][648]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/DelugeBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.Hub'
+[2016.02.25-15.44.45:990][649]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000629FA904A0
+[2016.02.25-15.44.46:011][649]LogPlayLevel:Display: Destroying online subsystem :Context_10
+[2016.02.25-15.44.46:011][649]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.02.25-15.44.48:937][850]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x201)
+[2016.02.25-15.44.54:861][172]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x202)
+[2016.02.25-15.44.58:260][353]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x200)
+[2016.02.25-15.44.59:451][416]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.02.25-15.45.00:459][468]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x200)
+[2016.02.25-15.45.02:191][554]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.02.25-15.45.03:042][595]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x203)
+[2016.02.25-15.45.04:611][671]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2016.02.25-15.45.07:006][792]MapCheck: New page: Map Check
+[2016.02.25-15.45.07:142][792]Cmd: MAP REBUILD ALLVISIBLE
+[2016.02.25-15.45.07:146][792]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2016.02.25-15.45.07:605][792]LightingResults: New page: Lighting Build - Feb 25, 2016, 5:45:07 PM
+[2016.02.25-15.45.20:816][792]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2016.02.25-15.45.20:817][792]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.02.25-15.45.20:817][792]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.02.25-15.45.20:817][792]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.02.25-15.45.20:817][792]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.02.25-15.45.20:817][792]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.02.25-15.45.21:399][792]LogEditorBuildUtils: Build time 0:00:14
+[2016.02.25-15.45.21:432][792]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2016.02.25-15.45.21:583][792]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2016.02.25-15.45.21:630][793]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_98, compiling. 
+[2016.02.25-15.45.21:637][793]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_98, compiling. 
+[2016.02.25-15.45.21:726][794]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Basic_Wall, compiling. 
+[2016.02.25-15.45.21:733][794]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Basic_Wall, compiling. 
+[2016.02.25-15.45.25:877][796]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DelugeBP/Maps/Hub" FILE="../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Maps/Hub.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.25-15.45.26:099][796]LogSavePackage: Save=141.573776ms
+[2016.02.25-15.45.26:099][796]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Hub5764185B423EB8FECD48EA9B16A630EE.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Maps/Hub.umap'
+[2016.02.25-15.45.26:106][796]LogSavePackage: Total save time: 159.405593ms
+[2016.02.25-15.45.26:106][796]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Maps/Hub.umap
+[2016.02.25-15.45.30:421][935]Job is a success!
+[2016.02.25-15.45.30:671][936]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2016.02.25-15.45.30:803][936]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2016.02.25-15.45.30:803][936]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2016.02.25-15.45.30:806][936]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2016.02.25-15.45.30:919][936]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8)
+[2016.02.25-15.45.30:931][936]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8)
+[2016.02.25-15.45.31:226][936]Lightmass on DESKTOP-EQTRUAU: 2.96 sec total, 260 ms importing, 2 ms setup, 419 ms photons, 2.09 sec processing, 0 ms extra exporting [6/6 mappings]. Threads: 10.3 sec total, 4.38 sec processing.
+[2016.02.25-15.45.31:323][936]LogStaticLightingSystem: Illumination: 23.6 sec (352 ms encoding lightmaps)
+[2016.02.25-15.45.31:323][936]LogStaticLightingSystem: Lightmap texture memory:  0.3 MB (0.3 MB streaming, 0.0 MB non-streaming), 4 textures
+[2016.02.25-15.45.31:323][936]LogStaticLightingSystem: Shadowmap texture memory: 0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 2 textures
+[2016.02.25-15.45.36:828][937]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.02.25-15.45.36:829][937]MapCheck: New page: Hub - Feb 25, 2016, 5:45:36 PM
+[2016.02.25-15.45.37:041][937]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 212.491ms to complete.
+[2016.02.25-15.45.37:047][937]LogEditorViewport: Clicking on Actor (LMB): Brush (Brush6)
+[2016.02.25-15.45.38:756][ 33]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/DelugeBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.Hub'
+[2016.02.25-15.45.38:756][ 33]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.25-15.45.38:756][ 33]PIE: New page: PIE session: Hub (Feb 25, 2016, 5:45:38 PM)
+[2016.02.25-15.45.38:756][ 33]LogPlayLevel: Creating play world package: /Game/DelugeBP/Maps/UEDPIE_0_Hub
+[2016.02.25-15.45.38:759][ 33]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003263s)
+[2016.02.25-15.45.38:761][ 33]LogAIModule: Creating AISystem for world Hub
+[2016.02.25-15.45.38:761][ 33]LogPlayLevel: PIE: World Init took: (0.002117s)
+[2016.02.25-15.45.38:762][ 33]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DelugeBP/Maps/Hub.Hub to /Game/DelugeBP/Maps/UEDPIE_0_Hub.Hub (0.005742s)
+[2016.02.25-15.45.38:847][ 33]LogInit: XAudio2 using 'Lautsprecher (Logitech G330 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.25-15.45.38:859][ 33]LogInit: FAudioDevice initialized.
+[2016.02.25-15.45.38:911][ 33]LogWorld: Game class is 'HubGameMode_C'
+[2016.02.25-15.45.38:916][ 33]LogWorld: Bringing World /Game/DelugeBP/Maps/UEDPIE_0_Hub.Hub up for play (max tick rate 0) at 2016.02.25-16.45.38
+[2016.02.25-15.45.38:917][ 33]LogActor:Warning: GameSession /Game/DelugeBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-15.45.38:917][ 33]LogActor:Warning: GameNetworkManager /Game/DelugeBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-15.45.38:917][ 33]LogWorld: Bringing up level for play took: 0.004180
+[2016.02.25-15.45.38:930][ 33]LogVoice:Warning: Failed to initialize voice interface
+[2016.02.25-15.45.38:933][ 33]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2016.02.25-15.45.38:938][ 33]PIE: Info Play in editor start time for /Game/DelugeBP/Maps/UEDPIE_0_Hub -0.354
+[2016.02.25-15.45.38:938][ 33]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/DelugeBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.Hub'
+[2016.02.25-15.45.39:562][ 77]LogBlueprintUserMessages: [HubGameMode_C_4] BasePlayerCharacter3 gives Damage  1.0 to Wall_400x203
+[2016.02.25-15.45.40:149][118]LogBlueprintUserMessages: [HubGameMode_C_4] BasePlayerCharacter3 gives Damage  1.0 to Wall_400x203
+[2016.02.25-15.45.40:355][132]LogBlueprintUserMessages: [HubGameMode_C_4] BasePlayerCharacter3 gives Damage  1.0 to Wall_400x203
+[2016.02.25-15.45.41:883][235]LogBlueprintUserMessages: [HubGameMode_C_4] BasePlayerCharacter3 gives Damage  1.0 to Wall_400x200
+[2016.02.25-15.45.42:091][249]LogBlueprintUserMessages: [HubGameMode_C_4] BasePlayerCharacter3 gives Damage  1.0 to Wall_400x200
+[2016.02.25-15.45.42:733][292]LogBlueprintUserMessages: [HubGameMode_C_4] BasePlayerCharacter3 gives Damage  1.0 to Wall_400x201
+[2016.02.25-15.45.42:943][306]LogBlueprintUserMessages: [HubGameMode_C_4] BasePlayerCharacter3 gives Damage  1.0 to Wall_400x201
+[2016.02.25-15.45.48:156][671]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/DelugeBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.Hub'
+[2016.02.25-15.45.48:203][671]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.02.25-15.45.48:205][671]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2016.02.25-15.45.48:214][671]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/DelugeBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.Hub'
+[2016.02.25-15.45.48:331][672]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000062F090ED40
+[2016.02.25-15.45.48:331][672]LogPlayLevel:Display: Destroying online subsystem :Context_11
+[2016.02.25-15.45.48:331][672]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.02.25-15.45.50:522][794]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x202)
+[2016.02.25-15.50.21:353][124]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DelugeBP/Maps/Hub" FILE="../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Maps/Hub.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.25-15.50.21:558][124]LogSavePackage: Save=146.223541ms
+[2016.02.25-15.50.21:558][124]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/HubA71CF9B84ABF2AAD44B18FA938A01D7C.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Maps/Hub.umap'
+[2016.02.25-15.50.21:563][124]LogSavePackage: Total save time: 162.719876ms
+[2016.02.25-15.50.21:563][124]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Maps/Hub.umap
+[2016.02.25-15.50.24:963][368]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/DelugeBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.Hub'
+[2016.02.25-15.50.24:964][368]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.25-15.50.24:964][368]PIE: New page: PIE session: Hub (Feb 25, 2016, 5:50:24 PM)
+[2016.02.25-15.50.24:964][368]LogPlayLevel: Creating play world package: /Game/DelugeBP/Maps/UEDPIE_0_Hub
+[2016.02.25-15.50.24:967][368]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003369s)
+[2016.02.25-15.50.24:969][368]LogAIModule: Creating AISystem for world Hub
+[2016.02.25-15.50.24:969][368]LogPlayLevel: PIE: World Init took: (0.001416s)
+[2016.02.25-15.50.24:969][368]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DelugeBP/Maps/Hub.Hub to /Game/DelugeBP/Maps/UEDPIE_0_Hub.Hub (0.005085s)
+[2016.02.25-15.50.25:034][368]LogInit: XAudio2 using 'Lautsprecher (Logitech G330 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.25-15.50.25:043][368]LogInit: FAudioDevice initialized.
+[2016.02.25-15.50.25:087][368]LogWorld: Game class is 'HubGameMode_C'
+[2016.02.25-15.50.25:091][368]LogWorld: Bringing World /Game/DelugeBP/Maps/UEDPIE_0_Hub.Hub up for play (max tick rate 0) at 2016.02.25-16.50.25
+[2016.02.25-15.50.25:091][368]LogActor:Warning: GameSession /Game/DelugeBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-15.50.25:092][368]LogActor:Warning: GameNetworkManager /Game/DelugeBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-15.50.25:092][368]LogWorld: Bringing up level for play took: 0.002737
+[2016.02.25-15.50.25:104][368]LogVoice:Warning: Failed to initialize voice interface
+[2016.02.25-15.50.25:106][368]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2016.02.25-15.50.25:109][368]PIE: Info Play in editor start time for /Game/DelugeBP/Maps/UEDPIE_0_Hub -0.183
+[2016.02.25-15.50.25:109][368]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/DelugeBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.Hub'
+[2016.02.25-15.50.26:972][544]LogBlueprintUserMessages: [HubGameMode_C_5] BasePlayerCharacter4 gives Damage  1.0 to Wall_400x203
+[2016.02.25-15.50.31:380][946]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/DelugeBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.Hub'
+[2016.02.25-15.50.31:417][946]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.02.25-15.50.31:418][946]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2016.02.25-15.50.31:436][946]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/DelugeBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.Hub'
+[2016.02.25-15.50.31:485][946]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000062C4416CA0
+[2016.02.25-15.50.31:543][947]LogPlayLevel:Display: Destroying online subsystem :Context_12
+[2016.02.25-15.50.31:544][947]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.02.25-15.50.32:275][  1]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x201)
+[2016.02.25-15.50.35:131][209]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x202)
+[2016.02.25-15.50.37:033][341]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x200)
+[2016.02.25-15.50.47:085][ 41]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x203)
+[2016.02.25-15.50.51:863][353]MapCheck: New page: Map Check
+[2016.02.25-15.50.51:890][353]Cmd: MAP REBUILD ALLVISIBLE
+[2016.02.25-15.50.51:890][353]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2016.02.25-15.50.52:167][353]LightingResults: New page: Lighting Build - Feb 25, 2016, 5:50:52 PM
+[2016.02.25-15.50.56:711][353]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2016.02.25-15.50.56:711][353]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.02.25-15.50.56:711][353]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.02.25-15.50.56:711][353]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.02.25-15.50.56:711][353]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.02.25-15.50.56:711][353]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.02.25-15.50.56:852][353]LogEditorBuildUtils: Build time 0:00:04
+[2016.02.25-15.50.58:664][450]Job is a success!
+[2016.02.25-15.50.58:796][451]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2016.02.25-15.50.58:871][451]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2016.02.25-15.50.58:871][451]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2016.02.25-15.50.58:873][451]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2016.02.25-15.50.58:981][451]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8)
+[2016.02.25-15.50.58:995][451]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8)
+[2016.02.25-15.50.59:044][451]Lightmass on DESKTOP-EQTRUAU: 1.55 sec total, 145 ms importing, 0 ms setup, 310 ms photons, 1.05 sec processing, 0 ms extra exporting [6/6 mappings]. Threads: 5.21 sec total, 2.23 sec processing.
+[2016.02.25-15.50.59:125][451]LogStaticLightingSystem: Illumination: 6.93 sec (247 ms encoding lightmaps)
+[2016.02.25-15.50.59:125][451]LogStaticLightingSystem: Lightmap texture memory:  0.3 MB (0.3 MB streaming, 0.0 MB non-streaming), 4 textures
+[2016.02.25-15.50.59:125][451]LogStaticLightingSystem: Shadowmap texture memory: 0.3 MB (0.3 MB streaming, 0.0 MB non-streaming), 4 textures
+[2016.02.25-15.50.59:722][452]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.02.25-15.50.59:722][452]MapCheck: New page: Hub - Feb 25, 2016, 5:50:59 PM
+[2016.02.25-15.50.59:833][452]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 110.619ms to complete.
+[2016.02.25-15.51.00:568][503]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DelugeBP/Maps/Hub" FILE="../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Maps/Hub.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.25-15.51.00:777][503]LogSavePackage: Save=153.608429ms
+[2016.02.25-15.51.00:777][503]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Hub5F5A19C04DF9CE5EF098BBB8D0282AC0.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Maps/Hub.umap'
+[2016.02.25-15.51.00:781][503]LogSavePackage: Total save time: 165.970374ms
+[2016.02.25-15.51.00:781][503]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Maps/Hub.umap
+[2016.02.25-15.51.02:813][640]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/DelugeBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.Hub'
+[2016.02.25-15.51.02:813][640]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.25-15.51.02:813][640]PIE: New page: PIE session: Hub (Feb 25, 2016, 5:51:02 PM)
+[2016.02.25-15.51.02:813][640]LogPlayLevel: Creating play world package: /Game/DelugeBP/Maps/UEDPIE_0_Hub
+[2016.02.25-15.51.02:816][640]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003209s)
+[2016.02.25-15.51.02:817][640]LogAIModule: Creating AISystem for world Hub
+[2016.02.25-15.51.02:818][640]LogPlayLevel: PIE: World Init took: (0.001283s)
+[2016.02.25-15.51.02:818][640]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DelugeBP/Maps/Hub.Hub to /Game/DelugeBP/Maps/UEDPIE_0_Hub.Hub (0.004746s)
+[2016.02.25-15.51.02:891][640]LogInit: XAudio2 using 'Lautsprecher (Logitech G330 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.25-15.51.02:901][640]LogInit: FAudioDevice initialized.
+[2016.02.25-15.51.02:945][640]LogWorld: Game class is 'HubGameMode_C'
+[2016.02.25-15.51.02:949][640]LogWorld: Bringing World /Game/DelugeBP/Maps/UEDPIE_0_Hub.Hub up for play (max tick rate 0) at 2016.02.25-16.51.02
+[2016.02.25-15.51.02:949][640]LogActor:Warning: GameSession /Game/DelugeBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-15.51.02:949][640]LogActor:Warning: GameNetworkManager /Game/DelugeBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-15.51.02:950][640]LogWorld: Bringing up level for play took: 0.002915
+[2016.02.25-15.51.02:961][640]LogVoice:Warning: Failed to initialize voice interface
+[2016.02.25-15.51.02:964][640]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2016.02.25-15.51.02:968][640]PIE: Info Play in editor start time for /Game/DelugeBP/Maps/UEDPIE_0_Hub -0.325
+[2016.02.25-15.51.02:968][640]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/DelugeBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.Hub'
+[2016.02.25-15.51.03:550][695]LogBlueprintUserMessages: [HubGameMode_C_6] BasePlayerCharacter5 gives Damage  1.0 to Wall_400x203
+[2016.02.25-15.51.03:965][732]LogBlueprintUserMessages: [HubGameMode_C_6] BasePlayerCharacter5 gives Damage  1.0 to Wall_400x203
+[2016.02.25-15.51.04:170][750]LogBlueprintUserMessages: [HubGameMode_C_6] BasePlayerCharacter5 gives Damage  1.0 to Wall_400x203
+[2016.02.25-15.51.07:997][101]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/DelugeBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.Hub'
+[2016.02.25-15.51.08:036][101]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.02.25-15.51.08:037][101]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2016.02.25-15.51.08:059][101]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/DelugeBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.Hub'
+[2016.02.25-15.51.08:113][101]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000062C4414A40
+[2016.02.25-15.51.08:156][102]LogPlayLevel:Display: Destroying online subsystem :Context_13
+[2016.02.25-15.51.08:156][102]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.02.25-15.51.12:957][416]LogActorFactory: Actor Factory created SM_Chair
+[2016.02.25-15.51.14:820][522]LogActorFactory: Actor Factory created SM_Chair
+[2016.02.25-15.51.18:039][721]LogActorFactory: Actor Factory created SM_Couch
+[2016.02.25-15.51.20:269][847]LogActorFactory: Actor Factory created SM_Couch
+[2016.02.25-15.51.21:174][904]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Chair)
+[2016.02.25-15.51.26:344][230]LogActorFactory: Actor Factory created SM_Chair
+[2016.02.25-15.51.27:149][271]LogActorFactory: Actor Factory created SM_Chair
+[2016.02.25-15.51.33:981][699]LogActorFactory: Actor Factory created SM_Lamp_Ceiling
+[2016.02.25-15.51.35:635][782]LogActorFactory: Actor Factory created SM_Lamp_Ceiling
+[2016.02.25-15.51.37:039][875]Cmd: DELETE
+[2016.02.25-15.51.37:039][875]Cmd: ACTOR DELETE
+[2016.02.25-15.51.37:057][875]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.02.25-15.51.37:111][875]LogEditorActor: Deleted 1 Actors (0.064 secs)
+[2016.02.25-15.51.39:809][ 68]LogActorFactory: Actor Factory created SM_Bush
+[2016.02.25-15.51.40:175][ 91]LogActorFactory: Actor Factory created SM_Bush
+[2016.02.25-15.51.48:400][599]LogActorFactory: Actor Factory created SM_CornerFrame
+[2016.02.25-15.51.49:377][644]LogActorFactory: Actor Factory created SM_CornerFrame
+[2016.02.25-15.51.50:465][714]Cmd: DELETE
+[2016.02.25-15.51.50:465][714]Cmd: ACTOR DELETE
+[2016.02.25-15.51.50:466][714]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.02.25-15.51.50:526][714]LogEditorActor: Deleted 1 Actors (0.061 secs)
+[2016.02.25-15.51.52:205][855]LogActorFactory: Actor Factory created SM_Bush
+[2016.02.25-15.51.53:504][951]LogActorFactory: Actor Factory created SM_Bush
+[2016.02.25-15.51.56:877][149]LogActorFactory: Actor Factory created SM_Rock
+[2016.02.25-15.51.59:044][266]LogActorFactory: Actor Factory created SM_Rock
+[2016.02.25-15.52.00:554][358]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/DelugeBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.Hub'
+[2016.02.25-15.52.00:554][358]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.25-15.52.00:554][358]PIE: New page: PIE session: Hub (Feb 25, 2016, 5:52:00 PM)
+[2016.02.25-15.52.00:554][358]LogPlayLevel: Creating play world package: /Game/DelugeBP/Maps/UEDPIE_0_Hub
+[2016.02.25-15.52.00:558][358]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003562s)
+[2016.02.25-15.52.00:559][358]LogAIModule: Creating AISystem for world Hub
+[2016.02.25-15.52.00:559][358]LogPlayLevel: PIE: World Init took: (0.001400s)
+[2016.02.25-15.52.00:559][358]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DelugeBP/Maps/Hub.Hub to /Game/DelugeBP/Maps/UEDPIE_0_Hub.Hub (0.005235s)
+[2016.02.25-15.52.00:625][358]LogInit: XAudio2 using 'Lautsprecher (Logitech G330 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.25-15.52.00:636][358]LogInit: FAudioDevice initialized.
+[2016.02.25-15.52.00:680][358]LogWorld: Game class is 'HubGameMode_C'
+[2016.02.25-15.52.00:685][358]LogWorld: Bringing World /Game/DelugeBP/Maps/UEDPIE_0_Hub.Hub up for play (max tick rate 0) at 2016.02.25-16.52.00
+[2016.02.25-15.52.00:685][358]LogActor:Warning: GameSession /Game/DelugeBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-15.52.00:685][358]LogActor:Warning: GameNetworkManager /Game/DelugeBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-15.52.00:686][358]LogWorld: Bringing up level for play took: 0.003698
+[2016.02.25-15.52.00:697][358]LogVoice:Warning: Failed to initialize voice interface
+[2016.02.25-15.52.00:699][358]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2016.02.25-15.52.00:702][358]PIE: Info Play in editor start time for /Game/DelugeBP/Maps/UEDPIE_0_Hub -0.59
+[2016.02.25-15.52.00:702][358]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/DelugeBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.Hub'
+[2016.02.25-15.52.01:272][402]LogBlueprintUserMessages: [HubGameMode_C_7] BasePlayerCharacter6 gives Damage  1.0 to Wall_400x203
+[2016.02.25-15.52.05:536][738]LogBlueprintUserMessages: [HubGameMode_C_7] BasePlayerCharacter6 gives Damage  1.0 to Wall_400x201
+[2016.02.25-15.52.05:734][754]LogBlueprintUserMessages: [HubGameMode_C_7] BasePlayerCharacter6 gives Damage  1.0 to Wall_400x201
+[2016.02.25-15.52.06:588][819]LogBlueprintUserMessages: [HubGameMode_C_7] BasePlayerCharacter6 gives Damage  1.0 to SM_Chair2
+[2016.02.25-15.52.06:790][835]LogBlueprintUserMessages: [HubGameMode_C_7] BasePlayerCharacter6 gives Damage  1.0 to SM_Chair2
+[2016.02.25-15.52.07:319][877]LogBlueprintUserMessages: [HubGameMode_C_7] BasePlayerCharacter6 gives Damage  1.0 to Floor
+[2016.02.25-15.52.07:524][893]LogBlueprintUserMessages: [HubGameMode_C_7] BasePlayerCharacter6 gives Damage  1.0 to Floor
+[2016.02.25-15.52.08:012][929]LogBlueprintUserMessages: [HubGameMode_C_7] BasePlayerCharacter6 gives Damage  1.0 to Floor
+[2016.02.25-15.52.08:221][945]LogBlueprintUserMessages: [HubGameMode_C_7] BasePlayerCharacter6 gives Damage  1.0 to Floor
+[2016.02.25-15.52.08:422][961]LogBlueprintUserMessages: [HubGameMode_C_7] BasePlayerCharacter6 gives Damage  1.0 to Floor
+[2016.02.25-15.52.08:617][976]LogBlueprintUserMessages: [HubGameMode_C_7] BasePlayerCharacter6 gives Damage  1.0 to Floor
+[2016.02.25-15.52.08:823][991]LogBlueprintUserMessages: [HubGameMode_C_7] BasePlayerCharacter6 gives Damage  1.0 to Floor
+[2016.02.25-15.52.09:013][  5]LogBlueprintUserMessages: [HubGameMode_C_7] BasePlayerCharacter6 gives Damage  1.0 to Floor
+[2016.02.25-15.52.09:211][ 20]LogBlueprintUserMessages: [HubGameMode_C_7] BasePlayerCharacter6 gives Damage  1.0 to Floor
+[2016.02.25-15.52.09:416][ 36]LogBlueprintUserMessages: [HubGameMode_C_7] BasePlayerCharacter6 gives Damage  1.0 to Floor
+[2016.02.25-15.52.09:620][ 51]LogBlueprintUserMessages: [HubGameMode_C_7] BasePlayerCharacter6 gives Damage  1.0 to Floor
+[2016.02.25-15.52.10:143][ 90]LogBlueprintUserMessages: [HubGameMode_C_7] BasePlayerCharacter6 gives Damage  1.0 to Floor
+[2016.02.25-15.52.10:828][142]LogBlueprintUserMessages: [HubGameMode_C_7] BasePlayerCharacter6 gives Damage  1.0 to Wall_400x202
+[2016.02.25-15.52.11:035][159]LogBlueprintUserMessages: [HubGameMode_C_7] BasePlayerCharacter6 gives Damage  1.0 to Wall_400x202
+[2016.02.25-15.52.11:501][195]LogBlueprintUserMessages: [HubGameMode_C_7] BasePlayerCharacter6 gives Damage  1.0 to Wall_400x202
+[2016.02.25-15.52.11:969][231]LogBlueprintUserMessages: [HubGameMode_C_7] BasePlayerCharacter6 gives Damage  1.0 to Wall_400x202
+[2016.02.25-15.52.12:373][261]LogBlueprintUserMessages: [HubGameMode_C_7] BasePlayerCharacter6 gives Damage  1.0 to Wall_400x202
+[2016.02.25-15.52.14:087][391]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/DelugeBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.Hub'
+[2016.02.25-15.52.14:136][391]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.02.25-15.52.14:137][391]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2016.02.25-15.52.14:157][391]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/DelugeBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.Hub'
+[2016.02.25-15.52.14:256][392]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000062898FD620
+[2016.02.25-15.52.14:257][392]LogPlayLevel:Display: Destroying online subsystem :Context_14
+[2016.02.25-15.52.14:257][392]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.02.25-15.52.16:411][521]MapCheck: New page: Map Check
+[2016.02.25-15.52.16:440][521]Cmd: MAP REBUILD ALLVISIBLE
+[2016.02.25-15.52.16:440][521]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2016.02.25-15.52.16:792][521]LightingResults: New page: Lighting Build - Feb 25, 2016, 5:52:16 PM
+[2016.02.25-15.52.21:319][521]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2016.02.25-15.52.21:319][521]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.02.25-15.52.21:319][521]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.02.25-15.52.21:319][521]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.02.25-15.52.21:319][521]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.02.25-15.52.21:319][521]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.02.25-15.52.21:469][521]LogEditorBuildUtils: Build time 0:00:05
+[2016.02.25-15.52.21:484][521]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Chair, compiling. 
+[2016.02.25-15.52.21:489][521]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Chair, compiling. 
+[2016.02.25-15.52.21:530][522]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Bush, compiling. 
+[2016.02.25-15.52.21:537][522]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Bush, compiling. 
+[2016.02.25-15.52.21:543][522]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Bush, compiling. 
+[2016.02.25-15.52.21:608][523]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Rock, compiling. 
+[2016.02.25-15.52.21:615][523]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Rock, compiling. 
+[2016.02.25-15.52.24:208][525]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Wall_400x202)
+[2016.02.25-15.52.25:497][552]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2016.02.25-15.52.26:749][620]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2016.02.25-15.52.27:833][679]Job is a success!
+[2016.02.25-15.52.27:973][680]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2016.02.25-15.52.28:091][680]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2016.02.25-15.52.28:092][680]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2016.02.25-15.52.28:094][680]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2016.02.25-15.52.28:226][680]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (G8)
+[2016.02.25-15.52.28:235][680]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (G8)
+[2016.02.25-15.52.28:275][680]Lightmass on DESKTOP-EQTRUAU: 2.94 sec total, 188 ms importing, 19 ms setup, 329 ms photons, 2.37 sec processing, 0 ms extra exporting [12/12 mappings]. Threads: 11.8 sec total, 7.05 sec processing.
+[2016.02.25-15.52.28:360][680]LogStaticLightingSystem: Illumination: 11.5 sec (305 ms encoding lightmaps)
+[2016.02.25-15.52.28:360][680]LogStaticLightingSystem: Lightmap texture memory:  0.3 MB (0.3 MB streaming, 0.0 MB non-streaming), 4 textures
+[2016.02.25-15.52.28:360][680]LogStaticLightingSystem: Shadowmap texture memory: 0.5 MB (0.5 MB streaming, 0.0 MB non-streaming), 6 textures
+[2016.02.25-15.52.38:340][681]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.02.25-15.52.38:341][681]MapCheck: New page: Hub - Feb 25, 2016, 5:52:38 PM
+[2016.02.25-15.52.38:459][681]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 118.527ms to complete.
+[2016.02.25-15.53.19:219][933]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/DelugeBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.Hub'
+[2016.02.25-15.53.19:219][933]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.25-15.53.19:219][933]PIE: New page: PIE session: Hub (Feb 25, 2016, 5:53:19 PM)
+[2016.02.25-15.53.19:219][933]LogPlayLevel: Creating play world package: /Game/DelugeBP/Maps/UEDPIE_0_Hub
+[2016.02.25-15.53.19:223][933]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003575s)
+[2016.02.25-15.53.19:224][933]LogAIModule: Creating AISystem for world Hub
+[2016.02.25-15.53.19:224][933]LogPlayLevel: PIE: World Init took: (0.001375s)
+[2016.02.25-15.53.19:225][933]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DelugeBP/Maps/Hub.Hub to /Game/DelugeBP/Maps/UEDPIE_0_Hub.Hub (0.005234s)
+[2016.02.25-15.53.19:303][933]LogInit: XAudio2 using 'Lautsprecher (Logitech G330 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.25-15.53.19:313][933]LogInit: FAudioDevice initialized.
+[2016.02.25-15.53.19:358][933]LogWorld: Game class is 'HubGameMode_C'
+[2016.02.25-15.53.19:363][933]LogWorld: Bringing World /Game/DelugeBP/Maps/UEDPIE_0_Hub.Hub up for play (max tick rate 0) at 2016.02.25-16.53.19
+[2016.02.25-15.53.19:363][933]LogActor:Warning: GameSession /Game/DelugeBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-15.53.19:363][933]LogActor:Warning: GameNetworkManager /Game/DelugeBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-15.53.19:363][933]LogWorld: Bringing up level for play took: 0.003721
+[2016.02.25-15.53.19:375][933]LogVoice:Warning: Failed to initialize voice interface
+[2016.02.25-15.53.19:376][933]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2016.02.25-15.53.19:380][933]PIE: Info Play in editor start time for /Game/DelugeBP/Maps/UEDPIE_0_Hub 0.088
+[2016.02.25-15.53.19:380][933]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/DelugeBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.Hub'
+[2016.02.25-15.53.19:949][981]LogBlueprintUserMessages: [HubGameMode_C_8] BasePlayerCharacter7 gives Damage  1.0 to Wall_400x203
+[2016.02.25-15.53.23:424][271]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/DelugeBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.Hub'
+[2016.02.25-15.53.23:472][271]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.02.25-15.53.23:473][271]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2016.02.25-15.53.23:492][271]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/DelugeBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.Hub'
+[2016.02.25-15.53.23:534][271]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000062C3BC6AC0
+[2016.02.25-15.53.23:585][272]LogPlayLevel:Display: Destroying online subsystem :Context_15
+[2016.02.25-15.53.23:586][272]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.02.25-15.53.24:393][327]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x201)
+[2016.02.25-15.53.35:207][959]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x200)
+[2016.02.25-15.53.42:360][376]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x203)
+[2016.02.25-15.53.46:353][605]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x202)
+[2016.02.25-15.53.49:409][777]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/DelugeBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.Hub'
+[2016.02.25-15.53.49:409][777]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.02.25-15.53.49:410][777]PIE: New page: PIE session: Hub (Feb 25, 2016, 5:53:49 PM)
+[2016.02.25-15.53.49:410][777]LogPlayLevel: Creating play world package: /Game/DelugeBP/Maps/UEDPIE_0_Hub
+[2016.02.25-15.53.49:414][777]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004100s)
+[2016.02.25-15.53.49:415][777]LogAIModule: Creating AISystem for world Hub
+[2016.02.25-15.53.49:415][777]LogPlayLevel: PIE: World Init took: (0.001480s)
+[2016.02.25-15.53.49:416][777]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/DelugeBP/Maps/Hub.Hub to /Game/DelugeBP/Maps/UEDPIE_0_Hub.Hub (0.005869s)
+[2016.02.25-15.53.49:485][777]LogInit: XAudio2 using 'Lautsprecher (Logitech G330 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.02.25-15.53.49:494][777]LogInit: FAudioDevice initialized.
+[2016.02.25-15.53.49:537][777]LogWorld: Game class is 'HubGameMode_C'
+[2016.02.25-15.53.49:542][777]LogWorld: Bringing World /Game/DelugeBP/Maps/UEDPIE_0_Hub.Hub up for play (max tick rate 0) at 2016.02.25-16.53.49
+[2016.02.25-15.53.49:542][777]LogActor:Warning: GameSession /Game/DelugeBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-15.53.49:542][777]LogActor:Warning: GameNetworkManager /Game/DelugeBP/Maps/UEDPIE_0_Hub.Hub:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.02.25-15.53.49:542][777]LogWorld: Bringing up level for play took: 0.003383
+[2016.02.25-15.53.49:554][777]LogVoice:Warning: Failed to initialize voice interface
+[2016.02.25-15.53.49:555][777]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
+[2016.02.25-15.53.49:560][777]PIE: Info Play in editor start time for /Game/DelugeBP/Maps/UEDPIE_0_Hub 0.268
+[2016.02.25-15.53.49:560][777]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/DelugeBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.Hub'
+[2016.02.25-15.53.50:124][824]LogBlueprintUserMessages: [HubGameMode_C_9] BasePlayerCharacter8 gives Damage  1.0 to Wall_400x203
+[2016.02.25-15.54.06:951][209]LogBlueprintUserMessages: [HubGameMode_C_9] BasePlayerCharacter8 gives Damage  1.0 to Wall_400x201
+[2016.02.25-15.54.07:470][250]LogBlueprintUserMessages: [HubGameMode_C_9] BasePlayerCharacter8 gives Damage  1.0 to Wall_400x201
+[2016.02.25-15.54.07:675][266]LogBlueprintUserMessages: [HubGameMode_C_9] BasePlayerCharacter8 gives Damage  1.0 to Wall_400x201
+[2016.02.25-15.54.08:186][307]LogBlueprintUserMessages: [HubGameMode_C_9] BasePlayerCharacter8 gives Damage  1.0 to Wall_400x201
+[2016.02.25-15.54.08:393][323]LogBlueprintUserMessages: [HubGameMode_C_9] BasePlayerCharacter8 gives Damage  1.0 to Wall_400x201
+[2016.02.25-15.54.08:963][370]LogBlueprintUserMessages: [HubGameMode_C_9] BasePlayerCharacter8 gives Damage  1.0 to Wall_400x201
+[2016.02.25-15.54.09:166][386]LogBlueprintUserMessages: [HubGameMode_C_9] BasePlayerCharacter8 gives Damage  1.0 to Wall_400x201
+[2016.02.25-15.54.09:727][429]LogBlueprintUserMessages: [HubGameMode_C_9] BasePlayerCharacter8 gives Damage  1.0 to Wall_400x201
+[2016.02.25-15.54.09:929][444]LogBlueprintUserMessages: [HubGameMode_C_9] BasePlayerCharacter8 gives Damage  1.0 to Wall_400x201
+[2016.02.25-15.54.10:753][508]LogBlueprintUserMessages: [HubGameMode_C_9] BasePlayerCharacter8 gives Damage  1.0 to SM_Chair2
+[2016.02.25-15.54.10:955][523]LogBlueprintUserMessages: [HubGameMode_C_9] BasePlayerCharacter8 gives Damage  1.0 to SM_Chair2
+[2016.02.25-15.54.11:299][550]LogBlueprintUserMessages: [HubGameMode_C_9] BasePlayerCharacter8 gives Damage  1.0 to SM_Chair
+[2016.02.25-15.54.11:502][566]LogBlueprintUserMessages: [HubGameMode_C_9] BasePlayerCharacter8 gives Damage  1.0 to SM_Chair
+[2016.02.25-15.54.12:011][607]LogBlueprintUserMessages: [HubGameMode_C_9] BasePlayerCharacter8 gives Damage  1.0 to SM_Chair
+[2016.02.25-15.54.12:220][624]LogBlueprintUserMessages: [HubGameMode_C_9] BasePlayerCharacter8 gives Damage  1.0 to SM_Chair
+[2016.02.25-15.54.15:021][838]LogBlueprintUserMessages: [HubGameMode_C_9] BasePlayerCharacter8 gives Damage  1.0 to Wall_400x201
+[2016.02.25-15.54.18:460][112]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/DelugeBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.Hub'
+[2016.02.25-15.54.18:503][112]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.02.25-15.54.18:504][112]LogPlayLevel:Display: Shutting down PIE online subsystems
+[2016.02.25-15.54.18:525][112]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel' has LevelScriptBlueprint '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.Hub' with GeneratedClass '/Game/DelugeBP/Maps/Hub.Hub_C' with ClassGeneratedBy '/Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.Hub'
+[2016.02.25-15.54.18:627][113]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000063062D0E00
+[2016.02.25-15.54.18:628][113]LogPlayLevel:Display: Destroying online subsystem :Context_16
+[2016.02.25-15.54.18:628][113]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
+[2016.02.25-15.54.20:799][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/DelugeBP/Maps/Hub" FILE="../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Maps/Hub.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.02.25-15.54.21:004][251]LogSavePackage: Save=151.423691ms
+[2016.02.25-15.54.2
