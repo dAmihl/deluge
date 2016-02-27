@@ -395,4 +395,99 @@
 [2016.02.27-15.37.18:041][503]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/MainMenu_Auto1D58A69CF4169FEC49208A887874FA41D.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/Maps/MainMenu_Auto1.umap'
 [2016.02.27-15.37.18:045][503]LogSavePackage: Total save time: 203.750420ms
 [2016.02.27-15.37.18:045][503]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/Maps/MainMenu_Auto1.umap
-[2016.02.27-15.37.18:048][503]LogFileHelpers: Editor autosav
+[2016.02.27-15.37.18:048][503]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/DelugeBP/Maps/MainMenu' took 0.316
+[2016.02.27-15.37.18:048][503]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.316
+[2016.02.27-15.39.44:643][ 32]LogSavePackage: Save=194.250809ms
+[2016.02.27-15.39.44:643][ 32]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/MainMenu99E9363C4A9C57B2DC5C35AFEC2F5D4E.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Maps/MainMenu.umap'
+[2016.02.27-15.39.44:650][ 32]LogSavePackage: Total save time: 222.755101ms
+[2016.02.27-15.39.44:650][ 32]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Maps/MainMenu.umap
+[2016.02.27-15.42.20:962][186]BlueprintLog: New page: Compile TimeAttackGameMode
+[2016.02.27-15.42.21:254][186]BlueprintEditorCompileResults: Info [1374.84] Compile of TimeAttackGameMode successful! [in 291 ms]
+[2016.02.27-15.42.21:651][200]LogSavePackage: Save=75.119179ms
+[2016.02.27-15.42.21:651][200]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/TimeAttackGameMode0DDDFE414963B6C7F78F75A23D53C946.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/TimeAttack/TimeAttackGameMode.uasset'
+[2016.02.27-15.42.21:656][200]LogSavePackage: Total save time: 104.625806ms
+[2016.02.27-15.42.21:656][200]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/TimeAttack/TimeAttackGameMode.uasset
+[2016.02.27-15.42.23:322][267]LogSavePackage: Save=117.234482ms
+[2016.02.27-15.42.23:322][267]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/UEDPCMainMenu04E85B12412B6373648A46B987EF0F4D.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/Maps/UEDPCMainMenu.umap'
+[2016.02.27-15.42.23:326][267]LogSavePackage: Total save time: 138.234001ms
+[2016.02.27-15.42.23:326][267]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/Maps/UEDPCMainMenu.umap
+[2016.02.27-15.43.35:580][632]LogSavePackage: Save=126.597404ms
+[2016.02.27-15.43.35:580][632]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/MainMenu54B99A264CD4DFD0C4F9A7B31AFEA8BA.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Maps/MainMenu.umap'
+[2016.02.27-15.43.35:600][632]LogSavePackage: Total save time: 168.533381ms
+[2016.02.27-15.43.35:600][632]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Maps/MainMenu.umap
+[2016.02.27-15.49.19:329][114]BlueprintLog: New page: Compile BasePlayerController
+[2016.02.27-15.49.19:667][114]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.27-15.49.19:763][114]BlueprintEditorCompileResults: Info [1793.35] Compile of BasePlayerController successful! [in 433 ms]
+[2016.02.27-15.49.20:291][115]LogSavePackage: Save=325.250122ms
+[2016.02.27-15.49.20:291][115]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BasePlayerController77161FBC4A57450F893186B758CACCF2.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerController.uasset'
+[2016.02.27-15.49.20:297][115]LogSavePackage: Total save time: 367.510486ms
+[2016.02.27-15.49.20:298][115]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerController.uasset
+[2016.02.27-15.50.03:556][ 74]BlueprintLog: New page: Compile BasePlayerState
+[2016.02.27-15.50.03:658][ 74]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.27-15.50.03:733][ 74]BlueprintEditorCompileResults: Info [1837.32] Compile of BasePlayerState successful! [in 175 ms]
+[2016.02.27-15.50.04:104][ 89]LogSavePackage: Save=16.489363ms
+[2016.02.27-15.50.04:104][ 89]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BasePlayerState1C4B6FFD4567899AE16C7FB17F7111D4.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerState.uasset'
+[2016.02.27-15.50.04:109][ 89]LogSavePackage: Total save time: 43.377887ms
+[2016.02.27-15.50.04:109][ 89]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerState.uasset
+[2016.02.27-15.50.41:691][110]BlueprintLog: New page: Compile BasePlayerState
+[2016.02.27-15.50.41:865][110]BlueprintEditorCompileResults: Info [1875.45] Compile of BasePlayerState successful! [in 173 ms]
+[2016.02.27-15.50.42:264][126]LogSavePackage: Save=30.009254ms
+[2016.02.27-15.50.42:264][126]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BasePlayerStateCB1ABAC4402AEAB4130D1BA954955144.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerState.uasset'
+[2016.02.27-15.50.42:273][126]LogSavePackage: Total save time: 55.380054ms
+[2016.02.27-15.50.42:273][126]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerState.uasset
+[2016.02.27-15.50.45:196][257]LogSavePackage: Save=117.415268ms
+[2016.02.27-15.50.45:196][257]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/UEDPCMainMenu15E162D2452F5D921B5B538DC53D360F.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/Maps/UEDPCMainMenu.umap'
+[2016.02.27-15.50.45:200][257]LogSavePackage: Total save time: 137.682166ms
+[2016.02.27-15.50.45:200][257]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/Maps/UEDPCMainMenu.umap
+[2016.02.27-15.51.16:730][687]BlueprintLog: New page: Compile BasePlayerState
+[2016.02.27-15.51.16:842][687]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.02.27-15.51.16:921][687]BlueprintEditorCompileResults: Info [1910.51] Compile of BasePlayerState successful! [in 190 ms]
+[2016.02.27-15.51.17:333][706]LogSavePackage: Save=17.374701ms
+[2016.02.27-15.51.17:333][706]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BasePlayerState908C50C84482A5095FF0B8ADA9D6B653.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerState.uasset'
+[2016.02.27-15.51.17:341][706]LogSavePackage: Total save time: 46.332773ms
+[2016.02.27-15.51.17:341][706]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerState.uasset
+[2016.02.27-15.51.46:135][293]Cmd: TRANSACTION UNDO
+[2016.02.27-15.51.46:135][293]LogEditorTransaction: Undo Move Node
+[2016.02.27-15.51.47:200][347]LogEditorTransaction: Undo Delete current selection
+[2016.02.27-15.51.47:751][378]LogEditorTransaction: Undo Delete current selection
+[2016.02.27-15.51.52:823][656]BlueprintLog: New page: Compile BasePlayerState
+[2016.02.27-15.51.53:007][656]BlueprintEditorCompileResults: Info [1946.59] Compile of BasePlayerState successful! [in 183 ms]
+[2016.02.27-15.51.53:382][673]LogSavePackage: Save=16.797718ms
+[2016.02.27-15.51.53:382][673]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BasePlayerState056A14EA436CD3064D4023B5994DEE4C.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerState.uasset'
+[2016.02.27-15.51.53:388][673]LogSavePackage: Total save time: 38.483560ms
+[2016.02.27-15.51.53:388][673]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerState.uasset
+[2016.02.27-15.52.05:559][284]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/DelugeBP/Blueprints/Characters/Player/BasePlayerController.BasePlayerController:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_122 or K2Node_CommutativeAssociativeBinaryOperator /Game/DelugeBP/Blueprints/Characters/Player/BasePlayerState.BasePlayerState:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_122
+[2016.02.27-15.52.05:559][284]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/DelugeBP/Blueprints/Characters/Player/BasePlayerState.BasePlayerState:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_122.EdGraphPin_56081) from referencer (EdGraphPin /Game/DelugeBP/Blueprints/Characters/Player/BasePlayerController.BasePlayerController:EventGraph.K2Node_CallFunction_6110.EdGraphPin_56073).  Import failed...
+[2016.02.27-15.52.05:559][284]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CommutativeAssociativeBinaryOperator_122.EdGraphPin_56081''
+[2016.02.27-15.52.05:559][284]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/DelugeBP/Blueprints/Characters/Player/BasePlayerController.BasePlayerController:EventGraph.K2Node_MacroInstance_302 or K2Node_MacroInstance /Game/DelugeBP/Blueprints/Characters/Player/BasePlayerState.BasePlayerState:EventGraph.K2Node_MacroInstance_302
+[2016.02.27-15.52.05:559][284]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_MacroInstance_302.EdGraphPin_56089''
+[2016.02.27-15.52.05:560][284]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Event /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_Event_1210 or K2Node_Event /Game/DelugeBP/Blueprints/Characters/Player/BasePlayerState.BasePlayerState:EventGraph.K2Node_Event_1210
+[2016.02.27-15.52.05:560][284]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/DelugeBP/Blueprints/Characters/Player/BasePlayerState.BasePlayerState:EventGraph.K2Node_Event_1210.EdGraphPin_12728) from referencer (EdGraphPin /Game/DelugeBP/Blueprints/Characters/Player/BasePlayerController.BasePlayerController:EventGraph.K2Node_CallFunction_6110.EdGraphPin_56069).  Import failed...
+[2016.02.27-15.52.05:560][284]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_Event_1210.EdGraphPin_12728''
+[2016.02.27-15.52.05:560][284]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/DelugeBP/Blueprints/Characters/Player/BasePlayerState.BasePlayerState:EventGraph.K2Node_CallFunction_6112 or K2Node_CallFunction /Game/DelugeBP/Blueprints/Characters/Player/BasePlayerController.BasePlayerController:EventGraph.K2Node_CallFunction_6112
+[2016.02.27-15.52.05:560][284]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/DelugeBP/Blueprints/Characters/Player/BasePlayerState.BasePlayerState:EventGraph.K2Node_CallFunction_6112.EdGraphPin_56086) from referencer (EdGraphPin /Game/DelugeBP/Blueprints/Characters/Player/BasePlayerController.BasePlayerController:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_122.EdGraphPin_56080).  Import failed...
+[2016.02.27-15.52.05:560][284]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_6112.EdGraphPin_56086''
+[2016.02.27-15.52.05:561][284]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/DelugeBP/Blueprints/Characters/Player/BasePlayerState.BasePlayerState:EventGraph.K2Node_CallFunction_6112 or K2Node_CallFunction /Game/DelugeBP/Blueprints/Characters/Player/BasePlayerController.BasePlayerController:EventGraph.K2Node_CallFunction_6112
+[2016.02.27-15.52.05:561][284]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/DelugeBP/Blueprints/Characters/Player/BasePlayerState.BasePlayerState:EventGraph.K2Node_CallFunction_6112.EdGraphPin_56085) from referencer (EdGraphPin /Game/DelugeBP/Blueprints/Characters/Player/BasePlayerController.BasePlayerController:EventGraph.K2Node_VariableGet_1978.EdGraphPin_56082).  Import failed...
+[2016.02.27-15.52.05:561][284]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_6112.EdGraphPin_56085''
+[2016.02.27-15.52.05:562][284]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/DelugeBP/Blueprints/Characters/Player/BasePlayerController.BasePlayerController:EventGraph.K2Node_MacroInstance_302 or K2Node_MacroInstance /Game/DelugeBP/Blueprints/Characters/Player/BasePlayerState.BasePlayerState:EventGraph.K2Node_MacroInstance_302
+[2016.02.27-15.52.05:562][284]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_MacroInstance_302.EdGraphPin_56090''
+[2016.02.27-15.52.15:009][718]LogSavePackage: Save=127.719299ms
+[2016.02.27-15.52.15:009][718]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/MainMenu785453D94CD2EE002473EDB565593723.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Maps/MainMenu.umap'
+[2016.02.27-15.52.15:015][718]LogSavePackage: Total save time: 149.662830ms
+[2016.02.27-15.52.15:015][718]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Maps/MainMenu.umap
+[2016.02.27-15.52.15:099][718]LogFileHelpers: Saving map 'MainMenu' took 0.448
+[2016.02.27-15.52.15:505][718]LogSavePackage: Save=371.928802ms
+[2016.02.27-15.52.15:505][718]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BasePlayerController2060815D49F22EC276E68F845E56B9C5.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerController.uasset'
+[2016.02.27-15.52.15:511][718]LogSavePackage: Total save time: 392.650571ms
+[2016.02.27-15.52.15:511][718]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerController.uasset
+[2016.02.27-15.52.15:870][731]BlueprintLog: New page: Compile BasePlayerController
+[2016.02.27-15.52.16:322][731]BlueprintEditorCompileResults: Info [1969.91] Compile of BasePlayerController successful! [in 451 ms]
+[2016.02.27-15.52.16:979][739]LogSavePackage: Save=336.895447ms
+[2016.02.27-15.52.16:979][739]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BasePlayerController9483E04F46219C2AA05C2C8984EC8932.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerController.uasset'
+[2016.02.27-15.52.16:983][739]LogSavePackage: Total save time: 355.453644ms
+[2016.02.27-15.52.16:983][739]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerController.uasset
+[2016.02.27-15.52.22:381][919]BlueprintLog: New page: Compile BasePlayerController
+[2016.02.27-15.52.22:790][919]BlueprintEditorCompileResults: Info [1976.38] Compile of BasePlayerController successful! [in 408 ms]
+[2016.02.27-15.52.23:349][924]LogSavePackage: Save=337.893799ms
+[2016.02.27-15.52.23:349][924]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BasePlayerController4CBC468C4AD779DA3AF9CEAFC4A78383.tmp' to '
