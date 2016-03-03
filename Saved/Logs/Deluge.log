@@ -1226,4 +1226,60 @@
 [2016.03.03-17.08.58:982][461]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
 [2016.03.03-17.08.59:083][461]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
 [2016.03.03-17.09.38:537][930]BlueprintLog: New page: Compile MainGameHudWidget
-[2016.03.03-17.09.38:723][930]LogParticles: Destro
+[2016.03.03-17.09.38:723][930]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E9F9DA6160
+[2016.03.03-17.09.38:726][930]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E988243F60
+[2016.03.03-17.09.38:730][930]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E98645A7A0
+[2016.03.03-17.09.38:732][930]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E99F7B7CE0
+[2016.03.03-17.09.38:761][930]BlueprintEditorCompileResults: Info [1389.19] Compile of MainGameHudWidget successful! [in 222 ms]
+[2016.03.03-17.09.39:328][945]LogSavePackage: Save=93.956490ms
+[2016.03.03-17.09.39:328][945]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/MainGameHudWidgetFFF5AC504989352FE6E78E83B2E351FB.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/HUD/Widgets/MainGameHudWidget.uasset'
+[2016.03.03-17.09.39:333][945]LogSavePackage: Total save time: 139.438160ms
+[2016.03.03-17.09.39:333][945]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/HUD/Widgets/MainGameHudWidget.uasset
+[2016.03.03-17.09.47:282][270]BlueprintLog: New page: Compile StandardGameHUD
+[2016.03.03-17.09.47:442][270]BlueprintEditorCompileResults: Info [1397.87] Compile of StandardGameHUD successful! [in 160 ms]
+[2016.03.03-17.09.47:973][292]LogSavePackage: Save=52.873081ms
+[2016.03.03-17.09.47:973][292]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/StandardGameHUDCF28CE0A4B466748078846AB7C6AD185.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/HUD/StandardGameHUD.uasset'
+[2016.03.03-17.09.47:978][292]LogSavePackage: Total save time: 99.789001ms
+[2016.03.03-17.09.47:978][292]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/HUD/StandardGameHUD.uasset
+[2016.03.03-17.09.49:922][369]LogSavePackage: Save=180.700165ms
+[2016.03.03-17.09.49:922][369]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/UEDPCHub5ABB0C3646F2CDC57D5C9688F978D8D9.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/Maps/UEDPCHub.umap'
+[2016.03.03-17.09.49:926][369]LogSavePackage: Total save time: 229.223836ms
+[2016.03.03-17.09.49:926][369]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/Maps/UEDPCHub.umap
+[2016.03.03-17.10.43:631][805]BlueprintLog: New page: Compile StandardGameHUD
+[2016.03.03-17.10.43:789][805]BlueprintEditorCompileResults: Info [1454.22] Compile of StandardGameHUD successful! [in 157 ms]
+[2016.03.03-17.10.44:348][835]LogSavePackage: Save=30.474682ms
+[2016.03.03-17.10.44:348][835]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/StandardGameHUD610366CD42203ECA5780F1817BB5061E.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/HUD/StandardGameHUD.uasset'
+[2016.03.03-17.10.44:352][835]LogSavePackage: Total save time: 74.443366ms
+[2016.03.03-17.10.44:352][835]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/HUD/StandardGameHUD.uasset
+[2016.03.03-17.18.52:799][ 21]BlueprintLog: New page: Compile MainGameHudWidget
+[2016.03.03-17.18.52:996][ 21]BlueprintEditorCompileResults: Info [1943.42] Compile of MainGameHudWidget successful! [in 197 ms]
+[2016.03.03-17.18.53:576][ 36]LogSavePackage: Save=94.056725ms
+[2016.03.03-17.18.53:576][ 36]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/MainGameHudWidget6146D5F5439113202A61368F4935E1C2.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/HUD/Widgets/MainGameHudWidget.uasset'
+[2016.03.03-17.18.53:582][ 36]LogSavePackage: Total save time: 143.553935ms
+[2016.03.03-17.18.53:582][ 36]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/HUD/Widgets/MainGameHudWidget.uasset
+[2016.03.03-17.18.57:220][160]LogSavePackage: Save=157.084030ms
+[2016.03.03-17.18.57:220][160]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/UEDPCHub67A3EB534DD60285334F5694ACBE2954.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/Maps/UEDPCHub.umap'
+[2016.03.03-17.18.57:224][160]LogSavePackage: Total save time: 202.532157ms
+[2016.03.03-17.18.57:224][160]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/Maps/UEDPCHub.umap
+[2016.03.03-17.23.53:455][641]BlueprintLog: New page: Compile MainGameHudWidget
+[2016.03.03-17.23.53:689][641]BlueprintEditorCompileResults: Info [2244.12] Compile of MainGameHudWidget successful! [in 233 ms]
+[2016.03.03-17.23.54:255][662]LogSavePackage: Save=107.895897ms
+[2016.03.03-17.23.54:255][662]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/MainGameHudWidget6D7F1B70482854D7D18CB686BF70D57B.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/HUD/Widgets/MainGameHudWidget.uasset'
+[2016.03.03-17.23.54:264][662]LogSavePackage: Total save time: 157.561135ms
+[2016.03.03-17.23.54:264][662]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/HUD/Widgets/MainGameHudWidget.uasset
+[2016.03.03-17.24.15:881][788]BlueprintLog: New page: Compile MainGameHudWidget
+[2016.03.03-17.24.16:086][788]BlueprintEditorCompileResults: Info [2266.51] Compile of MainGameHudWidget successful! [in 205 ms]
+[2016.03.03-17.24.16:611][806]LogSavePackage: Save=119.644379ms
+[2016.03.03-17.24.16:611][806]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/MainGameHudWidget5EFE81B1412D904927E43AA83941BAED.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/HUD/Widgets/MainGameHudWidget.uasset'
+[2016.03.03-17.24.16:617][806]LogSavePackage: Total save time: 165.130783ms
+[2016.03.03-17.24.16:617][806]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/HUD/Widgets/MainGameHudWidget.uasset
+[2016.03.03-17.24.18:374][876]LogSavePackage: Save=164.138657ms
+[2016.03.03-17.24.18:374][876]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/UEDPCHub0FFFB3D7415C19F9D6ABF592A13C295A.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/Maps/UEDPCHub.umap'
+[2016.03.03-17.24.18:377][876]LogSavePackage: Total save time: 224.599238ms
+[2016.03.03-17.24.18:377][876]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/Maps/UEDPCHub.umap
+[2016.03.03-17.24.45:509][669]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.03.03-17.24.50:844][942]LogActor:Warning: GameNetworkManager /Engine/Transient.World_17:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.03-17.25.02:135][489]LogActor:Warning: GameNetworkManager /Engine/Transient.World_18:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.03-17.25.29:139][792]BlueprintLog: New page: Compile StandardGameMode
+[2016.03.03-17.25.29:225][792]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.03-17.25.29:225][792]LogAct
