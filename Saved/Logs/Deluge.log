@@ -1282,4 +1282,32 @@
 [2016.03.03-17.25.02:135][489]LogActor:Warning: GameNetworkManager /Engine/Transient.World_18:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
 [2016.03.03-17.25.29:139][792]BlueprintLog: New page: Compile StandardGameMode
 [2016.03.03-17.25.29:225][792]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.03.03-17.25.29:225][792]LogAct
+[2016.03.03-17.25.29:225][792]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.03.03-17.25.29:288][792]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E98370CC20
+[2016.03.03-17.25.29:537][792]BlueprintEditorCompileResults: Info No value will be returned by reference. Parameter 'actorsOnTrigger'. Node:  Event Exit Trigger Notifier 
+[2016.03.03-17.25.29:537][792]BlueprintEditorCompileResults: Info [2339.97] Compile of StandardGameMode successful! [in 398 ms]
+[2016.03.03-17.25.30:158][806]LogSavePackage: Save=211.716843ms
+[2016.03.03-17.25.30:158][806]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/StandardGameModeD626FFE546F6873EF4AE7EB7E0BBB4F5.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/GameModes/StandardGameMode.uasset'
+[2016.03.03-17.25.30:163][806]LogSavePackage: Total save time: 261.236288ms
+[2016.03.03-17.25.30:163][806]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/GameModes/StandardGameMode.uasset
+[2016.03.03-17.25.32:125][875]LogSavePackage: Save=167.245529ms
+[2016.03.03-17.25.32:125][875]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/UEDPCHubF5C7BEA64766B7F63FB70FBE0D76EBF4.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/Maps/UEDPCHub.umap'
+[2016.03.03-17.25.32:128][875]LogSavePackage: Total save time: 209.535759ms
+[2016.03.03-17.25.32:128][875]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/Maps/UEDPCHub.umap
+[2016.03.03-17.29.35:455][680]BlueprintLog: New page: Compile BasePlayerController
+[2016.03.03-17.29.35:691][680]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.03-17.29.36:230][680]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Remote 
+[2016.03.03-17.29.36:230][680]BlueprintEditorCompileResults: Info [2586.66] Compile of BasePlayerController successful! [in 774 ms]
+[2016.03.03-17.29.37:329][693]LogSavePackage: Save=570.348206ms
+[2016.03.03-17.29.37:329][693]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BasePlayerControllerFCC40E0A4BEAD073314F04A3AC5E6754.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerController.uasset'
+[2016.03.03-17.29.37:336][693]LogSavePackage: Total save time: 661.131095ms
+[2016.03.03-17.29.37:336][693]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerController.uasset
+[2016.03.03-17.29.49:978][352]BlueprintLog: New page: Compile BasePlayerController
+[2016.03.03-17.29.50:731][352]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Remote 
+[2016.03.03-17.29.50:731][352]BlueprintEditorCompileResults: Info [2601.16] Compile of BasePlayerController successful! [in 751 ms]
+[2016.03.03-17.29.51:715][361]LogSavePackage: Save=595.937683ms
+[2016.03.03-17.29.51:715][361]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BasePlayerController812D29D14BC7B2C8EE21A19A4149C50A.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerController.uasset'
+[2016.03.03-17.29.51:720][361]LogSavePackage: Total save time: 635.823734ms
+[2016.03.03-17.29.51:720][361]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerController.uasset
+[2016.03.03-17.29.53:333][411]LogSavePackage: Save=169.440460ms
+[2016.03.03-17.29.53:333][411]LogSavePackage: Moving '../../../../../../U
