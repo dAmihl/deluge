@@ -1,723 +1,237 @@
-﻿[2016.03.04-16.19.01:951][  0]Log file open, 03/04/16 17:19:01
-[2016.03.04-16.19.01:951][  0]LogInit:Display: Running engine for game: Deluge
-[2016.03.04-16.19.01:951][  0]LogPlatformFile: Not using cached read wrapper
-[2016.03.04-16.19.01:951][  0]LogInit:Display: RandInit(-156123267) SRandInit(-156123264).
-[2016.03.04-16.19.01:951][  0]LogTaskGraph: Started task graph with 4 named threads and 8 total threads.
-[2016.03.04-16.19.01:951][  0]LogStats: Stats thread started at 0.212204
-[2016.03.04-16.19.01:951][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
-[2016.03.04-16.19.01:951][  0]LogInit: API Version: 2758231
-[2016.03.04-16.19.01:951][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
-[2016.03.04-16.19.01:951][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
-[2016.03.04-16.19.01:951][  0]LogInit: Build Configuration: Development
-[2016.03.04-16.19.01:951][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
-[2016.03.04-16.19.01:951][  0]LogInit: Command line:  
-[2016.03.04-16.19.01:951][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.10/Engine/Binaries/Win64/
-[2016.03.04-16.19.01:951][  0]LogInit: Rocket: 1
-[2016.03.04-16.19.02:237][  0]LogInit: Using libcurl 7.41.0
-[2016.03.04-16.19.02:237][  0]LogInit:  - built for x86_64-pc-win32
-[2016.03.04-16.19.02:237][  0]LogInit:  - supports SSL with WinSSL
-[2016.03.04-16.19.02:237][  0]LogInit:  - other features:
-[2016.03.04-16.19.02:237][  0]LogInit:      CURL_VERSION_SSL
-[2016.03.04-16.19.02:237][  0]LogInit:      CURL_VERSION_IPV6
-[2016.03.04-16.19.02:237][  0]LogInit:      CURL_VERSION_ASYNCHDNS
-[2016.03.04-16.19.02:237][  0]LogInit:      CURL_VERSION_LARGEFILE
-[2016.03.04-16.19.02:237][  0]LogInit:      CURL_VERSION_IDN
-[2016.03.04-16.19.02:237][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
-[2016.03.04-16.19.02:237][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
-[2016.03.04-16.19.02:237][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
-[2016.03.04-16.19.02:237][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
-[2016.03.04-16.19.02:237][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-[2016.03.04-16.19.02:247][  0]LogOnline:Display: STEAM: Loading Steam SDK 1.32
-[2016.03.04-16.19.02:247][  0]LogOnline:Warning: STEAM: Steam API disabled!
-[2016.03.04-16.19.02:247][  0]LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
-[2016.03.04-16.19.02:267][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2016.03.04-16.19.02:278][  0]LogVoice:Warning: Failed to initialize voice interface
-[2016.03.04-16.19.02:285][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2016.03.04-16.19.02:297][  0]LogInit: Object subsystem initialized
-[2016.03.04-16.19.02:298][  0]LogInit: Selected Device Profile: [Windows]
-[2016.03.04-16.19.02:298][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.03.04-16.19.02:310][  0]LogInit: Computer: DESKTOP-EQTRUAU
-[2016.03.04-16.19.02:310][  0]LogInit: User: mike
-[2016.03.04-16.19.02:310][  0]LogInit: CPU Page size=4096, Cores=6
-[2016.03.04-16.19.02:310][  0]LogInit: High frequency timer resolution =2.743589 MHz
-[2016.03.04-16.19.02:310][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
-[2016.03.04-16.19.02:310][  0]LogMemory: Platform Memory Stats for Windows
-[2016.03.04-16.19.02:310][  0]LogMemory: Process Physical Memory: 58.63 MB used, 58.63 MB peak
-[2016.03.04-16.19.02:310][  0]LogMemory: Process Virtual Memory: 58.02 MB used, 58.02 MB peak
-[2016.03.04-16.19.02:310][  0]LogMemory: Physical Memory: 3336.71 MB used, 8190.11 MB total
-[2016.03.04-16.19.02:310][  0]LogMemory: Virtual Memory: 383.77 MB used, 134217728.00 MB total
-[2016.03.04-16.19.02:376][  0]LogTextLocalizationManager: No translations for ('de-AT') exist, falling back to 'en' for localization and internationalization data.
-[2016.03.04-16.19.03:439][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 760 (Feature Level 11_0)
-[2016.03.04-16.19.03:439][  0]LogD3D11RHI: Adapter has 1989MB of dedicated video memory, 0MB of dedicated system memory, and 4095MB of shared system memory, 2 output[s]
-[2016.03.04-16.19.03:443][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
-[2016.03.04-16.19.03:443][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4095MB of shared system memory, 0 output[s]
-[2016.03.04-16.19.03:443][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2016.03.04-16.19.03:453][  0]LogD3D11RHI: !Direct3DDevice
-[2016.03.04-16.19.03:453][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2016.03.04-16.19.03:499][  0]LogD3D11RHI: Async texture creation enabled
-[2016.03.04-16.19.05:017][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Intermediate/Shaders/WorkingDirectory/3272/).
-[2016.03.04-16.19.05:017][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/mike/AppData/Local/Temp/UnrealShaderWorkingDir/6BE421D24C19AD4530C94290ACAB6FDF/'.
-[2016.03.04-16.19.05:017][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2016.03.04-16.19.06:966][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2016.03.04-16.19.06:986][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2016.03.04-16.19.07:000][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2016.03.04-16.19.07:013][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2016.03.04-16.19.07:024][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2016.03.04-16.19.07:040][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2016.03.04-16.19.07:049][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2016.03.04-16.19.07:059][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2016.03.04-16.19.07:068][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2016.03.04-16.19.07:078][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2016.03.04-16.19.07:085][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2016.03.04-16.19.07:099][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2016.03.04-16.19.07:099][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2016.03.04-16.19.07:100][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2016.03.04-16.19.07:130][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2016.03.04-16.19.07:139][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2016.03.04-16.19.07:156][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2016.03.04-16.19.07:166][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2016.03.04-16.19.07:166][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.03.04-16.19.07:381][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.03.04-16.19.08:164][  0]LogDerivedDataCache: Loaded boot cache 0.78s 45MB C:/Users/mike/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
-[2016.03.04-16.19.08:164][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/mike/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
-[2016.03.04-16.19.08:164][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.03.04-16.19.08:164][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.03.04-16.19.08:164][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2016.03.04-16.19.08:164][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2016.03.04-16.19.08:352][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2016.03.04-16.19.08:366][  0]LogDerivedDataCache: Using Local data cache path C:/Users/mike/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2016.03.04-16.19.08:773][  0]LogInit: Selected Device Profile: [Windows]
-[2016.03.04-16.19.08:782][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2016.03.04-16.19.09:039][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2016.03.04-16.19.09:039][  0]LogMeshUtilities: No automatic mesh merging module available
-[2016.03.04-16.19.21:951][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2016.03.04-16.19.22:445][  0]LogAssetRegistry: FAssetRegistry took 0.0139 seconds to start up
-[2016.03.04-16.19.24:750][  0]SourceControl: Info Source control is disabled
-[2016.03.04-16.19.24:981][  0]SourceControl: Info Source control is disabled
-[2016.03.04-16.19.25:006][  0]SourceControl: Info Source control is disabled
-[2016.03.04-16.19.25:036][  0]SourceControl: Info Source control is disabled
-[2016.03.04-16.19.26:148][  0]LogObj: 28640 objects as part of root set at end of initial load.
-[2016.03.04-16.19.26:148][  0]LogUObjectAllocator: 6315712 out of 0 bytes used by permanent object pool.
-[2016.03.04-16.19.26:381][  0]LogEngine: Initializing Engine...
-[2016.03.04-16.19.26:385][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
-[2016.03.04-16.19.26:386][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2016.03.04-16.19.26:650][  0]LogAIModule: Creating AISystem for world NewWorld
-[2016.03.04-16.19.26:671][  0]LogInit: XAudio2 using 'Lautsprecher (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.03.04-16.19.26:688][  0]LogInit: FAudioDevice initialized.
-[2016.03.04-16.19.26:761][  0]LogDerivedDataCache: Saved boot cache 0.07s 45MB C:/Users/mike/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
-[2016.03.04-16.19.26:789][  0]LogInit: Texture streaming: Enabled
-[2016.03.04-16.19.26:850][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2016.03.04-16.19.26:850][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
-[2016.03.04-16.19.26:850][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId e9c103cc4a7bfdb9667f4c93d4fe4a94|9965a4433f294ab4918ec7fd197501e9|b3429352-4a5d-4937-bcd4-644a47cc9371
-[2016.03.04-16.19.26:851][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
-[2016.03.04-16.19.26:910][  0]LogInit: Transaction tracking system initialized
-[2016.03.04-16.19.27:144][  0]BlueprintLog: New page: Editor Load
-[2016.03.04-16.19.28:027][  0]LocalizationService: Info Localization service is disabled
-[2016.03.04-16.19.28:583][  0]LogConsoleResponse:Display: 
-[2016.03.04-16.19.29:339][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2016.03.04-16.19.29:386][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mike/Documents/Unreal Projects/Deluge/Content/' took 0.06s
-[2016.03.04-16.19.29:812][  0]SourceControl: Info Source control is disabled
-[2016.03.04-16.19.29:813][  0]Cmd: MAP LOAD FILE="../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/MainMenu/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.03.04-16.19.29:839][  0]LightingResults: New page: Lighting Build
-[2016.03.04-16.19.29:862][  0]MapCheck: New page: Map Check
-[2016.03.04-16.19.29:862][  0]LightingResults: New page: Lighting Build
-[2016.03.04-16.19.29:887][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B9B7BDAAC0
-[2016.03.04-16.19.31:081][  0]LogAIModule: Creating AISystem for world MainMenu
-[2016.03.04-16.19.31:082][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.03.04-16.19.31:083][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.03.04-16.19.31:170][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 87.183ms to complete.
-[2016.03.04-16.19.31:170][  0]LogFileHelpers: Loading map 'MainMenu' took 1.358
-[2016.03.04-16.19.31:653][  0]LogCollectionManager: Loaded 0 collections in 0.003831 seconds
-[2016.03.04-16.19.31:735][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mike/Documents/Unreal Projects/Deluge/Saved/Collections/' took 0.01s
-[2016.03.04-16.19.31:735][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mike/Documents/Unreal Projects/Deluge/Content/Developers/mike/Collections/' took 0.01s
-[2016.03.04-16.19.31:735][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mike/Documents/Unreal Projects/Deluge/Content/Collections/' took 0.01s
-[2016.03.04-16.19.31:735][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000007 seconds
-[2016.03.04-16.19.31:754][  0]LogContentBrowser: Native class hierarchy populated in 0.0190 seconds. Added 1895 classes and 340 folders.
-[2016.03.04-16.19.31:786][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2016.03.04-16.19.32:504][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2016.03.04-16.19.32:534][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2016.03.04-16.19.32:733][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2016.03.04-16.19.32:766][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2016.03.04-16.19.32:917][  0]LogLoad: Full Startup: 31.93 seconds (BP compile: 0.46 seconds)
-[2016.03.04-16.19.33:262][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
-[2016.03.04-16.19.33:387][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2016.03.04-16.19.33:699][  0]LogRenderer: Reallocating scene render targets to support 1112x580 (Frame:2).
-[2016.03.04-16.19.34:932][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
-[2016.03.04-16.19.36:624][  9]LogAssetRegistry: Asset discovery search completed in 14.1926 seconds
-[2016.03.04-16.19.36:624][  9]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000009 seconds (updated 0 objects)
-[2016.03.04-16.19.38:789][ 17]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2016.03.04-16.19.39:671][ 17]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0080 seconds. Added 107 classes and 0 folders.
-[2016.03.04-16.21.14:912][994]BlueprintLog: New page: Compile BaseGameInstance
-[2016.03.04-16.21.15:365][994]BlueprintEditorCompileResults: Info [0134.38] Compile of BaseGameInstance successful! [in 453 ms]
-[2016.03.04-16.21.16:878][ 16]LogSavePackage: Save=294.240875ms
-[2016.03.04-16.21.16:878][ 16]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BaseGameInstance2477150A44FE16250DE77E8A950A0B90.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/BaseGameInstance.uasset'
-[2016.03.04-16.21.16:887][ 16]LogSavePackage: Total save time: 1033.934020ms
-[2016.03.04-16.21.16:887][ 16]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/BaseGameInstance.uasset
-[2016.03.04-16.21.53:080][ 77]BlueprintLog: New page: Compile BaseGameInstance
-[2016.03.04-16.21.53:468][ 77]BlueprintEditorCompileResults: Info [0172.48] Compile of BaseGameInstance successful! [in 387 ms]
-[2016.03.04-16.21.54:311][ 98]LogSavePackage: Save=333.342194ms
-[2016.03.04-16.21.54:311][ 98]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BaseGameInstance5ABF9821446F27C075730FAC6509B6EF.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/BaseGameInstance.uasset'
-[2016.03.04-16.21.54:323][ 98]LogSavePackage: Total save time: 387.879163ms
-[2016.03.04-16.21.54:323][ 98]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/BaseGameInstance.uasset
-[2016.03.04-16.22.14:676][414]BlueprintLog: New page: Compile BaseSaveGame
-[2016.03.04-16.22.14:926][414]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B9E48C7920
-[2016.03.04-16.22.14:926][414]BlueprintEditorCompileResults: Info [0193.94] Compile of BaseSaveGame successful! [in 249 ms]
-[2016.03.04-16.22.15:319][435]LogSavePackage: Save=3.736347ms
-[2016.03.04-16.22.15:319][435]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BaseSaveGame7A6B4FA04E97FA591B5EA8BA6F176A5E.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/SaveGame/BaseSaveGame.uasset'
-[2016.03.04-16.22.15:323][435]LogSavePackage: Total save time: 54.224230ms
-[2016.03.04-16.22.15:323][435]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/SaveGame/BaseSaveGame.uasset
-[2016.03.04-16.22.20:553][819]BlueprintLog: New page: Compile BaseSaveGame
-[2016.03.04-16.22.20:680][819]BlueprintEditorCompileResults: Info [0199.69] Compile of BaseSaveGame successful! [in 127 ms]
-[2016.03.04-16.22.21:143][847]LogSavePackage: Save=3.297506ms
-[2016.03.04-16.22.21:143][847]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BaseSaveGame54E64CBF417F6AF85C1F56AE300BD64E.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/SaveGame/BaseSaveGame.uasset'
-[2016.03.04-16.22.21:147][847]LogSavePackage: Total save time: 46.550706ms
-[2016.03.04-16.22.21:148][847]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/SaveGame/BaseSaveGame.uasset
-[2016.03.04-16.23.30:059][935]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_496.EdGraphPin_28010''
-[2016.03.04-16.23.30:060][935]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_496.EdGraphPin_28013''
-[2016.03.04-16.23.30:087][935]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_496.EdGraphPin_28011''
-[2016.03.04-16.23.30:087][935]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_496.EdGraphPin_28014''
-[2016.03.04-16.23.35:798][272]BlueprintLog: New page: Compile BaseGameInstance
-[2016.03.04-16.23.36:218][272]BlueprintEditorCompileResults: Info [0275.23] Compile of BaseGameInstance successful! [in 415 ms]
-[2016.03.04-16.23.36:974][288]LogSavePackage: Save=334.215881ms
-[2016.03.04-16.23.36:974][288]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BaseGameInstance510484794D225099370085B8799C1F0E.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/BaseGameInstance.uasset'
-[2016.03.04-16.23.36:981][288]LogSavePackage: Total save time: 383.881476ms
-[2016.03.04-16.23.36:981][288]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/BaseGameInstance.uasset
-[2016.03.04-16.23.58:414][506]BlueprintLog: New page: Compile BaseGameInstance
-[2016.03.04-16.23.58:818][506]BlueprintEditorCompileResults: Info [0297.83] Compile of BaseGameInstance successful! [in 404 ms]
-[2016.03.04-16.23.59:525][521]LogSavePackage: Save=318.835297ms
-[2016.03.04-16.23.59:525][521]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BaseGameInstance6ABE624F4DA417E1FF7FFD9810B4D295.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/BaseGameInstance.uasset'
-[2016.03.04-16.23.59:530][521]LogSavePackage: Total save time: 365.367044ms
-[2016.03.04-16.23.59:530][521]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/BaseGameInstance.uasset
-[2016.03.04-16.24.12:700][271]BlueprintLog: New page: Compile BaseGameInstance
-[2016.03.04-16.24.13:105][271]BlueprintEditorCompileResults: Info [0312.12] Compile of BaseGameInstance successful! [in 405 ms]
-[2016.03.04-16.24.13:821][285]LogSavePackage: Save=333.365906ms
-[2016.03.04-16.24.13:821][285]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BaseGameInstanceCB337A75487D61B5C9AF5984A5D56E0D.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/BaseGameInstance.uasset'
-[2016.03.04-16.24.13:827][285]LogSavePackage: Total save time: 380.652133ms
-[2016.03.04-16.24.13:827][285]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/BaseGameInstance.uasset
-[2016.03.04-16.24.50:923][277]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/DelugeBP/Blueprints/Weapon/Projectile/RifleProjectile.RifleProjectile_C:UserConstructionScript; removing parent information, but keeping function
-[2016.03.04-16.24.50:930][277]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/DelugeBP/Blueprints/Weapon/BaseRifleWeapon.BaseRifleWeapon_C:UserConstructionScript; removing parent information, but keeping function
-[2016.03.04-16.24.51:562][277]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch 
-[2016.03.04-16.24.51:569][277]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0350.58] Compile of Ue4ASP_Character successful, but with 1 Warning(s) [in 15 ms]
-[2016.03.04-16.24.51:570][277]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0350.58] Compile of Ue4ASP_Character successful, but with 2 Warning(s) [in 0 ms]
-[2016.03.04-16.24.51:570][277]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0350.58] Compile of Ue4ASP_Character successful, but with 3 Warning(s) [in 0 ms]
-[2016.03.04-16.24.51:705][277]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch 
-[2016.03.04-16.24.51:711][277]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0350.72] Compile of Ue4ASP_Character successful, but with 1 Warning(s) [in 12 ms]
-[2016.03.04-16.24.51:711][277]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0350.72] Compile of Ue4ASP_Character successful, but with 2 Warning(s) [in 0 ms]
-[2016.03.04-16.24.51:712][277]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0350.72] Compile of Ue4ASP_Character successful, but with 3 Warning(s) [in 0 ms]
-[2016.03.04-16.25.13:857][409]BlueprintLog: New page: Compile BaseGameInstance
-[2016.03.04-16.25.14:362][409]BlueprintEditorCompileResults: Info [0373.37] Compile of BaseGameInstance successful! [in 504 ms]
-[2016.03.04-16.25.15:151][428]LogSavePackage: Save=330.420105ms
-[2016.03.04-16.25.15:151][428]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BaseGameInstance052132064DD1C3309AD64BA7D36E90DC.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/BaseGameInstance.uasset'
-[2016.03.04-16.25.15:157][428]LogSavePackage: Total save time: 374.848418ms
-[2016.03.04-16.25.15:157][428]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/BaseGameInstance.uasset
-[2016.03.04-16.25.22:114][809]LogSavePackage: Save=322.921173ms
-[2016.03.04-16.25.22:114][809]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BaseGameInstance0E4B8F1F4BF26251986465B0214F6DBA.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/BaseGameInstance.uasset'
-[2016.03.04-16.25.22:131][809]LogSavePackage: Total save time: 380.915288ms
-[2016.03.04-16.25.22:131][809]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/BaseGameInstance.uasset
-[2016.03.04-16.26.24:179][685]BlueprintLog: New page: Compile BaseGameInstance
-[2016.03.04-16.26.24:671][685]BlueprintEditorCompileResults: Info [0443.68] Compile of BaseGameInstance successful! [in 491 ms]
-[2016.03.04-16.26.25:447][700]LogSavePackage: Save=349.698151ms
-[2016.03.04-16.26.25:447][700]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BaseGameInstanceA8A297684B48031B393C619B62493812.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/BaseGameInstance.uasset'
-[2016.03.04-16.26.25:452][700]LogSavePackage: Total save time: 403.886300ms
-[2016.03.04-16.26.25:452][700]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/BaseGameInstance.uasset
-[2016.03.04-16.27.20:090][471]BlueprintLog: New page: Compile BaseSaveGame
-[2016.03.04-16.27.20:488][471]BlueprintEditorCompileResults: Info [0499.50] Compile of BaseSaveGame successful! [in 398 ms]
-[2016.03.04-16.27.20:908][491]LogSavePackage: Save=4.602730ms
-[2016.03.04-16.27.20:908][491]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BaseSaveGame4CE83B4B4FC2FAF75B1969B92D725577.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/SaveGame/BaseSaveGame.uasset'
-[2016.03.04-16.27.20:912][491]LogSavePackage: Total save time: 52.683182ms
-[2016.03.04-16.27.20:912][491]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/SaveGame/BaseSaveGame.uasset
-[2016.03.04-16.28.54:512][969]BlueprintLog: New page: Compile BaseSaveGame
-[2016.03.04-16.28.54:830][969]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.03.04-16.28.54:932][969]BlueprintEditorCompileResults: Info [0593.94] Compile of BaseSaveGame successful! [in 419 ms]
-[2016.03.04-16.28.55:342][989]LogSavePackage: Save=13.713059ms
-[2016.03.04-16.28.55:342][989]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BaseSaveGameBEA160BF4E314E0E1FC8AA96A056ED44.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/SaveGame/BaseSaveGame.uasset'
-[2016.03.04-16.28.55:347][989]LogSavePackage: Total save time: 61.926916ms
-[2016.03.04-16.28.55:347][989]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/SaveGame/BaseSaveGame.uasset
-[2016.03.04-16.29.44:018][950]BlueprintLog: New page: Compile BaseSaveGame
-[2016.03.04-16.29.44:409][950]BlueprintEditorCompileResults: Info [0643.42] Compile of BaseSaveGame successful! [in 390 ms]
-[2016.03.04-16.29.44:833][969]LogSavePackage: Save=27.008419ms
-[2016.03.04-16.29.44:833][969]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BaseSaveGameAFDAF4F14C3AE7A52103EB94C6AF4E54.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/SaveGame/BaseSaveGame.uasset'
-[2016.03.04-16.29.44:838][969]LogSavePackage: Total save time: 75.590402ms
-[2016.03.04-16.29.44:838][969]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/SaveGame/BaseSaveGame.uasset
-[2016.03.04-16.30.11:020][333]BlueprintLog: New page: Compile BaseGameInstance
-[2016.03.04-16.30.11:532][333]BlueprintEditorCompileResults: Info [0670.54] Compile of BaseGameInstance successful! [in 511 ms]
-[2016.03.04-16.30.12:241][343]LogSavePackage: Save=354.745544ms
-[2016.03.04-16.30.12:241][343]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BaseGameInstance16697B8F4CA6AE55CFB7BB8E9B12312F.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/BaseGameInstance.uasset'
-[2016.03.04-16.30.12:246][343]LogSavePackage: Total save time: 404.126856ms
-[2016.03.04-16.30.12:246][343]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/BaseGameInstance.uasset
-[2016.03.04-16.30.16:472][569]BlueprintLog: New page: Compile BaseGameInstance
-[2016.03.04-16.30.16:966][569]BlueprintEditorCompileResults: Info [0675.98] Compile of BaseGameInstance successful! [in 493 ms]
-[2016.03.04-16.30.17:753][585]LogSavePackage: Save=360.488770ms
-[2016.03.04-16.30.17:753][585]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BaseGameInstance1524B853436858EB23E20E84E8A74390.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/BaseGameInstance.uasset'
-[2016.03.04-16.30.17:759][585]LogSavePackage: Total save time: 409.793157ms
-[2016.03.04-16.30.17:759][585]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/BaseGameInstance.uasset
-[2016.03.04-16.30.47:143][990]BlueprintLog: New page: Compile BaseGameInstance
-[2016.03.04-16.30.47:679][990]BlueprintEditorCompileResults: Info [0706.69] Compile of BaseGameInstance successful! [in 535 ms]
-[2016.03.04-16.30.48:446][  2]LogSavePackage: Save=338.993561ms
-[2016.03.04-16.30.48:447][  2]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BaseGameInstanceE00493A544ED1B9C5614FBA566BF2AFE.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/BaseGameInstance.uasset'
-[2016.03.04-16.30.48:460][  2]LogSavePackage: Total save time: 395.931024ms
-[2016.03.04-16.30.48:460][  2]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/BaseGameInstance.uasset
-[2016.03.04-16.31.30:072][ 35]BlueprintLog: New page: Compile BaseGameInstance
-[2016.03.04-16.31.30:611][ 35]BlueprintEditorCompileResults: Info [0749.62] Compile of BaseGameInstance successful! [in 539 ms]
-[2016.03.04-16.31.31:521][ 51]LogSavePackage: Save=420.874268ms
-[2016.03.04-16.31.31:521][ 51]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BaseGameInstance2A2BAD6042B269430EAEC3AD7B39CC2C.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/BaseGameInstance.uasset'
-[2016.03.04-16.31.31:527][ 51]LogSavePackage: Total save time: 481.317356ms
-[2016.03.04-16.31.31:527][ 51]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/BaseGameInstance.uasset
-[2016.03.04-16.32.29:126][ 62]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/DelugeBP/Blueprints/BaseGameInstance.BaseGameInstance:SaveGames.K2Node_DynamicCast_496 or K2Node_DynamicCast /Game/DelugeBP/Blueprints/BaseGameInstance.BaseGameInstance:LoadSavegame.K2Node_DynamicCast_496
-[2016.03.04-16.32.29:126][ 62]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_496.EdGraphPin_28010''
-[2016.03.04-16.32.29:126][ 62]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/DelugeBP/Blueprints/BaseGameInstance.BaseGameInstance:SaveGames.K2Node_DynamicCast_496 or K2Node_DynamicCast /Game/DelugeBP/Blueprints/BaseGameInstance.BaseGameInstance:LoadSavegame.K2Node_DynamicCast_496
-[2016.03.04-16.32.29:126][ 62]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_496.EdGraphPin_28013''
-[2016.03.04-16.32.29:126][ 62]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/DelugeBP/Blueprints/BaseGameInstance.BaseGameInstance:SaveGames.K2Node_DynamicCast_496 or K2Node_DynamicCast /Game/DelugeBP/Blueprints/BaseGameInstance.BaseGameInstance:LoadSavegame.K2Node_DynamicCast_496
-[2016.03.04-16.32.29:126][ 62]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_496.EdGraphPin_28011''
-[2016.03.04-16.32.29:127][ 62]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/DelugeBP/Blueprints/BaseGameInstance.BaseGameInstance:SaveGames.K2Node_DynamicCast_496 or K2Node_DynamicCast /Game/DelugeBP/Blueprints/BaseGameInstance.BaseGameInstance:LoadSavegame.K2Node_DynamicCast_496
-[2016.03.04-16.32.29:127][ 62]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_496.EdGraphPin_28014''
-[2016.03.04-16.32.44:084][865]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/DelugeBP/Blueprints/BaseGameInstance.BaseGameInstance:SaveGames.K2Node_VariableGet_472 or K2Node_VariableGet /Game/DelugeBP/Blueprints/BaseGameInstance.BaseGameInstance:LoadSavegame.K2Node_VariableGet_472
-[2016.03.04-16.32.44:084][865]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/DelugeBP/Blueprints/BaseGameInstance.BaseGameInstance:SaveGames.K2Node_DynamicCast_545 or K2Node_DynamicCast /Game/DelugeBP/Blueprints/BaseGameInstance.BaseGameInstance:LoadSavegame.K2Node_DynamicCast_545
-[2016.03.04-16.32.44:084][865]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/DelugeBP/Blueprints/BaseGameInstance.BaseGameInstance:SaveGames.K2Node_MacroInstance_264 or K2Node_MacroInstance /Game/DelugeBP/Blueprints/BaseGameInstance.BaseGameInstance:LoadSavegame.K2Node_MacroInstance_264
-[2016.03.04-16.32.44:085][865]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_MacroInstance_264.EdGraphPin_28100''
-[2016.03.04-16.32.44:085][865]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/DelugeBP/Blueprints/BaseGameInstance.BaseGameInstance:SaveGames.K2Node_VariableGet_1916 or K2Node_VariableGet /Game/DelugeBP/Blueprints/BaseGameInstance.BaseGameInstance:LoadSavegame.K2Node_VariableGet_1916
-[2016.03.04-16.32.44:085][865]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/DelugeBP/Blueprints/BaseGameInstance.BaseGameInstance:SaveGames.K2Node_VariableGet_472 or K2Node_VariableGet /Game/DelugeBP/Blueprints/BaseGameInstance.BaseGameInstance:LoadSavegame.K2Node_VariableGet_472
-[2016.03.04-16.32.44:085][865]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/DelugeBP/Blueprints/BaseGameInstance.BaseGameInstance:SaveGames.K2Node_MacroInstance_264 or K2Node_MacroInstance /Game/DelugeBP/Blueprints/BaseGameInstance.BaseGameInstance:LoadSavegame.K2Node_MacroInstance_264
-[2016.03.04-16.32.44:085][865]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_MacroInstance_264.EdGraphPin_28099''
-[2016.03.04-16.32.44:086][865]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/DelugeBP/Blueprints/BaseGameInstance.BaseGameInstance:SaveGames.K2Node_VariableSet_208 or K2Node_VariableSet /Game/DelugeBP/Blueprints/BaseGameInstance.BaseGameInstance:LoadSavegame.K2Node_VariableSet_208
-[2016.03.04-16.32.44:086][865]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/DelugeBP/Blueprints/BaseGameInstance.BaseGameInstance:SaveGames.K2Node_VariableSet_208 or K2Node_VariableSet /Game/DelugeBP/Blueprints/BaseGameInstance.BaseGameInstance:LoadSavegame.K2Node_VariableSet_208
-[2016.03.04-16.32.44:086][865]LogUObjectHash:Warning: Ambiguous search, could be K2Node_MacroInstance /Game/DelugeBP/Blueprints/BaseGameInstance.BaseGameInstance:SaveGames.K2Node_MacroInstance_264 or K2Node_MacroInstance /Game/DelugeBP/Blueprints/BaseGameInstance.BaseGameInstance:LoadSavegame.K2Node_MacroInstance_264
-[2016.03.04-16.32.44:086][865]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_MacroInstance_264.EdGraphPin_28101''
-[2016.03.04-16.32.44:087][865]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/DelugeBP/Blueprints/BaseGameInstance.BaseGameInstance:SaveGames.K2Node_CallFunction_3862 or K2Node_CallFunction /Game/DelugeBP/Blueprints/BaseGameInstance.BaseGameInstance:LoadSavegame.K2Node_CallFunction_3862
-[2016.03.04-16.32.44:087][865]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/DelugeBP/Blueprints/BaseGameInstance.BaseGameInstance:SaveGames.K2Node_CallFunction_12754 or K2Node_CallFunction /Game/DelugeBP/Blueprints/BaseGameInstance.BaseGameInstance:LoadSavegame.K2Node_CallFunction_12754
-[2016.03.04-16.32.44:088][865]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/DelugeBP/Blueprints/BaseGameInstance.BaseGameInstance:SaveGames.K2Node_DynamicCast_496 or K2Node_DynamicCast /Game/DelugeBP/Blueprints/BaseGameInstance.BaseGameInstance:LoadSavegame.K2Node_DynamicCast_496
-[2016.03.04-16.32.44:088][865]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/DelugeBP/Blueprints/BaseGameInstance.BaseGameInstance:SaveGames.K2Node_DynamicCast_496 or K2Node_DynamicCast /Game/DelugeBP/Blueprints/BaseGameInstance.BaseGameInstance:LoadSavegame.K2Node_DynamicCast_496
-[2016.03.04-16.32.44:089][865]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/DelugeBP/Blueprints/BaseGameInstance.BaseGameInstance:SaveGames.K2Node_DynamicCast_496 or K2Node_DynamicCast /Game/DelugeBP/Blueprints/BaseGameInstance.BaseGameInstance:LoadSavegame.K2Node_DynamicCast_496
-[2016.03.04-16.32.44:089][865]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/DelugeBP/Blueprints/BaseGameInstance.BaseGameInstance:SaveGames.K2Node_CallFunction_3863 or K2Node_CallFunction /Game/DelugeBP/Blueprints/GameModes/BaseGameMode.BaseGameMode:ActorDestroyed.K2Node_CallFunction_3863
-[2016.03.04-16.32.44:089][865]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/DelugeBP/Blueprints/BaseGameInstance.BaseGameInstance:SaveGames.K2Node_CallFunction_3863 or K2Node_CallFunction /Game/DelugeBP/Blueprints/GameModes/BaseGameMode.BaseGameMode:EdGraph_1053.K2Node_CallFunction_3863
-[2016.03.04-16.32.44:089][865]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/DelugeBP/Blueprints/BaseGameInstance.BaseGameInstance:SaveGames.K2Node_CallFunction_3863 or K2Node_CallFunction /Game/DelugeBP/Blueprints/GameModes/BaseGameMode.BaseGameMode:EdGraph_1071.K2Node_CallFunction_3863
-[2016.03.04-16.32.44:089][865]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/DelugeBP/Blueprints/BaseGameInstance.BaseGameInstance:SaveGames.K2Node_CallFunction_3863 or K2Node_CallFunction /Game/DelugeBP/Blueprints/GameModes/BaseGameMode.BaseGameMode:EdGraph_1107.K2Node_CallFunction_3863
-[2016.03.04-16.32.44:089][865]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/DelugeBP/Blueprints/BaseGameInstance.BaseGameInstance:SaveGames.K2Node_CallFunction_3863 or K2Node_CallFunction /Game/DelugeBP/Blueprints/BaseGameInstance.BaseGameInstance:LoadSavegame.K2Node_CallFunction_3863
-[2016.03.04-16.32.44:089][865]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/DelugeBP/Blueprints/BaseGameInstance.BaseGameInstance:SaveGames.K2Node_DynamicCast_496 or K2Node_DynamicCast /Game/DelugeBP/Blueprints/BaseGameInstance.BaseGameInstance:LoadSavegame.K2Node_DynamicCast_496
-[2016.03.04-16.32.54:191][370]BlueprintLog: New page: Compile BaseGameInstance
-[2016.03.04-16.32.54:356][370]LogBlueprint:Error: [compiler BaseGameInstance] Error Could not find a function named "LoadSavegame" in 'BaseGameInstance_C'.
-Make sure 'BaseGameInstance_C' has been compiled for  Load Savegame 
-[2016.03.04-16.32.54:897][370]LogBlueprint:Warning: [compiler BaseGameInstance] Warning [0833.91] Compile of BaseGameInstance failed. 1 Fatal Issue(s) 0 Warning(s) [in 705 ms]
-[2016.03.04-16.32.54:897][370]BlueprintEditorCompileResults:Error: Error Could not find a function named "LoadSavegame" in 'BaseGameInstance_C'.
-Make sure 'BaseGameInstance_C' has been compiled for  Load Savegame 
-[2016.03.04-16.32.54:897][370]BlueprintEditorCompileResults:Warning: Warning [0833.91] Compile of BaseGameInstance failed. 1 Fatal Issue(s) 0 Warning(s) [in 705 ms]
-[2016.03.04-16.32.55:721][385]LogSavePackage: Save=368.894531ms
-[2016.03.04-16.32.55:721][385]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BaseGameInstance02B1030544FDF40C1EE7BE812D220276.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/BaseGameInstance.uasset'
-[2016.03.04-16.32.55:728][385]LogSavePackage: Total save time: 413.871393ms
-[2016.03.04-16.32.55:728][385]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/BaseGameInstance.uasset
-[2016.03.04-16.33.05:908][922]BlueprintLog: New page: Compile BaseGameInstance
-[2016.03.04-16.33.06:426][922]BlueprintEditorCompileResults: Info [0845.44] Compile of BaseGameInstance successful! [in 518 ms]
-[2016.03.04-16.33.07:186][934]LogSavePackage: Save=391.946472ms
-[2016.03.04-16.33.07:186][934]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BaseGameInstance3724D9564BB55F97CD4751B75918FA62.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/BaseGameInstance.uasset'
-[2016.03.04-16.33.07:191][934]LogSavePackage: Total save time: 439.123716ms
-[2016.03.04-16.33.07:191][934]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/BaseGameInstance.uasset
-[2016.03.04-16.33.28:658][117]BlueprintLog: New page: Compile BaseGameInstance
-[2016.03.04-16.33.29:178][117]BlueprintEditorCompileResults: Info [0868.19] Compile of BaseGameInstance successful! [in 519 ms]
-[2016.03.04-16.33.30:043][133]LogSavePackage: Save=401.542664ms
-[2016.03.04-16.33.30:043][133]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BaseGameInstanceAB2BFA944A69F690CE19E0BAB49BE5D9.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/BaseGameInstance.uasset'
-[2016.03.04-16.33.30:054][133]LogSavePackage: Total save time: 456.535585ms
-[2016.03.04-16.33.30:054][133]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/BaseGameInstance.uasset
-[2016.03.04-16.34.12:051][372]BlueprintLog: New page: Compile BaseGameInstance
-[2016.03.04-16.34.12:614][372]BlueprintEditorCompileResults: Info [0911.63] Compile of BaseGameInstance successful! [in 563 ms]
-[2016.03.04-16.34.13:514][390]LogSavePackage: Save=406.176361ms
-[2016.03.04-16.34.13:514][390]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BaseGameInstance7C6AC6AE4F38960981138094C9B47DAE.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/BaseGameInstance.uasset'
-[2016.03.04-16.34.13:520][390]LogSavePackage: Total save time: 454.281598ms
-[2016.03.04-16.34.13:520][390]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/BaseGameInstance.uasset
-[2016.03.04-16.35.21:685][762]LogSavePackage: Save=176.805267ms
-[2016.03.04-16.35.21:685][762]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/UEDPCMainMenu48C9B09248BF36BCAAF7AA900F2410BA.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/MainMenu/UEDPCMainMenu.umap'
-[2016.03.04-16.35.21:689][762]LogSavePackage: Total save time: 225.468539ms
-[2016.03.04-16.35.21:689][762]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/MainMenu/UEDPCMainMenu.umap
-[2016.03.04-16.36.06:919][894]LogSavePackage: Save=170.526276ms
-[2016.03.04-16.36.06:919][894]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/MainMenu_Auto12042D52941C0222ECA7038A6D89193A1.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/MainMenu/MainMenu_Auto1.umap'
-[2016.03.04-16.36.06:923][894]LogSavePackage: Total save time: 215.622675ms
-[2016.03.04-16.36.06:923][894]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/MainMenu/MainMenu_Auto1.umap
-[2016.03.04-16.36.06:925][894]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/DelugeBP/MainMenu/MainMenu' took 0.329
-[2016.03.04-16.36.06:925][894]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.329
-[2016.03.04-16.38.13:682][438]BlueprintLog: New page: Compile BaseGameInstance
-[2016.03.04-16.38.14:234][438]BlueprintEditorCompileResults: Info [1153.25] Compile of BaseGameInstance successful! [in 552 ms]
-[2016.03.04-16.38.15:117][451]LogSavePackage: Save=406.236877ms
-[2016.03.04-16.38.15:117][451]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BaseGameInstance13643DB847832B259A3EE9BEB93BA630.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/BaseGameInstance.uasset'
-[2016.03.04-16.38.15:133][451]LogSavePackage: Total save time: 476.375286ms
-[2016.03.04-16.38.15:133][451]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/BaseGameInstance.uasset
-[2016.03.04-16.38.35:638][463]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_959.EdGraphPin_69574''
-[2016.03.04-16.38.35:638][463]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_9761.EdGraphPin_69576''
-[2016.03.04-16.38.35:638][463]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_959.EdGraphPin_69571''
-[2016.03.04-16.38.45:677][894]BlueprintLog: New page: Compile BaseGameInstance
-[2016.03.04-16.38.46:220][894]BlueprintEditorCompileResults: Info [1185.23] Compile of BaseGameInstance successful! [in 542 ms]
-[2016.03.04-16.38.47:142][909]LogSavePackage: Save=393.287415ms
-[2016.03.04-16.38.47:142][909]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BaseGameInstanceDA7FE82B4DA2709B1C67158E5A9F1B5E.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/BaseGameInstance.uasset'
-[2016.03.04-16.38.47:147][909]LogSavePackage: Total save time: 437.207613ms
-[2016.03.04-16.38.47:147][909]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/BaseGameInstance.uasset
-[2016.03.04-16.38.48:777][951]LogSavePackage: Save=170.171997ms
-[2016.03.04-16.38.48:777][951]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/UEDPCMainMenu1028D73847956626DE4E25BA195A4CED.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/MainMenu/UEDPCMainMenu.umap'
-[2016.03.04-16.38.48:781][951]LogSavePackage: Total save time: 214.224145ms
-[2016.03.04-16.38.48:781][951]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/MainMenu/UEDPCMainMenu.umap
-[2016.03.04-16.39.51:352][ 53]BlueprintLog: New page: Compile BaseGameInstance
-[2016.03.04-16.39.51:892][ 53]BlueprintEditorCompileResults: Info [1250.90] Compile of BaseGameInstance successful! [in 539 ms]
-[2016.03.04-16.39.52:891][ 70]LogSavePackage: Save=402.929169ms
-[2016.03.04-16.39.52:891][ 70]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BaseGameInstance1C760AAF41E9BF3D1A1B458A090D8B32.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/BaseGameInstance.uasset'
-[2016.03.04-16.39.52:896][ 70]LogSavePackage: Total save time: 452.852812ms
-[2016.03.04-16.39.52:896][ 70]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/BaseGameInstance.uasset
-[2016.03.04-16.39.53:965][ 88]LogSavePackage: Save=185.726440ms
-[2016.03.04-16.39.53:965][ 88]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/UEDPCMainMenuB3FFE0824FBC150716BC028F6258374C.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/MainMenu/UEDPCMainMenu.umap'
-[2016.03.04-16.39.53:968][ 88]LogSavePackage: Total save time: 234.836195ms
-[2016.03.04-16.39.53:968][ 88]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/MainMenu/UEDPCMainMenu.umap
-[2016.03.04-16.40.27:632][997]BlueprintLog: New page: Compile BaseGameInstance
-[2016.03.04-16.40.28:206][997]BlueprintEditorCompileResults: Info [1287.22] Compile of BaseGameInstance successful! [in 573 ms]
-[2016.03.04-16.40.29:009][  6]LogSavePackage: Save=406.790527ms
-[2016.03.04-16.40.29:009][  6]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BaseGameInstance347EB9974C95B0EE7A58F0A8A3721F31.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/BaseGameInstance.uasset'
-[2016.03.04-16.40.29:015][  6]LogSavePackage: Total save time: 454.745956ms
-[2016.03.04-16.40.29:015][  6]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/BaseGameInstance.uasset
-[2016.03.04-16.41.20:522][841]LogSavePackage: Save=184.499207ms
-[2016.03.04-16.41.20:522][841]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/MainMenuA9DEC87A4AB8EFF34154A69B791E79E7.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/MainMenu/MainMenu.umap'
-[2016.03.04-16.41.20:535][841]LogSavePackage: Total save time: 247.362122ms
-[2016.03.04-16.41.20:535][841]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/MainMenu/MainMenu.umap
-[2016.03.04-16.41.20:669][841]LogFileHelpers: Saving map 'MainMenu' took 0.637
-[2016.03.04-16.41.20:673][841]Cmd: MAP LOAD FILE="../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/MainMenu/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.03.04-16.41.20:673][841]LightingResults: New page: Lighting Build
-[2016.03.04-16.41.20:704][841]LoadErrors: New page: Loading map: MainMenu.umap
-[2016.03.04-16.41.20:705][841]MapCheck: New page: Map Check
-[2016.03.04-16.41.20:705][841]LightingResults: New page: Lighting Build
-[2016.03.04-16.41.20:825][841]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B9A89959E0
-[2016.03.04-16.41.20:961][841]LogAIModule: Creating AISystem for world MainMenu
-[2016.03.04-16.41.21:095][841]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.03.04-16.41.21:167][841]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.03.04-16.41.21:274][841]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 106.666ms to complete.
-[2016.03.04-16.41.21:275][841]LogFileHelpers: Loading map 'MainMenu' took 0.605
-[2016.03.04-16.44.52:539][734]BlueprintLog: New page: Compile BaseSaveGame
-[2016.03.04-16.44.52:814][734]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.03.04-16.44.52:889][734]BlueprintEditorCompileResults: Info [1551.90] Compile of BaseSaveGame successful! [in 349 ms]
-[2016.03.04-16.44.53:309][755]LogSavePackage: Save=15.522368ms
-[2016.03.04-16.44.53:309][755]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BaseSaveGame9CF68CBB4C21EFA1CCD42AA750B5C198.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/SaveGame/BaseSaveGame.uasset'
-[2016.03.04-16.44.53:313][755]LogSavePackage: Total save time: 65.625351ms
-[2016.03.04-16.44.53:313][755]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/SaveGame/BaseSaveGame.uasset
-[2016.03.04-16.45.20:860][306]BlueprintLog: New page: Compile BaseSaveGame
-[2016.03.04-16.45.21:014][306]BlueprintEditorCompileResults: Info [1580.02] Compile of BaseSaveGame successful! [in 154 ms]
-[2016.03.04-16.45.30:800][879]LogClass:Warning: Property characterDataStruct of SKEL_BaseSaveGame_C has a struct type mismatch (tag SAttributes != prop SCharacterData) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
-[2016.03.04-16.45.31:963][944]BlueprintLog: New page: Compile BaseSaveGame
-[2016.03.04-16.45.31:969][944]LogClass:Warning: Property characterDataStruct of BaseSaveGame_C has a struct type mismatch (tag SAttributes != prop SCharacterData) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
-[2016.03.04-16.45.32:290][944]BlueprintEditorCompileResults: Info [1591.30] Compile of BaseSaveGame successful! [in 326 ms]
-[2016.03.04-16.45.32:726][965]LogSavePackage: Save=13.825321ms
-[2016.03.04-16.45.32:726][965]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BaseSaveGame7F33E13642461A49FC82ABB1FDD7AB47.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/SaveGame/BaseSaveGame.uasset'
-[2016.03.04-16.45.32:731][965]LogSavePackage: Total save time: 61.453082ms
-[2016.03.04-16.45.32:731][965]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/SaveGame/BaseSaveGame.uasset
-[2016.03.04-16.46.21:602][927]BlueprintLog: New page: Compile MainMenu
-[2016.03.04-16.46.21:750][927]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B9AA7DD260
-[2016.03.04-16.46.21:761][927]BlueprintEditorCompileResults: Info [1640.77] Compile of MainMenu successful! [in 159 ms]
-[2016.03.04-16.46.25:104][147]BlueprintLog: New page: Compile MainMenu
-[2016.03.04-16.46.25:268][147]BlueprintEditorCompileResults: Info [1644.28] Compile of MainMenu successful! [in 162 ms]
-[2016.03.04-16.47.58:965][973]BlueprintLog: New page: Compile BaseSaveGame
-[2016.03.04-16.47.59:144][973]BlueprintEditorCompileResults: Info [1738.15] Compile of BaseSaveGame successful! [in 178 ms]
-[2016.03.04-16.47.59:638][995]LogSavePackage: Save=30.173616ms
-[2016.03.04-16.47.59:638][995]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BaseSaveGameD2E17DB843683D5D06B91D8B669CD894.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/SaveGame/BaseSaveGame.uasset'
-[2016.03.04-16.47.59:643][995]LogSavePackage: Total save time: 75.829871ms
-[2016.03.04-16.47.59:643][995]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/SaveGame/BaseSaveGame.uasset
-[2016.03.04-16.48.53:281][ 55]BlueprintLog: New page: Compile BaseSaveGame
-[2016.03.04-16.48.53:452][ 55]BlueprintEditorCompileResults: Info [1792.46] Compile of BaseSaveGame successful! [in 170 ms]
-[2016.03.04-16.48.54:096][ 85]LogSavePackage: Save=37.807411ms
-[2016.03.04-16.48.54:096][ 85]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BaseSaveGameC9CF4843467B584A55E35A9B2832C82D.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/SaveGame/BaseSaveGame.uasset'
-[2016.03.04-16.48.54:101][ 85]LogSavePackage: Total save time: 84.248405ms
-[2016.03.04-16.48.54:101][ 85]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/SaveGame/BaseSaveGame.uasset
-[2016.03.04-16.49.27:581][846]BlueprintLog: New page: Compile BaseGameInstance
-[2016.03.04-16.49.28:056][846]BlueprintEditorCompileResults: Info [1827.07] Compile of BaseGameInstance successful! [in 475 ms]
-[2016.03.04-16.49.28:890][861]LogSavePackage: Save=384.523346ms
-[2016.03.04-16.49.28:890][861]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BaseGameInstanceDDC91D27407079CF203CC485F4C62169.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/BaseGameInstance.uasset'
-[2016.03.04-16.49.28:895][861]LogSavePackage: Total save time: 438.972455ms
-[2016.03.04-16.49.28:895][861]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/BaseGameInstance.uasset
-[2016.03.04-16.49.35:966][330]BlueprintLog: New page: Compile MainMenu
-[2016.03.04-16.49.36:136][330]BlueprintEditorCompileResults: Info [1835.15] Compile of MainMenu successful! [in 170 ms]
-[2016.03.04-16.49.39:520][518]LogSavePackage: Save=130.926682ms
-[2016.03.04-16.49.39:520][518]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/MainMenu220440C941EB4A2C3F71F08E567E5F5B.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/MainMenu/MainMenu.umap'
-[2016.03.04-16.49.39:525][518]LogSavePackage: Total save time: 183.741804ms
-[2016.03.04-16.49.39:525][518]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/MainMenu/MainMenu.umap
-[2016.03.04-16.49.39:616][518]LogFileHelpers: Saving map 'MainMenu' took 0.459
-[2016.03.04-16.49.52:591][184]LogSavePackage: Save=114.494553ms
-[2016.03.04-16.49.52:591][184]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/UEDPCMainMenu78469DF04F0E0F4F751AD8A169FC1131.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/MainMenu/UEDPCMainMenu.umap'
-[2016.03.04-16.49.52:597][184]LogSavePackage: Total save time: 163.521577ms
-[2016.03.04-16.49.52:597][184]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/MainMenu/UEDPCMainMenu.umap
-[2016.03.04-16.50.07:984][396]LogSavePackage: Save=118.182793ms
-[2016.03.04-16.50.07:984][396]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/UEDPCMainMenu2EFD4A3A44A57F70419E38B345818AD7.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/MainMenu/UEDPCMainMenu.umap'
-[2016.03.04-16.50.07:988][396]LogSavePackage: Total save time: 169.300139ms
-[2016.03.04-16.50.07:988][396]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/MainMenu/UEDPCMainMenu.umap
-[2016.03.04-16.50.51:042][117]BlueprintLog: New page: Compile BaseGameInstance
-[2016.03.04-16.50.51:542][117]BlueprintEditorCompileResults: Info [1910.55] Compile of BaseGameInstance successful! [in 499 ms]
-[2016.03.04-16.50.52:306][131]LogSavePackage: Save=365.180054ms
-[2016.03.04-16.50.52:306][131]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BaseGameInstance8D9C696149E47FAF3F66F489AE53F7EE.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/BaseGameInstance.uasset'
-[2016.03.04-16.50.52:311][131]LogSavePackage: Total save time: 410.455067ms
-[2016.03.04-16.50.52:311][131]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/BaseGameInstance.uasset
-[2016.03.04-16.50.55:875][313]LogSavePackage: Save=117.524895ms
-[2016.03.04-16.50.55:875][313]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/MainMenu91C30C544B9B597FB1EABA8220414A5C.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/MainMenu/MainMenu.umap'
-[2016.03.04-16.50.55:880][313]LogSavePackage: Total save time: 166.530047ms
-[2016.03.04-16.50.55:880][313]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/MainMenu/MainMenu.umap
-[2016.03.04-16.50.55:954][313]LogFileHelpers: Saving map 'MainMenu' took 0.417
-[2016.03.04-16.50.57:214][364]LogSavePackage: Save=122.513977ms
-[2016.03.04-16.50.57:214][364]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/UEDPCMainMenu2E11FFDE41431050382788B6C6502F25.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/MainMenu/UEDPCMainMenu.umap'
-[2016.03.04-16.50.57:218][364]LogSavePackage: Total save time: 168.047402ms
-[2016.03.04-16.50.57:218][364]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/MainMenu/UEDPCMainMenu.umap
-[2016.03.04-16.51.10:453][545]LogSavePackage: Save=123.125587ms
-[2016.03.04-16.51.10:453][545]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/UEDPCMainMenuE8940C274C676B57B4C8BABE129CAB0A.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/MainMenu/UEDPCMainMenu.umap'
-[2016.03.04-16.51.10:456][545]LogSavePackage: Total save time: 171.025984ms
-[2016.03.04-16.51.10:456][545]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/MainMenu/UEDPCMainMenu.umap
-[2016.03.04-16.52.02:336][768]BlueprintLog: New page: Compile BaseGameInstance
-[2016.03.04-16.52.02:799][768]BlueprintEditorCompileResults: Info [1981.81] Compile of BaseGameInstance successful! [in 463 ms]
-[2016.03.04-16.52.03:631][783]LogSavePackage: Save=405.675568ms
-[2016.03.04-16.52.03:631][783]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BaseGameInstance7D1CD0124FB1CB76BB116ABD1A1FC43C.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/BaseGameInstance.uasset'
-[2016.03.04-16.52.03:639][783]LogSavePackage: Total save time: 455.694348ms
-[2016.03.04-16.52.03:639][783]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/BaseGameInstance.uasset
-[2016.03.04-16.52.05:162][835]LogSavePackage: Save=120.456085ms
-[2016.03.04-16.52.05:162][835]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/UEDPCMainMenu0BA4CECF42AF80BFC3EDAA999D4DB102.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/MainMenu/UEDPCMainMenu.umap'
-[2016.03.04-16.52.05:166][835]LogSavePackage: Total save time: 165.483240ms
-[2016.03.04-16.52.05:166][835]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/MainMenu/UEDPCMainMenu.umap
-[2016.03.04-16.52.37:080][738]LogSavePackage: Save=118.577164ms
-[2016.03.04-16.52.37:080][738]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/UEDPCMainMenuCE84972648C8F472973DE49454E5DD48.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/MainMenu/UEDPCMainMenu.umap'
-[2016.03.04-16.52.37:083][738]LogSavePackage: Total save time: 162.498102ms
-[2016.03.04-16.52.37:083][738]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/MainMenu/UEDPCMainMenu.umap
-[2016.03.04-16.53.22:684][571]BlueprintLog: New page: Compile BaseGameInstance
-[2016.03.04-16.53.23:160][571]BlueprintEditorCompileResults: Info [2062.17] Compile of BaseGameInstance successful! [in 476 ms]
-[2016.03.04-16.53.28:735][827]BlueprintLog: New page: Compile BaseGameInstance
-[2016.03.04-16.53.29:218][827]BlueprintEditorCompileResults: Info [2068.23] Compile of BaseGameInstance successful! [in 482 ms]
-[2016.03.04-16.53.33:212][ 20]BlueprintLog: New page: Compile BaseGameInstance
-[2016.03.04-16.53.33:685][ 20]BlueprintEditorCompileResults: Info [2072.70] Compile of BaseGameInstance successful! [in 473 ms]
-[2016.03.04-16.53.34:478][ 32]LogSavePackage: Save=400.340576ms
-[2016.03.04-16.53.34:478][ 32]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BaseGameInstanceE0E0B9394FD589C8E6339181FC0215BB.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/BaseGameInstance.uasset'
-[2016.03.04-16.53.34:495][ 32]LogSavePackage: Total save time: 460.192472ms
-[2016.03.04-16.53.34:495][ 32]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/BaseGameInstance.uasset
-[2016.03.04-16.53.50:745][816]BlueprintLog: New page: Compile BaseGameInstance
-[2016.03.04-16.53.51:207][816]BlueprintEditorCompileResults: Info [2090.22] Compile of BaseGameInstance successful! [in 461 ms]
-[2016.03.04-16.53.52:081][831]LogSavePackage: Save=420.936951ms
-[2016.03.04-16.53.52:081][831]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BaseGameInstance0AADDA6D431F2AF699CF6F977130583F.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/BaseGameInstance.uasset'
-[2016.03.04-16.53.52:086][831]LogSavePackage: Total save time: 471.307471ms
-[2016.03.04-16.53.52:086][831]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/BaseGameInstance.uasset
-[2016.03.04-16.54.18:123][152]BlueprintLog: New page: Compile BaseGameInstance
-[2016.03.04-16.54.18:619][152]BlueprintEditorCompileResults: Info [2117.63] Compile of BaseGameInstance successful! [in 495 ms]
-[2016.03.04-16.54.19:846][183]LogSavePackage: Save=406.457031ms
-[2016.03.04-16.54.19:847][183]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BaseGameInstance00BD3B85446F7FF70F36CD90CB30F0B6.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/BaseGameInstance.uasset'
-[2016.03.04-16.54.19:852][183]LogSavePackage: Total save time: 452.411421ms
-[2016.03.04-16.54.19:852][183]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/BaseGameInstance.uasset
-[2016.03.04-16.54.22:108][267]LogSavePackage: Save=137.574539ms
-[2016.03.04-16.54.22:108][267]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/UEDPCMainMenu2D4E71CB443F3FC0C302119AA14397A9.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/MainMenu/UEDPCMainMenu.umap'
-[2016.03.04-16.54.22:112][267]LogSavePackage: Total save time: 180.991761ms
-[2016.03.04-16.54.22:112][267]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/MainMenu/UEDPCMainMenu.umap
-[2016.03.04-16.57.06:317][582]LogActor:Warning: GameNetworkManager /Engine/Transient.World_9:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
-[2016.03.04-16.57.41:593][399]BlueprintLog: New page: Compile BaseGameMode
-[2016.03.04-16.57.41:945][399]BlueprintEditorCompileResults: Info No value will be returned by reference. Parameter 'actorsOnTrigger'. Node:  ExitTriggerNotifier 
-[2016.03.04-16.57.41:945][399]BlueprintEditorCompileResults: Info [2320.96] Compile of BaseGameMode successful! [in 351 ms]
-[2016.03.04-16.57.42:601][411]LogSavePackage: Save=256.953217ms
-[2016.03.04-16.57.42:601][411]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BaseGameMode80B3BEC145D3F2B86EE033A96A5B787D.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/GameModes/BaseGameMode.uasset'
-[2016.03.04-16.57.42:610][411]LogSavePackage: Total save time: 323.139507ms
-[2016.03.04-16.57.42:610][411]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/GameModes/BaseGameMode.uasset
-[2016.03.04-16.58.02:712][447]BlueprintLog: New page: Compile BaseGameMode
-[2016.03.04-16.58.03:001][447]BlueprintEditorCompileResults: Info No value will be returned by reference. Parameter 'actorsOnTrigger'. Node:  ExitTriggerNotifier 
-[2016.03.04-16.58.03:001][447]BlueprintEditorCompileResults: Info [2342.01] Compile of BaseGameMode successful! [in 289 ms]
-[2016.03.04-16.58.03:716][463]LogSavePackage: Save=255.263458ms
-[2016.03.04-16.58.03:716][463]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BaseGameMode8A45B04E41114D09F0FE088BBE939410.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/GameModes/BaseGameMode.uasset'
-[2016.03.04-16.58.03:721][463]LogSavePackage: Total save time: 307.122894ms
-[2016.03.04-16.58.03:721][463]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/GameModes/BaseGameMode.uasset
-[2016.03.04-16.58.16:820][126]BlueprintLog: New page: Compile BaseGameMode
-[2016.03.04-16.58.17:107][126]BlueprintEditorCompileResults: Info No value will be returned by reference. Parameter 'actorsOnTrigger'. Node:  ExitTriggerNotifier 
-[2016.03.04-16.58.17:107][126]BlueprintEditorCompileResults: Info [2356.12] Compile of BaseGameMode successful! [in 286 ms]
-[2016.03.04-16.58.17:793][142]LogSavePackage: Save=249.459747ms
-[2016.03.04-16.58.17:793][142]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BaseGameModeAC35C3014555CC2CA51A67A9545CC59E.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/GameModes/BaseGameMode.uasset'
-[2016.03.04-16.58.17:799][142]LogSavePackage: Total save time: 301.206194ms
-[2016.03.04-16.58.17:799][142]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/GameModes/BaseGameMode.uasset
-[2016.03.04-16.58.19:278][191]LogSavePackage: Save=133.115051ms
-[2016.03.04-16.58.19:278][191]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/UEDPCMainMenu8BD1A7294428C4A0CD4358A9D1046265.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/MainMenu/UEDPCMainMenu.umap'
-[2016.03.04-16.58.19:282][191]LogSavePackage: Total save time: 183.271620ms
-[2016.03.04-16.58.19:282][191]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/MainMenu/UEDPCMainMenu.umap
-[2016.03.04-16.59.38:956][851]BlueprintLog: New page: Compile BasePlayerController
-[2016.03.04-16.59.39:602][851]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Remote 
-[2016.03.04-16.59.39:602][851]BlueprintEditorCompileResults: Info [2438.61] Compile of BasePlayerController successful! [in 645 ms]
-[2016.03.04-16.59.40:666][855]LogSavePackage: Save=683.825073ms
-[2016.03.04-16.59.40:666][855]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BasePlayerControllerEA34FF814962E645DE3C74A5C36E3356.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerController.uasset'
-[2016.03.04-16.59.40:672][855]LogSavePackage: Total save time: 763.178084ms
-[2016.03.04-16.59.40:672][855]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerController.uasset
-[2016.03.04-16.59.46:702][125]BlueprintLog: New page: Compile BasePlayerController
-[2016.03.04-16.59.47:263][125]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Remote 
-[2016.03.04-16.59.47:263][125]BlueprintEditorCompileResults: Info [2446.27] Compile of BasePlayerController successful! [in 560 ms]
-[2016.03.04-16.59.48:382][134]LogSavePackage: Save=656.080017ms
-[2016.03.04-16.59.48:382][134]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BasePlayerControllerBA302A8547450F84E6561F88792AA07E.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerController.uasset'
-[2016.03.04-16.59.48:389][134]LogSavePackage: Total save time: 705.467913ms
-[2016.03.04-16.59.48:389][134]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerController.uasset
-[2016.03.04-17.00.12:636][254]BlueprintLog: New page: Compile BaseGameMode
-[2016.03.04-17.00.12:950][254]BlueprintEditorCompileResults: Info No value will be returned by reference. Parameter 'actorsOnTrigger'. Node:  ExitTriggerNotifier 
-[2016.03.04-17.00.12:950][254]BlueprintEditorCompileResults: Info [2471.96] Compile of BaseGameMode successful! [in 314 ms]
-[2016.03.04-17.00.13:677][270]LogSavePackage: Save=265.455566ms
-[2016.03.04-17.00.13:677][270]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BaseGameModeD63181CA42532BA5A4EC0B91F51D9BDE.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/GameModes/BaseGameMode.uasset'
-[2016.03.04-17.00.13:682][270]LogSavePackage: Total save time: 317.019787ms
-[2016.03.04-17.00.13:682][270]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/GameModes/BaseGameMode.uasset
-[2016.03.04-17.00.16:185][370]LogSavePackage: Save=136.853958ms
-[2016.03.04-17.00.16:185][370]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/UEDPCMainMenu5C96D4CE4CD39DD73AC034905A3C8677.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/MainMenu/UEDPCMainMenu.umap'
-[2016.03.04-17.00.16:190][370]LogSavePackage: Total save time: 186.719295ms
-[2016.03.04-17.00.16:190][370]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/MainMenu/UEDPCMainMenu.umap
-[2016.03.04-17.01.08:527][850]LogSavePackage: Save=137.701019ms
-[2016.03.04-17.01.08:527][850]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/MainMenuFF860B1E471A9843AAA200BEB31AE08E.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/MainMenu/MainMenu.umap'
-[2016.03.04-17.01.08:532][850]LogSavePackage: Total save time: 190.308023ms
-[2016.03.04-17.01.08:532][850]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/MainMenu/MainMenu.umap
-[2016.03.04-17.01.08:617][850]LogFileHelpers: Saving map 'MainMenu' took 0.484
-[2016.03.04-17.02.19:474][901]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_1383.EdGraphPin_97278''
-[2016.03.04-17.02.39:868][761]BlueprintLog: New page: Compile BasePlayerController
-[2016.03.04-17.02.40:530][761]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000B9F53E14E0
-[2016.03.04-17.02.40:530][761]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Remote 
-[2016.03.04-17.02.40:530][761]BlueprintEditorCompileResults: Info [2619.54] Compile of BasePlayerController successful! [in 660 ms]
-[2016.03.04-17.02.41:825][773]LogSavePackage: Save=741.640991ms
-[2016.03.04-17.02.41:825][773]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BasePlayerController86BD65D44DD0F6EA93167A9469096276.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerController.uasset'
-[2016.03.04-17.02.41:846][773]LogSavePackage: Total save time: 809.763417ms
-[2016.03.04-17.02.41:846][773]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerController.uasset
-[2016.03.04-17.02.45:005][869]LogSavePackage: Save=708.895508ms
-[2016.03.04-17.02.45:005][869]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BasePlayerController0123871B49522C45204A6792E23BADEB.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerController.uasset'
-[2016.03.04-17.02.45:011][869]LogSavePackage: Total save time: 762.137845ms
-[2016.03.04-17.02.45:011][869]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerController.uasset
-[2016.03.04-17.02.56:767][341]BlueprintLog: New page: Compile BasePlayerController
-[2016.03.04-17.02.57:363][341]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Remote 
-[2016.03.04-17.02.57:363][341]BlueprintEditorCompileResults: Info [2636.37] Compile of BasePlayerController successful! [in 596 ms]
-[2016.03.04-17.02.58:653][353]LogSavePackage: Save=705.573975ms
-[2016.03.04-17.02.58:653][353]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BasePlayerControllerFDDD1ABC43DE8B28C921659A4B6B3037.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerController.uasset'
-[2016.03.04-17.02.58:660][353]LogSavePackage: Total save time: 758.752495ms
-[2016.03.04-17.02.58:660][353]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerController.uasset
-[2016.03.04-17.03.01:082][443]BlueprintLog: New page: Compile BasePlayerController
-[2016.03.04-17.03.01:694][443]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Remote 
-[2016.03.04-17.03.01:694][443]BlueprintEditorCompileResults: Info [2640.70] Compile of BasePlayerController successful! [in 610 ms]
-[2016.03.04-17.03.02:822][449]LogSavePackage: Save=745.054382ms
-[2016.03.04-17.03.02:823][449]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BasePlayerControllerCE049DFD400C0937DEEB108DF5C99365.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerController.uasset'
-[2016.03.04-17.03.02:831][449]LogSavePackage: Total save time: 799.420394ms
-[2016.03.04-17.03.02:831][449]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerController.uasset
-[2016.03.04-17.03.11:153][750]LogSavePackage: Save=708.508484ms
-[2016.03.04-17.03.11:153][750]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BasePlayerController677E23194B66AEC46AFF7589A7F3D3BA.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerController.uasset'
-[2016.03.04-17.03.11:160][750]LogSavePackage: Total save time: 759.465434ms
-[2016.03.04-17.03.11:160][750]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerController.uasset
-[2016.03.04-17.03.12:679][790]LogSavePackage: Save=141.318176ms
-[2016.03.04-17.03.12:679][790]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/UEDPCMainMenu792C9C6B45E40D088FB2A3896A5EE4BE.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/MainMenu/UEDPCMainMenu.umap'
-[2016.03.04-17.03.12:684][790]LogSavePackage: Total save time: 189.323179ms
-[2016.03.04-17.03.12:684][790]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/MainMenu/UEDPCMainMenu.umap
-[2016.03.04-17.03.40:570][326]BlueprintLog: New page: Compile BasePlayerController
-[2016.03.04-17.03.41:181][326]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Remote 
-[2016.03.04-17.03.41:181][326]BlueprintEditorCompileResults: Info [2680.19] Compile of BasePlayerController successful! [in 611 ms]
-[2016.03.04-17.03.42:383][338]LogSavePackage: Save=739.469360ms
-[2016.03.04-17.03.42:383][338]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BasePlayerController4EBD3162471045F87E94249BFA4A2CAB.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerController.uasset'
-[2016.03.04-17.03.42:389][338]LogSavePackage: Total save time: 789.272375ms
-[2016.03.04-17.03.42:389][338]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerController.uasset
-[2016.03.04-17.03.46:035][506]LogSavePackage: Save=139.024826ms
-[2016.03.04-17.03.46:035][506]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/MainMenu3A0F0EC34C2961BAE2E07AA4A8091BA8.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/MainMenu/MainMenu.umap'
-[2016.03.04-17.03.46:042][506]LogSavePackage: Total save time: 192.150135ms
-[2016.03.04-17.03.46:042][506]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/MainMenu/MainMenu.umap
-[2016.03.04-17.03.47:722][563]LogSavePackage: Save=117.413361ms
-[2016.03.04-17.03.47:722][563]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/UEDPCMainMenu8E13488A42F6F87F2F02C39CA8A35283.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/MainMenu/UEDPCMainMenu.umap'
-[2016.03.04-17.03.47:726][563]LogSavePackage: Total save time: 166.305885ms
-[2016.03.04-17.03.47:726][563]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/MainMenu/UEDPCMainMenu.umap
-[2016.03.04-17.05.53:985][865]LogSavePackage: Save=692.061401ms
-[2016.03.04-17.05.53:985][865]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BasePlayerController4054EA1D4EF90A387F60F386F0459F37.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerController.uasset'
-[2016.03.04-17.05.53:993][865]LogSavePackage: Total save time: 762.442917ms
-[2016.03.04-17.05.53:993][865]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerController.uasset
-[2016.03.04-17.06.34:094][867]LogSavePackage: Save=125.297195ms
-[2016.03.04-17.06.34:094][867]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/UEDPCMainMenuD62B797844FA77E5B9C0ECB4DCFCB746.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/MainMenu/UEDPCMainMenu.umap'
-[2016.03.04-17.06.34:097][867]LogSavePackage: Total save time: 172.467522ms
-[2016.03.04-17.06.34:097][867]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/MainMenu/UEDPCMainMenu.umap
-[2016.03.04-17.07.03:927][301]LogSavePackage: Save=123.456177ms
-[2016.03.04-17.07.03:927][301]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/UEDPCMainMenu45FEC6B34DD4845C604D7FAD31B069A0.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/MainMenu/UEDPCMainMenu.umap'
-[2016.03.04-17.07.03:931][301]LogSavePackage: Total save time: 170.504399ms
-[2016.03.04-17.07.03:931][301]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/MainMenu/UEDPCMainMenu.umap
-[2016.03.04-17.07.31:591][522]LogSavePackage: Save=121.437653ms
-[2016.03.04-17.07.31:591][522]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/MainMenuD5DAAACB40A46FCD53CCA996E703D907.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/MainMenu/MainMenu.umap'
-[2016.03.04-17.07.31:596][522]LogSavePackage: Total save time: 168.283589ms
-[2016.03.04-17.07.31:596][522]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/MainMenu/MainMenu.umap
-[2016.03.04-17.08.45:957][225]LogSavePackage: Save=120.258904ms
-[2016.03.04-17.08.45:957][225]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/UEDPCMainMenu445867584B0796C51BF4C093F6DED537.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/MainMenu/UEDPCMainMenu.umap'
-[2016.03.04-17.08.45:962][225]LogSavePackage: Total save time: 169.745177ms
-[2016.03.04-17.08.45:962][225]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/MainMenu/UEDPCMainMenu.umap
-[2016.03.04-17.12.07:180][428]BlueprintLog: New page: Compile BaseSaveGame
-[2016.03.04-17.12.07:537][428]BlueprintEditorCompileResults: Info [3186.55] Compile of BaseSaveGame successful! [in 356 ms]
-[2016.03.04-17.12.07:990][444]LogSavePackage: Save=37.367844ms
-[2016.03.04-17.12.07:990][444]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BaseSaveGameA63EA3754EAF9A2953C9E7AE88284A74.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/SaveGame/BaseSaveGame.uasset'
-[2016.03.04-17.12.07:995][444]LogSavePackage: Total save time: 90.096951ms
-[2016.03.04-17.12.07:995][444]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/SaveGame/BaseSaveGame.uasset
-[2016.03.04-17.12.12:397][648]LogSavePackage: Save=119.524460ms
-[2016.03.04-17.12.12:397][648]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/MainMenu93322BA749C854A0DB261BB8F03EA2EE.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/MainMenu/MainMenu.umap'
-[2016.03.04-17.12.12:402][648]LogSavePackage: Total save time: 167.467866ms
-[2016.03.04-17.12.12:402][648]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/MainMenu/MainMenu.umap
-[2016.03.04-17.12.13:652][681]LogSavePackage: Save=119.174553ms
-[2016.03.04-17.12.13:652][681]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/UEDPCMainMenuF7D0F16D44BB9D789453E1B7AC8AA8E6.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/MainMenu/UEDPCMainMenu.umap'
-[2016.03.04-17.12.13:669][681]LogSavePackage: Total save time: 181.217741ms
-[2016.03.04-17.12.13:669][681]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/MainMenu/UEDPCMainMenu.umap
-[2016.03.04-17.17.55:534][781]LogSavePackage: Save=810.377563ms
-[2016.03.04-17.17.55:534][781]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BasePlayerController5E01322F4BA1454AB97A1AA1F723D27F.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerController.uasset'
-[2016.03.04-17.17.55:543][781]LogSavePackage: Total save time: 878.964014ms
-[2016.03.04-17.17.55:543][781]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerController.uasset
-[2016.03.04-17.18.20:083][815]BlueprintLog: New page: Compile BasePlayerController
-[2016.03.04-17.18.20:750][815]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000BA528F5B20
-[2016.03.04-17.18.20:788][815]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Remote 
-[2016.03.04-17.18.20:788][815]BlueprintEditorCompileResults: Info [3559.80] Compile of BasePlayerController successful! [in 704 ms]
-[2016.03.04-17.18.21:889][817]LogSavePackage: Save=813.408630ms
-[2016.03.04-17.18.21:889][817]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BasePlayerController2F8FA81D44625A3D46487C9506D483B1.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerController.uasset'
-[2016.03.04-17.18.21:898][817]LogSavePackage: Total save time: 868.244845ms
-[2016.03.04-17.18.21:898][817]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerController.uasset
-[2016.03.04-17.18.24:893][936]BlueprintLog: New page: Compile BasePlayerController
-[2016.03.04-17.18.25:557][936]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Remote 
-[2016.03.04-17.18.25:557][936]BlueprintEditorCompileResults: Info [3564.57] Compile of BasePlayerController successful! [in 663 ms]
-[2016.03.04-17.18.26:810][944]LogSavePackage: Save=818.865723ms
-[2016.03.04-17.18.26:810][944]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BasePlayerController3A0592094AE78E1CC24A5D8ED8D2062F.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerController.uasset'
-[2016.03.04-17.18.26:817][944]LogSavePackage: Total save time: 872.577854ms
-[2016.03.04-17.18.26:817][944]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerController.uasset
-[2016.03.04-17.18.43:796][584]BlueprintLog: New page: Compile BaseSaveGame
-[2016.03.04-17.18.44:027][584]BlueprintEditorCompileResults: Info [3583.04] Compile of BaseSaveGame successful! [in 230 ms]
-[2016.03.04-17.18.44:510][596]LogSavePackage: Save=39.426460ms
-[2016.03.04-17.18.44:510][596]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BaseSaveGame990AE40442C6A8B76A0BB095DE359DCA.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/SaveGame/BaseSaveGame.uasset'
-[2016.03.04-17.18.44:517][596]LogSavePackage: Total save time: 95.533259ms
-[2016.03.04-17.18.44:517][596]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/SaveGame/BaseSaveGame.uasset
-[2016.03.04-17.19.01:109][138]LogSavePackage: Save=139.910172ms
-[2016.03.04-17.19.01:109][138]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/MainMenu0CC9882D4D63930C807F6DBDC76753C1.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/MainMenu/MainMenu.umap'
-[2016.03.04-17.19.01:114][138]LogSavePackage: Total save time: 195.215467ms
-[2016.03.04-17.19.01:114][138]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/MainMenu/MainMenu.umap
-[2016.03.04-17.19.15:495][652]BlueprintLog: New page: Compile BaseGameInstance
-[2016.03.04-17.19.16:244][652]BlueprintEditorCompileResults: Info [3615.25] Compile of BaseGameInstance successful! [in 747 ms]
-[2016.03.04-17.19.17:565][674]LogSavePackage: Save=433.412964ms
-[2016.03.04-17.19.17:565][674]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BaseGameInstance015AE4F5450EB72E89ECB6B77D4992BC.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/BaseGameInstance.uasset'
-[2016.03.04-17.19.17:571][674]LogSavePackage: Total save time: 501.873642ms
-[2016.03.04-17.19.17:571][674]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/BaseGameInstance.uasset
-[2016.03.04-17.19.19:683][726]LogSavePackage: Save=143.677139ms
-[2016.03.04-17.19.19:683][726]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/UEDPCMainMenu933F3D484EC9302E854DEAB7BB12467E.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/MainMenu/UEDPCMainMenu.umap'
-[2016.03.04-17.19.19:689][726]LogSavePackage: Total save time: 202.002559ms
-[2016.03.04-17.19.19:689][726]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/MainMenu/UEDPCMainMenu.umap
-[2016.03.04-17.20.36:177][ 59]BlueprintLog: New page: Compile BaseGameInstance
-[2016.03.04-17.20.36:933][ 59]BlueprintEditorCompileResults: Info [3695.94] Compile of BaseGameInstance successful! [in 755 ms]
-[2016.03.04-17.21.25:458][844]BlueprintLog: New page: Compile BasePlayerState
-[2016.03.04-17.21.25:597][844]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.03.04-17.21.25:691][844]BlueprintEditorCompileResults: Info [3744.70] Compile of BasePlayerState successful! [in 232 ms]
-[2016.03.04-17.21.26:142][857]LogSavePackage: Save=23.847595ms
-[2016.03.04-17.21.26:142][857]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BasePlayerState06E9782346802E16E2797495841D6157.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerState.uasset'
-[2016.03.04-17.21.26:149][857]LogSavePackage: Total save time: 78.379449ms
-[2016.03.04-17.21.26:149][857]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerState.uasset
-[2016.03.04-17.21.27:916][907]LogSavePackage: Save=148.430389ms
-[2016.03.04-17.21.27:916][907]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/UEDPCMainMenuDD6C4CEA4D013E185ACA7C9A4AF2DE9B.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/MainMenu/UEDPCMainMenu.umap'
-[2016.03.04-17.21.27:919][907]LogSavePackage: Total save time: 199.039288ms
-[2016.03.04-17.21.27:919][907]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/MainMenu/UEDPCMainMenu.umap
-[2016.03.04-17.22.42:568][275]LogSavePackage: Save=141.811325ms
-[2016.03.04-17.22.42:568][275]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/MainMenuA07A745B40C1503042EC519861FFFE0C.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/MainMenu/MainMenu.umap'
-[2016.03.04-17.22.42:574][275]LogSavePackage: Total save time: 197.595194ms
-[2016.03.04-17.22.42:574][275]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/MainMenu/MainMenu.umap
-[2016.03.04-17.23.13:834][533]BlueprintLog: New page: Compile BaseGameMode
-[2016.03.04-17.23.14:071][533]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
-[2016.03.04-17.23.14:176][533]BlueprintEditorCompileResults: Info No value will be returned by reference. Parameter 'actorsOnTrigger'. Node:  ExitTriggerNotifier 
-[2016.03.04-17.23.14:176][533]BlueprintEditorCompileResults: Info [3853.19] Compile of BaseGameMode successful! [in 341 ms]
-[2016.03.04-17.23.14:937][544]LogSavePackage: Save=288.424042ms
-[2016.03.04-17.23.14:937][544]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BaseGameMode2726DB7C468E0FF4A17F9C80F5CD7C80.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/GameModes/BaseGameMode.uasset'
-[2016.03.04-17.23.14:943][544]LogSavePackage: Total save time: 357.579432ms
-[2016.03.04-17.23.14:943][544]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/GameModes/BaseGameMode.uasset
-[2016.03.04-17.23.33:017][194]BlueprintLog: New page: Compile BasePlayerController
-[2016.03.04-17.23.33:707][194]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Remote 
-[2016.03.04-17.23.33:707][194]BlueprintEditorCompileResults: Info [3872.72] Compile of BasePlayerController successful! [in 690 ms]
-[2016.03.04-17.23.35:005][200]LogSavePackage: Save=833.345276ms
-[2016.03.04-17.23.35:005][200]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BasePlayerControllerE40B649B499247394F2F38B05DC4C29A.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerController.uasset'
-[2016.03.04-17.23.35:013][200]LogSavePackage: Total save time: 904.948954ms
-[2016.03.04-17.23.35:014][200]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerController.uasset
-[2016.03.04-17.23.40:402][399]BlueprintLog: New page: Compile BasePlayerController
-[2016.03.04-17.23.41:101][399]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Remote 
-[2016.03.04-17.23.41:101][399]BlueprintEditorCompileResults: Info [3880.11] Compile of BasePlayerController successful! [in 698 ms]
-[2016.03.04-17.23.42:413][407]LogSavePackage: Save=822.442444ms
-[2016.03.04-17.23.42:413][407]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BasePlayerController17B55A6A406C86514C1B76BCF08AB2A0.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerController.uasset'
-[2016.03.04-17.23.42:419][407]LogSavePackage: Total save time: 875.835996ms
-[2016.03.04-17.23.42:419][407]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerController.uasset
-[2016.03.04-17.24.22:972][934]BlueprintLog: New page: Compile BaseGameMode
-[2016.03.04-17.24.23:340][934]BlueprintEditorCompileResults: Info No value will be returned by reference. Parameter 'actorsOnTrigger'. Node:  ExitTriggerNotifier 
-[2016.03.04-17.24.23:340][934]BlueprintEditorCompileResults: Info [3922.35] Compile of BaseGameMode successful! [in 368 ms]
-[2016.03.04-17.24.24:294][953]LogSavePackage: Save=287.032074ms
-[2016.03.04-17.24.24:295][953]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BaseGameMode2BDD696046FF5DF9B5964790BF1B
+﻿[2016.03.04-17.40.35:142][  0]Log file open, 03/04/16 18:40:35
+[2016.03.04-17.40.35:142][  0]LogInit:Display: Running engine for game: Deluge
+[2016.03.04-17.40.35:142][  0]LogPlatformFile: Not using cached read wrapper
+[2016.03.04-17.40.35:142][  0]LogInit:Display: RandInit(384008091) SRandInit(384008094).
+[2016.03.04-17.40.35:142][  0]LogTaskGraph: Started task graph with 4 named threads and 8 total threads.
+[2016.03.04-17.40.35:142][  0]LogStats: Stats thread started at 0.123089
+[2016.03.04-17.40.35:142][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.03.04-17.40.35:142][  0]LogInit: API Version: 2758231
+[2016.03.04-17.40.35:142][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.03.04-17.40.35:142][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.03.04-17.40.35:142][  0]LogInit: Build Configuration: Development
+[2016.03.04-17.40.35:142][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.03.04-17.40.35:142][  0]LogInit: Command line:  
+[2016.03.04-17.40.35:142][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.03.04-17.40.35:143][  0]LogInit: Rocket: 1
+[2016.03.04-17.40.35:188][  0]LogInit: Using libcurl 7.41.0
+[2016.03.04-17.40.35:188][  0]LogInit:  - built for x86_64-pc-win32
+[2016.03.04-17.40.35:188][  0]LogInit:  - supports SSL with WinSSL
+[2016.03.04-17.40.35:188][  0]LogInit:  - other features:
+[2016.03.04-17.40.35:188][  0]LogInit:      CURL_VERSION_SSL
+[2016.03.04-17.40.35:188][  0]LogInit:      CURL_VERSION_IPV6
+[2016.03.04-17.40.35:188][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.03.04-17.40.35:188][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.03.04-17.40.35:188][  0]LogInit:      CURL_VERSION_IDN
+[2016.03.04-17.40.35:188][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.03.04-17.40.35:188][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.03.04-17.40.35:188][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.03.04-17.40.35:188][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.03.04-17.40.35:188][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.03.04-17.40.35:202][  0]LogOnline:Display: STEAM: Loading Steam SDK 1.32
+[2016.03.04-17.40.35:203][  0]LogOnline:Warning: STEAM: Steam API disabled!
+[2016.03.04-17.40.35:203][  0]LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2016.03.04-17.40.35:225][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.03.04-17.40.35:234][  0]LogVoice:Warning: Failed to initialize voice interface
+[2016.03.04-17.40.35:241][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.03.04-17.40.35:255][  0]LogInit: Object subsystem initialized
+[2016.03.04-17.40.35:259][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.04-17.40.35:259][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.03.04-17.40.35:277][  0]LogInit: Computer: DESKTOP-EQTRUAU
+[2016.03.04-17.40.35:277][  0]LogInit: User: mike
+[2016.03.04-17.40.35:277][  0]LogInit: CPU Page size=4096, Cores=6
+[2016.03.04-17.40.35:278][  0]LogInit: High frequency timer resolution =2.743589 MHz
+[2016.03.04-17.40.35:278][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2016.03.04-17.40.35:278][  0]LogMemory: Platform Memory Stats for Windows
+[2016.03.04-17.40.35:278][  0]LogMemory: Process Physical Memory: 58.59 MB used, 58.59 MB peak
+[2016.03.04-17.40.35:278][  0]LogMemory: Process Virtual Memory: 57.99 MB used, 57.99 MB peak
+[2016.03.04-17.40.35:278][  0]LogMemory: Physical Memory: 3063.80 MB used, 8190.11 MB total
+[2016.03.04-17.40.35:278][  0]LogMemory: Virtual Memory: 383.77 MB used, 134217728.00 MB total
+[2016.03.04-17.40.35:343][  0]LogTextLocalizationManager: No translations for ('de-AT') exist, falling back to 'en' for localization and internationalization data.
+[2016.03.04-17.40.36:252][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 760 (Feature Level 11_0)
+[2016.03.04-17.40.36:252][  0]LogD3D11RHI: Adapter has 1989MB of dedicated video memory, 0MB of dedicated system memory, and 4095MB of shared system memory, 2 output[s]
+[2016.03.04-17.40.36:254][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.03.04-17.40.36:254][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4095MB of shared system memory, 0 output[s]
+[2016.03.04-17.40.36:254][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.03.04-17.40.36:264][  0]LogD3D11RHI: !Direct3DDevice
+[2016.03.04-17.40.36:264][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.03.04-17.40.36:292][  0]LogD3D11RHI: Async texture creation enabled
+[2016.03.04-17.40.37:569][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Intermediate/Shaders/WorkingDirectory/4212/).
+[2016.03.04-17.40.37:569][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/mike/AppData/Local/Temp/UnrealShaderWorkingDir/E8A7A22F4006A03BC53323A7ED9E4CBE/'.
+[2016.03.04-17.40.37:569][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.03.04-17.40.39:193][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.03.04-17.40.39:203][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.03.04-17.40.39:214][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.03.04-17.40.39:223][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.03.04-17.40.39:234][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.03.04-17.40.39:247][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.03.04-17.40.39:254][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.03.04-17.40.39:267][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.03.04-17.40.39:278][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.03.04-17.40.39:290][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.03.04-17.40.39:300][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.03.04-17.40.39:321][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.03.04-17.40.39:321][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.03.04-17.40.39:323][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.03.04-17.40.39:350][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.03.04-17.40.39:360][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.03.04-17.40.39:371][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.03.04-17.40.39:387][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.03.04-17.40.39:387][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.03.04-17.40.39:577][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.03.04-17.40.39:752][  0]LogDerivedDataCache: Loaded boot cache 0.17s 45MB C:/Users/mike/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.03.04-17.40.39:752][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/mike/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.03.04-17.40.39:752][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.03.04-17.40.39:752][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.03.04-17.40.39:752][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.03.04-17.40.39:752][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.03.04-17.40.39:871][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.03.04-17.40.39:887][  0]LogDerivedDataCache: Using Local data cache path C:/Users/mike/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.03.04-17.40.40:249][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.04-17.40.40:254][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.03.04-17.40.40:454][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.03.04-17.40.40:454][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.03.04-17.40.42:302][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.03.04-17.40.42:429][  0]LogAssetRegistry: FAssetRegistry took 0.0121 seconds to start up
+[2016.03.04-17.40.42:758][  0]SourceControl: Info Source control is disabled
+[2016.03.04-17.40.42:836][  0]SourceControl: Info Source control is disabled
+[2016.03.04-17.40.42:858][  0]SourceControl: Info Source control is disabled
+[2016.03.04-17.40.42:880][  0]SourceControl: Info Source control is disabled
+[2016.03.04-17.40.43:388][  0]LogObj: 28640 objects as part of root set at end of initial load.
+[2016.03.04-17.40.43:388][  0]LogUObjectAllocator: 6315712 out of 0 bytes used by permanent object pool.
+[2016.03.04-17.40.43:483][  0]LogEngine: Initializing Engine...
+[2016.03.04-17.40.43:487][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.03.04-17.40.43:489][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.03.04-17.40.43:733][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.03.04-17.40.43:754][  0]LogInit: XAudio2 using 'Lautsprecher (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.04-17.40.43:769][  0]LogInit: FAudioDevice initialized.
+[2016.03.04-17.40.43:845][  0]LogDerivedDataCache: Saved boot cache 0.08s 41MB C:/Users/mike/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.03.04-17.40.43:870][  0]LogInit: Texture streaming: Enabled
+[2016.03.04-17.40.43:884][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.03.04-17.40.43:884][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.03.04-17.40.43:884][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId e9c103cc4a7bfdb9667f4c93d4fe4a94|9965a4433f294ab4918ec7fd197501e9|b3429352-4a5d-4937-bcd4-644a47cc9371
+[2016.03.04-17.40.43:884][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.03.04-17.40.43:899][  0]LogInit: Transaction tracking system initialized
+[2016.03.04-17.40.43:952][  0]BlueprintLog: New page: Editor Load
+[2016.03.04-17.40.44:134][  0]LocalizationService: Info Localization service is disabled
+[2016.03.04-17.40.44:278][  0]LogConsoleResponse:Display: 
+[2016.03.04-17.40.44:460][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.03.04-17.40.44:507][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mike/Documents/Unreal Projects/Deluge/Content/' took 0.03s
+[2016.03.04-17.40.44:571][  0]SourceControl: Info Source control is disabled
+[2016.03.04-17.40.44:571][  0]Cmd: MAP LOAD FILE="../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/MainMenu/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.03.04-17.40.44:572][  0]LightingResults: New page: Lighting Build
+[2016.03.04-17.40.44:577][  0]MapCheck: New page: Map Check
+[2016.03.04-17.40.44:578][  0]LightingResults: New page: Lighting Build
+[2016.03.04-17.40.44:601][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EEC6C0EAC0
+[2016.03.04-17.40.45:879][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch 
+[2016.03.04-17.40.45:886][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0011.58] Compile of Ue4ASP_Character successful, but with 1 Warning(s) [in 14 ms]
+[2016.03.04-17.40.45:887][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0011.58] Compile of Ue4ASP_Character successful, but with 2 Warning(s) [in 0 ms]
+[2016.03.04-17.40.45:887][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0011.58] Compile of Ue4ASP_Character successful, but with 3 Warning(s) [in 0 ms]
+[2016.03.04-17.40.46:273][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/DelugeBP/Blueprints/Weapon/Projectile/RifleProjectile.RifleProjectile_C:UserConstructionScript; removing parent information, but keeping function
+[2016.03.04-17.40.46:282][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/DelugeBP/Blueprints/Weapon/BaseRifleWeapon.BaseRifleWeapon_C:UserConstructionScript; removing parent information, but keeping function
+[2016.03.04-17.40.47:047][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch 
+[2016.03.04-17.40.47:053][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0012.75] Compile of Ue4ASP_Character successful, but with 1 Warning(s) [in 15 ms]
+[2016.03.04-17.40.47:053][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0012.75] Compile of Ue4ASP_Character successful, but with 2 Warning(s) [in 0 ms]
+[2016.03.04-17.40.47:054][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0012.75] Compile of Ue4ASP_Character successful, but with 3 Warning(s) [in 0 ms]
+[2016.03.04-17.40.48:417][  0]LogAIModule: Creating AISystem for world MainMenu
+[2016.03.04-17.40.48:419][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.03.04-17.40.48:421][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.03.04-17.40.48:552][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 131.394ms to complete.
+[2016.03.04-17.40.48:553][  0]LogFileHelpers: Loading map 'MainMenu' took 3.981
+[2016.03.04-17.40.48:734][  0]LogCollectionManager: Loaded 0 collections in 0.004223 seconds
+[2016.03.04-17.40.48:784][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mike/Documents/Unreal Projects/Deluge/Saved/Collections/' took 0.01s
+[2016.03.04-17.40.48:784][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mike/Documents/Unreal Projects/Deluge/Content/Developers/mike/Collections/' took 0.01s
+[2016.03.04-17.40.48:784][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mike/Documents/Unreal Projects/Deluge/Content/Collections/' took 0.01s
+[2016.03.04-17.40.48:784][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.03.04-17.40.48:802][  0]LogContentBrowser: Native class hierarchy populated in 0.0180 seconds. Added 1895 classes and 340 folders.
+[2016.03.04-17.40.48:816][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.03.04-17.40.48:906][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0021 seconds. Added 0 classes and 0 folders.
+[2016.03.04-17.40.48:913][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2016.03.04-17.40.49:039][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.03.04-17.40.49:047][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.03.04-17.40.49:074][  0]LogLoad: Full Startup: 14.77 seconds (BP compile: 1.41 seconds)
+[2016.03.04-17.40.49:088][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.03.04-17.40.49:212][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.03.04-17.40.49:479][  0]LogRenderer: Reallocating scene render targets to support 1112x580 (Frame:2).
+[2016.03.04-17.40.50:483][ 15]LogAssetRegistry: Asset discovery search completed in 8.0664 seconds
+[2016.03.04-17.40.50:483][ 15]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2016.03.04-17.40.50:483][ 15]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000040 seconds (updated 0 objects)
+[2016.03.04-17.41.12:053][581]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.03.04-17.41.12:870][581]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0015 seconds. Added 107 classes and 0 folders.
+[2016.03.04-17.41.41:458][523]LogSavePackage: Save=888.004333ms
+[2016.03.04-17.41.41:458][523]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BasePlayerControllerDDF9C40148F3B07D2CE9F285E7D464A3.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerController.uasset'
+[2016.03.04-17.41.41:467][523]LogSavePackage: Total save time: 964.469168ms
+[2016.03.04-17.41.41:467][523]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerController.uasset
+[2016.03.04-17.42.01:156][267]BlueprintLog: New page: Compile BasePlayerController
+[2016.03.04-17.42.01:418][267]LogBlueprint:Error: [compiler BasePlayerController] Error Failed to find a class member to match  Weapon Data Weapon Mesh 
+[2016.03.04-17.42.01:418][267]LogBlueprint:Error: [compiler BasePlayerController] Error Failed to find a class member to match  Weapon Data Weapon Fire Rate 
+[2016.03.04-17.42.01:418][267]LogBlueprint:Error: [compiler BasePlayerController] Error Failed to find a class member to match  Weapon Data Weapon Damage Per Hit 
+[2016.03.04-17.42.01:418][267]LogBlueprint:Error: [compiler BasePlayerController] Error Failed to find a class member to match  Weapon Data Weapon Type 
+[2016.03.04-17.42.01:418][267]LogBlueprint:Error: [compiler BasePlayerController] Error Failed to find a class member to match  Weapon Data Damage Type 
+[2016.03.04-17.42.01:418][267]LogBlueprint:Error: [compiler BasePlayerController] Error Failed to find a class member to match  Weapon Data Weapon Range 
+[2016.03.04-17.42.01:418][267]LogBlueprint:Error: [compiler BasePlayerController] Error Failed to find a class member to match  Weapon Data Weapon Magazine Size 
+[2016.03.04-17.42.01:418][267]LogBlueprint:Error: [compiler BasePlayerController] Error Failed to find a class member to match  Weapon Data Weapon Reset Time 
+[2016.03.04-17.42.02:019][267]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.04-17.42.02:332][267]LogBlueprint:Warning: [compiler BasePlayerController] Warning [0088.03] Compile of BasePlayerController failed. 8 Fatal Issue(s) 0 Warning(s) [in 1,176 ms]
+[2016.03.04-17.42.02:332][267]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Remote 
+[2016.03.04-17.42.02:332][267]BlueprintEditorCompileResults:Error: Error Failed to find a class member to match  Weapon Data Weapon Mesh 
+[2016.03.04-17.42.02:332][267]BlueprintEditorCompileResults:Error: Error Failed to find a class member to match  Weapon Data Weapon Fire Rate 
+[2016.03.04-17.42.02:332][267]BlueprintEditorCompileResults:Error: Error Failed to find a class member to match  Weapon Data Weapon Damage Per Hit 
+[2016.03.04-17.42.02:332][267]BlueprintEditorCompileResults:Error: Error Failed to find a class member to match  Weapon Data Weapon Type 
+[2016.03.04-17.42.02:332][267]BlueprintEditorCompileResults:Error: Error Failed to find a class member to match  Weapon Data Damage Type 
+[2016.03.04-17.42.02:332][267]BlueprintEditorCompileResults:Error: Error Failed to find a class member to match  Weapon Data Weapon Range 
+[2016.03.04-17.42.02:332][267]BlueprintEditorCompileResults:Error: Error Failed to find a class member to match  Weapon Data Weapon Magazine Size 
+[2016.03.04-17.42.02:332][267]BlueprintEditorCompileResults:Error: Error Failed to find a class member to match  Weapon Data Weapon Reset Time 
+[2016.03.04-17.42.02:333][267]BlueprintEditorCompileResults:Warning: Warning [0088.03] Compile of BasePlayerController failed. 8 Fatal Issue(s) 0 Warning(s) [in 1,176 ms]
+[2016.03.04-17.42.04:179][294]LogSavePackage: Save=840.445129ms
+[2016.03.04-17.42.04:179][294]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BasePlayerControllerC9ECCAC1479203820E587CB836A0069E.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerController.uasset'
+[2016.03.04-17.42.04:187][294]LogSavePackage: Total save time: 901.495449ms
+[2016.03.04-17.42.04:187][294]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerController.uasset
+[2016.03.04-17.42.23:686][ 87]BlueprintLog: New page: Compile BasePlayerController
+[2016.03.04-17.42.24:351][ 87]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Remote 
+[2016.03.04-17.42.24:351][ 87]BlueprintEditorCompileResults: Info [0110.05] Compile of BasePlayerController successful! [in 663 ms]
+[2016.03.04-17.42.25:994][106]LogSavePackage: Save=834.840759ms
+[2016.03.04-17.42.25:994][106]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BasePlayerController93F96B7F4D22ACE7C40E368ACFA58610.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerController.uasset'
+[2016.03.04-17.42.26:002][106]LogSavePackage: Total save time: 888.350625ms
+[2016.03.04-17.42.26:002][106]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerController.uasset
+[2016.03.04-17.42.42:143][722]BlueprintLog: New page: Compile BasePlayerController
+[2016.03.04-17.42.42:822][722]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Remote 
+[2016.03.04-17.42.42:822][722]BlueprintEditorCompileResults: Info [0128.52] Compile of BasePlayerController successful! [in 678 ms]
+[2016.03.04-17.42.44:333][733]LogSavePackage: Save=849.139587ms
+[2016.03.04-17.42.44:333][733]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BasePlayerController42A9FD7447F1E79E5D7D28B2B73D2031.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerController.uasset'
+[2016.03.04-17.42.44:340][733]LogSavePackage: Total save time: 905.780710ms
+[2016.03.04-17.42.44:340][733]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerController.uasset
+[2016.03.04-17.42.46:537][792]LogSavePackage: Save=171.954697ms
+[2016.03.04-17.42.46:537][792]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/UEDPCMainMenuF80048EC4F35D01499A0159C720C487F.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/MainMenu/UEDPCMainMenu.umap'
+[2016.03.04-17.42.46:541][792]LogSavePackage: Total save time: 221.895479ms
+[2016.03.04-17.42.46:541][792]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/MainMenu/UEDPCMainMenu.umap
+[2016.03.04-17.44.06:769][196]BlueprintLog: New page: Compile BasePlayerController
+[2016.03.04-17.44.07:477][196]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Remote 
+[2016.03.04-17.44.07:477][196]BlueprintEditorCompileResults: Info [0213.17] Compile of BasePlayerController successful! [in 707 ms]
+[2016.03.04-17.44.08:938][207]LogSavePackage: Save=828.348572ms
+[2016.03.04-17.44.08:939][207]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BasePlayerController3E4F280A4E3D3F73E68DFD8A802D0D80.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerController.uasset'
+[2016.03.04-17.44.08:948][207]LogSavePackage: Total save time: 883.658592ms
+[2016.03.04-17.44.08:948][207]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerController.uasset
+[2016.03.04-17.44.17:598][608]LogSavePackage: Save=4.106300ms
+[2016.03.04-17.44.17:598][608]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/SBaseWeaponDataF823456948F8FABFB3298CB6B3BF0E19.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Weapon/SBaseWeaponData.uasset'
+[2016.03.04-17.44.17:602][608]LogSavePackage: Total save time: 52.814033ms
+[2016.03.04-17.44.17:602][608]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Weapon/SBaseWeaponData.uasset
+[2016.03.04-17.44.19:237][674]BlueprintLog: New page: Compile BasePlayerController
+[2016.03.04-17.44.19:602][674]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.04-17.44.20:232][674]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Remote 
+[2016.03.04-17.44.20:232][674]BlueprintEditorCompileResults: Info [0225.93] Compile of BasePlayerController successful! [in 994 ms]
+[2016.03.04-17.44.21:709][687]LogSavePackage: Save=813.152039ms
+[2016.03.04-17.44.21:709][687]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BasePlayerController8D6FA9A44D82F014A7B82EBE556D6482.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerController.uasset'
+[2016.03.04-17.44.21:717][687]LogSavePackage: Total save time: 865.925252ms
+[2016.03.04-17.44.21:717][687]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerController.uasset
+[2016.03.04-17.44.24:984][711]LogSavePackage: Save=302.341217ms
+[2016.03.04-17.44.24:984][711]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BasePlayerCharacter8A1A338F4DF850B15B6A0A862840300E.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerCharacter.uasset'
+[2016.03.04-17.44.24:997][711]LogSavePackage: Total save time: 371.542893ms
+[2016.03.04-17.44.24:997][711]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/BasePlayerCharacter.uasset
+[2016.03.04-17.44.25:074][711]LogSavePackage: Save=11.466368ms
+[2016.03.04-17.44.25:074][711]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BaseWeapon9F0EF348497DB63507923B82897493FC.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Weapon/BaseWeapon.uasset'
+[2016.03.04-17.44.25:080][711]LogSavePackage: Total save time: 62.038083ms
+[2016.03.04-17.44.25:081][711]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Weapon/BaseWeapon.uasset
+[2016.03.04-17.44.25:086][711]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.03.04-17.44.25:445][711]LogSavePackage: Save=172.907455ms
+[2016.03.04-17.44.25:445][711]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/UEDPCMainMenuDA449EEF4FDEAEBA70981484BA2ACCD2.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/MainMenu/UEDPCMainMenu.umap'
+[2016.03.04-17.44.25:459][711]LogSavePacka
