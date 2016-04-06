@@ -1,838 +1,256 @@
-﻿[2016.03.16-15.38.07:830][  0]Log file open, 03/16/16 16:38:07
-[2016.03.16-15.38.07:830][  0]LogInit:Display: Running engine for game: Deluge
-[2016.03.16-15.38.07:830][  0]LogPlatformFile: Not using cached read wrapper
-[2016.03.16-15.38.07:830][  0]LogInit:Display: RandInit(-1653903434) SRandInit(-1653903432).
-[2016.03.16-15.38.07:830][  0]LogTaskGraph: Started task graph with 4 named threads and 8 total threads.
-[2016.03.16-15.38.07:830][  0]LogStats: Stats thread started at 0.116531
-[2016.03.16-15.38.07:830][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
-[2016.03.16-15.38.07:830][  0]LogInit: API Version: 2758231
-[2016.03.16-15.38.07:830][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
-[2016.03.16-15.38.07:830][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
-[2016.03.16-15.38.07:830][  0]LogInit: Build Configuration: Development
-[2016.03.16-15.38.07:830][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
-[2016.03.16-15.38.07:830][  0]LogInit: Command line:  /Temp/Autosaves/Game/DelugeBP/MainMenu/UEDPCMainMenu?Listen -game -PIEVIACONSOLE -ResX=640 -ResY=480  -Multiprocess GameUserSettingsINI="C:/Users/mike/Documents/Unreal Projects/Deluge/Saved/Config/Windows/PIEGameUserSettings0.ini" -MultiprocessSaveConfig  -MultiprocessOSS WinX=-1672 WinY=550 SAVEWINPOS=1
-[2016.03.16-15.38.07:830][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.10/Engine/Binaries/Win64/
-[2016.03.16-15.38.07:830][  0]LogInit: Rocket: 1
-[2016.03.16-15.38.07:863][  0]LogInit: Using libcurl 7.41.0
-[2016.03.16-15.38.07:863][  0]LogInit:  - built for x86_64-pc-win32
-[2016.03.16-15.38.07:863][  0]LogInit:  - supports SSL with WinSSL
-[2016.03.16-15.38.07:863][  0]LogInit:  - other features:
-[2016.03.16-15.38.07:863][  0]LogInit:      CURL_VERSION_SSL
-[2016.03.16-15.38.07:863][  0]LogInit:      CURL_VERSION_IPV6
-[2016.03.16-15.38.07:863][  0]LogInit:      CURL_VERSION_ASYNCHDNS
-[2016.03.16-15.38.07:863][  0]LogInit:      CURL_VERSION_LARGEFILE
-[2016.03.16-15.38.07:863][  0]LogInit:      CURL_VERSION_IDN
-[2016.03.16-15.38.07:863][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
-[2016.03.16-15.38.07:863][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
-[2016.03.16-15.38.07:863][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
-[2016.03.16-15.38.07:863][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
-[2016.03.16-15.38.07:863][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-[2016.03.16-15.38.07:875][  0]LogOnline:Display: STEAM: Loading Steam SDK 1.32
-[2016.03.16-15.38.07:875][  0]LogOnline:Warning: STEAM: Steam API disabled!
-[2016.03.16-15.38.07:875][  0]LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
-[2016.03.16-15.38.07:898][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2016.03.16-15.38.07:907][  0]LogVoice:Warning: Failed to initialize voice interface
-[2016.03.16-15.38.07:917][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2016.03.16-15.38.07:934][  0]LogInit: Object subsystem initialized
-[2016.03.16-15.38.07:936][  0]LogInit: Selected Device Profile: [Windows]
-[2016.03.16-15.38.07:936][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.03.16-15.38.07:942][  0]LogInit: Computer: DESKTOP-EQTRUAU
-[2016.03.16-15.38.07:942][  0]LogInit: User: mike
-[2016.03.16-15.38.07:942][  0]LogInit: CPU Page size=4096, Cores=6
-[2016.03.16-15.38.07:942][  0]LogInit: High frequency timer resolution =2.743580 MHz
-[2016.03.16-15.38.07:942][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
-[2016.03.16-15.38.07:942][  0]LogMemory: Platform Memory Stats for Windows
-[2016.03.16-15.38.07:942][  0]LogMemory: Process Physical Memory: 59.11 MB used, 59.11 MB peak
-[2016.03.16-15.38.07:942][  0]LogMemory: Process Virtual Memory: 56.98 MB used, 56.98 MB peak
-[2016.03.16-15.38.07:942][  0]LogMemory: Physical Memory: 4294.82 MB used, 8190.11 MB total
-[2016.03.16-15.38.07:942][  0]LogMemory: Virtual Memory: 383.70 MB used, 134217728.00 MB total
-[2016.03.16-15.38.08:004][  0]LogTextLocalizationManager: No translations for ('de-AT') exist, falling back to 'en' for localization and internationalization data.
-[2016.03.16-15.38.08:949][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 760 (Feature Level 11_0)
-[2016.03.16-15.38.08:949][  0]LogD3D11RHI: Adapter has 1989MB of dedicated video memory, 0MB of dedicated system memory, and 4095MB of shared system memory, 2 output[s]
-[2016.03.16-15.38.08:952][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
-[2016.03.16-15.38.08:952][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4095MB of shared system memory, 0 output[s]
-[2016.03.16-15.38.08:952][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2016.03.16-15.38.08:959][  0]LogD3D11RHI: !Direct3DDevice
-[2016.03.16-15.38.08:959][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2016.03.16-15.38.08:977][  0]LogD3D11RHI: Async texture creation enabled
-[2016.03.16-15.38.10:140][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Intermediate/Shaders/WorkingDirectory/4228/).
-[2016.03.16-15.38.10:140][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/mike/AppData/Local/Temp/UnrealShaderWorkingDir/E7A028404D534E2D739CF8A21C4FC260/'.
-[2016.03.16-15.38.10:140][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2016.03.16-15.38.11:372][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2016.03.16-15.38.11:381][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2016.03.16-15.38.11:389][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2016.03.16-15.38.11:398][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2016.03.16-15.38.11:406][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2016.03.16-15.38.11:411][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2016.03.16-15.38.11:417][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2016.03.16-15.38.11:422][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2016.03.16-15.38.11:427][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2016.03.16-15.38.11:432][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2016.03.16-15.38.11:437][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2016.03.16-15.38.11:448][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2016.03.16-15.38.11:448][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2016.03.16-15.38.11:450][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2016.03.16-15.38.11:472][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2016.03.16-15.38.11:476][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2016.03.16-15.38.11:481][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2016.03.16-15.38.11:486][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2016.03.16-15.38.11:486][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.03.16-15.38.11:604][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.03.16-15.38.11:714][  0]LogDerivedDataCache: Loaded boot cache 0.11s 41MB C:/Users/mike/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
-[2016.03.16-15.38.11:714][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/mike/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
-[2016.03.16-15.38.11:714][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.03.16-15.38.11:714][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.03.16-15.38.11:715][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2016.03.16-15.38.11:715][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2016.03.16-15.38.11:817][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2016.03.16-15.38.11:829][  0]LogDerivedDataCache: Using Local data cache path C:/Users/mike/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2016.03.16-15.38.12:124][  0]LogInit: Selected Device Profile: [Windows]
-[2016.03.16-15.38.12:126][  0]LogContentStreaming: Texture pool size is 1000.000000MB
-[2016.03.16-15.38.12:281][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2016.03.16-15.38.12:281][  0]LogMeshUtilities: No automatic mesh merging module available
-[2016.03.16-15.38.12:896][  0]LogWindowsMoviePlayer: Unable to load movie: ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/Movies/Default_Startup.mp4
-[2016.03.16-15.38.13:021][  0]SourceControl: Info Source control is disabled
-[2016.03.16-15.38.13:021][  0]SourceControl: Info Source control is disabled
-[2016.03.16-15.38.13:036][  0]SourceControl: Info Source control is disabled
-[2016.03.16-15.38.13:290][  0]LogObj: 27942 objects as part of root set at end of initial load.
-[2016.03.16-15.38.13:290][  0]LogUObjectAllocator: 6046040 out of 0 bytes used by permanent object pool.
-[2016.03.16-15.38.13:372][  0]LogEngine: Initializing Engine...
-[2016.03.16-15.38.13:376][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
-[2016.03.16-15.38.13:376][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2016.03.16-15.38.13:549][  0]LogInit: XAudio2 using 'Lautsprecher (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.03.16-15.38.13:562][  0]LogInit: FAudioDevice initialized.
-[2016.03.16-15.38.13:577][  0]LogInit: Texture streaming: Enabled
-[2016.03.16-15.38.13:715][  0]LogAssetRegistry: FAssetRegistry took 0.0003 seconds to start up
-[2016.03.16-15.38.14:105][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch 
-[2016.03.16-15.38.14:109][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0006.70] Compile of Ue4ASP_Character successful, but with 1 Warning(s) [in 8 ms]
-[2016.03.16-15.38.14:109][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0006.70] Compile of Ue4ASP_Character successful, but with 2 Warning(s) [in 0 ms]
-[2016.03.16-15.38.14:109][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0006.70] Compile of Ue4ASP_Character successful, but with 3 Warning(s) [in 0 ms]
-[2016.03.16-15.38.16:094][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch 
-[2016.03.16-15.38.16:098][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0008.69] Compile of Ue4ASP_Character successful, but with 1 Warning(s) [in 8 ms]
-[2016.03.16-15.38.16:098][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0008.69] Compile of Ue4ASP_Character successful, but with 2 Warning(s) [in 0 ms]
-[2016.03.16-15.38.16:099][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0008.69] Compile of Ue4ASP_Character successful, but with 3 Warning(s) [in 0 ms]
-[2016.03.16-15.38.17:634][  0]LogAnimation:Warning: UAnimMontage::PostLoad: The actual sequence length for montage HeroTTP_RifleReload does not match the length stored in the asset, please resave the montage asset.
-[2016.03.16-15.38.17:963][  0]LogNet: Browse: /Temp/Autosaves/Game/DelugeBP/MainMenu/UEDPCMainMenu?Name=Player?Listen
-[2016.03.16-15.38.17:963][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/DelugeBP/MainMenu/UEDPCMainMenu?Name=Player?Listen
-[2016.03.16-15.38.18:078][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005C4750B600
-[2016.03.16-15.38.18:169][  0]LogMemory: Platform Memory Stats for Windows
-[2016.03.16-15.38.18:169][  0]LogMemory: Process Physical Memory: 536.80 MB used, 536.80 MB peak
-[2016.03.16-15.38.18:169][  0]LogMemory: Process Virtual Memory: 661.86 MB used, 661.86 MB peak
-[2016.03.16-15.38.18:169][  0]LogMemory: Physical Memory: 4777.16 MB used, 8190.11 MB total
-[2016.03.16-15.38.18:169][  0]LogMemory: Virtual Memory: 1221.45 MB used, 134217728.00 MB total
-[2016.03.16-15.38.18:169][  0]LogMemory: 
-[2016.03.16-15.38.18:169][  0]Allocator Stats for TBB: (not implemented)
-[2016.03.16-15.38.18:202][  0]LogAIModule: Creating AISystem for world MainMenu
-[2016.03.16-15.38.18:202][  0]LogWorld: Game class is 'MainMenuGameMode_C'
-[2016.03.16-15.38.18:203][  0]LogOnline:Warning: STEAM: Steam API disabled!
-[2016.03.16-15.38.18:203][  0]LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
-[2016.03.16-15.38.18:203][  0]LogInit: WinSock: Socket queue 131072 / 131072
-[2016.03.16-15.38.18:205][  0]LogInit: WinSock: I am DESKTOP-EQTRUAU (192.168.1.7:0)
-[2016.03.16-15.38.18:205][  0]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 7777
-[2016.03.16-15.38.18:207][  0]LogWorld: Bringing World /Temp/Autosaves/Game/DelugeBP/MainMenu/UEDPCMainMenu.MainMenu up for play (max tick rate 0) at 2016.03.16-16.38.18
-[2016.03.16-15.38.18:208][  0]LogOnline:Warning: NULL: AutoLogin missing AUTH_LOGIN=<login id>.
-[2016.03.16-15.38.18:208][  0]LogWorld: Bringing up level for play took: 0.001126
-[2016.03.16-15.38.18:208][  0]LogOnline:Warning: NULL: No game present to join for session (Game)
-[2016.03.16-15.38.18:209][  0]LogOnline:Warning: NULL: Can't start an online game for session (Game) that hasn't been created
-[2016.03.16-15.38.18:212][  0]LogBlueprintUserMessages: [BaseGameInstance_C_0] Savegame loaded successfully!
-[2016.03.16-15.38.18:212][  0]LogInit:Display: Game Engine Initialized.
-[2016.03.16-15.38.18:438][  0]LogLoad: Full Startup: 11.03 seconds (BP compile: 1.25 seconds)
-[2016.03.16-15.38.18:459][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
-[2016.03.16-15.38.18:684][  2]LogRenderer: Reallocating scene render targets to support 640x480 (Frame:2).
-[2016.03.16-15.38.28:224][580]LogRenderer: Reallocating scene render targets to support 1680x1000 (Frame:583).
-[2016.03.16-15.38.28:754][606]LogPackageName: SearchForPackageOnDisk took   0.108s to resolve Hub.umap.
-[2016.03.16-15.38.28:862][606]LogPackageName: SearchForPackageOnDisk took   0.108s to resolve Hub.umap.
-[2016.03.16-15.38.28:862][606]LogNet: Browse: /Game/DelugeBP/Maps/Hub?listen
-[2016.03.16-15.38.28:862][606]LogLoad: LoadMap: /Game/DelugeBP/Maps/Hub?listen
-[2016.03.16-15.38.28:863][606]LogNet: World NetDriver shutdown IpNetDriver_0 [GameNetDriver]
-[2016.03.16-15.38.28:863][606]LogNet: DestroyNamedNetDriver IpNetDriver_0 [GameNetDriver]
-[2016.03.16-15.38.28:863][606]LogExit: GameNetDriver IpNetDriver_0 shut down
-[2016.03.16-15.38.28:892][606]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005C47508F40
-[2016.03.16-15.38.28:920][606]LogMemory: Platform Memory Stats for Windows
-[2016.03.16-15.38.28:920][606]LogMemory: Process Physical Memory: 563.61 MB used, 563.61 MB peak
-[2016.03.16-15.38.28:920][606]LogMemory: Process Virtual Memory: 1015.39 MB used, 1015.39 MB peak
-[2016.03.16-15.38.28:920][606]LogMemory: Physical Memory: 4791.72 MB used, 8190.11 MB total
-[2016.03.16-15.38.28:920][606]LogMemory: Virtual Memory: 1603.63 MB used, 134217728.00 MB total
-[2016.03.16-15.38.28:920][606]LogMemory: 
-[2016.03.16-15.38.28:920][606]Allocator Stats for TBB: (not implemented)
-[2016.03.16-15.38.29:755][606]LogAIModule: Creating AISystem for world Hub
-[2016.03.16-15.38.29:756][606]LogWorld: Game class is 'HubGameMode_C'
-[2016.03.16-15.38.29:756][606]LogOnline:Warning: STEAM: Steam API disabled!
-[2016.03.16-15.38.29:756][606]LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
-[2016.03.16-15.38.29:756][606]LogInit: WinSock: Socket queue 131072 / 131072
-[2016.03.16-15.38.29:757][606]LogNet: GameNetDriver IpNetDriver_1 IpNetDriver listening on port 7777
-[2016.03.16-15.38.29:763][606]LogWorld: Bringing World /Game/DelugeBP/Maps/Hub.Hub up for play (max tick rate 0) at 2016.03.16-16.38.29
-[2016.03.16-15.38.29:763][606]LogWorld: Bringing up level for play took: 0.004698
-[2016.03.16-15.38.29:764][606]LogScript:Warning: Accessed None 'ControlledCharacter'
-	HUBPlayerController_C /Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.HUBPlayerController_C_0
-	Function /Game/DelugeBP/Blueprints/Characters/Player/PlayerController/BasePlayerController.BasePlayerController_C:ExecuteUbergraph_BasePlayerController:1546
-[2016.03.16-15.38.29:764][606]LogScript:Warning: Accessed None 'ControlledCharacter'
-	HUBPlayerController_C /Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.HUBPlayerController_C_0
-	Function /Game/DelugeBP/Blueprints/Characters/Player/PlayerController/BasePlayerController.BasePlayerController_C:ExecuteUbergraph_BasePlayerController:159C
-[2016.03.16-15.38.29:764][606]LogScript:Warning: Attempt to assign variable through None
-	HUBPlayerController_C /Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.HUBPlayerController_C_0
-	Function /Game/DelugeBP/Blueprints/Characters/Player/PlayerController/BasePlayerController.BasePlayerController_C:ExecuteUbergraph_BasePlayerController:15B1
-[2016.03.16-15.38.29:764][606]LogScript:Warning: Accessed null class context 'CurrentlyEquippedWeapon'
-	HUBPlayerController_C /Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.HUBPlayerController_C_0
-	Function /Game/DelugeBP/Blueprints/Characters/Player/PlayerController/BasePlayerController.BasePlayerController_C:GetWeaponMagazineSize:0025
-[2016.03.16-15.38.29:764][606]LogScript:Warning: Struct expression was None
-	HUBPlayerController_C /Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.HUBPlayerController_C_0
-	Function /Game/DelugeBP/Blueprints/Characters/Player/PlayerController/BasePlayerController.BasePlayerController_C:GetWeaponMagazineSize:003A
-[2016.03.16-15.38.29:764][606]LogScript:Warning: Accessed None 'ControlledCharacter'
-	HUBPlayerController_C /Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.HUBPlayerController_C_0
-	Function /Game/DelugeBP/Blueprints/Characters/Player/PlayerController/BasePlayerController.BasePlayerController_C:ExecuteUbergraph_BasePlayerController:16D9
-[2016.03.16-15.38.29:767][606]LogBlueprintUserMessages: [BaseGameInstance_C_0] Savegame loaded successfully!
-[2016.03.16-15.38.29:767][606]LogScript:Warning: Accessed None 'ControlledCharacter'
-	HUBPlayerController_C /Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.HUBPlayerController_C_0
-	Function /Game/DelugeBP/Blueprints/Characters/Player/PlayerController/BasePlayerController.BasePlayerController_C:ExecuteUbergraph_BasePlayerController:1546
-[2016.03.16-15.38.29:767][606]LogScript:Warning: Accessed None 'ControlledCharacter'
-	HUBPlayerController_C /Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.HUBPlayerController_C_0
-	Function /Game/DelugeBP/Blueprints/Characters/Player/PlayerController/BasePlayerController.BasePlayerController_C:ExecuteUbergraph_BasePlayerController:159C
-[2016.03.16-15.38.29:767][606]LogScript:Warning: Attempt to assign variable through None
-	HUBPlayerController_C /Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.HUBPlayerController_C_0
-	Function /Game/DelugeBP/Blueprints/Characters/Player/PlayerController/BasePlayerController.BasePlayerController_C:ExecuteUbergraph_BasePlayerController:15B1
-[2016.03.16-15.38.29:767][606]LogScript:Warning: Accessed null class context 'CurrentlyEquippedWeapon'
-	HUBPlayerController_C /Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.HUBPlayerController_C_0
-	Function /Game/DelugeBP/Blueprints/Characters/Player/PlayerController/BasePlayerController.BasePlayerController_C:GetWeaponMagazineSize:0025
-[2016.03.16-15.38.29:767][606]LogScript:Warning: Struct expression was None
-	HUBPlayerController_C /Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.HUBPlayerController_C_0
-	Function /Game/DelugeBP/Blueprints/Characters/Player/PlayerController/BasePlayerController.BasePlayerController_C:GetWeaponMagazineSize:003A
-[2016.03.16-15.38.29:767][606]LogScript:Warning: Accessed None 'ControlledCharacter'
-	HUBPlayerController_C /Game/DelugeBP/Maps/Hub.Hub:PersistentLevel.HUBPlayerController_C_0
-	Function /Game/DelugeBP/Blueprints/Characters/Player/PlayerController/BasePlayerController.BasePlayerController_C:ExecuteUbergraph_BasePlayerController:16D9
-[2016.03.16-15.38.29:769][606]LogOnline:Warning: NULL: Can't start an online session (Game) in state InProgress
-[2016.03.16-15.38.29:773][606]LogBlueprintUserMessages: [BaseGameInstance_C_0] Savegame loaded successfully!
-[2016.03.16-15.38.31:640][721]LogBlueprintUserMessages: [BaseGameInstance_C_0] Saved successfully!
-[2016.03.16-15.38.31:755][721]LogPackageName: SearchForPackageOnDisk took   0.116s to resolve TimeAttackMap.
-[2016.03.16-15.38.31:756][721]LogGameMode: ProcessServerTravel: /Game/DelugeBP/Blueprints/TimeAttack/TimeAttackMap
-[2016.03.16-15.38.31:756][721]LogWorld: SeamlessTravel to: /Game/DelugeBP/Blueprints/TimeAttack/TimeAttackMap
-[2016.03.16-15.38.31:861][723]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005C42F0B920
-[2016.03.16-15.38.31:861][723]LogNetPackageMap:Warning: FNetGUIDCache::CleanReferences: ObjectLookup: 0, NetGUIDLookup: 0, Mem: 0 kB
-[2016.03.16-15.38.31:862][723]LogAIModule: Creating AISystem for world TransitionMap
-[2016.03.16-15.38.31:866][723]LogWorld: Bringing World /Game/DelugeBP/Maps/TransitionMap.TransitionMap up for play (max tick rate 0) at 2016.03.16-16.38.31
-[2016.03.16-15.38.31:866][723]LogWorld: Bringing up level for play took: 0.001526
-[2016.03.16-15.38.31:866][723]LogWorld: Sending NotifyLoadedWorld for LP: LocalPlayer_0 PC: HUBPlayerController_C_1
-[2016.03.16-15.38.31:866][723]LogNet:Verbose: NotifyLoadedWorld Begin
-[2016.03.16-15.38.31:866][723]LogNet:VeryVerbose: GetFunctionCallspace Server calling Server function: ServerNotifyLoadedWorld Local
-[2016.03.16-15.38.31:866][723]LogNet:Verbose: NotifyLoadedWorld End
-[2016.03.16-15.38.31:866][723]LogWorld: StartLoadingDestination to: /Game/DelugeBP/Blueprints/TimeAttack/TimeAttackMap
-[2016.03.16-15.38.31:887][723]LogScript:Warning: Accessed None 'ControlledCharacter'
-	HUBPlayerController_C /Game/DelugeBP/Maps/TransitionMap.TransitionMap:PersistentLevel.HUBPlayerController_C_1
-	Function /Game/DelugeBP/Blueprints/Characters/Player/PlayerController/BasePlayerController.BasePlayerController_C:ExecuteUbergraph_BasePlayerController:1A50
-[2016.03.16-15.38.31:887][723]LogScript:Warning: Accessed None 'ControlledCharacter'
-	HUBPlayerController_C /Game/DelugeBP/Maps/TransitionMap.TransitionMap:PersistentLevel.HUBPlayerController_C_1
-	Function /Game/DelugeBP/Blueprints/Characters/Player/PlayerController/BasePlayerController.BasePlayerController_C:ExecuteUbergraph_BasePlayerController:1A79
-[2016.03.16-15.38.31:887][723]LogScript:Warning: Attempt to assign variable through None
-	HUBPlayerController_C /Game/DelugeBP/Maps/TransitionMap.TransitionMap:PersistentLevel.HUBPlayerController_C_1
-	Function /Game/DelugeBP/Blueprints/Characters/Player/PlayerController/BasePlayerController.BasePlayerController_C:ExecuteUbergraph_BasePlayerController:1A8E
-[2016.03.16-15.38.31:887][723]LogScript:Warning: Accessed None 'ControlledCharacter'
-	HUBPlayerController_C /Game/DelugeBP/Maps/TransitionMap.TransitionMap:PersistentLevel.HUBPlayerController_C_1
-	Function /Game/DelugeBP/Blueprints/Characters/Player/PlayerController/BasePlayerController.BasePlayerController_C:ExecuteUbergraph_BasePlayerController:1AA1
-[2016.03.16-15.38.31:888][723]LogScript:Warning: Accessed None 'ControlledCharacter'
-	MainGameHudWidget_C /Engine/Transient.GameEngine_0:BaseGameInstance_C_0.MainGameHudWidget_C_3
-	Function /Game/DelugeBP/Blueprints/HUD/Widgets/MainGameHudWidget.MainGameHudWidget_C:GetHealthPercent:007E
-[2016.03.16-15.38.31:888][723]LogScript:Warning: Accessed None 'ControlledCharacter'
-	MainGameHudWidget_C /Engine/Transient.GameEngine_0:BaseGameInstance_C_0.MainGameHudWidget_C_3
-	Function /Game/DelugeBP/Blueprints/HUD/Widgets/MainGameHudWidget.MainGameHudWidget_C:GetHealthPercent:007E
-[2016.03.16-15.38.31:888][723]LogScript:Warning: Accessed None 'ControlledCharacter'
-	MainGameHudWidget_C /Engine/Transient.GameEngine_0:BaseGameInstance_C_0.MainGameHudWidget_C_3
-	Function /Game/DelugeBP/Blueprints/HUD/Widgets/MainGameHudWidget.MainGameHudWidget_C:GetSkillRessourcePercent:007E
-[2016.03.16-15.38.31:888][723]LogScript:Warning: Accessed None 'ControlledCharacter'
-	MainGameHudWidget_C /Engine/Transient.GameEngine_0:BaseGameInstance_C_0.MainGameHudWidget_C_3
-	Function /Game/DelugeBP/Blueprints/HUD/Widgets/MainGameHudWidget.MainGameHudWidget_C:GetSkillRessourcePercent:007E
-[2016.03.16-15.38.31:917][724]LogScript:Warning: Accessed None 'ControlledCharacter'
-	MainGameHudWidget_C /Engine/Transient.GameEngine_0:BaseGameInstance_C_0.MainGameHudWidget_C_3
-	Function /Game/DelugeBP/Blueprints/HUD/Widgets/MainGameHudWidget.MainGameHudWidget_C:GetHealthPercent:007E
-[2016.03.16-15.38.31:917][724]LogScript:Warning: Accessed None 'ControlledCharacter'
-	MainGameHudWidget_C /Engine/Transient.GameEngine_0:BaseGameInstance_C_0.MainGameHudWidget_C_3
-	Function /Game/DelugeBP/Blueprints/HUD/Widgets/MainGameHudWidget.MainGameHudWidget_C:GetSkillRessourcePercent:007E
-[2016.03.16-15.38.31:959][725]LogScript:Warning: Accessed None 'ControlledCharacter'
-	MainGameHudWidget_C /Engine/Transient.GameEngine_0:BaseGameInstance_C_0.MainGameHudWidget_C_3
-	Function /Game/DelugeBP/Blueprints/HUD/Widgets/MainGameHudWidget.MainGameHudWidget_C:GetHealthPercent:007E
-[2016.03.16-15.38.31:959][725]LogScript:Warning: Accessed None 'ControlledCharacter'
-	MainGameHudWidget_C /Engine/Transient.GameEngine_0:BaseGameInstance_C_0.MainGameHudWidget_C_3
-	Function /Game/DelugeBP/Blueprints/HUD/Widgets/MainGameHudWidget.MainGameHudWidget_C:GetSkillRessourcePercent:007E
-[2016.03.16-15.38.31:979][726]LogScript:Warning: Accessed None 'ControlledCharacter'
-	MainGameHudWidget_C /Engine/Transient.GameEngine_0:BaseGameInstance_C_0.MainGameHudWidget_C_3
-	Function /Game/DelugeBP/Blueprints/HUD/Widgets/MainGameHudWidget.MainGameHudWidget_C:GetHealthPercent:007E
-[2016.03.16-15.38.31:979][726]LogScript:Warning: Accessed None 'ControlledCharacter'
-	MainGameHudWidget_C /Engine/Transient.GameEngine_0:BaseGameInstance_C_0.MainGameHudWidget_C_3
-	Function /Game/DelugeBP/Blueprints/HUD/Widgets/MainGameHudWidget.MainGameHudWidget_C:GetSkillRessourcePercent:007E
-[2016.03.16-15.38.31:991][727]LogScript:Warning: Accessed None 'ControlledCharacter'
-	MainGameHudWidget_C /Engine/Transient.GameEngine_0:BaseGameInstance_C_0.MainGameHudWidget_C_3
-	Function /Game/DelugeBP/Blueprints/HUD/Widgets/MainGameHudWidget.MainGameHudWidget_C:GetHealthPercent:007E
-[2016.03.16-15.38.31:991][727]LogScript:Warning: Accessed None 'ControlledCharacter'
-	MainGameHudWidget_C /Engine/Transient.GameEngine_0:BaseGameInstance_C_0.MainGameHudWidget_C_3
-	Function /Game/DelugeBP/Blueprints/HUD/Widgets/MainGameHudWidget.MainGameHudWidget_C:GetSkillRessourcePercent:007E
-[2016.03.16-15.38.32:051][728]LogScript:Warning: Accessed None 'ControlledCharacter'
-	MainGameHudWidget_C /Engine/Transient.GameEngine_0:BaseGameInstance_C_0.MainGameHudWidget_C_3
-	Function /Game/DelugeBP/Blueprints/HUD/Widgets/MainGameHudWidget.MainGameHudWidget_C:GetHealthPercent:007E
-[2016.03.16-15.38.32:051][728]LogScript:Warning: Accessed None 'ControlledCharacter'
-	MainGameHudWidget_C /Engine/Transient.GameEngine_0:BaseGameInstance_C_0.MainGameHudWidget_C_3
-	Function /Game/DelugeBP/Blueprints/HUD/Widgets/MainGameHudWidget.MainGameHudWidget_C:GetSkillRessourcePercent:007E
-[2016.03.16-15.38.32:176][729]LogScript:Warning: Accessed None 'ControlledCharacter'
-	MainGameHudWidget_C /Engine/Transient.GameEngine_0:BaseGameInstance_C_0.MainGameHudWidget_C_3
-	Function /Game/DelugeBP/Blueprints/HUD/Widgets/MainGameHudWidget.MainGameHudWidget_C:GetHealthPercent:007E
-[2016.03.16-15.38.32:176][729]LogScript:Warning: Accessed None 'ControlledCharacter'
-	MainGameHudWidget_C /Engine/Transient.GameEngine_0:BaseGameInstance_C_0.MainGameHudWidget_C_3
-	Function /Game/DelugeBP/Blueprints/HUD/Widgets/MainGameHudWidget.MainGameHudWidget_C:GetSkillRessourcePercent:007E
-[2016.03.16-15.38.32:213][730]LogScript:Warning: Accessed None 'ControlledCharacter'
-	MainGameHudWidget_C /Engine/Transient.GameEngine_0:BaseGameInstance_C_0.MainGameHudWidget_C_3
-	Function /Game/DelugeBP/Blueprints/HUD/Widgets/MainGameHudWidget.MainGameHudWidget_C:GetHealthPercent:007E
-[2016.03.16-15.38.32:437][735]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005C430FE480
-[2016.03.16-15.38.32:455][735]LogNetPackageMap:Warning: FNetGUIDCache::CleanReferences: ObjectLookup: 0, NetGUIDLookup: 0, Mem: 0 kB
-[2016.03.16-15.38.32:456][735]LogAIModule: Creating AISystem for world TimeAttackMap
-[2016.03.16-15.38.32:456][735]LogWorld: Game class is 'TimeAttackGameMode_C'
-[2016.03.16-15.38.32:462][735]LogWorld: Bringing World /Game/DelugeBP/Blueprints/TimeAttack/TimeAttackMap.TimeAttackMap up for play (max tick rate 0) at 2016.03.16-16.38.32
-[2016.03.16-15.38.32:462][735]LogWorld: Bringing up level for play took: 0.004135
-[2016.03.16-15.38.32:463][735]LogWorld: Sending NotifyLoadedWorld for LP: LocalPlayer_0 PC: HUBPlayerController_C_6
-[2016.03.16-15.38.32:463][735]LogNet:Verbose: NotifyLoadedWorld Begin
-[2016.03.16-15.38.32:463][735]LogNet:VeryVerbose: GetFunctionCallspace Server calling Server function: ServerNotifyLoadedWorld Local
-[2016.03.16-15.38.32:463][735]LogNet:Verbose: NotifyLoadedWorld End
-[2016.03.16-15.38.32:463][735]LogWorld: ----SeamlessTravel finished------
-[2016.03.16-15.38.32:463][735]LogGameMode: >> GameMode::HandleSeamlessTravelPlayer: HUBPlayerController_C_6 
-[2016.03.16-15.38.32:464][735]LogGameMode: << GameMode::HandleSeamlessTravelPlayer: StandardPlayerController_C_0
-[2016.03.16-15.38.32:464][735]LogOnline:Warning: NULL: Can't start an online session (Game) in state InProgress
-[2016.03.16-15.38.32:467][735]LogBlueprintUserMessages: [BaseGameInstance_C_0] Savegame loaded successfully!
-[2016.03.16-15.38.32:470][735]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] TIME ATTACK
-[2016.03.16-15.38.34:489][858]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] GAVE PLAYER SKILL POWER!
-[2016.03.16-15.38.34:592][864]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] GAVE PLAYER SKILL POWER!
-[2016.03.16-15.38.34:692][870]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] GAVE PLAYER SKILL POWER!
-[2016.03.16-15.38.34:999][889]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] GAVE PLAYER SKILL POWER!
-[2016.03.16-15.38.34:999][889]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] DumbAIEnemy died!!
-[2016.03.16-15.38.34:999][889]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] 1
-[2016.03.16-15.38.34:999][889]LogBlueprintUserMessages: [PlayerCharacterDataComponent] GOT XP: 10
-[2016.03.16-15.38.34:999][889]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] Some random ACTOR DIED!
-[2016.03.16-15.38.35:095][895]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] GAVE PLAYER SKILL POWER!
-[2016.03.16-15.38.35:192][901]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] GAVE PLAYER SKILL POWER!
-[2016.03.16-15.38.35:402][914]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] GAVE PLAYER SKILL POWER!
-[2016.03.16-15.38.35:499][920]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] GAVE PLAYER SKILL POWER!
-[2016.03.16-15.38.35:499][920]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] DumbAIEnemy1 died!!
-[2016.03.16-15.38.35:500][920]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] 1
-[2016.03.16-15.38.35:500][920]LogBlueprintUserMessages: [PlayerCharacterDataComponent] GOT XP: 10
-[2016.03.16-15.38.35:500][920]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] Some random ACTOR DIED!
-[2016.03.16-15.38.36:545][985]LogBlueprintUserMessages: [BasePlayerCharacter_C_1] CASTING!!
-[2016.03.16-15.38.36:545][985]LogBlueprintUserMessages: [StandardPlayerController_C_0] Used Active Rune!
-[2016.03.16-15.38.38:549][109]LogBlueprintUserMessages: [BasePlayerCharacter_C_1] SKILL ATTACK NOW!
-[2016.03.16-15.38.38:693][118]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] DumbAIEnemy_SuicideBomber2 died!!
-[2016.03.16-15.38.38:693][118]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] 1
-[2016.03.16-15.38.38:694][118]LogBlueprintUserMessages: [PlayerCharacterDataComponent] GOT XP: 10
-[2016.03.16-15.38.38:694][118]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] Some random ACTOR DIED!
-[2016.03.16-15.38.38:819][126]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] DumbAIEnemy_SuicideBomber died!!
-[2016.03.16-15.38.38:819][126]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] 1
-[2016.03.16-15.38.38:820][126]LogBlueprintUserMessages: [PlayerCharacterDataComponent] GOT XP: 10
-[2016.03.16-15.38.38:820][126]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] Some random ACTOR DIED!
-[2016.03.16-15.38.38:998][137]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] DumbAIEnemy3 died!!
-[2016.03.16-15.38.38:998][137]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] 1
-[2016.03.16-15.38.38:998][137]LogBlueprintUserMessages: [PlayerCharacterDataComponent] GOT XP: 10
-[2016.03.16-15.38.38:998][137]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] Some random ACTOR DIED!
-[2016.03.16-15.38.39:741][183]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] DumbAIEnemy_SuicideBomber1 died!!
-[2016.03.16-15.38.39:741][183]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] 1
-[2016.03.16-15.38.39:741][183]LogBlueprintUserMessages: [PlayerCharacterDataComponent] GOT XP: 10
-[2016.03.16-15.38.39:741][183]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] Some random ACTOR DIED!
-[2016.03.16-15.38.42:115][330]LogBlueprintUserMessages: [BasePlayerCharacter_C_1] CASTING!!
-[2016.03.16-15.38.42:115][330]LogBlueprintUserMessages: [StandardPlayerController_C_0] Used Active Rune!
-[2016.03.16-15.38.44:121][454]LogBlueprintUserMessages: [BasePlayerCharacter_C_1] SKILL ATTACK NOW!
-[2016.03.16-15.38.44:122][454]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] DumbAIEnemy_SuicideBomber3 died!!
-[2016.03.16-15.38.44:123][454]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] 1
-[2016.03.16-15.38.44:123][454]LogBlueprintUserMessages: [PlayerCharacterDataComponent] GOT XP: 10
-[2016.03.16-15.38.44:123][454]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] Some random ACTOR DIED!
-[2016.03.16-15.38.44:123][454]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] DumbAIEnemy_SuicideBomber4 died!!
-[2016.03.16-15.38.44:123][454]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] 1
-[2016.03.16-15.38.44:123][454]LogBlueprintUserMessages: [PlayerCharacterDataComponent] GOT XP: 10
-[2016.03.16-15.38.44:123][454]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] Some random ACTOR DIED!
-[2016.03.16-15.38.44:149][456]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] DumbAIEnemy_SuicideBomber5 died!!
-[2016.03.16-15.38.44:150][456]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] 1
-[2016.03.16-15.38.44:150][456]LogBlueprintUserMessages: [PlayerCharacterDataComponent] GOT XP: 10
-[2016.03.16-15.38.44:150][456]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] Some random ACTOR DIED!
-[2016.03.16-15.38.44:165][457]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] DumbAIEnemy_SuicideBomber6 died!!
-[2016.03.16-15.38.44:165][457]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] 1
-[2016.03.16-15.38.44:166][457]LogBlueprintUserMessages: [PlayerCharacterDataComponent] GOT XP: 10
-[2016.03.16-15.38.44:166][457]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] Some random ACTOR DIED!
-[2016.03.16-15.38.44:928][504]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] GAVE PLAYER SKILL POWER!
-[2016.03.16-15.38.44:928][504]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] DumbAIEnemy_SuicideBomber9 died!!
-[2016.03.16-15.38.44:928][504]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] 1
-[2016.03.16-15.38.44:928][504]LogBlueprintUserMessages: [PlayerCharacterDataComponent] GOT XP: 10
-[2016.03.16-15.38.44:928][504]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] Some random ACTOR DIED!
-[2016.03.16-15.38.45:218][522]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] GAVE PLAYER SKILL POWER!
-[2016.03.16-15.38.45:218][522]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] DumbAIEnemy_SuicideBomber7 died!!
-[2016.03.16-15.38.45:219][522]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] 1
-[2016.03.16-15.38.45:219][522]LogBlueprintUserMessages: [PlayerCharacterDataComponent] GOT XP: 10
-[2016.03.16-15.38.45:219][522]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] Some random ACTOR DIED!
-[2016.03.16-15.38.45:621][547]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] GAVE PLAYER SKILL POWER!
-[2016.03.16-15.38.45:621][547]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] DumbAIEnemy_SuicideBomber13 died!!
-[2016.03.16-15.38.45:621][547]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] 1
-[2016.03.16-15.38.45:621][547]LogBlueprintUserMessages: [PlayerCharacterDataComponent] GOT XP: 10
-[2016.03.16-15.38.45:621][547]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] Some random ACTOR DIED!
-[2016.03.16-15.38.46:024][572]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] GAVE PLAYER SKILL POWER!
-[2016.03.16-15.38.46:024][572]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] DumbAIEnemy_SuicideBomber11 died!!
-[2016.03.16-15.38.46:024][572]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] 1
-[2016.03.16-15.38.46:024][572]LogBlueprintUserMessages: [PlayerCharacterDataComponent] GOT XP: 10
-[2016.03.16-15.38.46:024][572]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] Some random ACTOR DIED!
-[2016.03.16-15.38.46:083][576]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] DumbAIEnemy_SuicideBomber10 died!!
-[2016.03.16-15.38.46:083][576]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] 1
-[2016.03.16-15.38.46:083][576]LogBlueprintUserMessages: [PlayerCharacterDataComponent] GOT XP: 10
-[2016.03.16-15.38.46:083][576]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] Some random ACTOR DIED!
-[2016.03.16-15.38.47:245][648]LogCharacterMovement: DumbAIEnemy_C_8 is stuck and failed to move!
-[2016.03.16-15.38.48:525][727]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] GAVE PLAYER SKILL POWER!
-[2016.03.16-15.38.48:622][733]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] GAVE PLAYER SKILL POWER!
-[2016.03.16-15.38.48:718][739]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] GAVE PLAYER SKILL POWER!
-[2016.03.16-15.38.48:816][745]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] GAVE PLAYER SKILL POWER!
-[2016.03.16-15.38.48:816][745]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] DumbAIEnemy2 died!!
-[2016.03.16-15.38.48:816][745]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] 1
-[2016.03.16-15.38.48:816][745]LogBlueprintUserMessages: [PlayerCharacterDataComponent] GOT XP: 10
-[2016.03.16-15.38.48:816][745]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] Some random ACTOR DIED!
-[2016.03.16-15.38.50:449][846]LogBlueprintUserMessages: [BasePlayerCharacter_C_1] CASTING!!
-[2016.03.16-15.38.50:449][846]LogBlueprintUserMessages: [StandardPlayerController_C_0] Used Active Rune!
-[2016.03.16-15.38.52:392][966]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] BasePlayerCharacter1 died!!
-[2016.03.16-15.38.52:392][966]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] Player DIED!!!!!11
-[2016.03.16-15.38.52:392][966]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] DumbAIEnemy_SuicideBomber14 died!!
-[2016.03.16-15.38.52:392][966]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] 1
-[2016.03.16-15.38.52:392][966]LogBlueprintUserMessages: [PlayerCharacterDataComponent] GOT XP: 10
-[2016.03.16-15.38.52:392][966]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] Some random ACTOR DIED!
-[2016.03.16-15.38.52:461][970]LogBlueprintUserMessages: [BasePlayerCharacter_C_1] SKILL ATTACK NOW!
-[2016.03.16-15.38.52:523][974]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] DumbAIEnemy4 died!!
-[2016.03.16-15.38.52:523][974]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] 1
-[2016.03.16-15.38.52:523][974]LogBlueprintUserMessages: [PlayerCharacterDataComponent] GOT XP: 10
-[2016.03.16-15.38.52:523][974]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] Some random ACTOR DIED!
-[2016.03.16-15.38.52:571][977]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] DumbAIEnemy5 died!!
-[2016.03.16-15.38.52:572][977]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] 1
-[2016.03.16-15.38.52:572][977]LogBlueprintUserMessages: [PlayerCharacterDataComponent] GOT XP: 10
-[2016.03.16-15.38.52:572][977]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] Some random ACTOR DIED!
-[2016.03.16-15.38.56:936][247]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] GAVE PLAYER SKILL POWER!
-[2016.03.16-15.38.56:936][247]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] DumbAIEnemy_SuicideBomber16 died!!
-[2016.03.16-15.38.56:936][247]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] 1
-[2016.03.16-15.38.56:936][247]LogBlueprintUserMessages: [PlayerCharacterDataComponent] GOT XP: 10
-[2016.03.16-15.38.56:936][247]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] Some random ACTOR DIED!
-[2016.03.16-15.38.57:033][253]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] GAVE PLAYER SKILL POWER!
-[2016.03.16-15.38.57:033][253]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] DumbAIEnemy_SuicideBomber17 died!!
-[2016.03.16-15.38.57:033][253]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] 1
-[2016.03.16-15.38.57:033][253]LogBlueprintUserMessages: [PlayerCharacterDataComponent] GOT XP: 10
-[2016.03.16-15.38.57:033][253]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] Some random ACTOR DIED!
-[2016.03.16-15.38.57:130][259]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] GAVE PLAYER SKILL POWER!
-[2016.03.16-15.38.57:226][265]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] GAVE PLAYER SKILL POWER!
-[2016.03.16-15.38.57:324][271]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] GAVE PLAYER SKILL POWER!
-[2016.03.16-15.38.57:430][278]LogCharacterMovement: DumbAIEnemy_SuicideBomber_C_21 is stuck and failed to move!
-[2016.03.16-15.38.57:439][278]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] GAVE PLAYER SKILL POWER!
-[2016.03.16-15.38.57:539][284]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] GAVE PLAYER SKILL POWER!
-[2016.03.16-15.38.57:539][284]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] DumbAIEnemy_SuicideBomber19 died!!
-[2016.03.16-15.38.57:539][284]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] 1
-[2016.03.16-15.38.57:539][284]LogBlueprintUserMessages: [PlayerCharacterDataComponent] GOT XP: 10
-[2016.03.16-15.38.57:539][284]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] Some random ACTOR DIED!
-[2016.03.16-15.38.57:662][292]LogCharacterMovement: DumbAIEnemy_SuicideBomber_C_23 is stuck and failed to move!
-[2016.03.16-15.38.57:790][300]LogCharacterMovement: DumbAIEnemy_SuicideBomber_C_23 is stuck and failed to move!
-[2016.03.16-15.38.57:830][302]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] GAVE PLAYER SKILL POWER!
-[2016.03.16-15.38.57:830][302]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] DumbAIEnemy12 died!!
-[2016.03.16-15.38.57:830][302]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] 1
-[2016.03.16-15.38.57:830][302]LogBlueprintUserMessages: [PlayerCharacterDataComponent] GOT XP: 10
-[2016.03.16-15.38.57:830][302]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] Some random ACTOR DIED!
-[2016.03.16-15.38.57:929][308]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] GAVE PLAYER SKILL POWER!
-[2016.03.16-15.38.58:327][333]LogBlueprintUserMessages: [BasePlayerCharacter_C_2] CASTING!!
-[2016.03.16-15.38.58:327][333]LogBlueprintUserMessages: [StandardPlayerController_C_0] Used Active Rune!
-[2016.03.16-15.38.58:567][348]LogCharacterMovement: DumbAIEnemy_C_17 is stuck and failed to move!
-[2016.03.16-15.38.58:632][352]LogCharacterMovement: DumbAIEnemy_C_17 is stuck and failed to move!
-[2016.03.16-15.39.00:343][457]LogBlueprintUserMessages: [BasePlayerCharacter_C_2] SKILL ATTACK NOW!
-[2016.03.16-15.39.00:679][478]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] DumbAIEnemy8 died!!
-[2016.03.16-15.39.00:679][478]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] 1
-[2016.03.16-15.39.00:679][478]LogBlueprintUserMessages: [PlayerCharacterDataComponent] GOT XP: 10
-[2016.03.16-15.39.00:680][478]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] Some random ACTOR DIED!
-[2016.03.16-15.39.00:697][479]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] DumbAIEnemy_SuicideBomber21 died!!
-[2016.03.16-15.39.00:698][479]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] 1
-[2016.03.16-15.39.00:698][479]LogBlueprintUserMessages: [PlayerCharacterDataComponent] GOT XP: 10
-[2016.03.16-15.39.00:698][479]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] Some random ACTOR DIED!
-[2016.03.16-15.39.00:698][479]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] DumbAIEnemy9 died!!
-[2016.03.16-15.39.00:698][479]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] 1
-[2016.03.16-15.39.00:698][479]LogBlueprintUserMessages: [PlayerCharacterDataComponent] GOT XP: 10
-[2016.03.16-15.39.00:698][479]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] Some random ACTOR DIED!
-[2016.03.16-15.39.00:699][479]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] DumbAIEnemy_SuicideBomber15 died!!
-[2016.03.16-15.39.00:699][479]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] 1
-[2016.03.16-15.39.00:699][479]LogBlueprintUserMessages: [PlayerCharacterDataComponent] GOT XP: 10
-[2016.03.16-15.39.00:699][479]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] Some random ACTOR DIED!
-[2016.03.16-15.39.00:699][479]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] DumbAIEnemy_SuicideBomber8 died!!
-[2016.03.16-15.39.00:699][479]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] 1
-[2016.03.16-15.39.00:700][479]LogBlueprintUserMessages: [PlayerCharacterDataComponent] GOT XP: 10
-[2016.03.16-15.39.00:700][479]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] Some random ACTOR DIED!
-[2016.03.16-15.39.00:716][480]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] DumbAIEnemy15 died!!
-[2016.03.16-15.39.00:716][480]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] 1
-[2016.03.16-15.39.00:716][480]LogBlueprintUserMessages: [PlayerCharacterDataComponent] GOT XP: 10
-[2016.03.16-15.39.00:716][480]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] Some random ACTOR DIED!
-[2016.03.16-15.39.00:717][480]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] DumbAIEnemy_SuicideBomber18 died!!
-[2016.03.16-15.39.00:717][480]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] 1
-[2016.03.16-15.39.00:717][480]LogBlueprintUserMessages: [PlayerCharacterDataComponent] GOT XP: 10
-[2016.03.16-15.39.00:717][480]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] Some random ACTOR DIED!
-[2016.03.16-15.39.00:717][480]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] DumbAIEnemy13 died!!
-[2016.03.16-15.39.00:717][480]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] 1
-[2016.03.16-15.39.00:717][480]LogBlueprintUserMessages: [PlayerCharacterDataComponent] GOT XP: 10
-[2016.03.16-15.39.00:717][480]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] Some random ACTOR DIED!
-[2016.03.16-15.39.00:727][481]LogCharacterMovement: DumbAIEnemy_SuicideBomber_C_22 is stuck and failed to move!
-[2016.03.16-15.39.00:733][481]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] DumbAIEnemy10 died!!
-[2016.03.16-15.39.00:733][481]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] 1
-[2016.03.16-15.39.00:733][481]LogBlueprintUserMessages: [PlayerCharacterDataComponent] GOT XP: 10
-[2016.03.16-15.39.00:733][481]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] Some random ACTOR DIED!
-[2016.03.16-15.39.00:815][486]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] DumbAIEnemy_SuicideBomber23 died!!
-[2016.03.16-15.39.00:815][486]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] 1
-[2016.03.16-15.39.00:815][486]LogBlueprintUserMessages: [PlayerCharacterDataComponent] GOT XP: 10
-[2016.03.16-15.39.00:815][486]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] Some random ACTOR DIED!
-[2016.03.16-15.39.00:848][488]LogCharacterMovement: DumbAIEnemy_SuicideBomber_C_20 is stuck and failed to move!
-[2016.03.16-15.39.00:864][489]LogCharacterMovement: DumbAIEnemy_SuicideBomber_C_20 is stuck and failed to move!
-[2016.03.16-15.39.01:496][526]LogCharacterMovement: DumbAIEnemy_SuicideBomber_C_20 is stuck and failed to move!
-[2016.03.16-15.39.01:529][528]LogCharacterMovement: DumbAIEnemy_SuicideBomber_C_20 is stuck and failed to move!
-[2016.03.16-15.39.01:643][535]LogCharacterMovement: DumbAIEnemy_C_11 is stuck and failed to move!
-[2016.03.16-15.39.01:691][538]LogCharacterMovement: DumbAIEnemy_C_11 is stuck and failed to move!
-[2016.03.16-15.39.01:917][552]LogCharacterMovement: DumbAIEnemy_C_11 is stuck and failed to move!
-[2016.03.16-15.39.01:933][553]LogCharacterMovement: DumbAIEnemy_C_11 is stuck and failed to move!
-[2016.03.16-15.39.01:948][554]LogCharacterMovement: DumbAIEnemy_C_11 is stuck and failed to move!
-[2016.03.16-15.39.01:964][555]LogCharacterMovement: DumbAIEnemy_C_11 is stuck and failed to move!
-[2016.03.16-15.39.02:065][561]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] DumbAIEnemy_SuicideBomber24 died!!
-[2016.03.16-15.39.02:065][561]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] 1
-[2016.03.16-15.39.02:065][561]LogBlueprintUserMessages: [PlayerCharacterDataComponent] GOT XP: 10
-[2016.03.16-15.39.02:065][561]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] Some random ACTOR DIED!
-[2016.03.16-15.39.02:810][607]LogCharacterMovement: DumbAIEnemy_C_7 is stuck and failed to move!
-[2016.03.16-15.39.02:824][608]LogCharacterMovement: DumbAIEnemy_C_7 is stuck and failed to move!
-[2016.03.16-15.39.02:858][610]LogCharacterMovement: DumbAIEnemy_C_7 is stuck and failed to move!
-[2016.03.16-15.39.02:890][612]LogCharacterMovement: DumbAIEnemy_C_7 is stuck and failed to move!
-[2016.03.16-15.39.02:970][617]LogCharacterMovement: DumbAIEnemy_SuicideBomber_C_22 is stuck and failed to move!
-[2016.03.16-15.39.02:985][618]LogCharacterMovement: DumbAIEnemy_SuicideBomber_C_22 is stuck and failed to move!
-[2016.03.16-15.39.03:000][619]LogCharacterMovement: DumbAIEnemy_SuicideBomber_C_22 is stuck and failed to move!
-[2016.03.16-15.39.03:100][625]LogCharacterMovement: DumbAIEnemy_C_19 is stuck and failed to move!
-[2016.03.16-15.39.03:166][629]LogCharacterMovement: DumbAIEnemy_C_19 is stuck and failed to move!
-[2016.03.16-15.39.03:210][631]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] GAVE PLAYER SKILL POWER!
-[2016.03.16-15.39.03:210][631]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] DumbAIEnemy_SuicideBomber25 died!!
-[2016.03.16-15.39.03:210][631]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] 1
-[2016.03.16-15.39.03:210][631]LogBlueprintUserMessages: [PlayerCharacterDataComponent] GOT XP: 10
-[2016.03.16-15.39.03:210][631]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] Some random ACTOR DIED!
-[2016.03.16-15.39.03:323][638]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] GAVE PLAYER SKILL POWER!
-[2016.03.16-15.39.03:824][669]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] GAVE PLAYER SKILL POWER!
-[2016.03.16-15.39.03:824][669]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] DumbAIEnemy_SuicideBomber26 died!!
-[2016.03.16-15.39.03:824][669]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] 1
-[2016.03.16-15.39.03:824][669]LogBlueprintUserMessages: [PlayerCharacterDataComponent] GOT XP: 10
-[2016.03.16-15.39.03:824][669]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] Some random ACTOR DIED!
-[2016.03.16-15.39.03:881][673]LogCharacterMovement: DumbAIEnemy_C_16 is stuck and failed to move!
-[2016.03.16-15.39.04:323][700]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] GAVE PLAYER SKILL POWER!
-[2016.03.16-15.39.04:517][712]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] GAVE PLAYER SKILL POWER!
-[2016.03.16-15.39.04:517][712]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] DumbAIEnemy_SuicideBomber28 died!!
-[2016.03.16-15.39.04:518][712]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] 1
-[2016.03.16-15.39.04:518][712]LogBlueprintUserMessages: [PlayerCharacterDataComponent] GOT XP: 10
-[2016.03.16-15.39.04:518][712]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] Some random ACTOR DIED!
-[2016.03.16-15.39.04:711][724]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] GAVE PLAYER SKILL POWER!
-[2016.03.16-15.39.04:711][724]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] DumbAIEnemy_SuicideBomber27 died!!
-[2016.03.16-15.39.04:711][724]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] 1
-[2016.03.16-15.39.04:711][724]LogBlueprintUserMessages: [PlayerCharacterDataComponent] GOT XP: 10
-[2016.03.16-15.39.04:711][724]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] Some random ACTOR DIED!
-[2016.03.16-15.39.08:848][971]LogMaterial:Warning: Has to pass SMU back to game thread. This stalls the tasks graph, but since it is editor only or only happens once, is not such a big deal.
-[2016.03.16-15.39.08:848][971]LogMaterial:Warning: Material /Game/StarterContent/Materials/M_Ground_Grass.M_Ground_Grass missing bUsedWithSkeletalMesh=True! Default Material will be used in game.
-[2016.03.16-15.39.08:848][971]LogMaterial:Warning:      The material will recompile every editor launch until resaved.
-[2016.03.16-15.39.09:986][ 42]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] GAVE PLAYER SKILL POWER!
-[2016.03.16-15.39.09:986][ 42]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] DumbAIEnemy23 died!!
-[2016.03.16-15.39.09:986][ 42]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] 1
-[2016.03.16-15.39.09:986][ 42]LogBlueprintUserMessages: [PlayerCharacterDataComponent] GOT XP: 10
-[2016.03.16-15.39.09:986][ 42]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] Some random ACTOR DIED!
-[2016.03.16-15.39.09:987][ 42]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] GAVE PLAYER SKILL POWER!
-[2016.03.16-15.39.09:987][ 42]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] DumbAIEnemy27 died!!
-[2016.03.16-15.39.09:987][ 42]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] 1
-[2016.03.16-15.39.09:987][ 42]LogBlueprintUserMessages: [PlayerCharacterDataComponent] GOT XP: 10
-[2016.03.16-15.39.09:987][ 42]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] Some random ACTOR DIED!
-[2016.03.16-15.39.09:988][ 42]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] GAVE PLAYER SKILL POWER!
-[2016.03.16-15.39.09:988][ 42]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] DumbAIEnemy20 died!!
-[2016.03.16-15.39.09:988][ 42]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] 1
-[2016.03.16-15.39.09:988][ 42]LogBlueprintUserMessages: [PlayerCharacterDataComponent] LEVEL UP!!!! NOW: 2
-[2016.03.16-15.39.09:988][ 42]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] Some random ACTOR DIED!
-[2016.03.16-15.39.09:990][ 42]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] GAVE PLAYER SKILL POWER!
-[2016.03.16-15.39.09:990][ 42]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] DumbAIEnemy21 died!!
-[2016.03.16-15.39.09:990][ 42]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] 1
-[2016.03.16-15.39.09:990][ 42]LogBlueprintUserMessages: [PlayerCharacterDataComponent] GOT XP: 10
-[2016.03.16-15.39.09:990][ 42]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] Some random ACTOR DIED!
-[2016.03.16-15.39.13:898][284]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] GAVE PLAYER SKILL POWER!
-[2016.03.16-15.39.13:898][284]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] DumbAIEnemy28 died!!
-[2016.03.16-15.39.13:898][284]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] 1
-[2016.03.16-15.39.13:898][284]LogBlueprintUserMessages: [PlayerCharacterDataComponent] GOT XP: 10
-[2016.03.16-15.39.13:898][284]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] Some random ACTOR DIED!
-[2016.03.16-15.39.13:899][284]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] GAVE PLAYER SKILL POWER!
-[2016.03.16-15.39.13:899][284]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] DumbAIEnemy29 died!!
-[2016.03.16-15.39.13:899][284]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] 1
-[2016.03.16-15.39.13:899][284]LogBlueprintUserMessages: [PlayerCharacterDataComponent] GOT XP: 10
-[2016.03.16-15.39.13:899][284]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] Some random ACTOR DIED!
-[2016.03.16-15.39.13:900][284]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] GAVE PLAYER SKILL POWER!
-[2016.03.16-15.39.13:900][284]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] DumbAIEnemy26 died!!
-[2016.03.16-15.39.13:900][284]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] 1
-[2016.03.16-15.39.13:900][284]LogBlueprintUserMessages: [PlayerCharacterDataComponent] GOT XP: 10
-[2016.03.16-15.39.13:900][284]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] Some random ACTOR DIED!
-[2016.03.16-15.39.15:787][400]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] GAVE PLAYER SKILL POWER!
-[2016.03.16-15.39.15:787][400]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] DumbAIEnemy24 died!!
-[2016.03.16-15.39.15:787][400]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] 1
-[2016.03.16-15.39.15:787][400]LogBlueprintUserMessages: [PlayerCharacterDataComponent] GOT XP: 10
-[2016.03.16-15.39.15:787][400]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] Some random ACTOR DIED!
-[2016.03.16-15.39.15:788][400]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] GAVE PLAYER SKILL POWER!
-[2016.03.16-15.39.15:788][400]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] DumbAIEnemy25 died!!
-[2016.03.16-15.39.15:788][400]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] 1
-[2016.03.16-15.39.15:788][400]LogBlueprintUserMessages: [PlayerCharacterDataComponent] GOT XP: 10
-[2016.03.16-15.39.15:788][400]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] Some random ACTOR DIED!
-[2016.03.16-15.39.17:819][526]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] GAVE PLAYER SKILL POWER!
-[2016.03.16-15.39.17:819][526]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] DumbAIEnemy22 died!!
-[2016.03.16-15.39.17:819][526]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] 1
-[2016.03.16-15.39.17:819][526]LogBlueprintUserMessages: [PlayerCharacterDataComponent] GOT XP: 10
-[2016.03.16-15.39.17:819][526]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] Some random ACTOR DIED!
-[2016.03.16-15.39.19:914][656]LogBlueprintUserMessages: [BasePlayerCharacter_C_2] CASTING!!
-[2016.03.16-15.39.19:914][656]LogBlueprintUserMessages: [StandardPlayerController_C_0] Used Active Rune!
-[2016.03.16-15.39.21:920][780]LogBlueprintUserMessages: [BasePlayerCharacter_C_2] SKILL ATTACK NOW!
-[2016.03.16-15.39.22:197][797]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] DumbAIEnemy18 died!!
-[2016.03.16-15.39.22:197][797]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] 1
-[2016.03.16-15.39.22:197][797]LogBlueprintUserMessages: [PlayerCharacterDataComponent] GOT XP: 10
-[2016.03.16-15.39.22:198][797]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] Some random ACTOR DIED!
-[2016.03.16-15.39.22:198][797]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] DumbAIEnemy17 died!!
-[2016.03.16-15.39.22:198][797]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] 1
-[2016.03.16-15.39.22:198][797]LogBlueprintUserMessages: [PlayerCharacterDataComponent] GOT XP: 10
-[2016.03.16-15.39.22:198][797]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] Some random ACTOR DIED!
-[2016.03.16-15.39.22:198][797]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] DumbAIEnemy_SuicideBomber22 died!!
-[2016.03.16-15.39.22:199][797]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] 1
-[2016.03.16-15.39.22:199][797]LogBlueprintUserMessages: [PlayerCharacterDataComponent] GOT XP: 10
-[2016.03.16-15.39.22:199][797]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] Some random ACTOR DIED!
-[2016.03.16-15.39.22:212][798]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] DumbAIEnemy19 died!!
-[2016.03.16-15.39.22:212][798]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] 1
-[2016.03.16-15.39.22:212][798]LogBlueprintUserMessages: [PlayerCharacterDataComponent] GOT XP: 10
-[2016.03.16-15.39.22:212][798]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] Some random ACTOR DIED!
-[2016.03.16-15.39.22:213][798]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] DumbAIEnemy7 died!!
-[2016.03.16-15.39.22:213][798]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] 1
-[2016.03.16-15.39.22:213][798]LogBlueprintUserMessages: [PlayerCharacterDataComponent] GOT XP: 10
-[2016.03.16-15.39.22:213][798]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] Some random ACTOR DIED!
-[2016.03.16-15.39.22:213][798]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] DumbAIEnemy16 died!!
-[2016.03.16-15.39.22:213][798]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] 1
-[2016.03.16-15.39.22:213][798]LogBlueprintUserMessages: [PlayerCharacterDataComponent] GOT XP: 10
-[2016.03.16-15.39.22:213][798]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] Some random ACTOR DIED!
-[2016.03.16-15.39.22:214][798]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] DumbAIEnemy11 died!!
-[2016.03.16-15.39.22:214][798]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] 1
-[2016.03.16-15.39.22:214][798]LogBlueprintUserMessages: [PlayerCharacterDataComponent] GOT XP: 10
-[2016.03.16-15.39.22:214][798]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] Some random ACTOR DIED!
-[2016.03.16-15.39.22:228][799]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] DumbAIEnemy_SuicideBomber20 died!!
-[2016.03.16-15.39.22:229][799]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] 1
-[2016.03.16-15.39.22:229][799]LogBlueprintUserMessages: [PlayerCharacterDataComponent] GOT XP: 10
-[2016.03.16-15.39.22:229][799]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] Some random ACTOR DIED!
-[2016.03.16-15.39.22:229][799]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] DumbAIEnemy14 died!!
-[2016.03.16-15.39.22:229][799]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] 1
-[2016.03.16-15.39.22:229][799]LogBlueprintUserMessages: [PlayerCharacterDataComponent] GOT XP: 10
-[2016.03.16-15.39.22:229][799]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] Some random ACTOR DIED!
-[2016.03.16-15.39.22:230][799]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] DumbAIEnemy_SuicideBomber12 died!!
-[2016.03.16-15.39.22:230][799]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] 1
-[2016.03.16-15.39.22:230][799]LogBlueprintUserMessages: [PlayerCharacterDataComponent] GOT XP: 10
-[2016.03.16-15.39.22:230][799]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] Some random ACTOR DIED!
-[2016.03.16-15.39.22:230][799]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] DumbAIEnemy6 died!!
-[2016.03.16-15.39.22:230][799]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] 1
-[2016.03.16-15.39.22:230][799]LogBlueprintUserMessages: [PlayerCharacterDataComponent] GOT XP: 10
-[2016.03.16-15.39.22:230][799]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] Some random ACTOR DIED!
-[2016.03.16-15.39.29:456][247]LogBlueprintUserMessages: [TimeAttackGameMode_C_0] Exit Started!
-[2016.03.16-15.39.31:457][371]LogBlueprintUserMessages: [BaseGameInstance_C_0] Saved successfully!
-[2016.03.16-15.39.31:584][371]LogPackageName: SearchForPackageOnDisk took   0.127s to resolve Hub.
-[2016.03.16-15.39.31:585][371]LogGameMode: ProcessServerTravel: /Game/DelugeBP/Maps/Hub
-[2016.03.16-15.39.31:585][371]LogWorld: SeamlessTravel to: /Game/DelugeBP/Maps/Hub
-[2016.03.16-15.39.31:680][373]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005C43205120
-[2016.03.16-15.39.31:695][373]LogNetPackageMap:Warning: FNetGUIDCache::CleanReferences: ObjectLookup: 0, NetGUIDLookup: 0, Mem: 0 kB
-[2016.03.16-15.39.31:697][373]LogAIModule: Creating AISystem for world TransitionMap
-[2016.03.16-15.39.31:700][373]LogWorld: Bringing World /Game/DelugeBP/Maps/TransitionMap.TransitionMap up for play (max tick rate 0) at 2016.03.16-16.39.31
-[2016.03.16-15.39.31:700][373]LogWorld: Bringing up level for play took: 0.001503
-[2016.03.16-15.39.31:700][373]LogWorld: Sending NotifyLoadedWorld for LP: LocalPlayer_0 PC: StandardPlayerController_C_1
-[2016.03.16-15.39.31:700][373]LogNet:Verbose: NotifyLoadedWorld Begin
-[2016.03.16-15.39.31:700][373]LogNet:VeryVerbose: GetFunctionCallspace Server calling Server function: ServerNotifyLoadedWorld Local
-[2016.03.16-15.39.31:700][373]LogNet:Verbose: NotifyLoadedWorld End
-[2016.03.16-15.39.31:700][373]LogWorld: StartLoadingDestination to: /Game/DelugeBP/Maps/Hub
-[2016.03.16-15.39.31:722][373]LogScript:Warning: Accessed None 'ControlledCharacter'
-	MainGameHudWidget_C /Engine/Transient.GameEngine_0:BaseGameInstance_C_0.MainGameHudWidget_C_5
-	Function /Game/DelugeBP/Blueprints/HUD/Widgets/MainGameHudWidget.MainGameHudWidget_C:GetHealthPercent:007E
-[2016.03.16-15.39.31:722][373]LogScript:Warning: Accessed None 'ControlledCharacter'
-	MainGameHudWidget_C /Engine/Transient.GameEngine_0:BaseGameInstance_C_0.MainGameHudWidget_C_5
-	Function /Game/DelugeBP/Blueprints/HUD/Widgets/MainGameHudWidget.MainGameHudWidget_C:GetSkillRessourcePercent:007E
-[2016.03.16-15.39.31:753][374]LogScript:Warning: Accessed None 'ControlledCharacter'
-	MainGameHudWidget_C /Engine/Transient.GameEngine_0:BaseGameInstance_C_0.MainGameHudWidget_C_5
-	Function /Game/DelugeBP/Blueprints/HUD/Widgets/MainGameHudWidget.MainGameHudWidget_C:GetHealthPercent:007E
-[2016.03.16-15.39.31:754][374]LogScript:Warning: Accessed None 'ControlledCharacter'
-	MainGameHudWidget_C /Engine/Transient.GameEngine_0:BaseGameInstance_C_0.MainGameHudWidget_C_5
-	Function /Game/DelugeBP/Blueprints/HUD/Widgets/MainGameHudWidget.MainGameHudWidget_C:GetSkillRessourcePercent:007E
-[2016.03.16-15.39.31:795][375]LogScript:Warning: Accessed None 'ControlledCharacter'
-	MainGameHudWidget_C /Engine/Transient.GameEngine_0:BaseGameInstance_C_0.MainGameHudWidget_C_5
-	Function /Game/DelugeBP/Blueprints/HUD/Widgets/MainGameHudWidget.MainGameHudWidget_C:GetHealthPercent:007E
-[2016.03.16-15.39.31:795][375]LogScript:Warning: Accessed None 'ControlledCharacter'
-	MainGameHudWidget_C /Engine/Transient.GameEngine_0:BaseGameInstance_C_0.MainGameHudWidget_C_5
-	Function /Game/DelugeBP/Blueprints/HUD/Widgets/MainGameHudWidget.MainGameHudWidget_C:GetSkillRessourcePercent:007E
-[2016.03.16-15.39.31:883][376]LogScript:Warning: Accessed None 'ControlledCharacter'
-	MainGameHudWidget_C /Engine/Transient.GameEngine_0:BaseGameInstance_C_0.MainGameHudWidget_C_5
-	Function /Game/DelugeBP/Blueprints/HUD/Widgets/MainGameHudWidget.MainGameHudWidget_C:GetHealthPercent:007E
-[2016.03.16-15.39.31:883][376]LogScript:Warning: Accessed None 'ControlledCharacter'
-	MainGameHudWidget_C /Engine/Transient.GameEngine_0:BaseGameInstance_C_0.MainGameHudWidget_C_5
-	Function /Game/DelugeBP/Blueprints/HUD/Widgets/MainGameHudWidget.MainGameHudWidget_C:GetSkillRessourcePercent:007E
-[2016.03.16-15.39.31:916][377]LogScript:Warning: Accessed None 'ControlledCharacter'
-	MainGameHudWidget_C /Engine/Transient.GameEngine_0:BaseGameInstance_C_0.MainGameHudWidget_C_5
-	Function /Game/DelugeBP/Blueprints/HUD/Widgets/MainGameHudWidget.MainGameHudWidget_C:GetHealthPercent:007E
-[2016.03.16-15.39.31:916][377]LogScript:Warning: Accessed None 'ControlledCharacter'
-	MainGameHudWidget_C /Engine/Transient.GameEngine_0:BaseGameInstance_C_0.MainGameHudWidget_C_5
-	Function /Game/DelugeBP/Blueprints/HUD/Widgets/MainGameHudWidget.MainGameHudWidget_C:GetSkillRessourcePercent:007E
-[2016.03.16-15.39.32:048][378]LogScript:Warning: Accessed None 'ControlledCharacter'
-	MainGameHudWidget_C /Engine/Transient.GameEngine_0:BaseGameInstance_C_0.MainGameHudWidget_C_5
-	Function /Game/DelugeBP/Blueprints/HUD/Widgets/MainGameHudWidget.MainGameHudWidget_C:GetHealthPercent:007E
-[2016.03.16-15.39.32:048][378]LogScript:Warning: Accessed None 'ControlledCharacter'
-	MainGameHudWidget_C /Engine/Transient.GameEngine_0:BaseGameInstance_C_0.MainGameHudWidget_C_5
-	Function /Game/DelugeBP/Blueprints/HUD/Widgets/MainGameHudWidget.MainGameHudWidget_C:GetSkillRessourcePercent:007E
-[2016.03.16-15.39.32:090][379]LogScript:Warning: Accessed None 'ControlledCharacter'
-	MainGameHudWidget_C /Engine/Transient.GameEngine_0:BaseGameInstance_C_0.MainGameHudWidget_C_5
-	Function /Game/DelugeBP/Blueprints/HUD/Widgets/MainGameHudWidget.MainGameHudWidget_C:GetHealthPercent:007E
-[2016.03.16-15.39.32:090][379]LogScript:Warning: Accessed None 'ControlledCharacter'
-	MainGameHudWidget_C /Engine/Transient.GameEngine_0:BaseGameInstance_C_0.MainGameHudWidget_C_5
-	Function /Game/DelugeBP/Blueprints/HUD/Widgets/MainGameHudWidget.MainGameHudWidget_C:GetSkillRessourcePercent:007E
-[2016.03.16-15.39.32:122][380]LogScript:Warning: Accessed None 'ControlledCharacter'
-	MainGameHudWidget_C /Engine/Transient.GameEngine_0:BaseGameInstance_C_0.MainGameHudWidget_C_5
-	Function /Game/DelugeBP/Blueprints/HUD/Widgets/MainGameHudWidget.MainGameHudWidget_C:GetHealthPercent:007E
-[2016.03.16-15.39.32:122][380]LogScript:Warning: Accessed None 'ControlledCharacter'
-	MainGameHudWidget_C /Engine/Transient.GameEngine_0:BaseGameInstance_C_0.MainGameHudWidget_C_5
-	Function /Game/DelugeBP/Blueprints/HUD/Widgets/MainGameHudWidget.MainGameHudWidget_C:GetSkillRessourcePercent:007E
-[2016.03.16-15.39.32:151][381]LogScript:Warning: Accessed None 'ControlledCharacter'
-	MainGameHudWidget_C /Engine/Transient.GameEngine_0:BaseGameInstance_C_0.MainGameHudWidget_C_5
-	Function /Game/DelugeBP/Blueprints/HUD/Widgets/MainGameHudWidget.MainGameHudWidget_C:GetHealthPercent:007E
-[2016.03.16-15.39.32:345][389]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005C432D4C20
-[2016.03.16-15.39.32:358][389]LogNetPackageMap:Warning: FNetGUIDCache::CleanReferences: ObjectLookup: 0, NetGUIDLookup: 0, Mem: 0 kB
-[2016.03.16-15.39.32:360][389]LogAIModule: Creating AISystem for world Hub
-[2016.03.16-15.39.32:360][389]LogWorld: Game class is 'HubGameMode_C'
-[2016.03.16-15.39.32:366][389]LogWorld: Bringing World /Game/DelugeBP/Maps/Hub.Hub up for play (max tick rate 0) at 2016.03.16-16.39.32
-[2016.03.16-15.39.32:367][389]LogWorld: Bringing up level for play took: 0.004982
-[2016.03.16-15.39.32:367][389]LogWorld: Sending NotifyLoadedWorld for LP: LocalPlayer_0 PC: StandardPlayerController_C_6
-[2016.03.16-15.39.32:367][389]LogNet:Verbose: NotifyLoadedWorld Begin
-[2016.03.16-15.39.32:367][389]LogNet:VeryVerbose: GetFunctionCallspace Server calling Server function: ServerNotifyLoadedWorld Local
-[2016.03.16-15.39.32:367][389]LogNet:Verbose: NotifyLoadedWorld End
-[2016.03.16-15.39.32:367][389]LogWorld: ----SeamlessTravel finished------
-[2016.03.16-15.39.32:367][389]LogGameMode: >> GameMode::HandleSeamlessTravelPlayer: StandardPlayerController_C_6 
-[2016.03.16-15.39.32:368][389]LogGameMode: << GameMode::HandleSeamlessTravelPlayer: HUBPlayerController_C_0
-[2016.03.16-15.39.32:368][389]LogOnline:Warning: NULL: Can't start an online session (Game) in state InProgress
-[2016.03.16-15.39.32:372][389]LogBlueprintUserMessages: [BaseGameInstance_C_0] Savegame loaded successfully!
-[2016.03.16-15.40.07:019][486]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2016.03.16-15.40.07:029][486]LogEngine: All Windows Closed
-[2016.03.16-15.40.07:029][486]LogWindows: FPlatformMisc::RequestExit(0)
-[2016.03.16-15.40.07:419][487]LogNet: World NetDriver shutdown IpNetDriver_1 [GameNetDriver]
-[2016.03.16-15.40.07:419][487]LogNet: DestroyNamedNetDriver IpNetDriver_1 [GameNetDriver]
-[2016.03.16-15.40.07:419][487]LogExit: GameNetDriver IpNetDriver_1 shut down
-[2016.03.16-15.40.07:609][487]LogExit: Preparing to exit.
-[2016.03.16-15.40.07:718][487]LogExit: Game engine shut down
-[2016.03.16-15.40.07:724][487]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005C42D4C720
-[2016.03.16-15.40.07:970][487]LogExit: Object subsystem successfully closed.
-[2016.03.16-15.40.07:991][487]LogD3D11RHI: Shutdown
-[2016.03.16-15.40.07:991][487]LogD3D11RHI: CleanupD3DDevice
-[2016.03.16-15.40.08:158][487]LogD3D11RHI: ~FD3D11DynamicRHI
-[2016.03.16-15.40.08:170][487]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (121)
-[2016.03.16-15.40.08:496][487]LogModuleManager: Shutting down and abandoning module AutomationController (120)
-[2016.03.16-15.40.08:497][487]LogModuleManager: Shutting down and abandoning module AutomationWorker (119)
-[2016.03.16-15.40.08:497][487]LogModuleManager: Shutting down and abandoning module CharacterAI (118)
-[2016.03.16-15.40.08:497][487]LogModuleManager: Shutting down and abandoning module AITestSuite (117)
-[2016.03.16-15.40.08:497][487]LogModuleManager: Shutting down and abandoning module GameplayDebugger (116)
-[2016.03.16-15.40.08:497][487]LogModuleManager: Shutting down and abandoning module AIModule (115)
-[2016.03.16-15.40.08:497][487]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (114)
-[2016.03.16-15.40.08:497][487]LogModuleManager: Shutting down and abandoning module AssetRegistry (113)
-[2016.03.16-15.40.08:497][487]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (112)
-[2016.03.16-15.40.08:497][487]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (111)
-[2016.03.16-15.40.08:497][487]LogModuleManager: Shutting down and abandoning module ProfilerService (110)
-[2016.03.16-15.40.08:702][487]LogModuleManager: Shutting down and abandoning module TaskGraph (109)
-[2016.03.16-15.40.08:702][487]LogModuleManager: Shutting down and abandoning module SlateRemote (108)
-[2016.03.16-15.40.08:702][487]LogModuleManager: Shutting down and abandoning module SteamVRController (107)
-[2016.03.16-15.40.08:702][487]LogModuleManager: Shutting down and abandoning module SteamVR (106)
-[2016.03.16-15.40.08:702][487]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (105)
-[2016.03.16-15.40.08:702][487]LogModuleManager: Shutting down and abandoning module OculusLibrary (104)
-[2016.03.16-15.40.08:702][487]LogModuleManager: Shutting down and abandoning module OculusInput (103)
-[2016.03.16-15.40.08:702][487]LogModuleManager: Shutting down and abandoning module LeapMotionController (102)
-[2016.03.16-15.40.08:736][487]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (101)
-[2016.03.16-15.40.08:736][487]LogModuleManager: Shutting down and abandoning module CableComponent (100)
-[2016.03.16-15.40.08:736][487]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (99)
-[2016.03.16-15.40.08:736][487]LogModuleManager: Shutting down and abandoning module HTML5Networking (98)
-[2016.03.16-15.40.08:736][487]LogModuleManager: Shutting down and abandoning module DesktopPlatform (97)
-[2016.03.16-15.40.08:736][487]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (96)
-[2016.03.16-15.40.08:736][487]LogModuleManager: Shutting down and abandoning module HotReload (95)
-[2016.03.16-15.40.08:736][487]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (94)
-[2016.03.16-15.40.08:736][487]LogModuleManager: Shutting down and abandoning module UObjectPlugin (93)
-[2016.03.16-15.40.08:736][487]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (92)
-[2016.03.16-15.40.08:736][487]LogModuleManager: Shutting down and abandoning module SourceControl (91)
-[2016.03.16-15.40.08:736][487]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (90)
-[2016.03.16-15.40.08:736][487]LogModuleManager: Shutting down and abandoning module UdpMessaging (89)
-[2016.03.16-15.40.08:736][487]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (88)
-[2016.03.16-15.40.08:736][487]LogModuleManager: Shutting down and abandoning module Paper2D (87)
-[2016.03.16-15.40.08:736][487]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (86)
-[2016.03.16-15.40.08:749][487]LogModuleManager: Shutting down and abandoning module Media (85)
-[2016.03.16-15.40.08:749][487]LogModuleManager: Shutting down and abandoning module WmfMedia (84)
-[2016.03.16-15.40.08:750][487]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
-[2016.03.16-15.40.08:750][487]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
-[2016.03.16-15.40.08:750][487]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
-[2016.03.16-15.40.08:750][487]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
-[2016.03.16-15.40.08:750][487]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
-[2016.03.16-15.40.08:750][487]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
-[2016.03.16-15.40.08:750][487]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
-[2016.03.16-15.40.08:750][487]LogModuleManager: Shutting down and abandoning module MessageLog (76)
-[2016.03.16-15.40.08:750][487]LogModuleManager: Shutting down and abandoning module Sequencer (75)
-[2016.03.16-15.40.08:750][487]LogModuleManager: Shutting down and abandoning module AssetTools (74)
-[2016.03.16-15.40.08:750][487]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
-[2016.03.16-15.40.08:750][487]LogModuleManager: Shutting down and abandoning module UMG (72)
-[2016.03.16-15.40.08:750][487]LogModuleManager: Shutting down and abandoning module Slate (71)
-[2016.03.16-15.40.08:751][487]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
-[2016.03.16-15.40.08:754][487]LogModuleManager: Shutting down and abandoning module SessionServices (69)
-[2016.03.16-15.40.08:754][487]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (68)
-[2016.03.16-15.40.08:754][487]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (67)
-[2016.03.16-15.40.08:754][487]LogModuleManager: Shutting down and abandoning module XAudio2 (66)
-[2016.03.16-15.40.08:754][487]LogModuleManager: Shutting down and abandoning module Networking (65)
-[2016.03.16-15.40.08:754][487]LogModuleManager: Shutting down and abandoning module Core (64)
-[2016.03.16-15.40.08:754][487]LogModuleManager: Shutting down and abandoning module KismetCompiler (63)
-[2016.03.16-15.40.08:754][487]LogModuleManager: Shutting down and abandoning module PhysXFormats (62)
-[2016.03.16-15.40.08:754][487]LogModuleManager: Shutting down and abandoning module MeshUtilities (61)
-[2016.03.16-15.40.08:754][487]LogModuleManager: Shutting down and abandoning module DerivedDataCache (60)
-[2016.03.16-15.40.08:910][487]LogDerivedDataCache: Shutdown
-[2016.03.16-15.40.08:910][487]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (59)
-[2016.03.16-15.40.08:910][487]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (58)
-[2016.03.16-15.40.08:910][487]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (57)
-[2016.03.16-15.40.08:910][487]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (56)
-[2016.03.16-15.40.08:910][487]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (55)
-[2016.03.16-15.40.08:910][487]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (54)
-[2016.03.16-15.40.08:910][487]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (53)
-[2016.03.16-15.40.08:910][487]LogModuleManager: Shutting down and abandoning module ImageWrapper (52)
-[2016.03.16-15.40.08:910][487]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (51)
-[2016.03.16-15.40.08:910][487]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (50)
-[2016.03.16-15.40.08:910][487]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (49)
-[2016.03.16-15.40.08:910][487]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (48)
-[2016.03.16-15.40.08:910][487]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (47)
-[2016.03.16-15.40.08:910][487]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (46)
-[2016.03.16-15.40.08:910][487]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (45)
-[2016.03.16-15.40.08:910][487]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (44)
-[2016.03.16-15.40.08:910][487]LogModuleManager: Shutting down and abandoning module Messaging (43)
-[2016.03.16-15.40.08:910][487]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (42)
-[2016.03.16-15.40.08:910][487]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (41)
-[2016.03.16-15.40.08:910][487]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (40)
-[2016.03.16-15.40.08:910][487]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (39)
-[2016.03.16-15.40.08:910][487]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (38)
-[2016.03.16-15.40.08:910][487]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (37)
-[2016.03.16-15.40.08:910][487]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (36)
-[2016.03.16-15.40.08:910][487]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (35)
-[2016.03.16-15.40.08:910][487]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (34)
-[2016.03.16-15.40.08:910][487]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (33)
-[2016.03.16-15.40.08:910][487]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (32)
-[2016.03.16-15.40.08:910][487]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (31)
-[2016.03.16-15.40.08:910][487]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (30)
-[2016.03.16-15.40.08:910][487]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (29)
-[2016.03.16-15.40.08:910][487]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (28)
-[2016.03.16-15.40.08:910][487]LogModuleManager: Shutting down and abandoning module TargetPlatform (27)
-[2016.03.16-15.40.08:910][487]LogModuleManager: Shutting down and abandoning module InputCore (26)
-[2016.03.16-15.40.08:910][487]LogModuleManager: Shutting down and abandoning module Settings (25)
-[2016.03.16-15.40.08:910][487]LogModuleManager: Shutting down and abandoning module Voice (23)
-[2016.03.16-15.40.08:910][487]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
-[2016.03.16-15.40.08:910][487]LogOnline:Display: NULL: FOnlineSubsystemNull::Shutdown()
-[2016.03.16-15.40.08:911][487]LogOnline:Display: Unloading online subsystem: STEAM
-[2016.03.16-15.40.08:911][487]LogOnline:Display: Unloading online subsystem: Null
-[2016.03.16-15.40.08:911][487]LogModuleManager: Shutting down and abandoning module HTTP (18)
-[2016.03.16-15.40.08:911][487]LogModuleManager: Shutting down and abandoning module XMPP (17)
-[2016.03.16-15.40.08:911][487]LogModuleManager: Shutting down and abandoning module OculusRift (16)
-[2016.03.16-15.40.08:911][487]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
-[2016.03.16-15.40.08:911][487]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2016.03.16-15.40.08:911][487]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2016.03.16-15.40.08:911][487]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2016.03.16-15.40.08:911][487]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2016.03.16-15.40.08:912][487]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2016.03.16-15.40.08:912][487]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2016.03.16-15.40.08:912][487]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2016.03.16-15.40.08:912][487]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2016.03.16-15.40.08:912][487]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2016.03.16-15.40.08:912][487]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2016.03.16-15.40.08:912][487]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2016.03.16-15.40.08:912][487]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2016.03.16-15.40.08:912][487]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2016.03.16-15.40.08:912][487]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2016.03.16-15.40.08:914][487]LogExit: Exiting.
-[2016.03.16-15.40.08:971][487]Log file closed, 03/16/16 16:40:08
+﻿[2016.04.06-12.25.35:857][  0]Log file open, 04/06/16 14:25:35
+[2016.04.06-12.25.35:857][  0]LogInit:Display: Running engine for game: Deluge
+[2016.04.06-12.25.35:857][  0]LogPlatformFile: Not using cached read wrapper
+[2016.04.06-12.25.35:857][  0]LogInit:Display: RandInit(-1431420813) SRandInit(-1431420811).
+[2016.04.06-12.25.35:857][  0]LogTaskGraph: Started task graph with 4 named threads and 8 total threads.
+[2016.04.06-12.25.35:857][  0]LogStats: Stats thread started at 0.100547
+[2016.04.06-12.25.35:857][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.06-12.25.35:857][  0]LogInit: API Version: 2758231
+[2016.04.06-12.25.35:857][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.04.06-12.25.35:857][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.04.06-12.25.35:857][  0]LogInit: Build Configuration: Development
+[2016.04.06-12.25.35:857][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.04.06-12.25.35:857][  0]LogInit: Command line:  
+[2016.04.06-12.25.35:857][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.04.06-12.25.35:857][  0]LogInit: Rocket: 1
+[2016.04.06-12.25.35:872][  0]LogInit: Using libcurl 7.41.0
+[2016.04.06-12.25.35:872][  0]LogInit:  - built for x86_64-pc-win32
+[2016.04.06-12.25.35:872][  0]LogInit:  - supports SSL with WinSSL
+[2016.04.06-12.25.35:872][  0]LogInit:  - other features:
+[2016.04.06-12.25.35:872][  0]LogInit:      CURL_VERSION_SSL
+[2016.04.06-12.25.35:872][  0]LogInit:      CURL_VERSION_IPV6
+[2016.04.06-12.25.35:872][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.04.06-12.25.35:872][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.04.06-12.25.35:872][  0]LogInit:      CURL_VERSION_IDN
+[2016.04.06-12.25.35:872][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.04.06-12.25.35:872][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.04.06-12.25.35:872][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.04.06-12.25.35:872][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.04.06-12.25.35:872][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.04.06-12.25.35:883][  0]LogOnline:Display: STEAM: Loading Steam SDK 1.32
+[2016.04.06-12.25.35:884][  0]LogOnline:Warning: STEAM: Steam API disabled!
+[2016.04.06-12.25.35:884][  0]LogOnline:Display: STEAM: OnlineSubsystemSteam::Shutdown()
+[2016.04.06-12.25.35:906][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.04.06-12.25.35:913][  0]LogVoice:Warning: Failed to initialize voice interface
+[2016.04.06-12.25.35:919][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.04.06-12.25.35:931][  0]LogInit: Object subsystem initialized
+[2016.04.06-12.25.35:933][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.06-12.25.35:933][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.04.06-12.25.35:949][  0]LogInit: Computer: DESKTOP-EQTRUAU
+[2016.04.06-12.25.35:949][  0]LogInit: User: mike
+[2016.04.06-12.25.35:949][  0]LogInit: CPU Page size=4096, Cores=6
+[2016.04.06-12.25.35:949][  0]LogInit: High frequency timer resolution =2.743582 MHz
+[2016.04.06-12.25.35:949][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2016.04.06-12.25.35:949][  0]LogMemory: Platform Memory Stats for Windows
+[2016.04.06-12.25.35:949][  0]LogMemory: Process Physical Memory: 58.73 MB used, 58.73 MB peak
+[2016.04.06-12.25.35:949][  0]LogMemory: Process Virtual Memory: 59.97 MB used, 59.97 MB peak
+[2016.04.06-12.25.35:949][  0]LogMemory: Physical Memory: 3883.25 MB used, 8190.11 MB total
+[2016.04.06-12.25.35:949][  0]LogMemory: Virtual Memory: 385.70 MB used, 134217728.00 MB total
+[2016.04.06-12.25.36:006][  0]LogTextLocalizationManager: No translations for ('de-AT') exist, falling back to 'en' for localization and internationalization data.
+[2016.04.06-12.25.36:748][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 760 (Feature Level 11_0)
+[2016.04.06-12.25.36:748][  0]LogD3D11RHI: Adapter has 1989MB of dedicated video memory, 0MB of dedicated system memory, and 4095MB of shared system memory, 2 output[s]
+[2016.04.06-12.25.36:750][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.04.06-12.25.36:750][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4095MB of shared system memory, 0 output[s]
+[2016.04.06-12.25.36:750][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.04.06-12.25.36:757][  0]LogD3D11RHI: !Direct3DDevice
+[2016.04.06-12.25.36:757][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.04.06-12.25.36:780][  0]LogD3D11RHI: Async texture creation enabled
+[2016.04.06-12.25.37:908][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Intermediate/Shaders/WorkingDirectory/3596/).
+[2016.04.06-12.25.37:909][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/mike/AppData/Local/Temp/UnrealShaderWorkingDir/A1A606CA4FA7D1056B5B2D9295F203C3/'.
+[2016.04.06-12.25.37:909][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.04.06-12.25.39:195][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.04.06-12.25.39:203][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.04.06-12.25.39:211][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.04.06-12.25.39:218][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.04.06-12.25.39:227][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.04.06-12.25.39:232][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.04.06-12.25.39:237][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.04.06-12.25.39:243][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.04.06-12.25.39:248][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.04.06-12.25.39:254][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.04.06-12.25.39:260][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.04.06-12.25.39:273][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.04.06-12.25.39:273][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.04.06-12.25.39:274][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.04.06-12.25.39:295][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.04.06-12.25.39:300][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.04.06-12.25.39:305][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.04.06-12.25.39:310][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.04.06-12.25.39:310][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.04.06-12.25.39:432][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.04.06-12.25.39:528][  0]LogDerivedDataCache: Loaded boot cache 0.10s 41MB C:/Users/mike/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.06-12.25.39:528][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/mike/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.04.06-12.25.39:528][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.04.06-12.25.39:528][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.04.06-12.25.39:528][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.04.06-12.25.39:528][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.04.06-12.25.39:626][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.04.06-12.25.39:639][  0]LogDerivedDataCache: Using Local data cache path C:/Users/mike/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.04.06-12.25.39:909][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.06-12.25.39:914][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.04.06-12.25.40:068][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.04.06-12.25.40:068][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.04.06-12.25.41:558][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.04.06-12.25.41:672][  0]LogAssetRegistry: FAssetRegistry took 0.0120 seconds to start up
+[2016.04.06-12.25.41:919][  0]SourceControl: Info Source control is disabled
+[2016.04.06-12.25.41:986][  0]SourceControl: Info Source control is disabled
+[2016.04.06-12.25.42:005][  0]SourceControl: Info Source control is disabled
+[2016.04.06-12.25.42:023][  0]SourceControl: Info Source control is disabled
+[2016.04.06-12.25.42:407][  0]LogObj: 28640 objects as part of root set at end of initial load.
+[2016.04.06-12.25.42:407][  0]LogUObjectAllocator: 6315720 out of 0 bytes used by permanent object pool.
+[2016.04.06-12.25.42:494][  0]LogEngine: Initializing Engine...
+[2016.04.06-12.25.42:498][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.06-12.25.42:498][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.04.06-12.25.42:684][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.04.06-12.25.42:702][  0]LogInit: XAudio2 using 'Lautsprecher (Logitech G330 Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.04.06-12.25.42:724][  0]LogInit: FAudioDevice initialized.
+[2016.04.06-12.25.42:775][  0]LogDerivedDataCache: Saved boot cache 0.05s 41MB C:/Users/mike/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.04.06-12.25.42:791][  0]LogInit: Texture streaming: Enabled
+[2016.04.06-12.25.42:800][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.04.06-12.25.42:800][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.04.06-12.25.42:800][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId e9c103cc4a7bfdb9667f4c93d4fe4a94|9965a4433f294ab4918ec7fd197501e9|b3429352-4a5d-4937-bcd4-644a47cc9371
+[2016.04.06-12.25.42:800][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.04.06-12.25.42:813][  0]LogInit: Transaction tracking system initialized
+[2016.04.06-12.25.42:860][  0]BlueprintLog: New page: Editor Load
+[2016.04.06-12.25.42:996][  0]LocalizationService: Info Localization service is disabled
+[2016.04.06-12.25.43:107][  0]LogConsoleResponse:Display: 
+[2016.04.06-12.25.43:258][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.04.06-12.25.43:359][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mike/Documents/Unreal Projects/Deluge/Content/' took 0.05s
+[2016.04.06-12.25.43:359][  0]SourceControl: Info Source control is disabled
+[2016.04.06-12.25.43:359][  0]Cmd: MAP LOAD FILE="../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/MainMenu/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.06-12.25.43:360][  0]LightingResults: New page: Lighting Build
+[2016.04.06-12.25.43:365][  0]MapCheck: New page: Map Check
+[2016.04.06-12.25.43:365][  0]LightingResults: New page: Lighting Build
+[2016.04.06-12.25.43:382][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004F04B5EAC0
+[2016.04.06-12.25.43:955][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/DelugeBP/Blueprints/Items/Equipment/ChestEquipment/Equipment_BaseChest.Equipment_BaseChest_C:UserConstructionScript; removing parent information, but keeping function
+[2016.04.06-12.25.43:961][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/DelugeBP/Blueprints/Items/Equipment/HeadEquipment/Equipment_BaseHead.Equipment_BaseHead_C:UserConstructionScript; removing parent information, but keeping function
+[2016.04.06-12.25.45:904][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch 
+[2016.04.06-12.25.45:909][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0010.72] Compile of Ue4ASP_Character successful, but with 1 Warning(s) [in 12 ms]
+[2016.04.06-12.25.45:909][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0010.72] Compile of Ue4ASP_Character successful, but with 2 Warning(s) [in 0 ms]
+[2016.04.06-12.25.45:910][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0010.72] Compile of Ue4ASP_Character successful, but with 3 Warning(s) [in 0 ms]
+[2016.04.06-12.25.46:381][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/DelugeBP/Blueprints/Items/Equipment/HeadEquipment/Equipment_OPHeadArmor.Equipment_OPHeadArmor_C:UserConstructionScript; removing parent information, but keeping function
+[2016.04.06-12.25.46:455][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/DelugeBP/Blueprints/Items/Equipment/Weapon/BasePistolWeapon.BasePistolWeapon_C:UserConstructionScript; removing parent information, but keeping function
+[2016.04.06-12.25.46:472][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/DelugeBP/Blueprints/Items/Equipment/Weapon/BaseRifleWeapon.BaseRifleWeapon_C:UserConstructionScript; removing parent information, but keeping function
+[2016.04.06-12.25.46:546][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/DelugeBP/Blueprints/Items/Equipment/Weapon/BaseShotgunWeapon.BaseShotgunWeapon_C:UserConstructionScript; removing parent information, but keeping function
+[2016.04.06-12.25.46:557][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/DelugeBP/Blueprints/Skills/OffensiveSkills/OffensiveSkill_Base.OffensiveSkill_Base_C:UserConstructionScript; removing parent information, but keeping function
+[2016.04.06-12.25.46:579][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/DelugeBP/Blueprints/Runes/ActiveRune_SelfHeal.ActiveRune_SelfHeal_C:UserConstructionScript; removing parent information, but keeping function
+[2016.04.06-12.25.46:624][  0]LogLinker:Warning: CreateExport: Failed to load Parent for Function /Game/DelugeBP/Blueprints/Runes/ActiveRune_Tester.ActiveRune_Tester_C:UserConstructionScript; removing parent information, but keeping function
+[2016.04.06-12.25.46:981][  0]LogBlueprint:Warning: [BasePlayerController] CreatePinForVariable: 'slotFirstWeapon' variable not found. Base class was probably changed.
+[2016.04.06-12.25.47:102][  0]LogBlueprint:Warning: [compiler BasePlayerController] Warning Could not find a variable named "slotFirstWeapon" in 'PlayerEquipmentComponent_C'.
+Make sure 'PlayerEquipmentComponent_C' has been compiled for  Get slotFirstWeapon 
+[2016.04.06-12.25.47:135][  0]LogBlueprint:Error: [compiler BasePlayerController] Error The property associated with  Slot First Weapon  could not be found
+[2016.04.06-12.25.47:263][  0]LogBlueprint:Warning: [compiler BasePlayerController] Warning [0012.07] Compile of BasePlayerController failed. 1 Fatal Issue(s) 1 Warning(s) [in 270 ms]
+[2016.04.06-12.25.47:267][  0]LogBlueprint:Warning: [compiler BasePlayerController] Warning [0012.08] Compile of BasePlayerController failed. 1 Fatal Issue(s) 2 Warning(s) [in 3 ms]
+[2016.04.06-12.25.47:267][  0]LogBlueprint:Warning: [compiler BasePlayerController] Warning [0012.08] Compile of BasePlayerController failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms]
+[2016.04.06-12.25.47:496][  0]LogBlueprint:Warning: [BasePlayerController] CreatePinForVariable: 'slotFirstWeapon' variable not found. Base class was probably changed.
+[2016.04.06-12.25.47:615][  0]LogBlueprint:Warning: [compiler BasePlayerController] Warning Could not find a variable named "slotFirstWeapon" in 'PlayerEquipmentComponent_C'.
+Make sure 'PlayerEquipmentComponent_C' has been compiled for  Get slotFirstWeapon 
+[2016.04.06-12.25.47:652][  0]LogBlueprint:Error: [compiler BasePlayerController] Error The property associated with  Slot First Weapon  could not be found
+[2016.04.06-12.25.47:783][  0]LogBlueprint:Warning: [compiler BasePlayerController] Warning [0012.59] Compile of BasePlayerController failed. 1 Fatal Issue(s) 1 Warning(s) [in 281 ms]
+[2016.04.06-12.25.47:784][  0]LogBlueprint:Warning: [compiler BasePlayerController] Warning [0012.59] Compile of BasePlayerController failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2016.04.06-12.25.47:787][  0]LogBlueprint:Warning: [compiler BasePlayerController] Warning [0012.60] Compile of BasePlayerController failed. 1 Fatal Issue(s) 3 Warning(s) [in 3 ms]
+[2016.04.06-12.25.48:022][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning InputAction Event references unknown Action 'Crouch' for  InputAction Crouch 
+[2016.04.06-12.25.48:027][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0012.84] Compile of Ue4ASP_Character successful, but with 1 Warning(s) [in 11 ms]
+[2016.04.06-12.25.48:027][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0012.84] Compile of Ue4ASP_Character successful, but with 2 Warning(s) [in 0 ms]
+[2016.04.06-12.25.48:028][  0]LogBlueprint:Warning: [compiler Ue4ASP_Character] Warning [0012.84] Compile of Ue4ASP_Character successful, but with 3 Warning(s) [in 1 ms]
+[2016.04.06-12.25.50:664][  0]LogAnimation:Warning: UAnimMontage::PostLoad: The actual sequence length for montage HeroTTP_RifleReload does not match the length stored in the asset, please resave the montage asset.
+[2016.04.06-12.25.50:859][  0]LogAIModule: Creating AISystem for world MainMenu
+[2016.04.06-12.25.50:860][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.06-12.25.50:861][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.06-12.25.51:063][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 202.068ms to complete.
+[2016.04.06-12.25.51:064][  0]LogFileHelpers: Loading map 'MainMenu' took 7.704
+[2016.04.06-12.25.51:206][  0]LogCollectionManager: Loaded 0 collections in 0.003643 seconds
+[2016.04.06-12.25.51:255][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mike/Documents/Unreal Projects/Deluge/Saved/Collections/' took 0.01s
+[2016.04.06-12.25.51:255][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mike/Documents/Unreal Projects/Deluge/Content/Developers/mike/Collections/' took 0.01s
+[2016.04.06-12.25.51:255][  0]LogFileCache: Scanning file cache for directory 'C:/Users/mike/Documents/Unreal Projects/Deluge/Content/Collections/' took 0.01s
+[2016.04.06-12.25.51:255][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.04.06-12.25.51:269][  0]LogContentBrowser: Native class hierarchy populated in 0.0143 seconds. Added 1895 classes and 340 folders.
+[2016.04.06-12.25.51:280][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.04.06-12.25.51:352][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2016.04.06-12.25.51:359][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2016.04.06-12.25.51:491][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.04.06-12.25.51:500][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.04.06-12.25.51:524][  0]LogLoad: Full Startup: 16.33 seconds (BP compile: 2.31 seconds)
+[2016.04.06-12.25.51:535][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.04.06-12.25.51:536][  0]LoadErrors:Error: Error /Game/DelugeBP/Blueprints/Characters/Player/PlayerController/BasePlayerController : Failed import for ClassProperty /Game/DelugeBP/Blueprints/Characters/Components/Equipment/PlayerEquipmentComponent.PlayerEquipmentComponent_C:slotFirstWeapon
+[2016.04.06-12.25.51:611][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.04.06-12.25.51:866][  0]LogRenderer: Reallocating scene render targets to support 1112x580 (Frame:2).
+[2016.04.06-12.25.53:226][ 22]LogAssetRegistry: Asset discovery search completed in 11.5657 seconds
+[2016.04.06-12.25.53:226][ 22]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.04.06-12.25.53:226][ 22]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000027 seconds (updated 0 objects)
+[2016.04.06-12.26.02:155][887]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.04.06-12.26.02:878][887]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0015 seconds. Added 107 classes and 0 folders.
+[2016.04.06-12.26.06:984][975]BlueprintLog: New page: Compile BasePlayerController
+[2016.04.06-12.26.07:425][975]LogBlueprint:Warning: [compiler BasePlayerController] Warning Could not find a variable named "slotFirstWeapon" in 'PlayerEquipmentComponent_C'.
+Make sure 'PlayerEquipmentComponent_C' has been compiled for  Get slotFirstWeapon 
+[2016.04.06-12.26.07:463][975]LogBlueprint:Error: [compiler BasePlayerController] Error The property associated with  Slot First Weapon  could not be found
+[2016.04.06-12.26.08:273][975]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovement_GEN_VARIABLE) Not registered. Aborting.
+[2016.04.06-12.26.08:615][975]LogBlueprint:Warning: [compiler BasePlayerController] Warning [0033.43] Compile of BasePlayerController failed. 1 Fatal Issue(s) 1 Warning(s) [in 1,632 ms]
+[2016.04.06-12.26.08:615][975]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "slotFirstWeapon" in 'PlayerEquipmentComponent_C'.
+Make sure 'PlayerEquipmentComponent_C' has been compiled for  Get slotFirstWeapon 
+[2016.04.06-12.26.08:616][975]BlueprintEditorCompileResults:Error: Error The property associated with  Slot First Weapon  could not be found
+[2016.04.06-12.26.08:616][975]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Remote 
+[2016.04.06-12.26.08:616][975]BlueprintEditorCompileResults:Warning: Warning [0033.43] Compile of BasePlayerController failed. 1 Fatal Issue(s) 1 Warning(s) [in 1,632 ms]
+[2016.04.06-12.26.24:798][653]LogSavePackage: Save=1447.930054ms
+[2016.04.06-12.26.24:798][653]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BasePlayerController249CED4C4FED566E4E76C8B660071663.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/PlayerController/BasePlayerController.uasset'
+[2016.04.06-12.26.24:805][653]LogSavePackage: Total save time: 1510.342684ms
+[2016.04.06-12.26.24:805][653]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/PlayerController/BasePlayerController.uasset
+[2016.04.06-12.26.25:891][714]BlueprintLog: New page: Compile BasePlayerController
+[2016.04.06-12.26.26:886][714]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Remote 
+[2016.04.06-12.26.26:886][714]BlueprintEditorCompileResults: Info [0051.70] Compile of BasePlayerController successful! [in 994 ms]
+[2016.04.06-12.26.31:853][957]LogSavePackage: Save=130.327072ms
+[2016.04.06-12.26.31:853][957]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/UEDPCMainMenu1CC227754E76CE3268A61DB5122605AC.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/MainMenu/UEDPCMainMenu.umap'
+[2016.04.06-12.26.31:856][957]LogSavePackage: Total save time: 163.003691ms
+[2016.04.06-12.26.31:856][957]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/MainMenu/UEDPCMainMenu.umap
+[2016.04.06-12.27.09:923][391]LogSavePackage: Save=118.370438ms
+[2016.04.06-12.27.09:923][391]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/UEDPCMainMenu2F1DA81B42EA3F911A15F8B0B4E620FA.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/MainMenu/UEDPCMainMenu.umap'
+[2016.04.06-12.27.09:929][391]LogSavePackage: Total save time: 159.510449ms
+[2016.04.06-12.27.09:929][391]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/MainMenu/UEDPCMainMenu.umap
+[2016.04.06-12.28.46:710][185]BlueprintLog: New page: Compile BasePlayerController
+[2016.04.06-12.28.47:619][185]BlueprintEditorCompileResults: Info The execution path doesn't end with a return node.  Remote 
+[2016.04.06-12.28.47:619][185]BlueprintEditorCompileResults: Info [0192.43] Compile of BasePlayerController successful! [in 908 ms]
+[2016.04.06-12.28.49:697][203]LogSavePackage: Save=1418.492310ms
+[2016.04.06-12.28.49:697][203]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BasePlayerControllerB2578CA148EA9A0C66282E8E7F90DD13.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/PlayerController/BasePlayerController.uasset'
+[2016.04.06-12.28.49:704][203]LogSavePackage: Total save time: 1459.721632ms
+[2016.04.06-12.28.49:704][203]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/PlayerController/BasePlayerController.uasset
+[2016.04.06-12.28.53:844][416]LogSavePackage: Save=123.000877ms
+[2016.04.06-12.28.53:844][416]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/UEDPCMainMenuC0A66269422FEA99906E6BABB3AB46C2.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/MainMenu/UEDPCMainMenu.umap'
+[2016.04.06-12.28.53:847][416]LogSavePackage: Total save time: 162.343606ms
+[2016.04.06-12.28.53:847][416]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/MainMenu/UEDPCMainMenu.umap
+[2016.04.06-12.30.53:637][713]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.04.06-12.30.59:461][ 80]BlueprintLog: New page: Compile PlayerEquipmentComponent
+[2016.04.06-12.30.59:680][ 80]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004F483E47C0
+[2016.04.06-12.30.59:700][ 80]BlueprintEditorCompileResults: Info [0324.51] Compile of PlayerEquipmentComponent successful! [in 240 ms]
+[2016.04.06-12.31.00:323][103]LogSavePackage: Save=130.216995ms
+[2016.04.06-12.31.00:323][103]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/PlayerEquipmentComponent8CAECF1847F4B1ADE29504AE14943043.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Components/Equipment/PlayerEquipmentComponent.uasset'
+[2016.04.06-12.31.00:328][103]LogSavePackage: Total save time: 171.230894ms
+[2016.04.06-12.31.00:328][103]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Components/Equipment/PlayerEquipmentComponent.uasset
+[2016.04.06-12.31.10:562][329]LogSavePackage: Save=1466.186157ms
+[2016.04.06-12.31.10:562][329]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/BasePlayerControllerE3A6BB0A47646B113E5E91BC16E9A3F7.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/PlayerController/BasePlayerController.uasset'
+[2016.04.06-12.31.10:569][329]LogSavePackage: Total save time: 1508.325614ms
+[2016.04.06-12.31.10:569][329]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Player/PlayerController/BasePlayerController.uasset
+[2016.04.06-12.31.10:820][329]LogSavePackage: Save=125.463356ms
+[2016.04.06-12.31.10:820][329]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/UEDPCMainMenu2B690FC040C6C3CC66CFF2A408E0AC60.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/MainMenu/UEDPCMainMenu.umap'
+[2016.04.06-12.31.10:824][329]LogSavePackage: Total save time: 156.575963ms
+[2016.04.06-12.31.10:824][329]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/MainMenu/UEDPCMainMenu.umap
+[2016.04.06-12.33.15:973][329]BlueprintLog: New page: Compile PlayerEquipmentComponent
+[2016.04.06-12.33.16:188][329]BlueprintEditorCompileResults: Info [0461.00] Compile of PlayerEquipmentComponent successful! [in 215 ms]
+[2016.04.06-12.33.16:798][351]LogSavePackage: Save=130.491821ms
+[2016.04.06-12.33.16:798][351]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/PlayerEquipmentComponent4301755B4B870E45B3505E9C71A1F568.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Components/Equipment/PlayerEquipmentComponent.uasset'
+[2016.04.06-12.33.16:804][351]LogSavePackage: Total save time: 170.824490ms
+[2016.04.06-12.33.16:804][351]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Content/DelugeBP/Blueprints/Characters/Components/Equipment/PlayerEquipmentComponent.uasset
+[2016.04.06-12.33.18:646][431]LogSavePackage: Save=119.900551ms
+[2016.04.06-12.33.18:646][431]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/UEDPCMainMenuFFCEB2D04AD4956E368EB9AB9EF4FE67.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/MainMenu/UEDPCMainMenu.umap'
+[2016.04.06-12.33.18:650][431]LogSavePackage: Total save time: 149.203487ms
+[2016.04.06-12.33.18:650][431]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/MainMenu/UEDPCMainMenu.umap
+[2016.04.06-12.34.25:293][766]LogSavePackage: Save=125.723595ms
+[2016.04.06-12.34.25:293][766]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/UEDPCMainMenu146DAA384B5630723941E89FE303B0D5.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/MainMenu/UEDPCMainMenu.umap'
+[2016.04.06-12.34.25:297][766]LogSavePackage: Total save time: 163.132723ms
+[2016.04.06-12.34.25:297][766]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/MainMenu/UEDPCMainMenu.umap
+[2016.04.06-12.36.39:092][238]LogSavePackage: Save=139.585037ms
+[2016.04.06-12.36.39:092][238]LogSavePackage: Moving '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/MainMenu_Auto179B9180A40B845127FDC41B7C890FB40.tmp' to '../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/MainMenu/MainMenu_Auto1.umap'
+[2016.04.06-12.36.39:104][238]LogSavePackage: Total save time: 191.256903ms
+[2016.04.06-12.36.39:104][238]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/mike/Documents/Unreal Projects/Deluge/Saved/Autosaves/Game/DelugeBP/MainMenu/MainMenu_Auto1.umap
+[2016.04.06-12.36.39:107][238]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/DelugeBP/MainMenu/MainMenu' took 0.296
+[2016.04.06-12.36.39:107][238]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.296
+[2016.04.06-12.37.22:804][145]LogProperty:Wa
