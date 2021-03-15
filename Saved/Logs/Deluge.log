@@ -15343,3 +15343,11 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.03.15-15.23.19:428][924]LogContentValidation: Display: Validating WidgetBlueprint /Game/DelugeBP/Blueprints/HUD/Widgets/Game/MainGameHudWidget.MainGameHudWidget
 [2021.03.15-15.23.19:429][924]LogContentValidation: Display: Validating WidgetBlueprint /Game/DelugeBP/Blueprints/HUD/Widgets/Equipment/MainEquipmentWidget.MainEquipmentWidget
 [2021.03.15-15.23.19:430][924]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/DelugeBP/Maps/Hub_BuiltData.Hub_BuiltData
+[2021.03.15-15.36.41:718][422]LogSlate: Window 'Message Log' being destroyed
+[2021.03.15-15.36.41:725][422]LogSlate: Window 'Message Log' being destroyed
+[2021.03.15-15.36.42:355][495]LogSlate: Window 'MainGameHudWidget' being destroyed
+[2021.03.15-15.36.42:358][495]LogSlate: Window 'MainGameHudWidget' being destroyed
+[2021.03.15-15.36.42:396][495]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2021.03.15-15.36.42:396][495]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.03.15-15.36.42:413][495]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2021.03.15-15.36.42:413][495]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
